@@ -1,0 +1,26 @@
+- title: Home
+  url: /index
+
+- title: Culture
+  url: /culture
+  
+- title: Leadership
+  url: /leadership
+
+# - title: Management
+#  url: /management
+
+# - title: Quality
+#  url: /quality
+  
+- title: Architecture
+  url: /architecture
+  
+- title: Development
+  url: /development
+
+# - title: Testing
+#  url: /testing
+  
+# - title: DevOps
+#  url: /devops

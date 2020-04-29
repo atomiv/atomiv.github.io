@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/flatly/bootstrap.min.css">
+	
+	<style>
+		body {
+		  padding-top: 60px;
+		}
+		@media (max-width: 979px) {
+		  body {
+			padding-top: 40px;
+		  }
+		}
+	</style>
+	
+  </head>
+  
+  <body>
+  
+    {% include navigation.html %}
+	
+    <div class="container" style="padding-top: 10px;">
+	
+		<h1>{{ page.title }}</h1>
+        <p class="lead" style="padding-bottom: 10px;">{{ page.description }}</p>
+		
+		<hr/>
+		
+		<div style="padding-top: 0px;">
+			{{content}}
+		</div>
+
+    </div>
+	
+
+	
+	<script src="/js/jquery/jquery.min.js"></script>
+	<script src="/js/bootstrap/bootstrap.min.js"></script>	
+	
+  </body>
+</html>
+
+
+

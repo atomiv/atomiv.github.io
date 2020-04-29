@@ -1,0 +1,15 @@
+title: Vemcode
+description: Building high performance IT organizations
+theme: jekyll-theme-cayman
+
+include: ['_pages']
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+sass:
+  style: compressed
+  
+highlighter: rouge
