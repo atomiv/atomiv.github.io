@@ -5,49 +5,40 @@ layout: default
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-	<link rel="stylesheet" href="/css/main.css">
-	<link rel="stylesheet" href="/css/flatly/bootstrap.min.css">
+
+	{% include meta.html %}
 	
-	<style>
-		body {
-		  padding-top: 60px;
-		}
-		@media (max-width: 979px) {
-		  body {
-			padding-top: 40px;
-		  }
-		}
-	</style>
+    <title>{{ page.title }}</title>
+	
+	{% include styles.html %}
 	
   </head>
   
   <body>
-  
+
     {% include navigation.html %}
 	
-    <div class="container" style="padding-top: 10px;">
-	
-		<h1>{{ page.title }}</h1>
-        <p class="lead" style="padding-bottom: 10px;">{{ page.description }}</p>
-		
-		<hr/>
-		
-		<div style="padding-top: 0px;">
-			{{content}}
+	<div class="jumbotron banner">
+		<div class="container">
+			<div class="page-header" id="banner">
+				<h1>{{ page.title }}</h1>
+				<p class="lead">{{ page.description }}</p>
+			</div>
 		</div>
-
+	</div>
+	
+    <div class="container">
+		{{content}}
+		
+		<div class="comments">
+			{% include disqus.html disqus_identifier=page.disqus_identifier %}
+		</div>
+		
     </div>
-	
 
+	{% include copyright.html %}
 	
-	<script src="/js/jquery/jquery.min.js"></script>
-	<script src="/js/bootstrap/bootstrap.min.js"></script>	
+	{% include scripts.html %}
 	
   </body>
 </html>
-
-
-

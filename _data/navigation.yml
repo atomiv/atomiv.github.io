@@ -1,26 +1,14 @@
 - title: Home
-  url: /index
+  url: /
 
-- title: Culture
-  url: /culture
+- title: Codex
+  url: /codex
   
-- title: Leadership
-  url: /leadership
-
-# - title: Management
-#  url: /management
-
-# - title: Quality
-#  url: /quality
+- title: About
+  url: /about
   
-- title: Architecture
-  url: /architecture
+- title: Services
+  url: /services
   
-- title: Development
-  url: /development
-
-# - title: Testing
-#  url: /testing
-  
-# - title: DevOps
-#  url: /devops
+- title: Blog
+  url: /blog

@@ -1,8 +1,10 @@
-title: Vemcode
-description: Building high performance IT organizations
-theme: jekyll-theme-cayman
+title: Optivem Open Source
+tagline: Open Source
+url: http://www.optivem.com
 
 include: ['_pages']
+
+permalink: /:year/:month/:day/:title
 
 collections:
   pages:
