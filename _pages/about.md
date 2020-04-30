@@ -6,7 +6,8 @@ description: About Atomiv
 
 Atomiv was created to introduce standards for helping software development teams reach 10x productivity levels, by making standards and best practices accessible to everyone.
 
-## Valentina Cupać, Founder & Software Architect
+## Valentina Cupać
+### Founder & Software Architect
 
 Valentina has spent several years in the software development industry, having worked as a Senior Software Developer, Technical Lead and Software Architect. She is responsible for training and mentoring development teams in adopting best practices in software architecture, clean code and automated testing, to help them build high quality software solutions fast. Her core guiding principle is that standardardization is crucial for high quality and cost efficiency. 
 
@@ -14,7 +15,8 @@ Valentina has founded Atomiv with the goal of helping development teams achieve 
 
 <!-- TODO: VC: Include linked link for name, and also Optivem link -->
 
-## Jelena Cupać, Frontend Developer & Designer
+## Jelena Cupać
+### Frontend Developer & Designer
 
 This is some text.
 
@@ -22,7 +24,8 @@ This is some text.
 
 <!-- TODO: JC, write a paragraph regarding your motivation for joining / contributing to Atomiv -->
 
-## Tamara Golubović, Process Manager & Project Manager
+## Tamara Golubović
+### Process Manager & Project Manager
 
 This is some text.
 
