@@ -38,7 +38,7 @@ The core principles underlying Atomiv is that standardization and innovation are
 
 ## Standards
 
-Atomiv provides standards for software processes, software architecture and software quality.
+Atomiv provides standards for software processes, software architecture and software quality. The core standards and best practices behind high performance IT organizations. The foundation of success lies in the organization itself. It requires a mix of the 3P's: People, Processes and Product.
 
 <table>
 
@@ -78,22 +78,10 @@ Atomiv is an open source framework for accelerated software development. Atomiv 
 
 </table>
 
+<!-- TODO: VC: Link to Docs for Getting started page -->
 
 
-<!-- TODO: Link to Docs for Getting started page -->
-
-
-## Standards
-
-The core standards and best practices behind high performance IT organizations.
-
-The foundation of success lies in the organization itself. It requires a mix of the 3P's: People, Processes and Product.
-
-
-
-
-
-<!-- TODO: DELETE -->
+<!-- TODO: VC: DELETE -->
 
 <!--
 

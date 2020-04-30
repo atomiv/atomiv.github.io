@@ -6,6 +6,10 @@ description: About Atomiv
 
 Atomiv was created to introduce standards for helping software development teams reach 10x productivity levels, by making standards and best practices accessible to everyone.
 
+Atomiv Framework is a high-quality high-performance architecture framework built for software enterprise teams. It is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software - accelerate your development whilst retaining high quality.
+
+Atomiv Framework is open source (MIT licence) so it can be freely used both for commercial and non-commercial purposes.
+
 ## Valentina Cupać
 ### Founder & Software Architect
 
