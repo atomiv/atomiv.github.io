@@ -1,9 +1,15 @@
 ---
 layout: home
-title: Optivem
-description: Building high performance IT organizations
+title: Atomiv
+description: 10x Software Standards
 permalink: /
 ---
+
+Building high performance IT organizations
+
+<p class="h2">Do you want to grow high performance teams?</p>
+<p class="h2">Do you want to deliver high quality software?</p>
+<p class="h2">Do you want to make your customers happy?</p>
 
 Our goal is to help you and your organization build high performing software teams and to create amazing software products. How? The key is to realize that success in IT is holistic - spanning both the organizational and technical aspects.
 
