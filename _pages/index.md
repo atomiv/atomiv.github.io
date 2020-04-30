@@ -60,7 +60,7 @@ Atomiv provides standards for software processes, software architecture and soft
 
 ## Templates
 
-Atomiv provides templates for the entire software architecture, encompassing backend, frontend and test automation. These templates enable teams to achieve accelerated software development. Currently we provide .NET Core templates for backend development, but we will also plan to include Java Spring, PHP Laravel for backend, and including Angular, React and Vue for frontend.
+Atomiv is an open source framework for accelerated software development. Atomiv provides templates for the entire software architecture, encompassing backend, frontend and test automation. These templates enable teams to achieve accelerated software development. Currently we provide .NET Core templates for backend development, but we will also plan to include Java Spring, PHP Laravel for backend, and including Angular, React and Vue for frontend.
 
 <table>
 
