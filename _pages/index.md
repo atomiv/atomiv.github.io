@@ -7,6 +7,31 @@ permalink: /
 
 Atomiv an open standard for 10x software development.
 
+## Why?
+
+Atomiv helps companies build high performance software development teams.
+
+* Do you want to increase development productivity?</p>
+* Do you want to deliver high quality software?</p>
+* Do you want to make your customers happy?</p>
+
+Our goal is to help you and your organization build high performing software teams and to create amazing software products. How? The key is to realize that success in IT is holistic - spanning both the organizational and technical aspects.
+
+Success starts with building a strong team:
+
+* Creating high performance software development teams
+* Empowering and motivating your team to perform their best
+* Providing your team with resources to achieve technical excellence and team productivity
+* Encouraging an organizational culture which strives towards continuous improvement
+
+The result is great software products:
+
+* Ensuring quality from start to finish, minimizing defect rates
+* Building software which delivers high value to your customers
+* Delivering projects on schedule and within budget
+* Making your customers really happy and strengthening your customer relationships
+
+
 ## Principles
 
 The core principles underlying Atomiv is that standardization and innovation are the key to building 10x Software Development teams. At Atomiv, we adopt an all-rounded approach, covering processes, architecture and quality standards.
@@ -70,30 +95,6 @@ Currently we provide .NET Core templates for backend development, but we will al
 
 
 
-Building high performance IT organizations
-
-<p class="h2">Do you want to grow high performance teams?</p>
-<p class="h2">Do you want to deliver high quality software?</p>
-<p class="h2">Do you want to make your customers happy?</p>
-
-Our goal is to help you and your organization build high performing software teams and to create amazing software products. How? The key is to realize that success in IT is holistic - spanning both the organizational and technical aspects.
-
-<h3>Success starts with building a strong team...</h3>
-
-* Creating high performance software development teams
-* Empowering and motivating your team to perform their best
-* Providing your team with resources to achieve technical excellence and team productivity
-* Encouraging an organizational culture which strives towards continuous improvement
-
-<h3>... and it finishes with great software products.</h3>
-
-* Ensuring quality from start to finish, minimizing defect rates
-* Building software which delivers high value to your customers
-* Delivering projects on schedule and within budget
-* Making your customers really happy and strengthening your customer relationships
-
-
-
 <h2>Standards<h2>
 
 The core standards and best practices behind high performance IT organizations.
@@ -105,7 +106,7 @@ The foundation of success lies in the organization itself. It requires a mix of 
 
 
 
-
+<!-- TODO: DELETE -->
 
 <!--
 
