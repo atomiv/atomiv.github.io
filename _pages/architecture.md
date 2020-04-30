@@ -47,7 +47,7 @@ Furthermore, it is rooted in the following design and development approaches:
 
 ### System
 
-
+<img src="{{ site.url }}/img/architecture-layers.svg" height="160px" width="390px" alt="Architecture diagram">
 
 ### Layers
 
