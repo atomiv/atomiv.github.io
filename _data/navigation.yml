@@ -1,11 +1,14 @@
 - title: Home
   url: /
+
+- title: Architecture
+  url: /architecture
+  
+- title: Quality
+  url: /quality
+  
+- title: Process
+  url: /process
   
 - title: About
   url: /about
-  
-- title: Services
-  url: /services
-  
-- title: Blog
-  url: /blog
