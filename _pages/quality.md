@@ -6,13 +6,19 @@ description: Best practices in software quality
 
 ## Introduction
 
+This is some text.
+
 <!-- TODO: VC: Provide some introduction regarding quality assurance in software development and the challenges faced, and the importance of quality assurance, the “Why?” -->
 
 ## Objectives
 
+This is some text.
+
 <!-- TODO: VC: Describe what are the objectives of the Atomiv Quality Standards, what are their goals / outcomes? -->
 
 ## Foundations
+
+This is some text.
 
 <!-- TODO: TV: Describe what are the approaches / methodologies which already exist, which you used as foundation for Atomiv Quality Standards…. E.g. TDD / BDD.... -->
 
@@ -33,5 +39,7 @@ This is some text.
 This is some text.
 
 ## Templates
+
+This is some text.
 
 <!-- TODO: VC: Could link to templates like architecture but specific test projects -->
