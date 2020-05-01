@@ -68,7 +68,7 @@ Atomiv provides standards for software processes, software architecture and soft
 </div>
 
 
-<table>
+<!-- <table>
 
 	<tr>
 		<td>Architecture Standards</td>
@@ -82,7 +82,7 @@ Atomiv provides standards for software processes, software architecture and soft
 		<td>Atomiv provides standards for implementing efficient processes, encompassing process management, project management and product management.</td>
 	</tr>
 
-</table>
+</table> -->
 
 <!-- TODO: Insert links from headings to navbar: Architecture, Quality, Process -->
 
