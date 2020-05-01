@@ -15,37 +15,36 @@ layout: default
   </head>
   
   <body>
+  
+	<div class="main-container">
 
-    {% include navigation.html %}
-	
-	<!-- Banner -->
-	<header class="ov-banner" id="get-started">
-		<div class="container2">
-			<div class="mx-sm-n3">
-			<h1>{{ page.title }}</h1>
-			<!-- <p class="lead">{{ page.description }}</p> -->
+		{% include navigation.html %}
+		
+		<!-- Banner -->
+		<header class="ov-banner" id="get-started">
+			<div class="container2">
+				<div class="mx-sm-n3">
+				<h1>{{ page.title }}</h1>
+				<!-- <p class="lead">{{ page.description }}</p> -->
+				</div>
 			</div>
-		</div>
-	</header>
-	
+		</header>
+		
 
-	<!-- Text -->
-	<main class="ov-content">
-	<div class="container container2">
-		<div class="mx-sm-n3">
-
-			<div class="mt-sm-3 mt-md-4">
-
-				{{content}}
-
+		<!-- Text -->
+		<main class="ov-content">
+			<div class="container container2">
+				<div class="mx-sm-n3">
+					<div class="mt-sm-3 mt-md-4">
+						{{content}}
+					</div>
+				</div>
 			</div>
+		</main>
 
-		</div>
+		{% include footer.html %}
+
 	</div>
-	</main>
-
-
-	{% include footer.html %}
 
 	{% include scripts.html %}
 	
