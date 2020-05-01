@@ -21,16 +21,22 @@ layout: default
 
 	    {% include navigation.html %}
 	
-		<div class="jumbotron banner">
-			<div class="container">
+		<!-- Masthead -->
+		<header class="ov-masthead d-flex align-items-center justify-content-center" id="">
+			<div class="container text-center">
 				<h1>{{ page.title }}</h1>
-				<p class="lead">{{ page.description }}</p>
+				<p>{{ page.description1 }} <br> {{ page.description2 }}</p>
+				<a href="{{ page.headerLink }}" class="btn btn-lg btn-ov-secondary mb-0">
+				{{ page.linkButton }}
+				</a>
 			</div>
-		</div>
+		</header>
 		
+
 		<div class="container">
 			{{content}}
 		</div>
+		
 		
 		{% include footer.html %}
 

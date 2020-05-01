@@ -1,9 +1,42 @@
 ---
 layout: home
 title: Atomiv
-description: 10x Software Standards
+description1: Open source framework for
+description2: accelerated software development.
+headerLink: https://docs.atomiv.com
+linkButton: Get Started
 permalink: /
 ---
+
+<!-- Promo -->
+<article class="ov-promo">
+  <div class="container text-center">
+    <div class="row ov-promo-row">
+
+      <div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+        <img height="100" width="100" src="{{ site.url }}/img/ov-promo-1.svg" alt="architecture" class="img-fluid w-100 ov-promo-img">
+        <h3>Architecture template</h3>
+        <p>Ready made template provides the setup for the software architecture. Architecture includes REST API, application, domain, database connectivity (supports swapping).</p>
+      </div>
+
+      <div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+        <img height="100" width="100" src="{{ site.url }}/img/ov-promo-2.svg" alt="code" class="img-fluid w-100 ov-promo-img">
+        <h3>Increased productivity</h3>
+        <p>Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.</p>
+      </div>
+
+      <div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+        <img height="100" width="100" src="{{ site.url }}/img/ov-promo-3.svg" alt="quality" class="img-fluid w-100 ov-promo-img">
+        <h3>High-quality software</h3>
+        <p>Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintenable and extensible apps.</p>
+      </div>
+
+    </div>
+
+    
+  </div> 
+</article>
+
 
 Atomiv an open standard for 10x software development.
 
@@ -11,9 +44,9 @@ Atomiv an open standard for 10x software development.
 
 Atomiv helps companies build high performance software development teams.
 
-* Do you want to increase development productivity?</p>
-* Do you want to deliver high quality software?</p>
-* Do you want to make your customers happy?</p>
+* Do you want to increase development productivity?
+* Do you want to deliver high quality software?
+* Do you want to make your customers happy?
 
 Our goal is to help you and your organization build high performing software teams and to create amazing software products. How? The key is to realize that success in IT is holistic - spanning both the organizational and technical aspects.
 
