@@ -16,22 +16,27 @@ layout: default
   
   <body>
 
-    {% include navigation.html %}
-	
-	<div class="jumbotron banner">
-		<div class="container">
-			<h1>{{ page.title }}</h1>
-			<p class="lead">{{ page.description }}</p>
-		</div>
-	</div>
-	
-    <div class="container">
-		{{content}}
-    </div>
-	
-	{% include footer-navigation.html %}
+	<!-- JC. main container -->
+	<div class="main-container">
 
-	{% include copyright.html %}
+	    {% include navigation.html %}
+	
+		<div class="jumbotron banner">
+			<div class="container">
+				<h1>{{ page.title }}</h1>
+				<p class="lead">{{ page.description }}</p>
+			</div>
+		</div>
+		
+		<div class="container">
+			{{content}}
+		</div>
+		
+		{% include footer-navigation.html %}
+
+		{% include copyright.html %}
+
+	</div>
 	
 	{% include scripts.html %}
 	

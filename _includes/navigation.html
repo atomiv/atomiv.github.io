@@ -1,56 +1,30 @@
-<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light ov-navbar fixed-top" id="mainNav">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand mx-auto m-0 order-1 order-md-0 ml-2" href="{{ site.url }}">
+      <img src="{{ site.url }}/img/logo.svg" height="32" width="" alt="{{ site.title }}">
+    </a>
+    <button class="navbar-toggler order-0" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse order-3 order-md-1" id="navbarResponsive">
+      <ul class="navbar-nav ov-navbar-nav ml-auto">
 
-	<div class="container">
-	
-		<!--<a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>-->
+        {% for link in site.data.navigation %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+            {% else %}
+            {% assign domain = site.url %}
+          {% endif %}
+        
+        
+          <li class="nav-item {% if link.url == page.url %}active{% endif %}">
+            <a class="nav-link" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
+          </li>
+      
+        {% endfor %}
 
-		<a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/img/logo.svg" height="50px;" alt="{{ site.title }}"></a>
-		
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-
-			<span class="navbar-toggler-icon"></span>
-
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-
-			<ul class="navbar-nav">
-
-				{% for link in site.data.navigation %}
-					{% if link.url contains 'http' %}
-						{% assign domain = '' %}
-						{% else %}
-						{% assign domain = site.url %}
-					{% endif %}
-					
-					
-					<li class="nav-item {% if link.url == page.url %}active{% endif %}">
-						<a class="nav-link" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
-					</li>
-				
-				{% endfor %}
-
-			</ul>
-			
-			<ul class="nav navbar-nav ml-auto">
-			
-				{% for link in site.data.links %}
-					{% if link.url contains 'http' %}
-						{% assign domain = '' %}
-						{% else %}
-						{% assign domain = site.url %}
-					{% endif %}
-					
-					<li class="nav-item {% if link.url == page.url %}active{% endif %}">
-						<a class="nav-link" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
-					</li>
-					
-				{% endfor %}
-
-			</ul>
-
-		</div>
-
-	</div>
-
-</div>
+      </ul>
+    </div>
+  </div>
+</nav>
