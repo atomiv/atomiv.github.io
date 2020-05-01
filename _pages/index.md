@@ -11,10 +11,6 @@ permalink: /
 
 
 
-<article>
-
-</article>
-
 Atomiv an open standard for 10x software development.
 
 ## Why?
@@ -49,6 +45,28 @@ The core principles underlying Atomiv is that standardization and innovation are
 ## Standards
 
 Atomiv provides standards for software processes, software architecture and software quality. The core standards and best practices behind high performance IT organizations. The foundation of success lies in the organization itself. It requires a mix of the 3P's: People, Processes and Product.
+
+
+
+<div class="row ov-promo-row">
+
+	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+	<h6>Architecture Standards</h6>
+	<p>Atomiv provides standards for implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.</p>
+	</div>
+
+	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+	<h6>Quality Standards</h6>
+	<p>Atomiv provides standards for creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.</p>
+	</div>
+
+	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+	<h6>Process Standards</h6>
+	<p>Atomiv provides standards for implementing efficient processes, encompassing process management, project management and product management.</p>
+	</div>
+
+</div>
+
 
 <table>
 
