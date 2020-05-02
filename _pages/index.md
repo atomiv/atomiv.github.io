@@ -50,17 +50,17 @@ Atomiv provides standards for software processes, software architecture and soft
 
 <div class="row ov-promo-row">
 
-	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
 	<h6>Architecture Standards</h6>
 	<p>Atomiv provides standards for implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.</p>
 	</div>
 
-	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
 	<h6>Quality Standards</h6>
 	<p>Atomiv provides standards for creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.</p>
 	</div>
 
-	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
 	<h6>Process Standards</h6>
 	<p>Atomiv provides standards for implementing efficient processes, encompassing process management, project management and product management.</p>
 	</div>
@@ -68,43 +68,33 @@ Atomiv provides standards for software processes, software architecture and soft
 </div>
 
 
-<!-- <table>
-
-	<tr>
-		<td>Architecture Standards</td>
-		<td>Quality Standards</td>
-		<td>Process Standards</td>
-	</tr>
-
-	<tr>
-		<td>Atomiv provides standards for implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.</td>
-		<td>Atomiv provides standards for creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.</td>
-		<td>Atomiv provides standards for implementing efficient processes, encompassing process management, project management and product management.</td>
-	</tr>
-
-</table> -->
-
 <!-- TODO: Insert links from headings to navbar: Architecture, Quality, Process -->
 
 ## Templates
 
 Atomiv is an open source framework for accelerated software development. Atomiv provides templates for the entire software architecture, encompassing backend, frontend and test automation. These templates enable teams to achieve accelerated software development. Currently we provide .NET Core templates for backend development, but we will also plan to include Java Spring, PHP Laravel for backend, and including Angular, React and Vue for frontend.
 
-<table>
 
-	<tr>
-		<td>Architecture Template</td>
-		<td>Increased Productivity</td>
-		<td>High-quality Software</td>
-	</tr>
+<div class="row ov-promo-row">
 
-	<tr>
-		<td>Ready made template provides the setup for the software architecture. Architecture includes REST API, application, domain, database connectivity (supports swapping).</td>
-		<td>Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.</td>
-		<td>Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintainable and extensible apps.</td>
-	</tr>
+	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
+	<h6>Architecture Template</h6>
+	<p>Ready made template provides the setup for the software architecture. Architecture includes REST API, application, domain, database connectivity (supports swapping).</p>
+	</div>
 
-</table>
+	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
+	<h6>Increased Productivity</h6>
+	<p>Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.</p>
+	</div>
+
+	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
+	<h6>High-quality Software</h6>
+	<p>Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintainable and extensible apps.</p>
+	</div>
+
+</div>
+
+
 
 <!-- TODO: VC: Link to Docs for Getting started page -->
 

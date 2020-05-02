@@ -120,7 +120,7 @@ The flow is as follows:
 
 We provide templates based on Atomiv Architecture Standards. These templates provide a ready-made project with all the layers described above as well as sample code.
 
-### Backend Templates
+<!-- ### Backend Templates
 
 #### .NET Core Template
 [Insert link]
@@ -140,4 +140,4 @@ We provide templates based on Atomiv Architecture Standards. These templates pro
 [Insert link]
 
 #### Vue Template
-[Insert link]
+[Insert link] -->
