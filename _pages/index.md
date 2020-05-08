@@ -9,9 +9,9 @@ permalink: /
 ---
 
 
+## Introduction
 
-
-Atomiv an open standard for 10x software development.
+Atomiv an open standard for 10x software development. It's designed to help teams to have everything they need to start a software project. Atomiv provides an all-in-one template for backend development, frontend development, quality assurance, DevOps and project management. It speeds up the start up and provides a foundation and direction for rest of the project to result in high efficiency and high quality. The motivation behind Atomiv is the economics of software development standardization.
 
 ## Why?
 
