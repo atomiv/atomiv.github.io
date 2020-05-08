@@ -22,16 +22,20 @@ Valentina has founded Atomiv with the goal of helping development teams achieve 
 ## Jelena Cupać
 ### Frontend Developer & Designer
 
-This is some text.
+Jelena is a passionate Frontend Developer with a background in design. She enjoys working with various technologies in order to deliver websites that accelerate business performance.
+
+Jelena is involved in Atomiv, which helps businesses become more efficient and focus on value-added work.
+
+<!-- has extensive experience in delivering successful IT solutions that focus on  -->
 
 <!-- TODO: JC, write introductory paragraph about yourself / experience -->
 
 <!-- TODO: JC, write a paragraph regarding your motivation for joining / contributing to Atomiv -->
 
-## Tamara Golubović
+<!-- ## Tamara Golubović
 ### Process Manager & Project Manager
 
-This is some text.
+This is some text. -->
 
 <!-- TODO: TG, write introductory paragraph about yourself / experience -->
 
