@@ -8,7 +8,28 @@ linkButton: Get Started
 permalink: /
 ---
 
+<div class="row ov-promo-row">
+	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+		<img height="100" width="100" src="{{ site.url }}/img/ov-promo-1.svg" alt="architecture" class="img-fluid w-100 ov-promo-img">
+		<h3>Architecture template</h3>
+		<p>Ready made template provides the setup for the software architecture. Architecture includes REST API, application, domain, database connectivity (supports swapping).</p>
+	</div>
+	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+		<img height="100" width="100" src="{{ site.url }}/img/ov-promo-2.svg" alt="code" class="img-fluid w-100 ov-promo-img">
+		<h3>Increased productivity</h3>
+		<p>Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.</p>
+	</div>
+	<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
+		<img height="100" width="100" src="{{ site.url }}/img/ov-promo-3.svg" alt="quality" class="img-fluid w-100 ov-promo-img">
+		<h3>High-quality software</h3>
+		<p>Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintenable and extensible apps.</p>
+	</div>
+</div>
 
+
+<!-- / START / -->
+<div class="mx-sm-n3 text-left">
+	<div class="mt-sm-3 mt-md-4">
 ## Introduction
 
 Atomiv an open standard for 10x software development. It's designed to help teams to have everything they need to start a software project. Atomiv provides an all-in-one template for backend development, frontend development, quality assurance, DevOps and project management. It speeds up the start up and provides a foundation and direction for rest of the project to result in high efficiency and high quality. The motivation behind Atomiv is the economics of software development standardization.
@@ -93,6 +114,11 @@ Atomiv is an open source framework for accelerated software development. Atomiv 
 	</div>
 
 </div>
+
+
+</div>
+</div>
+<!-- / END / -->
 
 
 
