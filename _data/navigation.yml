@@ -1,14 +1,5 @@
 - title: Home
   url: /
-
-- title: Architecture
-  url: /architecture
-  
-# - title: Quality
-#   url: /quality
-  
-# - title: Process
-#   url: /process
   
 - title: Docs
   url: https://docs.atomiv.com/
