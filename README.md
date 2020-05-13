@@ -1,30 +1,20 @@
-# Optivem Open Source
+# Atomiv
 
-Welcome to the Optivem GitHub page.
-
-## Purpose
-
-Optivem helps IT organizations to:
-
-* Grow high performance teams
-* Deliver high quality software
-* Make customers happy
+Welcome to the Atomiv GitHub website page.
 
 ## Documentation
 
-Documentation can be found on the [Optivem Wiki](https://github.com/optivem/optivem.github.io/wiki) page.
+Documentation can be found on the [Wiki](https://github.com/atomiv/atomiv.github.io/wiki) page.
 
 ## Upcoming Milestones
 
-To find out about releases and what's planned next, please refer to the [Open Milestones](https://github.com/optivem/optivem.github.io/milestones?direction=asc&sort=due_date&state=open) page.
+To find out about releases and what's planned next, please refer to the [Open Milestones](https://github.com/atomiv/atomiv.github.io/milestones?direction=asc&sort=due_date&state=open) page.
 
 ## Contact & Feedback
 
-You can send questions, improvement suggestions and issue reports using [Optivem Issues](https://github.com/optivem/optivem.github.io/issues).
-
-Please see [Feedback](https://github.com/optivem/optivem.github.io/wiki/Feedback) for instructions.
+You can send questions, improvement suggestions and issue reports using [Issues](https://github.com/atomiv/atomiv.github.io/issues).
 
 ## License
 
-Copyright © 2018 Optivem All Rights Reserved.
+Copyright © 2020 Optivem All Rights Reserved.
 Source code is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
