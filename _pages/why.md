@@ -24,17 +24,20 @@ We all want for our business to grow, make higher revenue, be more profitable an
 
 Wanna know how to go over it? The answer is simple, start making changes with processes. 
 
-For CEO 
+## For CEO 
 
-For PM
+## For Project managers 
 
 Let’s say that you are a project manager trying to keep up with deadlines and budget but you still need to help your team because they are again struggling with the same issue as they did in the previous 2 or 3 projects. This is very frustrating for both sides.
 
 You feel exhausted, lost, can not focus on your job and what really matters. The team is unmotivated too, because they keep trying and giving their best, but still without proper and expected results.
 
 And then again and again, and you find yourself in the vicious cycle. 
-For Developers
 
+## For Developers
+
+<- To Do - Valentina ->
+  
 The company is making no progress, tapping in the place, losing the team, motivation and the focus. 
 
 Hey, no worries, these things may happen but they can be solved!
