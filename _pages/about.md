@@ -10,6 +10,8 @@ Atomiv Framework is a high-quality high-performance architecture framework built
 
 Atomiv Framework is open source (MIT licence) so it can be freely used both for commercial and non-commercial purposes.
 
+* [GitHub](https://github.com/atomiv)
+
 ## Our Team
 
 ### Valentina Cupać
