@@ -24,7 +24,7 @@ Feel free to contact Valentina:
 
 * [LinkedIn](https://www.linkedin.com/in/valentinacupac/)
 * [XING](https://www.xing.com/profile/Valentina_Cupac)
-* [GitHub](https://www.linkedin.com/in/valentinacupac/)
+* [GitHub](https://github.com/valentinacupac)
 * [Optivem](https://optivem.com/)
 
 ### Jelena Cupać
