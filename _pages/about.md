@@ -35,6 +35,8 @@ Jelena is a passionate Frontend Developer with a background in design. She enjoy
 
 Jelena is involved in Atomiv, which helps businesses become more efficient and focus on value-added work.
 
+<!-- TODO: JC: #42: Add the section to contact Jelena, see example from Valentina above, you choose what sites to have in the contact list -->
+
 ### Tamara Golubović
 
 **Process Manager & Project Manager**
@@ -42,6 +44,8 @@ Jelena is involved in Atomiv, which helps businesses become more efficient and f
 Tamara is a dedicated project manager with high passion towards business development and process implementation. She started her journey as an Amazon support specialist, through sales departments and ended up working as a Project manager in an IT company whose mission is to make clients' online presentations memorable. Her goal is to make sure that everything goes smoothly, with high productivity, time efficiency and proper results. She is also working as a junior business developer in one marketing agency, where she gained experience and knowledge in “understanding” the importance of targeted audiences and how that influences it’s business growth. 
 
 Tamara is the part of Atomiv, where she will share her experience and knowledge from project and process implementation, improvement, and its influence on the business. She joined Atomiv with high desire and hope that her experience will help somebody to overcome challenges and achieve their goals.
+
+<!-- TODO: TG: #41: Add the section to contact Tamara, see example from Valentina above, you choose what sites to have in the contact list -->
 
 ## Our Partners
 
