@@ -32,10 +32,16 @@ Jelena is involved in Atomiv, which helps businesses become more efficient and f
 
 <!-- TODO: JC, write a paragraph regarding your motivation for joining / contributing to Atomiv -->
 
-<!-- ## Tamara Golubović
-### Process Manager & Project Manager
+## Tamara Golubović
+###Process Manager & Project Manager
 
-This is some text. -->
+Tamara is a dedicated project manager with high passion towards business development and process implementation. She started her journey as an Amazon support specialist, through sales departments and ended up working as a Project manager in an IT company whose mission is to make clients' online presentations memorable. Her goal is to make sure that everything goes smoothly, with high productivity, time efficiency and proper results.
+She is also working as a junior business developer in one marketing agency, where she gained experience and knowledge in “understanding” the importance of targeted audiences and how that influences it’s business growth. 
+
+Tamara is the part of Atomiv, where she will share her experience and knowledge from project and process implementation, improvement, and its influence on the business. 
+
+She joined Atomiv with high desire and hope that her experience will help somebody to overcome challenges and achieve their goals.
+
 
 <!-- TODO: TG, write introductory paragraph about yourself / experience -->
 
