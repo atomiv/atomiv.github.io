@@ -1,0 +1,10 @@
+.banner {
+    background: url("../img/banner.jpg") no-repeat center center; 
+	background-size: cover;
+	color: white;
+	height: 100%;
+}
+
+.image-credits {
+	text-align: right;
+}

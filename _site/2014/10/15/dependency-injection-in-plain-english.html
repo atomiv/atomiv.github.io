@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- J.C. -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+    <title>Dependency injection in plain English</title>
+	
+	<!--<link rel="stylesheet" href="http://localhost:4000/css/default/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/flatly/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/simplex/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/slate/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/lux/bootstrap.min.css">-->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/cosmo/bootstrap.min.css"> -->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/cerulean/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/solar/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/spacelab/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/yeti/bootstrap.min.css">-->
+
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom/custom.min.css"> -->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom.css"> -->
+
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Prism -->
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism-toolbar.css" />
+<!-- Atomiv -->
+<link rel="stylesheet" href="http://localhost:4000/css/atomiv.min.css">
+
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon.png">
+
+	
+  </head>
+  
+  <body>
+  
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light ov-navbar fixed-top" id="mainNav">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand mx-auto m-0 order-1 order-md-0 ml-2" href="http://localhost:4000">
+      <img src="http://localhost:4000/img/logo.svg" height="32" width="" alt="Atomiv">
+    </a>
+    <button class="navbar-toggler order-0" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse order-3 order-md-1" id="navbarResponsive">
+      <ul class="navbar-nav ov-navbar-nav ml-auto">
+
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/" >Home</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="https://docs.atomiv.com/"  target="_blank">Docs</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/about" >About</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/contact" >Contact</a>
+          </li>
+      
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+    <div class="container" style="padding-top: 10px;">
+      
+		<article class="post">
+
+		  <h1>Dependency injection in plain English</h1>
+
+		
+
+		  <div class="date">
+			Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on October 15, 2014, last modified on October 15, 2014
+		  </div>
+		  
+		<hr/>
+			
+		  <div class="entry">
+			<p>There are many scenarios where we have a client that depends on some service to do something. There are three options:</p>
+
+<ul>
+<li>client constructs the service itself</li>
+<li>client finds the service via a locator</li>
+<li>client is injected with the service</li>
+</ul>
+
+<p>Let’s consider a concrete example, suppose we are developing a socket-based game, so there are two functionalities that need to be developed, one is to implement the business logic associated with the game, and we also need to implement the socket logic and protocols.</p>
+
+<p>A naive method would be just to have a game class which does everything, it manages player moves and scoring as well as transferring data via sockets. But what’s wrong with this design? Well, it violates the first SOLID principle - Single Responsibility because now the game class has two separate responsibilities.</p>
+
+<p>So then we decide we will actually have two classes, a Game class and a SocketService class, whereby in the game class we implement game logic and in the SocketService class we implement socket communication logic.</p>
+
+<p>In this situation, the Game class depends on another class - the SocketService class. How will we handle this?</p>
+
+<h2>Option 1 - construct the service</h2>
+<p>The first idea that comes to mind is that in the Game class, we can construct a SocketService object. This is a simple solution, but the problem is that now the Game class much know how to instantiate the SocketService class, it must know the dependencies of SocketService. Suppose that SocketService might need to depend on protocol configuration as well as specifying the port. So now the Game class needs to know about those dependencies. So now, the Game class depends on both SocketService and all the dependencies of SocketService.</p>
+
+<h2>Option 2 - locate the service</h2>
+<p>We ask ourselves, if the concern of the Game class is to manage game logic, why should it know about socket protocols and ports? So then we decide to improve the design, and we create a Locator which is responsible for managing a SocketService object, and then a Game object can simply tell the Locator “give me a socket service” without worrying about how exactly the ServiceLocator is constructed.</p>
+
+<p>This is better, but still not good enough. Now the Game class depends on SocketService and ServiceLocator. Can we do better?</p>
+
+<h2>Option 3 - inject the service</h2>
+
+<p>We get a third idea, that the Game class shouldn’t need to know how to create a SocketService (our first attempt) and neither does should it how where to get the SocketService from - instead, all it needs, is just the ServiceSocket itself. So we can pass SocketService to the Game (through constructor or through setter method). We’ve arrived at something called “dependency injection”, we injected a class (Game) with its dependency (ServerSocket).</p>
+
+<p>Now that we know what dependency injection is, let us take a look at <a href="http://www.optivem.com/uncategorized/3-reasons-why-you-should-use-dependency-injection-2/" title="3 reasons why you should use dependency injection">why we would design our systems using dependency injection</a>.</p>
+
+		  </div>
+		  
+		</article>
+
+    </div>
+
+	<!-- Footer -->
+<footer class="ov-footer">
+  <div class="container text-center text-md-left">
+    <div class="mb-0 mx-n3">
+
+        <ul class="ov-footer-links">
+          <li><a href="https://github.com/atomiv" rel="license noopener" target="_blank">Github</a></li>
+          <li><a href="https://docs.atomiv.com" rel="license noopener" target="_blank">Docs</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
+
+        <p> Copyright 
+          &copy; Optivem 2020 All Rights Reserved. Code licensed
+          <a href="https://github.com/atomiv/atomiv-cs/blob/master/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">CC BY 4.0</a>.
+          | Designed by
+          <a href="http://senovim.com/" target="_blank" rel="license noopener"
+          style="text-transform: capitalise; font-weight: 400;">Senovim</a>
+        </p>
+
+    </div>
+  </div>
+</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+
+<!-- <script src="http://localhost:4000/js/custom/custom.js"></script>	 -->
+
+<!-- Prism -->
+<script type="text/javascript" src="http://localhost:4000/js/prism-toolbar.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/copy-to-clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/prism.js"></script>
+<!-- Atomiv -->
+<script type="text/javascript" src="http://localhost:4000/js/atomiv.js"></script>
+	
+  </body>
+</html>
+

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- J.C. -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+    <title>Four pillars of object oriented design</title>
+	
+	<!--<link rel="stylesheet" href="http://localhost:4000/css/default/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/flatly/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/simplex/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/slate/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/lux/bootstrap.min.css">-->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/cosmo/bootstrap.min.css"> -->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/cerulean/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/solar/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/spacelab/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/yeti/bootstrap.min.css">-->
+
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom/custom.min.css"> -->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom.css"> -->
+
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Prism -->
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism-toolbar.css" />
+<!-- Atomiv -->
+<link rel="stylesheet" href="http://localhost:4000/css/atomiv.min.css">
+
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon.png">
+
+	
+  </head>
+  
+  <body>
+  
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light ov-navbar fixed-top" id="mainNav">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand mx-auto m-0 order-1 order-md-0 ml-2" href="http://localhost:4000">
+      <img src="http://localhost:4000/img/logo.svg" height="32" width="" alt="Atomiv">
+    </a>
+    <button class="navbar-toggler order-0" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse order-3 order-md-1" id="navbarResponsive">
+      <ul class="navbar-nav ov-navbar-nav ml-auto">
+
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/" >Home</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="https://docs.atomiv.com/"  target="_blank">Docs</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/about" >About</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/contact" >Contact</a>
+          </li>
+      
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+    <div class="container" style="padding-top: 10px;">
+      
+		<article class="post">
+
+		  <h1>Four pillars of object oriented design</h1>
+
+		
+
+		  <div class="date">
+			Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on April 11, 2018, last modified on June 27, 2018
+		  </div>
+		  
+		<hr/>
+			
+		  <div class="entry">
+			<p>When we are doing programming (or any other kind of activity), the principles which guide our decisions are one of the critical factors which affect what kind of software we implement. When we come to object oriented design, the key question becomes, what are the core principles underlying object oriented design? How do we know if code is object oriented or not? What is good object oriented design?</p>
+
+<h2 id="pillars">Pillars</h2>
+
+<p>There are four fillars underlying OOP:</p>
+<ol>
+  <li>Encapsulation</li>
+  <li>Abstraction</li>
+  <li>Inheritance</li>
+  <li>Polymorphism</li>
+</ol>
+
+<h2 id="pillar-1---encapsulation">Pillar 1 - Encapsulation</h2>
+
+<p>The first pillar of object oriented design is encapsulation, which refers to “data hiding” (“information hiding”). This means that the object state (held by the object data values) is hidden within the class, so that it is not possible for other parties to directly access the state. Instead other parties can only access or mutate the state via publicly accessible methods. Effectively, this means that the object’s internal representation is hidden from the outside view.</p>
+
+<p>Before we look at what is encapsulation, let’s firstly look at what is NOT encapsulation:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">BankAccount</span> <span class="o">{</span>
+	<span class="kd">public</span> <span class="kt">long</span> <span class="n">accountNumber</span><span class="o">;</span>
+	<span class="kd">public</span> <span class="nc">String</span> <span class="n">ownerName</span><span class="o">;</span>
+	<span class="kd">public</span> <span class="kt">double</span> <span class="n">balance</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>In this case, all the data is publicly accessible and may be directly changed by the caller:</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">BankAccount</span> <span class="n">bankAccount</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BankAccount</span><span class="o">();</span>
+
+<span class="n">bankAccount</span><span class="o">.</span><span class="na">accountNumber</span> <span class="o">=</span> <span class="mi">9243242342335L</span><span class="o">;</span>
+<span class="n">bankAccount</span><span class="o">.</span><span class="na">ownerName</span> <span class="o">=</span> <span class="s">"John Smith"</span><span class="o">;</span>
+<span class="n">bankAccount</span><span class="o">.</span><span class="na">balance</span> <span class="o">=</span> <span class="mi">4000</span><span class="o">;</span> <span class="c1">// Initial balance</span>
+<span class="n">bankAccount</span><span class="o">.</span><span class="na">balance</span> <span class="o">=</span> <span class="mi">9000</span><span class="o">;</span> <span class="c1">// Updated balance after deposit</span>
+<span class="n">bankAccount</span><span class="o">.</span><span class="na">balance</span> <span class="o">=</span> <span class="mi">7000</span><span class="o">;</span> <span class="c1">// Updated balance after withdrawal</span>
+</code></pre></div></div>
+
+<p>Ok, the code looks simple, but let’s see if it works correctly:</p>
+<ol>
+  <li>Based on business rules within the bank, the account number is set once and only once for a bank account, it should never be allowed to change. But yet in the code above, it is possible to directly change the account number, and if in some other part of the code it is accidentally re-set, we get - oh no - a bug!</li>
+  <li>Based on the business rules within the bank, amounts can be withdrawn only if there is sufficient balance available. However, in the code above, there’s nothing to enforce those rules. Sure we might add additional checks, but as we can see it is still directly possible to change the balance, and when that happens, we get - oh not - yet another bug!</li>
+  <li>However, it’s not just about the high bug risk, but also the separation between the data and the operations between the data, i.e. the relationship between the balance and the operations associated with it (depost, withdrawal), so later when the business logic grows, it becomes an issue.</li>
+</ol>
+
+<p>So let’s look at the updated class with encapsulation being used, since the data members are private and can be accessed only via the public methods:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">BankAccount</span> <span class="o">{</span>
+	<span class="kd">private</span> <span class="kt">long</span> <span class="n">accountNumber</span><span class="o">;</span>
+	<span class="kd">private</span> <span class="nc">String</span> <span class="n">ownerName</span><span class="o">;</span>
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">balance</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="nf">BankAccount</span><span class="o">(</span><span class="kt">long</span> <span class="n">accountNumber</span><span class="o">,</span> <span class="nc">String</span> <span class="n">ownerName</span><span class="o">,</span> <span class="kt">double</span> <span class="n">balance</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">accountNumber</span> <span class="o">=</span> <span class="n">accountNumber</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">ownerName</span> <span class="o">=</span> <span class="n">ownerName</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">balance</span> <span class="o">=</span> <span class="n">balance</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">long</span> <span class="nf">getAccountNumber</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">accountNumber</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="nc">String</span> <span class="nf">getOwnerName</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">ownerName</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">setOwnerName</span><span class="o">(</span><span class="nc">String</span> <span class="n">ownerName</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">ownerName</span> <span class="o">=</span> <span class="n">ownerName</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getBalance</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">balance</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">deposit</span><span class="o">(</span><span class="kt">int</span> <span class="n">amount</span><span class="o">)</span> <span class="o">{</span>
+		<span class="n">balance</span> <span class="o">+=</span> <span class="n">amount</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">withdraw</span><span class="o">(</span><span class="kt">int</span> <span class="n">amount</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">if</span><span class="o">(</span><span class="n">balance</span> <span class="o">&lt;</span> <span class="n">amount</span><span class="o">)</span> <span class="o">{</span>
+			<span class="k">throw</span> <span class="k">new</span> <span class="nf">IllegalArgumentException</span><span class="o">(</span><span class="s">"Cannot withdraw "</span> <span class="o">+</span> <span class="n">amount</span> <span class="o">+</span> <span class="s">" due to insufficient funds."</span><span class="o">);</span>
+		<span class="o">}</span>
+		
+		<span class="n">balance</span> <span class="o">-=</span> <span class="n">amount</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>In the above, we can be sure that the business rule regarding the accountNumber being able to be set once only is adhered to, since, it is impossible in the code above to change the accountNumber from the outside. Furthermore, regarding depositing and withdrawal, we can be sure that any changes to the balance are done in a safe way.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">BankAccount</span> <span class="n">bankAccount</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BankAccount</span><span class="o">(</span><span class="mi">9243242342335L</span><span class="o">,</span> <span class="s">"John Smith"</span><span class="o">,</span> <span class="mi">4000</span><span class="o">);</span>
+<span class="n">bankAccount</span><span class="o">.</span><span class="na">deposit</span><span class="o">(</span><span class="mi">5000</span><span class="o">);</span>
+<span class="n">bankAccount</span><span class="o">.</span><span class="na">withdraw</span><span class="o">(</span><span class="mi">2000</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>What’s so great regarding the encapsulation above:</p>
+<ol>
+  <li>The caller does not need to be concerned about the internal data structure, easier to understand, less complexity.</li>
+  <li>It ensures that certain bugs associated with incorrectly changing state have been eliminated, reducing the rate of defects.</li>
+</ol>
+
+<h2 id="pillar-2---abstraction">Pillar 2 - Abstraction</h2>
+
+<p>The second pillar of OOP is abstraction, which refers to the process of hiding away unnecessary details in order handle complexity. So in the case of abstraction, the idea is just to expose which methods can be called, what are the input parameters and output parameters, whilst hiding the internal implementation details, so that it’s not necessary for the user to know or understand how the method implementation.</p>
+
+<p>So, to illustrate the example, suppose we are making an application which computes the area of various shapes.</p>
+
+<p>Rectangle class:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Rectangle</span> <span class="o">{</span>
+
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">width</span><span class="o">;</span>
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">height</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="nf">Rectangle</span><span class="o">(</span><span class="kt">double</span> <span class="n">width</span><span class="o">,</span> <span class="kt">double</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">width</span> <span class="o">=</span> <span class="n">width</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getWidth</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">width</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getHeight</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getArea</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">width</span> <span class="o">*</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Circle class:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Circle</span> <span class="o">{</span>
+	
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">radius</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="nf">Circle</span><span class="o">(</span><span class="kt">double</span> <span class="n">radius</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">radius</span> <span class="o">=</span> <span class="n">radius</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getRadius</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">radius</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getArea</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="nc">Math</span><span class="o">.</span><span class="na">PI</span> <span class="o">*</span> <span class="nc">Math</span><span class="o">.</span><span class="na">pow</span><span class="o">(</span><span class="n">radius</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Triangle class:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Triangle</span> <span class="o">{</span>
+	
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">base</span><span class="o">;</span>
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">height</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="nf">Triangle</span><span class="o">(</span><span class="kt">double</span> <span class="n">base</span><span class="o">,</span> <span class="kt">double</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getBase</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">base</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getHeight</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getArea</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">base</span> <span class="o">*</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Then finally, we have some code which computes the total area of all those shapes:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
+
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+		
+		<span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Rectangle</span><span class="o">&gt;</span> <span class="n">rectangles</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Rectangle</span><span class="o">&gt;();</span>
+		<span class="n">rectangles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Rectangle</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="mi">20</span><span class="o">));</span>
+		<span class="n">rectangles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Rectangle</span><span class="o">(</span><span class="mi">15</span><span class="o">,</span> <span class="mi">18</span><span class="o">));</span>
+		
+		<span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Circle</span><span class="o">&gt;</span> <span class="n">circles</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Circle</span><span class="o">&gt;();</span>
+		<span class="n">circles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Circle</span><span class="o">(</span><span class="mi">12</span><span class="o">));</span>
+		<span class="n">circles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Circle</span><span class="o">(</span><span class="mi">14</span><span class="o">));</span>
+		<span class="n">circles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Circle</span><span class="o">(</span><span class="mi">23</span><span class="o">));</span>
+		
+		<span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Triangle</span><span class="o">&gt;</span> <span class="n">triangles</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Triangle</span><span class="o">&gt;();</span>
+		<span class="n">triangles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Triangle</span><span class="o">(</span><span class="mi">30</span><span class="o">,</span> <span class="mi">12</span><span class="o">));</span>
+		<span class="n">triangles</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Triangle</span><span class="o">(</span><span class="mi">24</span><span class="o">,</span> <span class="mi">19</span><span class="o">));</span>
+		
+		<span class="kt">double</span> <span class="n">totalAreaRectangles</span> <span class="o">=</span> <span class="n">getTotalAreaRectangles</span><span class="o">(</span><span class="n">rectangles</span><span class="o">);</span>
+		<span class="kt">double</span> <span class="n">totalAreaCircles</span> <span class="o">=</span> <span class="n">getTotalAreaCircles</span><span class="o">(</span><span class="n">circles</span><span class="o">);</span>
+		<span class="kt">double</span> <span class="n">totalAreaTriangles</span> <span class="o">=</span> <span class="n">getTotalAreaTriangles</span><span class="o">(</span><span class="n">triangles</span><span class="o">);</span>
+		
+		<span class="kt">double</span> <span class="n">totalArea</span> <span class="o">=</span> <span class="n">totalAreaRectangles</span> <span class="o">+</span> <span class="n">totalAreaCircles</span> <span class="o">+</span> <span class="n">totalAreaTriangles</span><span class="o">;</span>
+		
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Total area: "</span> <span class="o">+</span> <span class="n">totalArea</span><span class="o">);</span>
+	<span class="o">}</span>
+	
+	<span class="kd">private</span> <span class="kd">static</span> <span class="kt">double</span> <span class="nf">getTotalAreaRectangles</span><span class="o">(</span><span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Rectangle</span><span class="o">&gt;</span> <span class="n">rectangles</span><span class="o">)</span> <span class="o">{</span>
+		<span class="kt">double</span> <span class="n">totalArea</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+		
+		<span class="k">for</span><span class="o">(</span><span class="nc">Rectangle</span> <span class="n">rectangle</span> <span class="o">:</span> <span class="n">rectangles</span><span class="o">)</span> <span class="o">{</span>
+			<span class="n">totalArea</span> <span class="o">+=</span> <span class="n">rectangle</span><span class="o">.</span><span class="na">getArea</span><span class="o">();</span>
+		<span class="o">}</span>
+		
+		<span class="k">return</span> <span class="n">totalArea</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">private</span> <span class="kd">static</span> <span class="kt">double</span> <span class="nf">getTotalAreaCircles</span><span class="o">(</span><span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Circle</span><span class="o">&gt;</span> <span class="n">circles</span><span class="o">)</span> <span class="o">{</span>
+		<span class="kt">double</span> <span class="n">totalArea</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+		
+		<span class="k">for</span><span class="o">(</span><span class="nc">Circle</span> <span class="n">circle</span> <span class="o">:</span> <span class="n">circles</span><span class="o">)</span> <span class="o">{</span>
+			<span class="n">totalArea</span> <span class="o">+=</span> <span class="n">circle</span><span class="o">.</span><span class="na">getArea</span><span class="o">();</span>
+		<span class="o">}</span>
+		
+		<span class="k">return</span> <span class="n">totalArea</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="kd">private</span> <span class="kd">static</span> <span class="kt">double</span> <span class="nf">getTotalAreaTriangles</span><span class="o">(</span><span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Triangle</span><span class="o">&gt;</span> <span class="n">triangles</span><span class="o">)</span> <span class="o">{</span>
+		<span class="kt">double</span> <span class="n">totalArea</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+		
+		<span class="k">for</span><span class="o">(</span><span class="nc">Triangle</span> <span class="n">triangle</span> <span class="o">:</span> <span class="n">triangles</span><span class="o">)</span> <span class="o">{</span>
+			<span class="n">totalArea</span> <span class="o">+=</span> <span class="n">triangle</span><span class="o">.</span><span class="na">getArea</span><span class="o">();</span>
+		<span class="o">}</span>
+		
+		<span class="k">return</span> <span class="n">totalArea</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>This code gets quite cumbersome… Instead of thinking about rectangles, circles and triangles separately, why not just think of them in a more abstract way, as shapes? After all, we don’t really need any fo their specific details, we just need to get their area.</p>
+
+<p>In that case, we could specify the abstraction as an interface (or an abstract class):</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Shape</span> <span class="o">{</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getArea</span><span class="o">();</span>
+	
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Subsequently, all the shapes implement that interface. A rectangle is a shape:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Rectangle</span> <span class="kd">implements</span> <span class="nc">Shape</span> <span class="o">{</span>
+
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">width</span><span class="o">;</span>
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">height</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="nf">Rectangle</span><span class="o">(</span><span class="kt">double</span> <span class="n">width</span><span class="o">,</span> <span class="kt">double</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">width</span> <span class="o">=</span> <span class="n">width</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getWidth</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">width</span><span class="o">;</span>
+	<span class="o">}</span>
+
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getHeight</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getArea</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">width</span> <span class="o">*</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Similarly, a circle is a shape:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Circle</span> <span class="kd">implements</span> <span class="nc">Shape</span> <span class="o">{</span>
+
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">radius</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="nf">Circle</span><span class="o">(</span><span class="kt">double</span> <span class="n">radius</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">radius</span> <span class="o">=</span> <span class="n">radius</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getRadius</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">radius</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getArea</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="nc">Math</span><span class="o">.</span><span class="na">PI</span> <span class="o">*</span> <span class="nc">Math</span><span class="o">.</span><span class="na">pow</span><span class="o">(</span><span class="n">radius</span><span class="o">,</span> <span class="mi">2</span><span class="o">);</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Finally, a triangle is also a shape:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Triangle</span> <span class="kd">implements</span> <span class="nc">Shape</span> <span class="o">{</span>
+	
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">base</span><span class="o">;</span>
+	<span class="kd">private</span> <span class="kt">double</span> <span class="n">height</span><span class="o">;</span>
+	
+	<span class="kd">public</span> <span class="nf">Triangle</span><span class="o">(</span><span class="kt">double</span> <span class="n">base</span><span class="o">,</span> <span class="kt">double</span> <span class="n">height</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">base</span> <span class="o">=</span> <span class="n">base</span><span class="o">;</span>
+		<span class="k">this</span><span class="o">.</span><span class="na">height</span> <span class="o">=</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getBase</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">base</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getHeight</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+	<span class="kd">public</span> <span class="kt">double</span> <span class="nf">getArea</span><span class="o">()</span> <span class="o">{</span>
+		<span class="k">return</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">base</span> <span class="o">*</span> <span class="n">height</span><span class="o">;</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Finally, computing the area becomes much simpler:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
+
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+		
+		<span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Shape</span><span class="o">&gt;</span> <span class="n">shapes</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Shape</span><span class="o">&gt;();</span>
+		<span class="n">shapes</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Rectangle</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="mi">20</span><span class="o">));</span>
+		<span class="n">shapes</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Rectangle</span><span class="o">(</span><span class="mi">15</span><span class="o">,</span> <span class="mi">18</span><span class="o">));</span>
+		<span class="n">shapes</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Circle</span><span class="o">(</span><span class="mi">12</span><span class="o">));</span>
+		<span class="n">shapes</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Circle</span><span class="o">(</span><span class="mi">14</span><span class="o">));</span>
+		<span class="n">shapes</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Circle</span><span class="o">(</span><span class="mi">23</span><span class="o">));</span>
+		<span class="n">shapes</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Triangle</span><span class="o">(</span><span class="mi">30</span><span class="o">,</span> <span class="mi">12</span><span class="o">));</span>
+		<span class="n">shapes</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="k">new</span> <span class="nc">Triangle</span><span class="o">(</span><span class="mi">24</span><span class="o">,</span> <span class="mi">19</span><span class="o">));</span>
+		
+		<span class="kt">double</span> <span class="n">totalArea</span> <span class="o">=</span> <span class="n">getTotalArea</span><span class="o">(</span><span class="n">shapes</span><span class="o">);</span>
+		
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Total area: "</span> <span class="o">+</span> <span class="n">totalArea</span><span class="o">);</span>
+	<span class="o">}</span>
+	
+	<span class="kd">private</span> <span class="kd">static</span> <span class="kt">double</span> <span class="nf">getTotalArea</span><span class="o">(</span><span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Shape</span><span class="o">&gt;</span> <span class="n">shapes</span><span class="o">)</span> <span class="o">{</span>
+		<span class="kt">double</span> <span class="n">totalArea</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+		
+		<span class="k">for</span><span class="o">(</span><span class="nc">Shape</span> <span class="n">shape</span> <span class="o">:</span> <span class="n">shapes</span><span class="o">)</span> <span class="o">{</span>
+			<span class="n">totalArea</span> <span class="o">+=</span> <span class="n">shape</span><span class="o">.</span><span class="na">getArea</span><span class="o">();</span>
+		<span class="o">}</span>
+		
+		<span class="k">return</span> <span class="n">totalArea</span><span class="o">;</span>
+	<span class="o">}</span>
+	
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Based on the above, we can see how abstraction reduces complexity by hiding away unnecessary implementation details. After we introduced the shape abstraction, we no longer have to care what kidn of shape the object is, or how the area is computed.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><a href="https://www.codeproject.com/Articles/567768/Object-Oriented-Design-Principles">Object Oriented Design Principles (CodeProject)</a></p>
+  </li>
+  <li>
+    <p><a href="http://wiki.c2.com/?PrinciplesOfObjectOrientedDesign">Principles of Object Oriented Design (Wiki c2)</a></p>
+  </li>
+  <li>
+    <p><a href="https://anampiu.github.io/blog/OOP-principles/">OOP Principles (Anampiu)</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)">Encapsulation (Wikipedia)</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Abstraction_in_object_oriented_programming">Abstraction in object oriented programming (Wikipedia)</a></p>
+  </li>
+  <li>
+    <p><a href="https://stackify.com/oop-concept-abstraction/">OOP Concept for Beginners: What is Abstraction? (Stackify)</a></p>
+  </li>
+  <li>
+    <p><a href="https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)">Inheritance (Wikipedia)</a></p>
+  </li>
+</ul>
+
+
+		  </div>
+		  
+		</article>
+
+    </div>
+
+	<!-- Footer -->
+<footer class="ov-footer">
+  <div class="container text-center text-md-left">
+    <div class="mb-0 mx-n3">
+
+        <ul class="ov-footer-links">
+          <li><a href="https://github.com/atomiv" rel="license noopener" target="_blank">Github</a></li>
+          <li><a href="https://docs.atomiv.com" rel="license noopener" target="_blank">Docs</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
+
+        <p> Copyright 
+          &copy; Optivem 2020 All Rights Reserved. Code licensed
+          <a href="https://github.com/atomiv/atomiv-cs/blob/master/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">CC BY 4.0</a>.
+          | Designed by
+          <a href="http://senovim.com/" target="_blank" rel="license noopener"
+          style="text-transform: capitalise; font-weight: 400;">Senovim</a>
+        </p>
+
+    </div>
+  </div>
+</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+
+<!-- <script src="http://localhost:4000/js/custom/custom.js"></script>	 -->
+
+<!-- Prism -->
+<script type="text/javascript" src="http://localhost:4000/js/prism-toolbar.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/copy-to-clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/prism.js"></script>
+<!-- Atomiv -->
+<script type="text/javascript" src="http://localhost:4000/js/atomiv.js"></script>
+	
+  </body>
+</html>
+
