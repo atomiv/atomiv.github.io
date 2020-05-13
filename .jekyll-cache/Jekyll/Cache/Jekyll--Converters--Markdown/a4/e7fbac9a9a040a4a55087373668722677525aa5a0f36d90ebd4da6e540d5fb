@@ -1,0 +1,72 @@
+I"�
+<h3><a href="http://localhost:4000/2014/10/11/why-software-projects-truly-fail">Why software projects truly fail</a></h3>
+
+<div class="date">
+    Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on October 11, 2014, last modified August  6, 2016
+  </div>
+
+<hr />
+
+<p>We often hear the depressing statistics about the failure of software projects - a case of history repeating itself. In many cases, software development projects go over time and over budget. The clients are not happy because:</p>
+
+<h3><a href="http://localhost:4000/2014/10/15/dependency-injection-in-plain-english">Dependency injection in plain English</a></h3>
+
+<div class="date">
+    Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on October 15, 2014, last modified October 15, 2014
+  </div>
+
+<hr />
+
+<p>There are many scenarios where we have a client that depends on some service to do something. There are three options:</p>
+
+<h3><a href="http://localhost:4000/2014/10/24/3-reasons-why-you-should-use-dependency-injection">3 reasons why you should use dependency injection</a></h3>
+
+<div class="date">
+    Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on October 24, 2014, last modified October 24, 2014
+  </div>
+
+<hr />
+
+<p>One of the principles of SOLID programming philosophy is dependency inversion, and one way that can be achieved is through dependency injection. In this article we will look at the motivations for using dependency injection when designing a software system.</p>
+
+<h3><a href="http://localhost:4000/2014/10/29/improving-software-quality-assurance-and-developing-better-software">Improving software quality assurance and developing better software</a></h3>
+
+<div class="date">
+    Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on October 29, 2014, last modified August  6, 2016
+  </div>
+
+<hr />
+
+<p>Most people would agree that quality is an important part of software projects. However, the question is, what is quality, which characteristics of quality should we evaluate, which characteristics matter the most?</p>
+
+<h3><a href="http://localhost:4000/2015/01/13/mass-production-and-software-development-the-forgotten-link">Mass production and software - the forgotten link</a></h3>
+
+<div class="date">
+    Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on January 13, 2015, last modified August  6, 2016
+  </div>
+
+<hr />
+
+<p>Software development. Mass production. Efficiency, scalability, profit maximization. Can mass production be applied to software development?</p>
+
+<h3><a href="http://localhost:4000/2018/02/17/combating-code-duplication-to-reduce-software-maintenance-cost">Combating code duplication to reduce software maintenance cost</a></h3>
+
+<div class="date">
+    Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on February 17, 2018, last modified March  3, 2018
+  </div>
+
+<hr />
+
+<p>Code duplication is a serious issue in software development, because it is one of the primary causes of high maintenance cost and reduction in quality. In cases of code duplication, it increases the code base size, thereby increasing the cost of any subsequent changes or bug fixes, causing development and test efforts to be unnecessarily duplicated. From a technical perspective, code duplication is a big problem because it violates some of the core underlying principles - it violates the DRY Principle and the Abstraction Principle. In this article, we review the concepts underlying code duplication, the costs of code duplication, different types of code duplication and how code duplication may be refactored.</p>
+
+<h3><a href="http://localhost:4000/2018/04/11/four-pillars-of-object-oriented-design">Four pillars of object oriented design</a></h3>
+
+<div class="date">
+    Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on April 11, 2018, last modified June 27, 2018
+  </div>
+
+<hr />
+
+<p>When we are doing programming (or any other kind of activity), the principles which guide our decisions are one of the critical factors which affect what kind of software we implement. When we come to object oriented design, the key question becomes, what are the core principles underlying object oriented design? How do we know if code is object oriented or not? What is good object oriented design?</p>
+
+:ET

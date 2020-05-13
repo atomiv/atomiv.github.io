@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- J.C. -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+    <title>Mass production and software - the forgotten link</title>
+	
+	<!--<link rel="stylesheet" href="http://localhost:4000/css/default/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/flatly/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/simplex/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/slate/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/lux/bootstrap.min.css">-->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/cosmo/bootstrap.min.css"> -->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/cerulean/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/solar/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/spacelab/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/yeti/bootstrap.min.css">-->
+
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom/custom.min.css"> -->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom.css"> -->
+
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Prism -->
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism-toolbar.css" />
+<!-- Atomiv -->
+<link rel="stylesheet" href="http://localhost:4000/css/atomiv.min.css">
+
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon.png">
+
+	
+  </head>
+  
+  <body>
+  
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light ov-navbar fixed-top" id="mainNav">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand mx-auto m-0 order-1 order-md-0 ml-2" href="http://localhost:4000">
+      <img src="http://localhost:4000/img/logo.svg" height="32" width="" alt="Atomiv">
+    </a>
+    <button class="navbar-toggler order-0" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse order-3 order-md-1" id="navbarResponsive">
+      <ul class="navbar-nav ov-navbar-nav ml-auto">
+
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/" >Home</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="https://docs.atomiv.com/"  target="_blank">Docs</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/about" >About</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/contact" >Contact</a>
+          </li>
+      
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+    <div class="container" style="padding-top: 10px;">
+      
+		<article class="post">
+
+		  <h1>Mass production and software - the forgotten link</h1>
+
+		
+
+		  <div class="date">
+			Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on January 13, 2015, last modified on August  6, 2016
+		  </div>
+		  
+		<hr/>
+			
+		  <div class="entry">
+			<p>Software development. Mass production. Efficiency, scalability, profit maximization. Can mass production be applied to software development?</p>
+
+<p>Mass production is an excellent example of pipeline parallelism in action: work split among assembly workers such that large scale quantities can be produced with minimal waiting time. This was an attractive idea, to the extent that it had also inspired software development. However, it turned into a broken dream.</p>
+
+<h2>Why we fail to realize the benefits of mass production in software development</h2>
+
+<p>Recall Brooks’ law: “adding manpower to a late software project makes it later.”
+Let’s also not forget that “Nine women can’t make a baby in one month.”</p>
+
+<p>It soon became common knowledge that software development is <em>not</em> factory production, and that software development isn’t civil engineering either.</p>
+
+<p>There are certain factors in software development process that make it slightly painful to manage. Here are some differences:</p>
+<ul>
+	<li>Factories produce standardized products, whilst most software development teams do not</li>
+	<li>Assembly work is divided in smallest parts so that different workers can work in parallel, whilst this appears to be more difficult in software due to dependency complexity</li>
+	<li>Assembly work tasks tend to be divided such that one worker does not need to know about all the other tasks done by the other workers, yet in software development the situation is such that it becomes necessary for developers' to understand other developers' tasks which leads to communication overhead as number of developers increases</li>
+</ul>
+
+<h2>There is still hope for mass production in software development</h2>
+
+<p>The above situation sounds bleak. However, there are some solutions to the above problems:</p>
+
+<p>Firstly, we need to recognize that whilst we often talk about custom software, we forget that software solutions are more alike than they are different and that quite often the differences are more in language rather than underlying functionality performed.</p>
+
+<p>Secondly, we need to recognize that it is in fact possible to split tasks such that software development can proceed in parallel - by using design patterns such inversion of control (one technique is <a href="http://www.optivem.com/software-development/dependency-injection-in-plain-english/" title="Dependency injection in plain English">dependency injection</a>) which enable mock implementations of surrounding systems so that a developer does not have to wait on another developer, but instead both can work at the same time.</p>
+
+<p>Thirdly, communication overhead can be minimized using common well-accepted design patterns rather than re-inventing the wheel, and writing code which exhibits low coupling, which has the wonderful side-effect that a developer is not forced to trace paths through the whole codebase but instead can focus on their task.</p>
+
+<p>Hopefully the theory sounds interesting, but what can we do to make it work in practice? That’s coming up - stay tuned!</p>
+
+		  </div>
+		  
+		</article>
+
+    </div>
+
+	<!-- Footer -->
+<footer class="ov-footer">
+  <div class="container text-center text-md-left">
+    <div class="mb-0 mx-n3">
+
+        <ul class="ov-footer-links">
+          <li><a href="https://github.com/atomiv" rel="license noopener" target="_blank">Github</a></li>
+          <li><a href="https://docs.atomiv.com" rel="license noopener" target="_blank">Docs</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
+
+        <p> Copyright 
+          &copy; Optivem 2020 All Rights Reserved. Code licensed
+          <a href="https://github.com/atomiv/atomiv-cs/blob/master/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">CC BY 4.0</a>.
+          | Designed by
+          <a href="http://senovim.com/" target="_blank" rel="license noopener"
+          style="text-transform: capitalise; font-weight: 400;">Senovim</a>
+        </p>
+
+    </div>
+  </div>
+</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+
+<!-- <script src="http://localhost:4000/js/custom/custom.js"></script>	 -->
+
+<!-- Prism -->
+<script type="text/javascript" src="http://localhost:4000/js/prism-toolbar.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/copy-to-clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/prism.js"></script>
+<!-- Atomiv -->
+<script type="text/javascript" src="http://localhost:4000/js/atomiv.js"></script>
+	
+  </body>
+</html>
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- J.C. -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+	
+    <title>3 reasons why you should use dependency injection</title>
+	
+	<!--<link rel="stylesheet" href="http://localhost:4000/css/default/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/flatly/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/simplex/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/slate/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/lux/bootstrap.min.css">-->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/cosmo/bootstrap.min.css"> -->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/cerulean/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/solar/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/spacelab/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="http://localhost:4000/css/yeti/bootstrap.min.css">-->
+
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom/custom.min.css"> -->
+<!-- <link rel="stylesheet" href="http://localhost:4000/css/custom.css"> -->
+
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Prism -->
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/css/prism-toolbar.css" />
+<!-- Atomiv -->
+<link rel="stylesheet" href="http://localhost:4000/css/atomiv.min.css">
+
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon.png">
+
+	
+  </head>
+  
+  <body>
+  
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light ov-navbar fixed-top" id="mainNav">
+  <div class="container-fluid p-0">
+    <a class="navbar-brand mx-auto m-0 order-1 order-md-0 ml-2" href="http://localhost:4000">
+      <img src="http://localhost:4000/img/logo.svg" height="32" width="" alt="Atomiv">
+    </a>
+    <button class="navbar-toggler order-0" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse order-3 order-md-1" id="navbarResponsive">
+      <ul class="navbar-nav ov-navbar-nav ml-auto">
+
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/" >Home</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="https://docs.atomiv.com/"  target="_blank">Docs</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/about" >About</a>
+          </li>
+      
+        
+          
+        
+        
+          <li class="nav-item ">
+            <a class="nav-link" href="http://localhost:4000/contact" >Contact</a>
+          </li>
+      
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+    <div class="container" style="padding-top: 10px;">
+      
+		<article class="post">
+
+		  <h1>3 reasons why you should use dependency injection</h1>
+
+		
+
+		  <div class="date">
+			Written by <a href="https://www.linkedin.com/in/valentinacupac/" target="_blank">Valentina Cupać</a> on October 24, 2014, last modified on October 24, 2014
+		  </div>
+		  
+		<hr/>
+			
+		  <div class="entry">
+			<p>One of the principles of SOLID programming philosophy is dependency inversion, and one way that can be achieved is through dependency injection. In this article we will look at the motivations for using dependency injection when designing a software system.</p>
+
+<p>If you’d like to refresh you memory, you can <a href="http://www.optivem.com/software-development/dependency-injection-in-plain-english/" title="Dependency injection in plain English">read a bit about dependency injection in plain English</a>.</p>
+
+<p>The key advantages can be summarized as follows:</p>
+
+<ul>
+<li><b>Design benefits</b> - Dependency injection enables separation of concerns and development of orthogonal systems</li>
+<li><b>Testability benefits</b> - Dependency injection enables classes to be tested via unit testing</li>
+<li><b>Organizational benefits</b> - Dependency injection allows multiple developers to work on dependent components in parallel</li>
+</ul>
+
+<h2>Better designs with dependency injection</h2>
+
+<p>There are <a href="http://www.optivem.com/software-development/dependency-injection-in-plain-english/" title="Dependency injection in plain English">three options</a> which a client has to be able to access a service:</p>
+<ol>
+<li>client constructs the service itself</li>
+<li>client finds the service via a locator</li>
+<li>client is injected with the service</li>
+</ol>
+
+<p>Thee are two key reasons why dependency injection (option 3) is architecturally better than the other alternatives. Firstly, with option 1, the client depends on the service <em>and</em> all the services’ dependencies;  with option 2, the client depends on the service <em>and</em> the locator from where the service is obtained; but, with option 3, the client depends <em>only</em> only the service itself and nothing else. The end result is dependency injection unburdens the client class from extraneous dependencies.</p>
+
+<p>Secondly, with options 1 and 2, typically the client’s dependency on the service is implicit, whilst in the case of option 3 the dependency is made explicit because the dependency would be part of the clients’s constructor or method signature.</p>
+
+<h2>Increased testability with dependency injection</h2>
+
+<p>By default, every system is black-box testable, that is, for any system we can give it some input parameters and then verify the outputs. However, not every system is white-box testable, which refers to testing the internals of a system. Without dependency injection, a client has a hardcoded dependency to a service, which means it cannot be replaced during testing with a mock, which means we cannot test a component in isolation. More on this topic will be covered in a future article.</p>
+
+<h2>Efficient team management with dependency injection</h2>
+
+<p>One of the most difficult aspects of managing a team is handling the dependencies in code between the various components that team members are working on. Imagine if one person is working on the client, another one is working on service, and the code breaks. It may be hard and time-consuming to check every time why the problem occurred. Furthermore, this often leads to the problem of task dependencies and waiting times, which makes it difficult for work to proceed in parallel. More on this topic will also be covered in a future article.</p>
+
+		  </div>
+		  
+		</article>
+
+    </div>
+
+	<!-- Footer -->
+<footer class="ov-footer">
+  <div class="container text-center text-md-left">
+    <div class="mb-0 mx-n3">
+
+        <ul class="ov-footer-links">
+          <li><a href="https://github.com/atomiv" rel="license noopener" target="_blank">Github</a></li>
+          <li><a href="https://docs.atomiv.com" rel="license noopener" target="_blank">Docs</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
+
+        <p> Copyright 
+          &copy; Optivem 2020 All Rights Reserved. Code licensed
+          <a href="https://github.com/atomiv/atomiv-cs/blob/master/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">CC BY 4.0</a>.
+          | Designed by
+          <a href="http://senovim.com/" target="_blank" rel="license noopener"
+          style="text-transform: capitalise; font-weight: 400;">Senovim</a>
+        </p>
+
+    </div>
+  </div>
+</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+
+<!-- <script src="http://localhost:4000/js/custom/custom.js"></script>	 -->
+
+<!-- Prism -->
+<script type="text/javascript" src="http://localhost:4000/js/prism-toolbar.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/copy-to-clipboard.js"></script>
+<script type="text/javascript" src="http://localhost:4000/js/prism.js"></script>
+<!-- Atomiv -->
+<script type="text/javascript" src="http://localhost:4000/js/atomiv.js"></script>
+	
+  </body>
+</html>
+

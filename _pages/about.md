@@ -19,7 +19,7 @@ Valentina has founded Atomiv with the goal of helping development teams achieve 
 
 <!-- TODO: VC: Include linked link for name, and also Optivem link -->
 
-## Jelena Cupać
+## Jelena Cupać2
 ### Frontend Developer & Designer
 
 Jelena is a passionate Frontend Developer with a background in design. She enjoys working with various technologies in order to deliver websites that accelerate business performance.
