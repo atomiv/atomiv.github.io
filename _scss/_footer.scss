@@ -1,0 +1,45 @@
+footer.ov-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem 0; // 1.5rem 0
+    font-size: 0.9rem;
+    background-color: #f1f1f1; // #f5f5f5; //#1077d4; // #f5f5f5
+    color: $gray-700; // white; // #495057
+    // color: $white;
+    // @include font-size(.9rem);
+    li {
+      padding-right: 0.5rem;
+    }
+    @media (max-width: 576px) {
+      li {
+        padding-right: 0rem;
+      }
+    }
+    a {
+      font-weight: 400; // 500
+      color: #495057; // white;
+      // &:hover,
+      // &:focus {
+        // color: $link-color;
+      // }
+    }
+    p {
+      margin-bottom: 0;
+    }
+    // @include media-breakpoint-up(sm) {
+    //   text-align: left;
+    // }
+}
+  
+.ov-footer-links {
+  padding-left: 0;
+  margin-bottom: 1rem;
+  li {
+    display: inline-block;
+    + li {
+      margin-left: 1rem;
+    }
+  }
+}

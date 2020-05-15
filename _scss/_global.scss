@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-size: 1.5rem; 
+  font-weight: 400;
+  line-height: 1.5;
+  color: $gray-900;
+  text-align: left;
+  background-color: #fff;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 138px; /* height of your footer */
+  padding-top: 60px; /* fixed nav */
+}
+
+.container {
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 444px; // 540
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 672px; // 720
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 776px; // 920 // 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 776px; // 920 // 1140px;
+  }
+}
+
+.navbar>.container, .navbar>.container-fluid {
+  display: flex;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+
+// sm
+@media (min-width: 576px) {
+  .ov-gs-container {
+    max-width: 540px; // 540
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+// md
+@media (min-width: 768px) {
+  .ov-gs-container {
+    max-width: 776px; // 720
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+// lg
+@media (min-width: 992px) {
+  .ov-gs-container {
+    max-width: 776px; // 960
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+// xl
+@media (min-width: 1200px) {
+  .ov-gs-container {
+    max-width: 776px; // 1140
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+
+.container2 {
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// sm
+@media (min-width: 576px) {
+  .container2 {
+    max-width: 540px; // 508 // 540
+  }
+}
+
+// md
+@media (min-width: 768px) {
+  .container2 {
+    max-width: 672px; // 720
+  }
+}
+
+// lg
+@media (min-width: 992px) {
+  .container2 {
+    max-width: 776px; // 920 // max-width: 960px;
+  }
+}
+
+// xl
+@media (min-width: 1200px) {
+  .container2 {
+    max-width: 776px; // 920 // max-width: 1140px;
+  }
+}
+
+
+
+
+
