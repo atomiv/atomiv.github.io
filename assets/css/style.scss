@@ -1,12 +1,50 @@
-
+---
+---
 
 // @import "{{ site.theme }}";
 
+// scss stylesheet
+// Jekyll will compile your css/styles.scss file into a CSS file at _site/css/styles.css.
 
-.custom-class {
-    color: red;
-}
+// ---
+// # Front matter comment to ensure Jekyll properly reads file.
+// ---
+
+// Add your styles here
+
+// Imports
+// @import "base";
+@import "{{ site.url }}../../_sass/atomiv/type";
+// @import "layout";
+// @import "syntax-highlighting";
+// @import "visual";
+// @import "additional";
+// @import 'bootstrap/bootstrap';
+
 
 .test-heading {
-    color: red;
+    color: purple;
+}
+
+// Home page - so heading fits on one line
+@media (min-width: 576px) {
+    .ov-promo h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-break {
+        // br {
+            display: none;
+        // }
+    }
+}
+
+@media (min-width: 992px) {
+    .heading-break {
+        // br {
+            display: none;
+        // }
+    }
 }

@@ -12,6 +12,19 @@ collections:
     permalink: /:path
 
 sass:
+  # where to search for Sass files, if the folder is called '_scss'
+  # sass_dir: assets/css
   style: compressed
   
 highlighter: rouge
+
+
+# You can also change the default _sass/ directory to a custom directory in your _config.yml:
+# sass:
+#   sass_dir: _lib
+#   or ... sass_dir: _sass
+
+
+# Enable minification on your compiled CSS by updating your _config.yml to include:
+# sass:
+#   style: compressed

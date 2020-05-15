@@ -1,8 +1,9 @@
 ---
 layout: home
 title: Atomiv
-description1: Open source framework for
-description2: accelerated software development.
+# All-in-One Template for Software Development Teams
+description1: All-in-one Software Project Template
+description2: 
 headerLink: https://docs.atomiv.com
 linkButton: Get Started
 permalink: /

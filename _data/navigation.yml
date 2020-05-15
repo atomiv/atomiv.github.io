@@ -1,5 +1,11 @@
 - title: Home
   url: /
+
+- title: Features
+  url: /features
+
+- title: Why
+  url: /why
   
 - title: Docs
   url: https://docs.atomiv.com/
