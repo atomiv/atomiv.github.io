@@ -16,26 +16,34 @@ Why should every company have processes?
 - ovo je opciono totalno, cilj je bio da ova recenica predstavi idealan scenario i kompaniju, koja realno ne postoji, sto znaci da su procesi potrebni svima
 -->
 
-We are living in a time where everything should be delivered super fast but with high quality. It doesn't matter if that is a service or a product, the outcome should be the same. If you miss your chance, the competition will take it, you do not need to doubt that.
+
+
+
+<p>We are living in a time where everything should be delivered super fast but with high quality. It doesn't matter if that is a service or a product, the outcome should be the same. If you miss your chance, the competition will take it, you do not need to doubt that. That is why, for all of us it is important to use time and be efficient as much as it is possible. Even if you are a CEO, project manager, team lead, scrum master or process manager, we all have the same goal.</p>
+
+<p>We all want for our business to grow, make higher revenue, be more profitable and inspire people to be the best version of themselves. Well, let me tell you something. None of those things will happen if you don’t know why you are doing things you are doing, and if you are wasting your time on things which are irrelevant to your business.</p>
+
+<p>Want to know how to go over it? The answer is simple, start making changes with processes. All you have to do is to find out what works the best, document it and implement step by step. It is called process identification, improvement and implementation. This is where Atomiv comes in - it's designed to help you standardize software development processes across the company, spanning both organizational and technical aspects.</p>
+
 
 <!-- (note:  add option where company or people tried this) -->
 
-That is why, for all of us it is important to use time and be efficient as much as it is possible. Even if you are a CEO, project manager, team lead, scrum master or process manager, we all have the same goal. 
-
 <!-- (note: add team productivity in previous paragraph) -->
-
-We all want for our business to grow, make higher revenue, be more profitable and inspire people to be the best version of themselves. Well, let me tell you something. None of those things will happen if you don’t know why you are doing things you are doing, and if you are wasting your time on things which are irrelevant to your business.
-
-Want to know how to go over it? The answer is simple, start making changes with processes. 
-
-All you have to do is to find out what works the best, document it and implement step by step.
-It is called process identification, improvement and implementation. 
 
 <!--
 (note: include Atomiv, how we are doing that and what we are offering)
 -->
 
 <!-- TODO: VC: Review with TG, this was previously inside the project management section but I moved it up here because I think it's common for the rest as well, but anyway we can discuss -->
+
+
+<h2>For Companies</h2>
+
+<p>Some key challenges faced by IT service companies are keeping clients happy and ensuring good profit margins. When the software is delivered late, when it's too buggy or non-usable, when clients cannot depend on your company - then they might switch. Furthermore, when projects go over-budget, the IT service company may suffer due to the loss on uninvoiced hours or haggling over hourly invoices.  Atomiv helps your company succeed again and again across different projects, making success repeatable through standardization. Atomiv helps companies build high performance software development teams. It helps increase productivity and motivation across your development teams, helping them deliver software faster than ever before and with high quality. It helps keep your customers happy and increases your profit margins.</p>
+
+
+
+
 
 ## For Teams
 
@@ -56,29 +64,7 @@ This is just the beginning, we will reinforce these facts with real situations a
 
 All the best in your journey towards successful IT projects and products - reach the next level with the Atomiv.
 
-## For Companies
 
-Atomiv helps companies build high performance software development teams.
-
-* Do you want to increase development productivity?
-* Do you want to deliver high quality software?
-* Do you want to make your customers happy?
-
-Our goal is to help you and your organization build high performing software teams and to create amazing software products. How? The key is to realize that success in IT is holistic - spanning both the organizational and technical aspects.
-
-Success starts with building a strong team:
-
-* Creating high performance software development teams
-* Empowering and motivating your team to perform their best
-* Providing your team with resources to achieve technical excellence and team productivity
-* Encouraging an organizational culture which strives towards continuous improvement
-
-The result is great software products:
-
-* Ensuring quality from start to finish, minimizing defect rates
-* Building software which delivers high value to your customers
-* Delivering projects on schedule and within budget
-* Making your customers really happy and strengthening your customer relationships
 
 <!-- TODO: TG -->
 <!--
@@ -174,3 +160,26 @@ Atomiv sees automated testing as crucial for quality, providing support for auto
 
 * REST API tests - Atomiv provides wrappers for REST clients, so that you can easily make web requests, get responses, and view status and content
 * Web Browser tests - Atomiv provides wrappers for Selenium components so that you can write system tests with less code
+
+
+<!--
+
+TODO: VC
+
+
+Success starts with building a strong team:
+
+* Creating high performance software development teams
+* Empowering and motivating your team to perform their best
+* Providing your team with resources to achieve technical excellence and team productivity
+* Encouraging an organizational culture which strives towards continuous improvement
+
+The result is great software products:
+
+* Ensuring quality from start to finish, minimizing defect rates
+* Building software which delivers high value to your customers
+* Delivering projects on schedule and within budget
+* Making your customers really happy and strengthening your customer relationships
+
+
+-->
