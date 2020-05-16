@@ -59,36 +59,16 @@ All the best in your journey towards successful IT projects and products - reach
 
 <h2>For Teams</h2>
 
-
-
-<p>For Teams</p>
-
 <p>One of the difficulties in software development industry is attracting and retaining "talent". It's challenging enough finding the "right" developers, but what's even more challenging (and important) is building a strong team. If there isn't adequate teamwork, and if all the knowledge about a project is held by a few individuals, this causes the key-man risk in projects. If there aren't common standards held by the team, if individuals within teams are going their own way, or if different teams are adopting totally different processes and codebases, this results in inefficiencies across the company. It's then difficult to switch people between teams or onboard new team members. Atomiv helps you achieve standardization within teams and across teams, encouraging an organiation culture which strives towards standardization and continuous improvement, and helping you build top-notch teams</p>
-
-
-
-
-
-
 
 <!-- TODO: TG -->
 <!--
 ## For CEO 
 -->
 
-## For Project Managers 
+<h2>For Project Managers</h2>
 
-Let’s say that you are a project manager trying to keep up with deadlines and budget but you still need to help your team because they are again struggling with the same issue as they did in the previous 2 or 3 projects. This is very frustrating for both sides.
-
-You feel exhausted, lost, can not focus on your job and what really matters. The team is unmotivated too, because they keep trying and giving their best, but still without proper and expected results.
-
-And then again and again, and you find yourself in the vicious cycle. 
-
-The company is making no progress, tapping in the place, losing the team, motivation and the focus. 
-
-Hey, no worries, these things may happen but they can be solved!
-
-By adopting Atomiv, it helps provide you with a template for managing your projects, so that you can execute your projects smoothly, help your team work productively and achieve the project goals.
+<p>Let’s say that you are a project manager trying to keep up with deadlines and budget but you still need to help your team because they are again struggling with the same issue as they did in the previous two or three projects. This is very frustrating for both sides. You feel exhausted, lost, can not focus on your job and what really matters. The team is unmotivated too, because they keep trying and giving their best, but still without proper and expected results. And then again and again, and you find yourself in the vicious cycle.  The company is making no progress, tapping in the place, losing the team, motivation and the focus. Hey, no worries, these things may happen but they can be solved! By adopting Atomiv, it helps provide you with a template for managing your projects, so that you can execute your projects smoothly, help your team work productively and achieve the project goals.</p>
 
 ## For Architects
 
