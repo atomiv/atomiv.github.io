@@ -4,6 +4,15 @@ title: Features
 description: Features
 ---
 
+## Key Benefits
+
+Atomiv helps teams achieve the following:
+
+* Build consistently high quality software
+* Deliver software faster than ever before
+* Make your customers happy
+
+
 ## Productivity Features
 
 The goal of Atomiv is, first and foremost, to help IT leaders provide their teams with a foundation to successfully achieve the above goals:
@@ -16,13 +25,6 @@ The goal of Atomiv is, first and foremost, to help IT leaders provide their team
 * Atomiv is built in a standardized way, so that you can use it for any project or product, and make it easy to integrate new team members, decreasing training time
 * Atomiv is optimized for high performance, especially for database integration
 * Atomiv is designed in a modular way with interfaces, making it easy for team members to work in parallel
-
-In summary, Atomiv will help your teams achieve the following:
-
-* Build consistently high quality software
-* Deliver software faster than ever before
-* Make your customers happy
-
 
 ## Business Features
 
