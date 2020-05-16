@@ -1,8 +1,6 @@
 ---
 ---
 
-@charset 'UTF-8';
-
 // @import "{{ site.theme }}";
 
 // ---
@@ -17,7 +15,9 @@
 // @import "layout";
 // @import "syntax-highlighting";
 // @import 'bootstrap/bootstrap';
-@import "../../_scss/atomiv.scss";
+// @import "{{ site.url }}../../_scss/atomiv.scss";
+
+@import "atomiv";
 
 
 // .test-heading {
@@ -27,6 +27,7 @@
 // h4 {
 //     color: blueviolet;
 // }
+
 
 
 // Home page - so heading fits on one line

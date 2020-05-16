@@ -71,3 +71,30 @@ This is just the beginning, we will reinforce these facts with real situations a
 ## For QA
 
 <!-- TODO: VC -->
+
+<!-- ------------------------------------------------------ -->
+
+## Why?
+
+Atomiv helps companies build high performance software development teams.
+
+* Do you want to increase development productivity?
+* Do you want to deliver high quality software?
+* Do you want to make your customers happy?
+
+Our goal is to help you and your organization build high performing software teams and to create amazing software products. How? The key is to realize that success in IT is holistic - spanning both the organizational and technical aspects.
+
+Success starts with building a strong team:
+
+* Creating high performance software development teams
+* Empowering and motivating your team to perform their best
+* Providing your team with resources to achieve technical excellence and team productivity
+* Encouraging an organizational culture which strives towards continuous improvement
+
+The result is great software products:
+
+* Ensuring quality from start to finish, minimizing defect rates
+* Building software which delivers high value to your customers
+* Delivering projects on schedule and within budget
+* Making your customers really happy and strengthening your customer relationships
+

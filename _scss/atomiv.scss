@@ -1,3 +1,4 @@
+
 // @import "base";
 // @import "type";
 // @import "layout";
@@ -9,9 +10,8 @@
 
 
 @import "variables.scss";
-@import "mixins.scss";
+// @import "mixins.scss";
 // Import Bootstrap
-// @import '~node_modules/bootstrap/scss/bootstrap.scss';
 @import "../css/bootstrap/bootstrap.scss";
 // Global CSS
 @import "global.scss";
@@ -25,8 +25,8 @@
 
 
 
-.h4 {
-    color: pink;
+h4 {
+    color: purple;
 }
 
 
