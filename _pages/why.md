@@ -37,6 +37,8 @@ It is called process identification, improvement and implementation.
 
 <!-- TODO: VC: Review with TG, this was previously inside the project management section but I moved it up here because I think it's common for the rest as well, but anyway we can discuss -->
 
+## For Teams
+
 The processes which you document, establish, improve and at the end implement will give you enormous benefits and time to focus on things which really matter.
 
 You will feel next:
@@ -52,61 +54,7 @@ Don’t get scared, be open minded, give your best and find your way how to do i
 
 This is just the beginning, we will reinforce these facts with real situations and solutions which I am sure all of us already experienced!
 
-
-
-<!--
-
-## For CEO 
-
--->
-
-<!-- TODO: TG -->
-
-## For Project Managers 
-
-Let’s say that you are a project manager trying to keep up with deadlines and budget but you still need to help your team because they are again struggling with the same issue as they did in the previous 2 or 3 projects. This is very frustrating for both sides.
-
-You feel exhausted, lost, can not focus on your job and what really matters. The team is unmotivated too, because they keep trying and giving their best, but still without proper and expected results.
-
-And then again and again, and you find yourself in the vicious cycle. 
-
-The company is making no progress, tapping in the place, losing the team, motivation and the focus. 
-
-Hey, no worries, these things may happen but they can be solved!
-
-By adopting Atomiv, it helps provide you with a template for managing your projects, so that you can execute your projects smoothly, help your team work productively and achieve the project goals.
-
-## For Architects
-
-<!-- TODO: VC -->
-
-## For Developers
-
-<!-- TODO: VC -->
-
-## For QA
-
-<!-- TODO: VC -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- TODO: VC: This is an old section, I'm merging some of it with the above -->
-
-
-## Why?
+## For Companies
 
 Atomiv helps companies build high performance software development teams.
 
@@ -130,59 +78,37 @@ The result is great software products:
 * Delivering projects on schedule and within budget
 * Making your customers really happy and strengthening your customer relationships
 
+<!-- TODO: TG -->
+<!--
+## For CEO 
+-->
 
-## Principles
+## For Project Managers 
 
-The core principles underlying Atomiv is that standardization and innovation are the key to building 10x Software Development teams. At Atomiv, we adopt an all-rounded approach, covering processes, architecture and quality standards.
+Let’s say that you are a project manager trying to keep up with deadlines and budget but you still need to help your team because they are again struggling with the same issue as they did in the previous 2 or 3 projects. This is very frustrating for both sides.
 
-## Standards
+You feel exhausted, lost, can not focus on your job and what really matters. The team is unmotivated too, because they keep trying and giving their best, but still without proper and expected results.
 
-Atomiv provides standards for software processes, software architecture and software quality. The core standards and best practices behind high performance IT organizations. The foundation of success lies in the organization itself. It requires a mix of the 3P's: People, Processes and Product.
+And then again and again, and you find yourself in the vicious cycle. 
 
+The company is making no progress, tapping in the place, losing the team, motivation and the focus. 
 
+Hey, no worries, these things may happen but they can be solved!
 
-<div class="row ov-promo-row">
+By adopting Atomiv, it helps provide you with a template for managing your projects, so that you can execute your projects smoothly, help your team work productively and achieve the project goals.
 
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Architecture Standards</h6>
-	<p>Atomiv provides standards for implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.</p>
-	</div>
-
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Quality Standards</h6>
-	<p>Atomiv provides standards for creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.</p>
-	</div>
-
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Process Standards</h6>
-	<p>Atomiv provides standards for implementing efficient processes, encompassing process management, project management and product management.</p>
-	</div>
-
-</div>
+<!-- TODO: VC -->
+<!--
+## For Architects
+-->
 
 
-<!-- TODO: Insert links from headings to navbar: Architecture, Quality, Process -->
+<!-- TODO: VC -->
+<!--
+## For Developers
+-->
 
-## Templates
-
-Atomiv is an open source framework for accelerated software development. Atomiv provides templates for the entire software architecture, encompassing backend, frontend and test automation. These templates enable teams to achieve accelerated software development. Currently we provide .NET Core templates for backend development, but we will also plan to include Java Spring, PHP Laravel for backend, and including Angular, React and Vue for frontend.
-
-
-<div class="row ov-promo-row">
-
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Architecture Template</h6>
-	<p>Ready made template provides the setup for the software architecture. Architecture includes REST API, application, domain, database connectivity (supports swapping).</p>
-	</div>
-
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Increased Productivity</h6>
-	<p>Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.</p>
-	</div>
-
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>High-quality Software</h6>
-	<p>Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintainable and extensible apps.</p>
-	</div>
-
-</div>
+<!-- TODO: VC -->
+<!--
+## For QA
+-->
