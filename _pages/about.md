@@ -24,9 +24,9 @@ Feel free to contact Valentina via [LinkedIn](https://www.linkedin.com/in/valent
 
 Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver websites that accelerate business performance. Jelena is involved in Atomiv, both designing the Atomiv website as well as developing the Atomiv Angular Template to provide a high quality foundation for frontend developers.
 
-<!-- https://www.linkedin.com/in/jelenacupac/
-https://github.com/jcupac
-http://senovim.com/ -->
+Feel free to contact Jelena via [LinkedIn](https://www.linkedin.com/in/jelenacupac/), [GitHub](https://github.com/jcupac) and [Senovim](http://senovim.com/).
+
+
 
 <!-- TODO: JC: #42: Add the section to contact Jelena, see example from Valentina above, you choose what sites to have in the contact list -->
 
