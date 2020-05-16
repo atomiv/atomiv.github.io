@@ -86,21 +86,9 @@ All the best in your journey towards successful IT projects and products - reach
 
 <p>As a Junior Developer, are you finding it challenging to be productive in your software project? Do you find it confusing when similar functionalities have been implemented in totally different ways, when there aren't any standards, and when everyone has their own viewpoint? Do you find it takes a long time to switch between different modules or different projects because they've all been done differently? Do you have to spend a lot of time searching on Google, looking for tutorials? Do you wish there was an all-in-one example which would help you work faster? If junior developers are provided with a poor foundation, working on a project with low quality code, then they won't know any better. This is where Atomiv can help - by providing a template for the entire project architecture and with end-to-end sample working code, developed with best practices in mind, it provides junior developers with practical quality examples so that they can follow the template and apply it for new features and functionalities. When junior developers are provided with a solid foundation in software practices and clean code examples, they will be able to contribute with high productivity to software development, and helps companies grow talent in-house.  Over time, these juniors become more experienced and they can mentor and support the next generation of developers.</p>
 
+<h2>For QA Engineers</h2>
 
-## For QA Engineers
-
-Are you a Test Automation Engineer who wants to write automated tests faster and make them easy to maintain?
-
-As a Test Automation Engineer, you are faced with challenges in effectively designing, implementing and maintaining automated tests:
-
-* REST API tests
-* Web Browser tests
-
-Atomiv sees automated testing as crucial for quality, providing support for automated testing at all levels - Unit testing, Integration testing and System testing. Atomiv provides ready-made components to help with the following tests and to reduce the amount of code you need to write:
-
-* REST API tests - Atomiv provides wrappers for REST clients, so that you can easily make web requests, get responses, and view status and content
-* Web Browser tests - Atomiv provides wrappers for Selenium components so that you can write system tests with less code
-
+<p>Are you a Test Automation Engineer who wants to write automated tests faster and make them easy to maintain? Do you find that writing system tests, including REST API and Web Browser tests, is time-consuming? Are the tests brittle, causing a lot of time to maintain? Are the tests unreliable? Atomiv adopts a test-first approach, adopting Test Driven Development (TDD), Behavior Driven Development (BDD) and Acceptance Test Driven Development (ATDD). The template for QA engineers provides wrappers for web clients to speed up REST API clients, and enabling QA enginers to easily make web requests and verify responses. It also providers wrappers for Selenium elements to enable QA engineers to write end-to-end tests with less code and faster than before.</p>
 
 
 
