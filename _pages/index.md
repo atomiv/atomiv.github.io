@@ -35,15 +35,6 @@ Atomiv is Open Source. You can read [Docs](docs.md) to find out more details how
 
 
 
-
-## Templates
-
-
-
-
-
-
-
 <!-- TODO: VC: Link to Docs for Getting started page -->
 
 
