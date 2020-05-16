@@ -1,65 +1,131 @@
 ---
 layout: page
 title: Features
-# description: 
+description: Features
 ---
 
-features..
-	
+## Key Benefits
+
+Atomiv helps teams achieve the following:
+
+* Build consistently high quality software
+* Deliver software faster thassn ever before
+* Make your customers happy
 
 
-## Principles
+## Productivity Features
 
-The core principles underlying Atomiv is that standardization and innovation are the key to building 10x Software Development teams. At Atomiv, we adopt an all-rounded approach, covering processes, architecture and quality standards.
+The goal of Atomiv is, first and foremost, to help IT leaders provide their teams with a foundation to successfully achieve the above goals:
 
-## Standards
+* Atomiv provides a project template, thereby decreasing the initial up-front effort needed by your team to get started
+* Atomiv has a well-defined software architecture, based on industry best practices, ensuring that software is maintainable and extensible in the future
+* Atomiv has in-built components for automated testing of web services and web applications, providing a foundation for quality automation from the start
+* Atomiv provides predefined components for common technical tasks so that your teams write less code
+* Atomiv is highly flexibility, so that your team is free to integrate with existing technologies or to make fully custom components
+* Atomiv is built in a standardized way, so that you can use it for any project or product, and make it easy to integrate new team members, decreasing training time
+* Atomiv is optimized for high performance, especially for database integration
+* Atomiv is designed in a modular way with interfaces, making it easy for team members to work in parallel
 
-Atomiv provides standards for software processes, software architecture and software quality. The core standards and best practices behind high performance IT organizations. The foundation of success lies in the organization itself. It requires a mix of the 3P's: People, Processes and Product.
+## Business Features
+
+The Atomviv template provides an example of implementing functional requirements for a company which purchases products from suppliers and then sells them to customers. This was chosen because it's a very popular and well-known domain, so we used it to illustrate sample implementation. The following is an overview of the use cases implemented.
+
+Customers:
+
+* Creating customers
+* Editing customer details
+* Deactivating customers
+* Browsing customers
+* Viewing a customer
+
+Orders:
+
+* Creating draft orders
+* Editing draft orders
+* Submitting orders
+* Cancelling orders
+* Archiving orders
+* Browsing orders
+* Viewing an order
+
+Products:
+
+* Creating products
+* Editing product details
+* Unlisting products
+* Relisting products
+* Syncing products with external sources
+* Browsing products
+* Viewing a product
+
+## Architecture Features
+
+Atomiv architecture is built based on the following architecture and design approaches:
+
+* Clean Architecture
+* Domain Driven Design
+* Use Case Driven Design
+* Test Driven Design
+
+Architecture template features:
+
+* Extensibility: Ready made template provides the setup for the software architecture. Architecture includes REST API, application, domain, database connectivity (supports swapping).
+* Productivity: Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.
+* Quality: Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintenable and extensible apps.
 
 
+## Technical Features
 
-<div class="row ov-promo-row">
+The following are the technical features of Atomiv (note: some of these are pending to be implemented):
 
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Architecture Standards</h6>
-	<p>Atomiv provides standards for implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.</p>
-	</div>
-
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Quality Standards</h6>
-	<p>Atomiv provides standards for creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.</p>
-	</div>
-
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Process Standards</h6>
-	<p>Atomiv provides standards for implementing efficient processes, encompassing process management, project management and product management.</p>
-	</div>
-
-</div>
+* Authentication: Authentication including Open Id Connect, OAuth, and custom authentication to help you build secure websites
+* Authorization: Role based and permission based authorization to ensure access controls
+* Validation: Validation as well as validation error handling
+* Localization: Localization to enable both translations and regional settings
+* Logging: Logging of errors
+* CRUD operations: Basic operations like creating, updating, deleting and viewing data records
+* Actions and statuses: Examples for operations like approving, cancelling, etc. to show operations and statuses
+* Data tables, filtering and pagination: Data tables for browsing through data, including filtering and pagination
 
 
-<!-- ------------------------------ -->
+Technologies supported:
 
-## Templates
+* .NET Core 3.1 - Currently, Atomiv is focused on backend web development and it targets .NET Core 3.1.
+* Java Spring - In the future, we plan to support Java 9, using Spring Framework, Hibernate, etc. This section will be updated with instructions.
+* PHP Laravel - In the future we plan to support PHP using Laravel.
 
-Atomiv is an open source framework for accelerated software development. Atomiv provides templates for the entire software architecture, encompassing backend, frontend and test automation. These templates enable teams to achieve accelerated software development. Currently we provide .NET Core templates for backend development, but we will also plan to include Java Spring, PHP Laravel for backend, and including Angular, React and Vue for frontend.
+## Technical Features (.NET Core 3.1)
 
+For .NET Core 3.1:
 
-<div class="row ov-promo-row">
+* Atomiv includes a template, which can be installed via NuGet - and after inputting the project name, a new solution will be generated for you with all the architectural layers and with sample code (customers, products and orders) which can be used a starting point and practical example for implementation
+* Atomiv provides standardized implementation for CRUD operations across all layers of the sofware (from REST controllers, to application services, to repositories)
+* Atomiv has pre-packaged popular NuGet packages, including Entity Framework Core 2, FluentAssertions, AutoMapper, MediatR, which are used for implementation in the infrastructure layer - however, these are defaults, so you are not locked in but can choose other packages and provides, because Atomiv relies on interfaces so that third party libraries and frameworks are easily swappable
+* Atomiv is designed to be high performance, especially efficient operations with  Entity Framework Core 2 - efficiently working with large data sets
+* Atomiv contains components which simplify automated testing, especially Selenium and REST API testing, so that automated tests can be produced faster and with less code
 
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Architecture Template</h6>
-	<p>Ready made template provides the setup for the software architecture. Architecture includes REST API, application, domain, database connectivity (supports swapping).</p>
-	</div>
+## Team Features
 
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>Increased Productivity</h6>
-	<p>Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.</p>
-	</div>
+Atomiv provides templates for all team members:
 
-	<div class="col-12 col-md-4 ov-promo2 py-0 py-md-0 px-md-4">
-	<h6>High-quality Software</h6>
-	<p>Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintainable and extensible apps.</p>
-	</div>
+* Project managers
+* Backend developers
+* Frontend developers
+* QA engineers
 
-</div>
+<!-- TODO: VC: Adding in details regarding the templates -->
+
+<!--
+TEMPLATES
+
+These would be row-based, including title, paragraph and then a screencast, and it would also link to the menu items
+
+Backend (screencast: installing and running template in Visual Studio, shows Swagger)
+Frontend (screencast: installing and running template in Visual Studio Code, shows screen)
+QA (screencast: installing and running template in Visual Studio, shows Test Explorer)
+DevOps (future)
+PM (future)
+BA (future)
+Process (screencast: viewing/downloading the templates for documents/process)
+-->
+>>>>>>> master
