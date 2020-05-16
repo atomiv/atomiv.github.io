@@ -19,7 +19,7 @@ The core principle and motivation underlying Atomiv is the economics of standard
 
 ## How to use Atomiv?
 
-You can read [Docs](docs.md) to find out more details how to use Atomiv.
+Atomiv is Open Source. You can read [Docs](docs.md) to find out more details how to use Atomiv. It provides you with step-by-step instructions how to implement Atomiv within your software development teams.
 
 
 <!-- TODO: VC: Link to Docs for Getting started page -->
