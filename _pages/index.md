@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Atomiv
-description1: Open source framework for
+description1: All-in-one template for
 description2: accelerated software development.
 headerLink: https://docs.atomiv.com
 linkButton: Get Started
@@ -19,7 +19,7 @@ The core principle and motivation underlying Atomiv is the economics of standard
 
 ## How to use Atomiv?
 
-
+You can read [Docs](docs.md) to find out more details how to use Atomiv.
 
 
 <!-- TODO: VC: Link to Docs for Getting started page -->
