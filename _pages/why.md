@@ -78,22 +78,9 @@ All the best in your journey towards successful IT projects and products - reach
 
 <p>As a team lead, your faced with both organizational and technical challenges. How well your team performs is how your own performance is measured. Are you faced with challenges by trying to keep with budget and timelines, and keeping the project managers happy? On the other hand, are you faced with challenges in keeping your development team productive and ensuring technical excellence? Atomiv helps you create high performance development teams, empowering and motivating your team to perform their best. It provides your team with templates to achieve technical excellence and work more productively. It encourages a team culture which strives towards continuous improvement. The result is that your team can build software which delivers high value to customers, ensuring high quality from start to finish, reducing number of bugs, sppeding up development of new features, delivering projects on schedule and within budget. It helps you achieve success throughout your team through standardization.</p>
 
-## For Senior Developers
+<h2>For Senior Developers</h2>
 
-Are you a Senior Developer who wants to write software faster, with less code and higher quality?
-
-As a software developer, you have likely faced the following challenges:
-
-* How to meet project deadlines?
-* How to write clean maintainable code?
-* How to adopt TDD principles?
-* How to minimize number of bugs?
-
-Senior developers often have a key role in the design and architecture of software solutions - whether it's for products, projects, or modules. Aside from that, they are also involved in mentoring and supporting junior developers during development as well as code reviews. From technical perspectives, senior developers are key stakeholders in decisions regarding architecture and quality, building code re-usable, collaboration and knowledge sharing.
-
-At some point in time, as teams and companies grow, they reach a point at which senior developers are not just involved in individual projects, but also in systematizing and standardizing development across the team - which involves often companies producing internal shared code, internal package manager setup, internal samples and templates, etc. based on best practices and coaching team members to push forward adoption. However, this can a time-consuming process, taking months or years to create the adequate code base, yet alone to implement it in practice.
-
-Atomiv can support senior developers so that next time when they need to setup a new project, that they can get it up and running very fast. It also serves to support them in promoting standardization within the teams.
+<p>Are you a Senior Developer looking to fine-tune your skillsets, to write software faster and with higher quality? To write clean, testable and maintainable code? Do you want to adopt best practices, but are you finding it difficult to fine the time? Do you want to be able to mentor and support junior developers and to provide them with the right foundation instead of learning from bad examples? Do you find the need for code standardization, producing internallly shared codebase and templates, but is it taking too long and there isn't time for it? Atomiv can support senior developers by providing a high quality solution templates so that senior developers can create a new project quickly, and it also makes it easier for seniors to train juniors by having a template with best practice examples that mimick real-life project needs. It also supports Senior Developers in promoting standardization within the teams.</p>
 
 ## For Junior Developers
 
