@@ -11,19 +11,19 @@ permalink: /
 
 ## What is Atomiv?
 
-Atomiv is an all-in-one template which helps software development teams to build quality software efficiently and productively. The all-in-one template provides a jump-start for backend developers, frontend developers, quality assurance engineers and project managers, providing a solid foundation to ensure success throughout the project. Atomiv provides standards for software processes, software architecture and software quality. The core standards and best practices behind high performance IT organizations. The foundation of success lies in the organization itself. It requires a mix of the 3P's: People, Processes and Product.
+Atomiv is an all-in-one template which helps software development teams to build quality software efficiently and productively. The all-in-one template provides a jump-start for backend developers, frontend developers, quality assurance engineers and project managers, providing a solid foundation to ensure success throughout the project. 
 
 ## Why Atomiv?
 
-The core principle and motivation underlying Atomiv is the economics of standardization, helping achieve cost efficiency and quality at the same time, enabling teams to scale easily and achieving standardization across teams, projects and products. Atomiv is built based on globally recognized best practices in software development. 
+Atomiv is built based on globally recognized best practices in software development. The core principle and motivation underlying Atomiv is the economics of standardization, helping achieve cost efficiency and quality at the same time, enabling teams to scale easily and achieving standardization across teams, projects and products. 
 
 ## What are the Atomiv standards?
 
-Atomiv is built on the understanding that standardization and innovation are the key to building 10x Software Development teams. At Atomiv, we adopt an all-rounded approach, covering processes, architecture and quality standards.
+Atomiv is built on the understanding that standardization and innovation are the key to building 10x Software Development teams. At Atomiv, we adopt an all-rounded approach, encompassing processes, architecture and quality standards, which are the foundation of high performance teams:
 
-* Architecture Standards - Implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.
-* Quality Standards - Creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.
-* Process Standards - Implementing efficient processes, encompassing process management, project management and product management.
+* Architecture standards - Implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.
+* Quality standards - Creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.
+* Process standards - Implementing efficient processes, encompassing process management, project management and product management.
 
 ## Which technologies are supported?
 
