@@ -55,11 +55,11 @@ All the best in your journey towards successful IT projects and products - reach
 
 <h2>For Companies</h2>
 
-<p>Some key challenges faced by IT service companies are keeping clients happy and ensuring good profit margins. When the software is delivered late, when it's too buggy or non-usable, when clients cannot depend on your company - then they might switch. Furthermore, when projects go over-budget, the IT service company may suffer due to the loss on uninvoiced hours or haggling over hourly invoices.  Atomiv helps your company succeed again and again across different projects, making success repeatable through standardization. Atomiv helps companies build high performance software development teams. It helps increase productivity and motivation across your development teams, helping them deliver software faster than ever before and with high quality. It helps keep your customers happy and increases your profit margins.</p>
+<p>Some key challenges faced by IT service companies are keeping clients happy and ensuring good profit margins. When the software is delivered late, when it's too buggy or non-usable, when clients cannot depend on your company - then they might switch. Furthermore, when projects go over-budget, the IT service company may suffer due to the loss on uninvoiced hours or haggling over hourly invoices.  Atomiv helps your company succeed again and again across different projects, making success repeatable through standardization. Atomiv helps companies build high performance software development teams. It helps increase productivity and motivation across your development teams, helping them deliver software faster than ever before and with high quality. It helps keep your customers happy, strengthen long-term trust and customer relationships, and increases your profit margins.</p>
 
 <h2>For Teams</h2>
 
-<p>One of the difficulties in software development industry is attracting and retaining "talent". It's challenging enough finding the "right" developers, but what's even more challenging (and important) is building a strong team. If there isn't adequate teamwork, and if all the knowledge about a project is held by a few individuals, this causes the key-man risk in projects. If there aren't common standards held by the team, if individuals within teams are going their own way, or if different teams are adopting totally different processes and codebases, this results in inefficiencies across the company. It's then difficult to switch people between teams or onboard new team members. Atomiv helps you achieve standardization within teams and across teams, encouraging an organiation culture which strives towards standardization and continuous improvement, and helping you build top-notch teams</p>
+<p>One of the difficulties in software development industry is attracting and retaining "talent". It's challenging enough finding the "right" developers, but what's even more challenging (and important) is building a strong team. If there isn't adequate teamwork, and if all the knowledge about a project is held by a few individuals, this causes the key-man risk in projects. If there aren't common standards held by the team, if individuals within teams are going their own way, or if different teams are adopting totally different processes and codebases, this results in inefficiencies across the company. It's then difficult to switch people between teams or onboard new team members. Atomiv helps you achieve standardization within teams and across teams, encouraging an organiation culture which strives towards standardization and continuous improvement, and helping you build top-notch teams.</p>
 
 <!-- TODO: TG -->
 <!--
@@ -74,21 +74,9 @@ All the best in your journey towards successful IT projects and products - reach
 
 <p>As a Software Architect, you understand that architecture is essential for building high quality maintainable software solutions. One of the key factors which affect the total cost of software development is the software architecture. Are you facing challenges due to lack of architecture standardization across your company. Have you faced challenges explaining to upper management why more attention should be paid to architecture standardization, but perhaps your faced with arguments such as "we don't have time for it now", or "there's high priority client projects now". Is the topic ignored - until consequences start appearing during maintenance, including high defect rates, low developer productivity, too many meetings, inconsistent solutions... Quoting Uncle Bob (Clean Architecture), "The goal of software architecture is to minimize the human resources required to build and maintain the required system" and that the ultimate goal is "to minimize the lifetime cost of the system and to maximize programmer productivity". This is why Atomiv was built - to create software architects with a solid ready-made solution architecture to reduce the time for boilerplate architecture and help you focus on more challenging work. </p>
 
+<h2>For Team Leads</h2>
 
-
-
-
-## For Team Leads
-
-As an IT leader, you have probably encountered the following challenges:
-
-* How can we grow high performance software development teams?
-* How can we reduce the number of bugs in our software?
-* How can we speed up the development of new features?
-* How can we systematically achieve success?
-* How can we make our customers really happy?
-
-Atomiv helps you build more productive teams.
+<p>As a team lead, your faced with both organizational and technical challenges. How well your team performs is how your own performance is measured. Are you faced with challenges by trying to keep with budget and timelines, and keeping the project managers happy? On the other hand, are you faced with challenges in keeping your development team productive and ensuring technical excellence? Atomiv helps you create high performance development teams, empowering and motivating your team to perform their best. It provides your team with templates to achieve technical excellence and work more productively. It encourages a team culture which strives towards continuous improvement. The result is that your team can build software which delivers high value to customers, ensuring high quality from start to finish, reducing number of bugs, sppeding up development of new features, delivering projects on schedule and within budget. It helps you achieve success throughout your team through standardization.</p>
 
 ## For Senior Developers
 
@@ -137,19 +125,6 @@ Atomiv sees automated testing as crucial for quality, providing support for auto
 TODO: VC
 
 
-Success starts with building a strong team:
-
-* Creating high performance software development teams
-* Empowering and motivating your team to perform their best
-* Providing your team with resources to achieve technical excellence and team productivity
-* Encouraging an organizational culture which strives towards continuous improvement
-
-The result is great software products:
-
-* Ensuring quality from start to finish, minimizing defect rates
-* Building software which delivers high value to your customers
-* Delivering projects on schedule and within budget
-* Making your customers really happy and strengthening your customer relationships
 
 
 
