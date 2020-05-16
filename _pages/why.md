@@ -19,28 +19,9 @@ Why should every company have processes?
 
 
 
-<p>We are living in a time where everything should be delivered super fast but with high quality. It doesn't matter if that is a service or a product, the outcome should be the same. If you miss your chance, the competition will take it, you do not need to doubt that. That is why, for all of us it is important to use time and be efficient as much as it is possible. Even if you are a CEO, project manager, team lead, scrum master or process manager, we all have the same goal.</p>
+<p>We are living in a time where everything should be delivered super fast but with high quality. It doesn't matter if that is a service or a product, the outcome should be the same. If you miss your chance, the competition will take it, you do not need to doubt that. That is why, for all of us it is important to use time and be efficient as much as it is possible. Even if you are a CEO, project manager, team lead, scrum master or process manager, we all have the same goal. We all want for our business to grow, make higher revenue, be more profitable and inspire people to be the best version of themselves. Well, let me tell you something. None of those things will happen if you don’t know why you are doing things you are doing, and if you are wasting your time on things which are irrelevant to your business.</p>
 
-<p>We all want for our business to grow, make higher revenue, be more profitable and inspire people to be the best version of themselves. Well, let me tell you something. None of those things will happen if you don’t know why you are doing things you are doing, and if you are wasting your time on things which are irrelevant to your business.</p>
-
-<p>Want to know how to go over it? The answer is simple, start making changes with processes. All you have to do is to find out what works the best, document it and implement step by step. It is called process identification, improvement and implementation. The processes which you document, establish, improve and at the end implement will give you enormous benefits and time to focus on things which really matter. This is where Atomiv comes in - it's designed to help you standardize software development processes across the company, spanning both organizational and technical aspects.</p>
-
-<p>You will feel next:</p>
-
-1. Increase of time -  this will allow you to realize where your company or career is going, where do you want to be and how to accomplish all of that
-2. The team will have higher motivation - people love when they see the purpose of their work, their achievements and to feel useful. The processes will help them to avoid mistakes and work repetition, which will automatically rise productivity 
-3. When productivity goes up the profitability follows -  avoiding work repetition allows the team to either do more for less time or to improve their knowledge which will bring more value in the future. Anyway, a win-win situation! 
-4. Higher profitability, growth and goal accomplishment - at this point, you can focus on your goals, team goals and make sure that you are all growing together 
-
-So, here it is, short but simple and sweet “why” and “how” processes will help you, no matter if you are running a business, managing a team, project or just want to improve things and be better at your job.
-
-Don’t get scared, be open minded, give your best and find your way how to do it.
-
-This is just the beginning, we will reinforce these facts with real situations and solutions which I am sure all of us already experienced!
-
-All the best in your journey towards successful IT projects and products - reach the next level with the Atomiv.
-
-
+<p>Want to know how to go over it? The answer is simple, start making changes with processes. All you have to do is to find out what works the best, document it and implement step by step. It is called process identification, improvement and implementation. The processes which you document, establish, improve and at the end implement will give you enormous benefits and time to focus on things which really matter. This is where Atomiv comes in - it's designed to help you standardize software development processes across the company, spanning both organizational and technical aspects. So, here it is, short but simple and sweet “why” and “how” processes will help you, no matter if you are running a business, managing a team, project or just want to improve things and be better at your job. Reach the next level with the Atomiv.</p>
 
 <!-- (note:  add option where company or people tried this) -->
 
@@ -61,10 +42,11 @@ All the best in your journey towards successful IT projects and products - reach
 
 <p>One of the difficulties in software development industry is attracting and retaining "talent". It's challenging enough finding the "right" developers, but what's even more challenging (and important) is building a strong team. If there isn't adequate teamwork, and if all the knowledge about a project is held by a few individuals, this causes the key-man risk in projects. If there aren't common standards held by the team, if individuals within teams are going their own way, or if different teams are adopting totally different processes and codebases, this results in inefficiencies across the company. It's then difficult to switch people between teams or onboard new team members. Atomiv helps you achieve standardization within teams and across teams, encouraging an organiation culture which strives towards standardization and continuous improvement, and helping you build top-notch teams.</p>
 
-<!-- TODO: TG -->
-<!--
-## For CEO 
--->
+<!-- TODO: TG: Can write/revise this section - note: the initial content that you see below, the second half of the paragraph is from your project management description, I moved it up here -->
+
+<h2>For CEOs</h2>
+
+<p>As a CEO of an IT company, you are likely focused on retaining customer loyaly and trust, and ensuring your able to keep your company running profitably. You want to be ahead of your competition. You realize that the people in your company are your key assets - that without them, you're not able to succeed to deliver. But how will you manage to do this, when there might be layers between you and the development teams who are doing the actual projects, and who have direct impact on customer satisfaction? How do you ensure that your vision is implemented in day-to-day operations? By standardizing processes, it helps your company systematize success. This will decrease number of problems your dealing with and provide you with more time to focus on vision and strategy. The team will have higher motivation - people love when they see the purpose of their work, their achievements and to feel useful. The processes will help them to avoid mistakes and work repetition, which will automatically rise productivity. When productivity goes up the profitability follows -  avoiding work repetition allows the team to either do more for less time or to improve their knowledge which will bring more value in the future. Anyway, a win-win situation! Higher profitability, growth and goal accomplishment - at this point, you can focus on your goals, team goals and make sure that you are all growing together.</p>
 
 <h2>For Project Managers</h2>
 
