@@ -30,3 +30,35 @@ description: Features
 			
 			</div> 
 		</article>
+		
+		
+		
+Product screencast This would be a functional product demo of logging into Atomiv demo, clicking on customers screen, searching for a customer, viewing a customer, adding a new customer etc.
+
+Features This could be like a bulleted list
+
+Authentication: Atomiv includes authentication including Open Id Connect, OAuth, and custom authentication to help you build secure websites
+Authorization: Atomiv includes role based and permission based authorization to ensure access controls
+Validation: Atomiv includes validation as well as validation error handling
+Localization: Atomiv includes localization to enable both translations and regional settings
+Logging: Atomiv includes logging, esp. logging for errors
+CRUD operations: Atomiv includes basic operations like creating, updating, deleting and viewing data records
+Actions and statuses: Atomiv includes examples for operations like approving, cancelling, etc. to show operations and statuses
+Data tables, filtering and pagination: Atomiv includes data tables for browsing through data, including filtering and pagination
+ARCHITECTURE
+
+Clean Architecture
+Domain Driven Design
+Use Case Driven Design
+Test Driven Design
+TEMPLATES
+
+These would be row-based, including title, paragraph and then a screencast, and it would also link to the menu items
+
+Backend (screencast: installing and running template in Visual Studio, shows Swagger)
+Frontend (screencast: installing and running template in Visual Studio Code, shows screen)
+QA (screencast: installing and running template in Visual Studio, shows Test Explorer)
+DevOps (future)
+PM (future)
+BA (future)
+Process (screencast: viewing/downloading the templates for documents/process)
