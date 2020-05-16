@@ -102,7 +102,14 @@ For .NET Core 3.1:
 * Atomiv is designed to be high performance, especially efficient operations with  Entity Framework Core 2 - efficiently working with large data sets
 * Atomiv contains components which simplify automated testing, especially Selenium and REST API testing, so that automated tests can be produced faster and with less code
 
+## Team Features
 
+Atomiv provides templates for all team members:
+
+* Project managers
+* Backend developers
+* Frontend developers
+* QA engineers
 
 <!-- TODO: VC: Adding in details regarding the templates -->
 
