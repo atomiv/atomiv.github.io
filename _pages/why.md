@@ -68,32 +68,15 @@ All the best in your journey towards successful IT projects and products - reach
 
 <h2>For Project Managers</h2>
 
-<p>Let’s say that you are a project manager trying to keep up with deadlines and budget but you still need to help your team because they are again struggling with the same issue as they did in the previous two or three projects. This is very frustrating for both sides. You feel exhausted, lost, can not focus on your job and what really matters. The team is unmotivated too, because they keep trying and giving their best, but still without proper and expected results. And then again and again, and you find yourself in the vicious cycle.  The company is making no progress, tapping in the place, losing the team, motivation and the focus. Hey, no worries, these things may happen but they can be solved! By adopting Atomiv, it helps provide you with a template for managing your projects, so that you can execute your projects smoothly, help your team work productively and achieve the project goals.</p>
+<p>Let’s say that you are a Project Manager trying to keep up with deadlines and budget but you still need to help your team because they are again struggling with the same issue as they did in the previous two or three projects. This is very frustrating for both sides. You feel exhausted, lost, can not focus on your job and what really matters. The team is unmotivated too, because they keep trying and giving their best, but still without proper and expected results. And then again and again, and you find yourself in the vicious cycle.  The company is making no progress, tapping in the place, losing the team, motivation and the focus. Hey, no worries, these things may happen but they can be solved! By adopting Atomiv, it helps provide you with a template for managing your projects, so that you can execute your projects smoothly, help your team work productively and achieve the project goals.</p>
 
-## For Architects
+<h2>For Software Architects</h2>
 
-Are you a Software Architect who wants to build high quality maintainable software architectures?
+<p>As a Software Architect, you understand that architecture is essential for building high quality maintainable software solutions. One of the key factors which affect the total cost of software development is the software architecture. Are you facing challenges due to lack of architecture standardization across your company. Have you faced challenges explaining to upper management why more attention should be paid to architecture standardization, but perhaps your faced with arguments such as "we don't have time for it now", or "there's high priority client projects now". Is the topic ignored - until consequences start appearing during maintenance, including high defect rates, low developer productivity, too many meetings, inconsistent solutions... Quoting Uncle Bob (Clean Architecture), "The goal of software architecture is to minimize the human resources required to build and maintain the required system" and that the ultimate goal is "to minimize the lifetime cost of the system and to maximize programmer productivity". This is why Atomiv was built - to create software architects with a solid ready-made solution architecture to reduce the time for boilerplate architecture and help you focus on more challenging work. </p>
 
-One of the key challenges in software development is the overall productivity of the development team and consequently - the total cost of ownership, i.e. cost of development and cost of maintenance. One of the key factors which affect the total cost of software development is the software architecture.
 
-Quoting Uncle Bob (Clean Architecture), “The goal of software architecture is to minimize the human resources required to build and maintain the required system” and that the ultimate goal is “to minimize the lifetime cost of the system and to maximize programmer productivity”. Architectural decisions are the “big” decisions which affect the structure of the software solution and which later become apparent when we analyze developer productivity, particularly during software maintenance.
 
-Atomiv was envisioned to help you design and implement high quality architectures for software projects and products. Atomiv provides a templated solution architecture based on well-known best practices in clean architecture.
 
-As a software architect, Atomiv will help you build products with a solid architecture:
-
-* Modularity & re-usability
-* Extensibility & flexibility
-* Maintainability & testibility
-* Scalability and portability
-
-This enables software teams to achieve the following:
-
-* Decrease overall development and maintenance costs
-* Enable high level of testability and high quality level
-* Provide a standardized foundation for software development teams
-
-Atomiv is designed to help you in your everyday job, helping to to write less code for mundane tasks and providing a solid architecture so that you can get started quickly. These templates provide a ready-made project with all the layers based on solid architecture principles as well as sample code.
 
 ## For Team Leads
 
@@ -167,6 +150,29 @@ The result is great software products:
 * Building software which delivers high value to your customers
 * Delivering projects on schedule and within budget
 * Making your customers really happy and strengthening your customer relationships
+
+
+
+
+## For Architects
+
+
+
+One of the key challenges in software development is the overall productivity of the development team and consequently - the total cost of ownership, i.e. cost of development and cost of maintenance. 
+
+Q Architectural decisions are the “big” decisions which affect the structure of the software solution and which later become apparent when we analyze developer productivity, particularly during software maintenance.
+
+
+
+As a software architect, Atomiv will help you build products with a solid architecture:
+
+Atomiv was envisioned to help you design and implement high quality architectures for software projects and products. Atomiv provides a templated solution architecture based on well-known best practices in clean architecture.
+
+This enables software teams to achieve the following:
+
+* Decrease overall development and maintenance costs
+* Enable high level of testability and high quality level
+* Provide a standardized foundation for software development teams
 
 
 -->

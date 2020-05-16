@@ -73,6 +73,13 @@ Architecture template features:
 * Productivity: Easy. Simple. Fast. Create controllers, services and repositories in minutes. We've dramatically reduced the amount of code you need to write to get the system up and running.
 * Quality: Follow best practices in architecture, modularisation, separation of web, business and data access layers. Build high quality easily maintenable and extensible apps.
 
+Atomiv Architecture helps achieve the following:
+
+* Modularity & re-usability
+* Extensibility & flexibility
+* Maintainability & testibility
+* Scalability and portability
+
 
 ## Technical Features
 
