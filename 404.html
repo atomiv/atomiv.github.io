@@ -1,11 +1,9 @@
 ---
 permalink: /404.html
-<!-- permalink: /home.html -->
 layout: default
-<!-- url: / -->
 ---
 
-<style type="text/css" media="screen">
+<!-- <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -20,8 +18,15 @@ layout: default
 </style>
 
 <div class="container">
-  <h1>404 --</h1>
+  <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
-</div>
+</div> -->
+
+
+<script>
+  const path = window.location.pathname.slice(1);
+  localStorage.setItem('path', path);
+  window.location.href='../';
+</script>
