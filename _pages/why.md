@@ -22,7 +22,7 @@ We all want for our business to grow, make higher revenue, be more profitable an
 
 Wanna know how to go over it? The answer is simple, start making changes with processes. 
 
-## For CEO 
+## For CEOs
 
 <!-- TODO: TG -->
 
