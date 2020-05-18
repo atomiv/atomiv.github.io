@@ -28,7 +28,19 @@ Feel free to contact Jelena via [LinkedIn](https://www.linkedin.com/in/jelenacup
 
 Tamara is a dedicated project manager with a passion towards business development and process implementation. She started her journey as a support specialist, through sales departments and is now working as a Project manager in IT. Her goal is to make sure that everything goes smoothly, with high productivity, time efficiency and good results. Tamara joined Atomiv to share her experiences and to help project managers improve project processes, overcome challenges and achieve their goals.
 
-<!-- TODO: TG: #41: Add the section to contact Tamara, see example from Valentina above, you choose what sites to have in the contact list -->
+<!-- TODO: TG: Add the section to contact Tamara, see example from Valentina above, you choose what sites to have in the contact list -->
+
+**Uroš Ljubenović** - Software Engineer
+
+Uroš is a software engineer.
+
+<!-- TODO: UL: Write About paragraph -->
+
+**Vladimir Maljm** - IT Manager & System Administrator
+
+Vladimir is a System Administrator.
+
+<!-- TODO: VM: Write About paragraph -->
 
 ## Our Partners
 
