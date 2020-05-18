@@ -38,9 +38,9 @@ Uroš is a software engineer.
 
 **Vladimir Maljm** - IT Manager & System Administrator
 
-Vladimir is a System Administrator.
+Vladimir is a System Administrator, installing and configuring software and hardware, managing network servers and tools, setting up accounts and workstations, monitoring systems, ensuring security through access controls, firewalls and backups. He has a strong interest in penetration testing and ensuring that companies have good security setup. Vladimir joined Atomiv to share experiences in system administration and to write about processes and actions involved in system administration.
 
-<!-- TODO: VM: Write About paragraph -->
+Feel free to contact Jelena via [LinkedIn](https://rs.linkedin.com/in/vladimir-maljm-02833b179) and [GitHub](https://github.com/vladimirmaljm).
 
 ## Our Partners
 
