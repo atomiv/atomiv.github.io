@@ -24,6 +24,10 @@ Jelena is a passionate Frontend Developer with a background in design. She devel
 
 Feel free to contact Jelena via [LinkedIn](https://www.linkedin.com/in/jelenacupac/), [GitHub](https://github.com/jcupac) and [Senovim](http://senovim.com/).
 
+**Petar Zečević** - Software Engineer
+
+Petar is a Software Engineer.
+
 **Tamara Golubović** - Process Manager & Project Manager
 
 Tamara is a dedicated project manager with a passion towards business development and process implementation. She started her journey as a support specialist, through sales departments and is now working as a Project manager in IT. Her goal is to make sure that everything goes smoothly, with high productivity, time efficiency and good results. Tamara joined Atomiv to share her experiences and to help project managers improve project processes, overcome challenges and achieve their goals.
