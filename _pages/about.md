@@ -32,9 +32,9 @@ Tamara is a dedicated project manager with a passion towards business developmen
 
 **Uroš Ljubenović** - Software Engineer
 
-Uroš is a software engineer.
+Uroš is a Software Engineer with a demonstrated history of working in the information technology and services industry. He is skilled in .Net Core, C#, Azure services, SQL Server, ASP.NET MVC, System design, Database design. Uroš is a strong engineering professional with a Master of Engineering - focused in Information systems and technologies from The Faculty of Organizational Sciences. He is interested in system architecture, distributed systems, writing clean and efficient code. Uroš joined Atomiv to share experiences in backed development and system design.
 
-<!-- TODO: UL: Write About paragraph -->
+Feel free to contact Uroš via [LinkedIn](https://www.linkedin.com/in/uroš-ljubenović-0ba686152) and [GitHub](https://github.com/urosl-jubenovic).
 
 **Vladimir Maljm** - IT Manager & System Administrator
 
