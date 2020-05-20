@@ -10,6 +10,25 @@ Atomiv Framework is a high-quality high-performance architecture framework built
 
 Atomiv Framework is open source (MIT licence) so it can be freely used both for commercial and non-commercial purposes. You can see Atomiv on [GitHub](https://github.com/atomiv).
 
+<h2>Our Principles</h2>
+
+<p>Atomiv has an engineering-oriented approach to software. Our belief is that a lot of software development can be systematized, and that we want to achieve organizational success without too much reliance on having to hire A-players. Thus, it is designed to work well both on teams with lots of seniors but also with juniors. Atomiv is founded upon the following three principles: Quality, Speed and Standardization.</p>
+
+<h3>Quality Principle</h3>
+
+<p>Quality software is a prerequisite for producing software which works well, with minimal defects and with low maintenance costs, and overall providing a good customer experience. When projects don't start with a quality architecture and accumulate technical debt over time, it reaches a point when there are too many bugs, the software is unusable, new features cause system breakdown, developers lose productivity and overall leading to customer dissatisfaction. It is essential that projects are started with a solid quality architectural foundation - this is exactly the core focus of Atomiv, to help you develop modular, flexible, extensible and maintainable software.</p>
+
+<h3>Speed Principle</h3>
+
+<p>However, even though we recognize the importance the importance of quality, we are also familiar with the time pressures faced in software projects - to deliver early, to deliver fast, whereby in reality, in the short-term, development speed becomes more important than quality, even though quality is essential for long-term development speed. This is a major barrier for organizations looking to setup quality system architecture. This is where Atomiv comes in - it provides a template for the solution architecture as well as components to reduce development time.</p>
+
+<h3>Standardization Principle</h3>
+
+<p>Last, but not least we come to standardization - the principle to standardize project structure so that we can systemically achieve quality and speed across our software projects. This also increases re-use and provides organizations with higher flexibility to organize development teams and incorporate new members, and avoids to the "re-invent the wheel" syndrome. It also makes project success a part of the organization, rather than relying on a few "talented" "A-player" individuals. Atomiv did not invent anything new, it simply took existing best practices and provided a standardized templated solution.</p>
+
+<!-- TODO: VC: Mention the factory model, lean, Toyota factories, innovation coming through standardization -->
+
+
 ## Our Team
 
 **Valentina Cupać** - Founder & Software Architect
@@ -26,7 +45,7 @@ Feel free to contact Jelena via [LinkedIn](https://www.linkedin.com/in/jelenacup
 
 **Petar Zečević** - Software Engineer
 
-Petar is a Software Engineer with experience in developing mobile Android applications, internet of things embedded programming, REST API and big data with Apache Spark. He is interested in data mining algorithms, internet of things and performance optimisation. Petar joined atomiv to share his experiences on big data processing and to help teams to setup systems which would enable them to extract useful information from data which is collected from clients.
+Petar is a Software Engineer with experience in developing mobile Android applications, internet of things embedded programming, REST API and big data with Apache Spark. He is interested in data mining algorithms, internet of things and performance optimisation. Petar joined Atomiv to share his experiences on big data processing and to help teams to setup systems which would enable them to extract useful information from data which is collected from clients.
 
 Feel free to contact Petar via [GitHub](https://github.com/PetarZecevic).
 
