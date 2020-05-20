@@ -73,3 +73,19 @@
 }
 
 
+
+
+.video-placeholder {
+    img {
+      max-width: 100% !important;
+      width: 100%;
+      opacity: 0.5;
+    //   @include media-breakpoint-up (lg) {
+    //     max-width: 654px;
+    //   }
+    //   @include media-breakpoint-up (xl) {
+    //     max-width: 706px;
+    //   }
+    }
+  
+  }

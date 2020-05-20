@@ -21,19 +21,98 @@ layout: default
 	    {% include navigation.html %}
 	
 		<!-- Masthead -->
+		<!-- background-image: linear-gradient(to top, #054ec4, #1ea6e6); -->
+		<!-- background-size: 300px 100px; or auto -->
+		<!-- background: rgb(26, 98, 161) url('{{ site.url }}/img/masthead.svg');
+		background-repeat: no-repeat; background-position: center right;" -->
 		<header class="ov-masthead d-flex align-items-center justify-content-center" id="">
-			<div class="container text-center">
-				<h1>{{ page.title }}</h1>
-				<p>{{ page.description1 }} <br> {{ page.description2 }}</p>
-				<a href="{{ page.headerLink }}" class="btn btn-lg btn-ov-secondary mb-0" target="_blank" rel="license noopener">
-				{{ page.linkButton }}
-				</a>
+
+
+			<!-- <div lass="container text-left"
+			style="background: rgb(161, 26, 150) url('{{ site.url }}/img/masthead.svg');
+		background-repeat: no-repeat; background-position: top left;
+		background-size: 600px 200px; min-height: 10rem; min-width: 60rem">hello</div> -->
+
+
+			<div class="container container-masthead text-center">
+				<div class="row d-flex align-items-center justify-content-center">
+					<!-- Text -->
+					<div class="col-12 col-md-6 text-md-left">
+						<!-- <h1>{{ page.title }}</h1> -->
+						<h1>All-in-one template <br class="heading-br"/> for IT projects</h1>
+						<!-- <p>{{ page.description1 }} <br> {{ page.description2 }}</p> -->
+						<a href="{{ page.headerLink }}" class="btn btn-lg btn-ov-secondary mb-0" target="_blank" rel="license noopener">
+						{{ page.linkButton }}
+						</a>
+					</div>
+					<!-- Image -->
+					<!-- margin for visual reasons to push laptop down -->
+					<div class="col-12 col-md-6 masthead-img mt-md-4"
+					style="background: none">
+						<figure>
+							<img src="{{ site.url }}/img/masthead.svg" height="" width="" alt=""
+							style="
+							background-color: none;
+
+							/* width: 100%; height: auto; display: block; */
+
+							/* object-fit: cover; object-position: 100% 0; width: 100%;	overflow: hidden; */
+
+							/* margin: -6.5% -25% -7.5% -9.5%; */
+
+							">
+						</figure>
+					</div>
+				</div>
 			</div>
 		</header>
-		
+
+
+		<!-- <div class="container" style=" background: pink">
+			<div style="background-color: purple;">
+				<img src="{{ site.url }}/img/masthead.svg" height="" width="" alt=""
+				style="width: 100%; height: auto;
+				/* object-fit: cover; object-position: -50% 20%; */
+				/* overflow: hidden; */
+				margin: -6.5% -25% -7.5% -9.5%;
+				" class="img-fluid44">
+			</div>
+		</div> -->
+
+<!-- ---------------------------------------------------------------------------------- -->
 
 	<!-- Full width PRODUCT DEMO video with play button (circle and triangle) -->
 	<!-- show login, add new, add existing. still image of Prroduct Screenshot -->
+	<!-- video of someone clicking like in Confluence -->
+	<!-- This would be a functional product demo of logging into Atomiv demo, clicking on customers screen, searching for a customer, viewing a customer, adding a new customer etc. -->
+
+<!-- Features that help bring ideas to life -->
+<!-- Create, collaborate, and organize all your work in one place -->
+<!-- Unify marketing, sales, service, commerce, and IT teams with our entire app suite, Customer 360. -->
+<!-- Go from idea to action in seconds with Trello’s intuitively simple boards, lists, and cards. -->
+
+<!--  i n t r o    p a r a g r a p h  -->
+<!-- Atomiv is an all-in-one template which helps software development teams to build quality
+	software efficiently and productively. Atomiv is built based on globally recognized best practices
+	in software development. The core principle and motivation underlying Atomiv is the economics of
+	standardization, helping achieve cost efficiency and quality at the same time, enabling teams to
+	scale easily and achieving standardization across teams, projects and products. -->
+
+
+<article class="ov-content atomiv222222">
+	<div class="container text-center">
+		<div class="mx-sm-n3">
+			<!-- Getting started with Atomiv -->
+			<h3>Build hight quality scalable IT projects now</h3>
+			<!-- <p>Atomiv helps teams start quickly and work productively on software projects</p> -->
+			<div class="video-placeholder">
+				<img height="" width="" src="{{ site.url }}/img/video-placeholder.png" alt="architecture" class="video-placeholder">
+			</div>
+		</div>
+	</div>
+</article>
+
+<!-- ---------------------------------------------------------------------------------- -->
 
 		<!-- Promo -->
 		<article class="ov-promo">
@@ -75,6 +154,85 @@ layout: default
 			</div>
 		</main> -->
 		
+
+		<article class="ov-content atomiv1">
+			<div class="container text-center">
+				<div class="mx-sm-n3">
+					<!-- <h2>What is Atomiv?</h2> -->
+					<p>
+						Atomiv is an all-in-one template which helps software development teams to build quality software efficiently and productively. The all-in-one template provides a jump-start for backend developers, frontend developers, quality assurance engineers and project managers, providing a solid foundation to ensure success throughout the project. 
+					</p>
+				</div>
+			</div>
+		</article>
+		
+		
+		<article class="ov-content">
+			<div class="container text-center">
+				<div class="mx-sm-n3">
+					<h2>Why Atomiv</h2>
+					<p>
+					Atomiv is built based on globally recognized best practices in software development. The core principle and motivation underlying Atomiv is the economics of standardization, helping achieve cost efficiency and quality at the same time, enabling teams to scale easily and achieving standardization across teams, projects and products. 
+					</p>
+				</div>
+			</div>
+		</article>
+		
+		 
+		<article class="ov-content pt-0">
+			<div class="container text-center">
+				<div class="mx-sm-n3">
+				<!-- What are the Atomiv standards? -->
+					<h2>Atomiv standards</h2>
+					<p>
+						Atomiv is built on the understanding that standardization and innovation are the key to building 10x Software Development teams. At Atomiv, we adopt an all-rounded approach, encompassing processes, architecture and quality standards, which are the foundation of high performance teams.
+					</p>
+					<!-- <ul class="text-left">
+						<li><p>
+							Architecture standards - Implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.
+						</p></li>
+						<li><p>
+							Quality standards - Creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.
+						</p></li>
+						<li><p>
+							Process standards - Implementing efficient processes, encompassing process management, project management and product management.
+						</p></li>
+					</ul> -->
+				</div>
+			</div>
+		</article>
+		
+		
+		<article class="ov-content pt-0">
+			<div class="container text-center">
+				<div class="mx-sm-n3">
+				<!-- Which technologies are supported? -->
+					<h2>Technologies supported</h2>
+					<p>
+						Atomiv is an open source template for accelerated software development. Atomiv provides templates for the entire software architecture, encompassing backend, frontend and test automation. These templates enable teams to achieve accelerated software development. Currently we provide .NET Core templates for backend development, but we will also plan to include Java Spring, PHP Laravel for backend, and including Angular, React and Vue for frontend.
+					</p>
+				</div>
+			</div>
+		</article>
+		
+		
+		<article class="ov-content atomiv2">
+			<div class="container text-left">
+				<div class="mx-sm-n3">
+					<!-- Getting started with Atomiv -->
+					<h2>Getting started</h2>
+					<p>
+						Atomiv is Open Source. You can read Docs
+						to find out more details how to use Atomiv. It provides you with step-by-step instructions how to implement Atomiv within your software development teams.
+					</p>
+					<a href="https://docs.atomiv.com" rel="license noopener" target="_blank" class="btn btn-lg btn-ov-secondary">
+						Read Docs
+					</a>
+				</div>
+			</div>
+		</article>
+
+
 
 		{% include footer.html %}
 

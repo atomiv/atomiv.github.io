@@ -157,4 +157,26 @@ html {
 
 
 
+@media (min-width: 576px) {
+  .container-masthead {
+    max-width: 540px; // 540
+  }
+}
 
+@media (min-width: 768px) {
+  .container-masthead {
+    max-width: 720px; // 720
+  }
+}
+
+@media (min-width: 992px) {
+  .container-masthead {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-masthead {
+    max-width: 1140px;
+  }
+}

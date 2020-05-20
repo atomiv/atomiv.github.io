@@ -1,18 +1,24 @@
 header.ov-masthead {
-  min-height: 480px;
+  min-height: 30rem; // 480 i.e. 30rem
+  @media (max-width: 499px) {
+    min-height: calc(100vh - 65px);
+  }
+  @include media-breakpoint-up(xl) {
+    min-height: 35rem;
+  }
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   background-color: $primary;
   background-image: linear-gradient(to top, #054ec4, #1ea6e6);
   h1 {
-    font-size: 3rem;
+    font-size: 2.25rem; // 3 or maybe 1.75rem
     line-height: 1.2;
     font-weight: 400;
     color: $white;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2.5rem; // 1.2 when i had <p>
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.125rem; // 1.2
     line-height: 1.2;
     color: $white;
     font-weight: 400;
@@ -41,21 +47,23 @@ header.ov-masthead {
       box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
     }
   }
-  @include media-breakpoint-down(sm) {
-    img {
-      max-width: 172px;
-      // .center-block class used below. also check out .d-block
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
+  // @include media-breakpoint-down(sm) {
+  //   img {
+  //     max-width: 172px;
+  //     // .center-block class used below. also check out .d-block
+  //     display: block;
+  //     margin-left: auto;
+  //     margin-right: auto;
+  //   }
+  // }
   @include media-breakpoint-up(sm) {
     h1 {
-      margin-bottom: 1.25rem;
+      // margin-bottom: 1.25 <p>
+      font-size: 2.25rem;
+      margin-bottom: 2.5rem;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1.125rem; // 1.2
       line-height: 1.2;
       font-weight: 400;
       margin-bottom: 2.5rem;
@@ -75,7 +83,8 @@ header.ov-masthead {
     padding-top: 6rem;
     padding-bottom: 6rem;
     h1 {
-      font-size: 3.5rem;
+      font-size: 2.5rem; // 3.5
+      margin-bottom: 3rem;
     }
     p {
       font-size: 1.2rem;
@@ -85,10 +94,70 @@ header.ov-masthead {
       padding-top: 4rem;
       padding-bottom: 4rem;
       h1 {
-        font-size: 4rem; // 3.5 rem for one line
+        font-size: 3rem; // 4 
       }
       p {
-        font-size: 1.4rem; // 1.5 rem for one line
+        font-size: 1.4rem;
       }
   }
 }
+
+
+// masthead image
+figure{
+  max-width: 200px; // 300 / 356px max
+  @include media-breakpoint-up(md) {
+    max-width: 100%;
+  }
+  overflow: hidden;
+  margin:0;
+}
+figure img{
+  // display:block;
+  margin:-6.5% -9.5%;
+  width:128%;
+}
+
+
+//    figure{
+//   width:300px; /*container-width*/
+//   overflow: hidden; /*hide bounds of image */
+//   margin:0; /*reset margin of figure tag*/
+// }
+// figure img{
+//   display:block; /*remove inline-block spaces*/  
+// }
+// Add Cropping Styles
+// figure img{
+//   /*add to other styles*/
+//   margin:0 -38.885%;
+//   width:177.777%;
+// }
+
+.masthead-img {
+  // padding-left: 0;
+  // @include media-breakpoint-up(lg) {
+  //   // padding-left: 1rem;
+  // }
+  @include media-breakpoint-down(md) {
+    margin-top: 4rem;
+  }
+  // image is centered in sm view
+  @include media-breakpoint-down(sm) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  figure {
+    @include media-breakpoint-up(md) {
+      float: right;
+    }
+  }
+}
+
+.heading-br {
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+
