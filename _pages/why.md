@@ -72,36 +72,10 @@ Why should every company have processes?
 
 <p>Are you a Test Automation Engineer who wants to write automated tests faster and make them easy to maintain? Do you find that writing system tests, including REST API and Web Browser tests, is time-consuming? Are the tests brittle, causing a lot of time to maintain? Are the tests unreliable? Atomiv adopts a test-first approach, adopting Test Driven Development (TDD), Behavior Driven Development (BDD) and Acceptance Test Driven Development (ATDD). The template for QA engineers provides wrappers for web clients to speed up REST API clients, and enabling QA enginers to easily make web requests and verify responses. It also providers wrappers for Selenium elements to enable QA engineers to write end-to-end tests with less code and faster than before.</p>
 
-
+<!-- TODO: VM: Write for system administrators -->
 
 <!--
+<h2>For System Administrators</h2>
 
-TODO: VC
-
-
-
-
-
-
-## For Architects
-
-
-
-One of the key challenges in software development is the overall productivity of the development team and consequently - the total cost of ownership, i.e. cost of development and cost of maintenance. 
-
-Q Architectural decisions are the “big” decisions which affect the structure of the software solution and which later become apparent when we analyze developer productivity, particularly during software maintenance.
-
-
-
-As a software architect, Atomiv will help you build products with a solid architecture:
-
-Atomiv was envisioned to help you design and implement high quality architectures for software projects and products. Atomiv provides a templated solution architecture based on well-known best practices in clean architecture.
-
-This enables software teams to achieve the following:
-
-* Decrease overall development and maintenance costs
-* Enable high level of testability and high quality level
-* Provide a standardized foundation for software development teams
-
-
+<p>Insert content</p>
 -->
