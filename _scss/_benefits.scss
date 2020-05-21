@@ -94,9 +94,8 @@
                 display: flex;
                 align-items: center;
                 margin-bottom: 1.5rem;
-                margin-left: 0;
-                margin-right: 0;
-                @include media-breakpoint-down(sm) {
+
+                @include media-breakpoint-up(xs) {
                     margin-left: 3rem;
                     margin-right: 3rem;
                 }
@@ -125,6 +124,9 @@
                 max-height: 30px;
                 margin-left: 1.5rem;
                 margin-right: 1.5rem;
+                @include media-breakpoint-down(xs) {
+                    margin-bottom: 2rem;
+                }
                 @include media-breakpoint-up(lg) {
                     max-height: 40px;
                     margin-left: 2rem;
