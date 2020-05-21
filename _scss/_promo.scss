@@ -1,3 +1,125 @@
+// top row
+
+.ov-promo1 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @include media-breakpoint-up (md) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  @include media-breakpoint-up (lg) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  // background-color: rgb(252, 232, 236);
+  h3 {
+    font-size: 1.7rem; // 2, 1.625, 1.5
+    @include media-breakpoint-up (md) {
+      font-size: 2.125rem; // 2.375, 2.125, 2
+    }
+    @include media-breakpoint-up (lg) {
+      font-size: 2.75rem; // 2.375, 2.125, 2
+    }
+    font-weight: 400;  // 500
+    line-height: 1.2;
+    margin-bottom: 1rem; // 1.25, 0.625
+    @include media-breakpoint-up (md) {
+      margin-bottom: 1.25rem; // 1.625, 1.25
+    }
+    color: $gray-900; 
+    // background-color: rgb(245, 236, 236);
+  }
+  p {
+    font-size: 1rem; // 15px, 14px
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: $gray-900; 
+    margin: 0;
+    // background-color: rgb(232, 241, 232);
+    @include media-breakpoint-up(md) {
+      //
+    }
+  }
+  .ov-promo1-row {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @include media-breakpoint-up (md) {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    @include media-breakpoint-up (lg) {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+    // background-color: rgb(247, 239, 247);
+
+    // margin-left: -1rem;
+    // margin-right: -1rem;
+    // @include media-breakpoint-up(md) {
+    //   margin-left: -2.4rem;
+    //   margin-right: -2.4rem;
+    // }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    // background-color: rgb(238, 229, 238);
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 4rem;
+    }
+    @include media-breakpoint-up(sm) {
+      // padding-left: 4rem;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    img {
+      max-width: 150px; // 62
+      padding: 0;
+    }
+  }
+  @include media-breakpoint-up(sm) {
+    // img {
+    //   max-width: 62px;
+    // }
+  }
+  @include media-breakpoint-up(md) {
+    // img {
+    //   max-width: 86px;
+    // }
+  }
+  @include media-breakpoint-up(lg) {
+    // img {
+    //   max-width: 100px;
+    // }
+  }
+}
+
+
+@include media-breakpoint-up(md) {
+  .col-image {}
+  .col-text-1 {
+    padding-right: 3rem;
+  }
+  .col-text-2 {
+    padding-left: 3rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .col-text-1 {
+    padding-right: 5rem;
+  }
+  .col-text-2 {
+    padding-left: 5rem;
+  }
+}
+
+
+// -----------------------------------------------------------------
+// -----------------------------------------------------------------
+
+// small
 .ov-promo {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
