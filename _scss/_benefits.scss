@@ -95,7 +95,7 @@
                 align-items: center;
                 margin-bottom: 1.5rem;
 
-                @include media-breakpoint-up(xs) {
+                @media (min-width: 500px) {
                     margin-left: 3rem;
                     margin-right: 3rem;
                 }
