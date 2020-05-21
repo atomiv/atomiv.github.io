@@ -22,12 +22,9 @@
 @import "content.scss";
 @import "masthead.scss";
 @import "promo.scss";
+@import "benefits.scss";
 
 
-
-h4 {
-    color: purple;
-}
 
 
 
@@ -46,57 +43,4 @@ h4 {
 // @import '2-basics/fonts';
 // ...
 
-.atomiv1 {
-    background-color: $gray-200;
-    margin-top: 1rem;
-    p {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-}
 
-.atomiv2 {
-    background-color: $primary;
-    margin-top: 1rem;
-    h2, p {
-        color: white;
-    }
-
-    // Button
-    .btn {
-        font-weight: 500;
-        width: 100%;
-        // margin: 0;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
-    }
-    .btn-lg {
-        font-size: 20px;
-        line-height: 24px;
-        border-radius: 0;
-    }
-    .btn-ov-secondary{
-        color: $primary;
-        background-color: $white;
-        border-color: transparent;
-        &:hover,
-        &:active {
-          background-color: #e0e0e0;
-          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
-        }
-        &:focus {
-          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
-        }
-    }
-    @include media-breakpoint-up(sm) {
-        .btn {
-          min-width: 160px;
-          width: auto;
-          font-weight: 500;
-        }
-        .btn-primary:hover{
-          color: #252525;
-          background-color: #ffffff; opacity: 0.5;
-        }
-    }
-}
