@@ -89,13 +89,22 @@
         .ov-template-row {
             margin-top: 3rem;
             .ov-inner-row {
-                box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
+                // box-shadow: 0 2px 20px 0 rgba(0,0,0,.1); // initial
+                // push to right | down | bluriness of shadow | expands outwards
+                // box-shadow: 20px 50px 50px 0 rgba(0,0,0,.5); // WOW
+                box-shadow: 0px 15px 25px 1px rgba(0,0,0,.2);
+                &:hover {
+                    box-shadow: 0px 20px 35px 3px rgba(0,0,0,.2);
+                }
                 padding: 1rem 0 1rem 0;
                 display: flex;
                 align-items: center;
                 margin-bottom: 1.5rem;
-
-                @media (min-width: 500px) {
+                @media (max-width: 499px) {
+                    margin-left: 1.5rem;
+                    margin-right: 1.5rem;
+                }
+                @media (min-width: 500px) and (max-width: 768px) {
                     margin-left: 3rem;
                     margin-right: 3rem;
                 }
@@ -262,3 +271,13 @@ h2 {
         font-size: 2.75rem;
     }
 }
+
+
+// ---------------------
+a, a:hover, a:link {
+    color: unset;
+    text-decoration: none;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.075); } // 1.1
