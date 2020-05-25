@@ -8,7 +8,11 @@ description: About Atomiv
 <header class="ov-banner">
     <div class="container">
         <h1>Meet our Team</h1>
-        <img height="" width="" src="{{ site.url }}/img/about/about2.svg" alt="architecture"	class="img-fluid t-logo-img">
+        <div class="d-flex justify-content-center">
+            <figure class="figure-features2">
+                <img height="" width="" src="{{ site.url }}/img/about/about2.svg" alt="architecture" class="img-fluid">
+            </figure>
+        </div>
     </div>
 </header>
 
