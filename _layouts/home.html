@@ -21,34 +21,16 @@ layout: default
 	    {% include navigation.html %}
 	
 		<!-- Masthead -->
-		<!-- background-image: linear-gradient(to top, #054ec4, #1ea6e6); -->
-		<!-- background-size: 300px 100px; or auto -->
-		<!-- background: rgb(26, 98, 161) url('{{ site.url }}/img/masthead.svg');
-		background-repeat: no-repeat; background-position: center right;" -->
-		<header class="ov-masthead d-flex align-items-center justify-content-center" id="">
-
-
-			<!-- <div lass="container text-left"
-			style="background: rgb(161, 26, 150) url('{{ site.url }}/img/masthead.svg');
-		background-repeat: no-repeat; background-position: top left;
-		background-size: 600px 200px; min-height: 10rem; min-width: 60rem">hello</div> -->
-
-
-			<div class="container container-masthead text-center">
-				<div class="row d-flex align-items-center justify-content-center">
-					<!-- Text -->
-					<div class="col-12 col-md-6 text-md-left">
-						<!-- <h1>{{ page.title }}</h1> -->
-						<h1>All-in-one template <br class="heading-br"/> for IT projects</h1>
-						<!-- <p>{{ page.description1 }} <br> {{ page.description2 }}</p> -->
+		<header class="ov-masthead" id="">
+			<div class="container container-masthead">
+				<div class="row masthead-row">
+					<div class="col-12 col-md-6 text-center text-md-left">
+						<h1>{{ page.title1 }} <br class="heading-br"/>{{ page.title2 }}</h1>
 						<a href="{{ page.headerLink }}" class="btn btn-lg btn-ov-secondary mb-0" target="_blank" rel="license noopener">
 						{{ page.linkButton }}
 						</a>
 					</div>
-					<!-- Image -->
-					<!-- margin for visual reasons to push laptop down -->
-					<div class="col-12 col-md-6 masthead-img mt-md-4"
-					style="background: none">
+					<div class="col-12 col-md-6 masthead-img">
 						<figure>
 							<img src="{{ site.url }}/img/digital/masthead.svg" height="" width="" alt="masthead"
 							style="
@@ -68,121 +50,197 @@ layout: default
 		</header>
 
 
-		<!-- <div class="container" style=" background: pink">
-			<div style="background-color: purple;">
-				<img src="{{ site.url }}/img/masthead.svg" height="" width="" alt=""
-				style="width: 100%; height: auto;
-				/* object-fit: cover; object-position: -50% 20%; */
-				/* overflow: hidden; */
-				margin: -6.5% -25% -7.5% -9.5%;
-				" class="img-fluid44">
-			</div>
-		</div> -->
-
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- 3 rows -->
-
-		<!-- Promo -->
-		<article class="ov-promo1">
-			<div class="container text-md-left">
+		<!-- Promo / Benefits -->
+		<article class="ov-benefits">
+			<div class="container">
 				<!-- row 1 -->
-				<div class="row ov-promo1-row">
-					<div class="col-12 col-md-4 order-md-1 text-center col-image">
-						<img height="100" width="100" src="{{ site.url }}/img/ov-promo-4.svg" alt="architecture"
-						class="img-fluid w-100">
+				<div class="row ov-benefits-row ov-padding-row">
+					<div class="col-12 col-md-4 order-md-1">
+						<img height="100" width="100" src="{{ site.url }}/img/digital/ov-promo-4.svg" alt="architecture"
+						class="img-fluid w-100 benefits-img">
 					</div>
-					<div class="col-12 col-md-8 order-md-0 text-center text-md-left col-text-1">
+					<div class="col-12 col-md-8 order-md-0 col-text-1">
 						<h3>Enhance IT team productivity</h3>
 						<p>Atomiv templates help your IT teams start projects faster, helps unify communication between team members and promotes standardization.</p>
 					</div>
 				</div>
 				<!-- row 2 -->
-				<div class="row ov-promo1-row">
-					<div class="col-12 col-md-4 order-0 text-center col-image">
-						<img height="100" width="100" src="{{ site.url }}/img/ov-promo-5.svg" alt="code" class="img-fluid w-100">
+				<div class="row ov-benefits-row ov-padding-row">
+					<div class="col-12 col-md-4 order-0">
+						<img height="100" width="100" src="{{ site.url }}/img/digital/ov-promo-5.svg" alt="code" class="img-fluid w-100 benefits-img">
 					</div>
-					<div class="col-12 col-md-8 order-1 text-center text-md-left col-text-2">
+					<div class="col-12 col-md-8 order-1 col-text-2">
 						<h3>Boost quality of IT projects</h3>
 						<p>Atomiv templates help your IT teams start and continue projects with in-built quality, based on globally recognized best practices.</p>
 					</div>
 				</div>
-				<!-- row 3 -->
-				<div class="row ov-promo1-row">
-					<div class="col-12 col-md-4 order-md-1 text-center xol-image">
-						<img height="100" width="100" src="{{ site.url }}/img/ov-promo-6.svg" alt="quality" class="img-fluid w-100">
+				<!-- row 3 pb-0 -->
+				<div class="row ov-benefits-row ov-padding-row">
+					<div class="col-12 col-md-4 order-md-1">
+						<img height="100" width="100" src="{{ site.url }}/img/digital/ov-promo-6.svg" alt="quality" class="img-fluid w-100 benefits-img">
 					</div>
-					<div class="col-12 col-md-8 order-md-0 text-center text-md-left col-text-1">
+					<div class="col-12 col-md-8 order-md-0 col-text-1">
 						<h3>Reduce total IT project costs</h3>
 						<p>Atomiv templates help make IT projects more predictable, it helps ensure cost efficiency, and helps decrease total project cost.</p>
 					</div>
 				</div>
 			</div> 
 		</article>
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- video -->
 
 
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- templates. list of icons -->
-<!-- https://www.microsoft.com/sr-latn-rs/microsoft-365/microsoft-teams/group-chat-software?rtc=1
-https://www.microsoft.com/sr-latn-rs/microsoft-365/outlook/outlook-for-business?rtc=1
-https://www.microsoft.com/sr-latn-rs/microsoft-365/sharepoint/collaboration?rtc=1
-https://cloud.google.com/chrome-enterprise/
-https://www.microsoft.com/sr-latn-rs/microsoft-365/onenote/digital-note-taking-app?rtc=1 -->
-
-
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- logo of angular, techologies used -->
-<!-- https://www.google.com/drive/ -->
-
-
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- partners -->
-<!-- see laravel -->
-<!-- https://www.microsoft.com/sr-latn-rs/microsoft-365/microsoft-teams/group-chat-software?rtc=1
-https://www.google.com/drive/
-https://www.microsoft.com/sr-latn-rs/microsoft-365/sharepoint/collaboration?rtc=1
-https://cloud.google.com/chrome-enterprise/
-https://marketingplatform.google.com/about/ -->
-
-<!-- ---------------------------------------------------------------------------------- -->
-<!-- call-to-action -->
-<!-- https://gsuite.google.com/?utm_source=google_products&utm_campaign=smb_apps&utm_medium=et
-https://gsuite.google.com/intl/en_ie/features/?utm_source=google&utm_medium=cpc&utm_campaign=emea-rs-all-en-dr-bkws-all-lv-trial-e-t4-1008069&utm_content=text-ad-none-none-DEV_c-CRE_156057268283-ADGP_Desk%2BTab%20%7C%20AW%20SEM%20%7C%20BKWS%20~%20EXA_1:1_RS_EN_G%20Suite_Apps_g%20suite-KWID_43700014421174665-kwd-7564271891-userloc_9076342&utm_term=KW_g%20suite-ST_g%20suite&ds_rl=1259922&gclid=Cj0KCQjw-_j1BRDkARIsAJcfmTHAqN0_H9ifKZZIyfUBiNs1DF7YVnUhaC8OfNfMso5uqq43VPA93f4aAudsEALw_wcB&gclsrc=aw.ds
-https://www.google.com/intl/en_us/chrome/ -->
-
-
-<!-- ---------------------------------------------------------------------------------- -->
+		<!-- Video -->
+		<!-- <article class="ov-benefits ov-video">
+			<div class="container ov-template ov-video-padding">
+				<h2>See it in action</h2>
+				<div class="video-placeholder">
+					<img height="" width="" src="{{ site.url }}/img/video-placeholder.png" alt="architecture" class="video-placeholder">
+				</div>
+			</div>
+		</article> -->
 
 
 
-		<!-- Promo -->
-		<!-- <article class="ov-promo">
-			<div class="container text-center">
-				<div class="row ov-promo-row">
+		<!-- Templates list -->
+		<article class="ov-benefits">
+			<div class="container ov-template">
+				<h2>Get your templates</h2>
 
-					<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
-						<img height="100" width="100" src="{{ site.url }}/img/ov-promo-1.svg" alt="architecture" class="img-fluid w-100 ov-promo-img">
-						<h3>Team Productivity</h3>
-						<p>Atomiv helps teams start quickly and work productively on software projects</p>
+				<div class="row ov-template-row">
+					<!-- row 1 -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/project-management" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>Project Management</h4>
+							</div>
+						</a>
 					</div>
-
-					<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
-						<img height="100" width="100" src="{{ site.url }}/img/ov-promo-2.svg" alt="code" class="img-fluid w-100 ov-promo-img">
-						<h3>Cost<br class="heading-break"/> Efficiency</h3>
-						<p>Atomiv helps companies make software in a cost efficient way with long-term savings</p>
+					<!-- row 2 -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/business-analysis" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>Business Analysis</h4>
+							</div>
+						</a>
 					</div>
-
-					<div class="col-12 col-md-4 ov-promo2 py-4 py-md-0 px-md-4">
-						<img height="100" width="100" src="{{ site.url }}/img/ov-promo-3.svg" alt="quality" class="img-fluid w-100 ov-promo-img">
-						<h3>Software Quality</h3>
-						<p>Atomiv is built on globally recognized best practices in software development and ensures quality</p>
+					<!-- row 3 -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/architecture" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>Software Architecture</h4>
+							</div>
+						</a>
+					</div>
+					<!-- row 4 -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/dotnet" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>.NET Core</h4>
+							</div>
+						</a>
+					</div>
+					<!-- row 5 -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/angular" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>Angular</h4>
+							</div>
+						</a>
+					</div>
+					<!-- row 6 -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/big-data" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>Big Data</h4>
+							</div>
+						</a>
+					</div>
+					<!-- row 7 -->
+					<!-- no proper url -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/manual-testing" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>QA Automation</h4>
+							</div>
+						</a>
+					</div>
+					<!-- row 8 -->
+					<div class="col-12 col-md-6">
+						<a href="https://docs.atomiv.com/system-administration" target="_blank">
+							<div class="ov-inner-row grow">
+								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
+								<h4>System Admin</h4>
+							</div>
+						</a>
 					</div>
 
 				</div>
-			
-			</div> 
-		</article> -->
+
+			</div>
+		</article>
+
+		
+		
+		
+		<!-- link trademark to the logos, check if necessary, automapper -->
+
+		<!-- Technologies used list -->
+		<article class="ov-benefits">
+			<div class="container ov-template">
+				<h2>Technologies</h2>
+				<div class="row ov-template-row t-logo-row">
+					<a href="https://docs.microsoft.com/en-us/dotnet/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/tech/dotnetcore.png" alt="architecture"	class="img-fluid t-logo-img">
+					</a>
+					<a href="https://angular.io/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/tech/angular.png" alt="architecture" class="img-fluid t-logo-img">
+					</a>
+					<a href="https://www.selenium.dev/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/tech/selenium.png" alt="architecture" class="img-fluid t-logo-img">
+					</a>
+				</div>
+			</div>
+		</article>
+
+
+		<!-- Partners, Sponsors -->
+		<article class="ov-benefits">
+			<div class="container ov-template">
+				<h2>Partners</h2>
+				<div class="row ov-template-row t-logo-row">
+					<a href="https://optivem.com/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/partners/optivem.svg" alt="architecture" class="img-fluid t-logo-img2">
+					</a>
+					<a href="http://senovim.com/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/partners/senovim3.svg" alt="architecture" class="img-fluid t-logo-img2">
+					</a>
+				</div>
+			</div>
+		</article>
+
+
+
+		<!-- call-to-action -->
+		<article class="ov-benefits call-to-action">
+			<div class="container ov-video-padding">
+				<h3>Let's get in touch</h3>
+				<p>Excited about implementing great templates in your company?</p>
+				<a href="/contact" class="btn btn-lg btn-ov-secondary">
+					Contact us
+				</a>
+
+			</div>
+		</article>
+
+
+
+<!-- ---------------------------------------------------------------------------------- -->
 
 
 		<!-- Text -->
@@ -196,25 +254,7 @@ https://www.google.com/intl/en_us/chrome/ -->
 			</div>
 		</main> -->
 		
-	
 		
-		
-		<article class="ov-content atomiv2">
-			<div class="container text-left">
-				<div class="mx-sm-n3">
-					<h2>Getting started</h2>
-					<p>
-						Atomiv is Open Source. You can read Docs
-						to find out more details how to use Atomiv. It provides you with step-by-step instructions how to implement Atomiv within your software development teams.
-					</p>
-					<a href="https://docs.atomiv.com" rel="license noopener" target="_blank" class="btn btn-lg btn-ov-secondary">
-						Read Docs
-					</a>
-				</div>
-			</div>
-		</article>
-
-
 
 		{% include footer.html %}
 
@@ -225,34 +265,3 @@ https://www.google.com/intl/en_us/chrome/ -->
   </body>
 </html>
 
-<!-- 
-/*
-What is Atomiv?
-
-Atomiv is an all-in-one template which helps software development teams to build quality software efficiently and productively. The all-in-one template provides a jump-start for backend developers, frontend developers, quality assurance engineers and project managers, providing a solid foundation to ensure success throughout the project. 
--------------------------
-Why Atomiv
-
-Atomiv is built based on globally recognized best practices in software development. The core principle and motivation underlying Atomiv is the economics of standardization, helping achieve cost efficiency and quality at the same time, enabling teams to scale easily and achieving standardization across teams, projects and products. 
-------------------------
-Atomiv standards
-
-Atomiv is built on the understanding that standardization and innovation are the key to building 10x Software Development teams. At Atomiv, we adopt an all-rounded approach, encompassing processes, architecture and quality standards, which are the foundation of high performance teams.
-
-======================
-Technologies supported
-
-Atomiv is an open source template for accelerated software development. Atomiv provides templates for the entire software architecture, encompassing backend, frontend and test automation. These templates enable teams to achieve accelerated software development. Currently we provide .NET Core templates for backend development, but we will also plan to include Java Spring, PHP Laravel for backend, and including Angular, React and Vue for frontend.
-=====================
-Getting started with Atomiv
-
-Atomiv is Open Source. You can read Docs
-						to find out more details how to use Atomiv. It provides you with step-by-step instructions how to implement Atomiv within your software development teams.
-=================
-Architecture standards - Implementing clean software architecture to ensure that software systems are maintainable and scalable in the long term.
-
-Quality standards - Creating high quality products, covering test driven design principles, encompassing unit, integration and system testing.
-
-Process standards - Implementing efficient processes, encompassing process management, project management and product management.
-===================
-*/ -->

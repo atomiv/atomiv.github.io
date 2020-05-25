@@ -1,6 +1,7 @@
 ---
 layout: home
-title: All-in-one template for IT projects
+title1: All-in-one template
+title2: for IT projects
 # title: Atomiv simplifies coding
 # description1: All-in-one template for accelerated software development
 # description2: accelerated software development.

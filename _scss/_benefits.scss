@@ -1,0 +1,283 @@
+.ov-benefits {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @include media-breakpoint-up (md) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    @include media-breakpoint-up (lg) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    h3 {
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 1rem; // 1.25, 0.625
+        font-size: 1.75rem; // 2, 1.625, 1.5
+        @include media-breakpoint-up (md) {
+            font-size: 2.125rem; // 2.375, 2.125, 2
+            margin-bottom: 1.25rem; // 1.625, 1.25
+        }
+        @include media-breakpoint-up (lg) {
+            font-size: 2.5rem; // 2.375, 2.125, 2
+        }
+    }
+    p {
+        font-size: 1rem; // 15px, 14px
+        font-weight: 400; 
+        line-height: 1.5; 
+        color: $gray-900; 
+        margin: 0;
+    }
+    // Benefits only
+    .ov-benefits-row {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include media-breakpoint-up (md) {
+        text-align: left;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        .col-text-1 {
+            padding-right: 3rem;
+        }
+        .col-text-2 {
+            padding-left: 3rem;
+        }
+      }
+      @include media-breakpoint-up (lg) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        .col-text-1 {
+          padding-right: 5rem;
+        }
+        .col-text-2 {
+          padding-left: 5rem;
+        }
+      }
+      .benefits-img {
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 4rem;
+          max-width: 150px; // 62
+          padding: 0;
+        }
+      }
+    }
+    // Templates list only
+    .ov-template {
+        text-align: left;
+        h2 {
+            text-align: center;
+            margin-bottom: 3rem; // 2.5
+            @include media-breakpoint-up(md) {
+                margin-bottom: 4rem;
+            }
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 5rem;
+            }
+        }
+        h4 {
+            font-weight: 400;
+            font-size: 1.25rem;
+            @include media-breakpoint-up(lg) {
+                font-size: 1.3rem;
+            }
+        }
+        .ov-template-row {
+            margin-top: 3rem;
+            .ov-inner-row {
+                // box-shadow: 0 2px 20px 0 rgba(0,0,0,.1); // initial
+                // push to right | down | bluriness of shadow | expands outwards
+                // box-shadow: 20px 50px 50px 0 rgba(0,0,0,.5); // WOW
+                box-shadow: 0px 15px 25px 1px rgba(0,0,0,.2);
+                &:hover {
+                    box-shadow: 0px 20px 35px 3px rgba(0,0,0,.2);
+                }
+                padding: 1rem 0 1rem 0;
+                display: flex;
+                align-items: center;
+                margin-bottom: 1.5rem;
+                @media (max-width: 499px) {
+                    margin-left: 1.5rem;
+                    margin-right: 1.5rem;
+                }
+                @media (min-width: 500px) and (max-width: 768px) {
+                    margin-left: 3rem;
+                    margin-right: 3rem;
+                }
+                @include media-breakpoint-up(sm) {
+                    margin-bottom: 1.75rem;
+                }
+                @include media-breakpoint-up(md) {
+                    margin-left: .5rem;
+                }
+                @include media-breakpoint-up(lg) {
+                    margin-bottom: 2.25rem;
+                    margin-left: 1.5rem;
+                }
+                .t-img {
+                    max-width: 45px;
+                    height: auto;
+                    margin: 0 1rem;
+                }
+            }
+        }
+        .t-logo-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .t-logo-img {
+                max-height: 30px;
+                margin-left: 1.5rem;
+                margin-right: 1.5rem;
+                @include media-breakpoint-down(xs) {
+                    margin-bottom: 2rem;
+                }
+                @include media-breakpoint-up(lg) {
+                    max-height: 40px;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+            }
+            // partners
+            .t-logo-img2 {
+                max-height: 30px;
+                margin-left: 1.1rem;
+                margin-right: 1.1rem;
+                @include media-breakpoint-up(lg) {
+                    max-height: 40px;
+                    margin-left: 1.6rem;
+                    margin-right: 1.6rem;
+                }
+            }
+        }
+    }
+  }
+  
+
+// -----------------------------------------------------------------
+// -----------------------------------------------------------------
+
+.ov-video {
+    background-color: $gray-200;
+    margin-bottom: 1rem;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 2rem;
+    }
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 3rem;
+    }
+}
+
+
+.ov-video-padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    @include media-breakpoint-up (md) {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    @include media-breakpoint-up (lg) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.video-placeholder {
+img {
+    max-width: 100% !important;
+    width: 100%;
+    opacity: 1;
+//   @include media-breakpoint-up (lg) {
+//     max-width: 654px;
+//   }
+//   @include media-breakpoint-up (xl) {
+//     max-width: 706px;
+//   }
+}
+}
+
+// ----------------------------
+
+.call-to-action {
+    background-color: $primary;
+    text-align: center;
+    margin-top: 3rem;
+    @include media-breakpoint-up (md) {
+        margin-top: 4rem;
+    }
+    @include media-breakpoint-up (lg) {
+        margin-top: 5rem;
+    }
+    h2, h3, h4, p {color: white;}
+    p {
+        font-size: 1.125rem;
+    }
+    // color: $gray-900;
+    // Button
+    .btn {
+        font-weight: 500;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 2rem;
+    }
+    .btn-lg {
+        font-size: 20px;
+        line-height: 24px;
+        border-radius: 0;
+    }
+    .btn-ov-secondary{
+        color: $primary;
+        background-color: $white;
+        border-color: transparent;
+        &:hover,
+        &:active {
+          background-color: #e0e0e0;
+          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+        }
+        &:focus {
+          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+        }
+    }
+    @include media-breakpoint-up(sm) {
+        .btn {
+          min-width: 160px;
+          width: auto;
+          font-weight: 500;
+        }
+        .btn-primary:hover{
+          color: #252525;
+          background-color: #ffffff; opacity: 0.5;
+        }
+    }
+}
+
+
+
+// ------------------
+h2 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    @include media-breakpoint-up(md) {
+        font-size: 2.25rem;
+        margin-bottom: 1.25rem;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 2.75rem;
+    }
+}
+
+
+// ---------------------
+a, a:hover, a:link {
+    color: unset;
+    text-decoration: none;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.075); } // 1.1

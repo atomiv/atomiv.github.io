@@ -20,7 +20,7 @@ html {
   display: block;
   position: relative;
   padding-bottom: 159px; /* height of your footer */
-  @media (min-width: 992px) {
+  @include media-breakpoint-up(md) {
     padding-bottom: 138px;
   }
   padding-top: 60px; /* fixed nav */
