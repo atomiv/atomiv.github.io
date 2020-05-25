@@ -89,7 +89,7 @@ Feel free to contact Jelena via [LinkedIn](https://www.linkedin.com/in/jelenacup
                     <div>
                         <h5>Petar Zečević</h5>
                         <h6>Software Engineer</h6>
-                        <p>Petar is a Software Engineer with experience in Android, IoT, embedded programming, REST API and Big Data with Apache Spark and interested in Data Mining and Performance Optimization. He joined Atomiv to share his experiences and helps teams build systems for Big Data processing.</p>
+                        <p>Petar is a Software Engineer with experience in Android, IoT, embedded programming, REST API and Big Data / Apache Spark. He is interested in Data Mining and Performance Optimization. He joined Atomiv to share his experiences and helps teams build systems for Big Data processing.</p>
                         <div>
                             <i class="fab fa-linkedin"></i>
                             <i class="fab fa-xing"></i>
