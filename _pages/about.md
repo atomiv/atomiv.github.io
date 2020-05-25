@@ -4,32 +4,186 @@ title: About
 description: About Atomiv
 ---
 
-Atomiv was created to introduce standards for helping software development teams reach 10x productivity levels, by making standards and best practices accessible to everyone.
-
-Atomiv Framework is a high-quality high-performance architecture framework built for software enterprise teams. It is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software - accelerate your development whilst retaining high quality.
-
-Atomiv Framework is open source (MIT licence) so it can be freely used both for commercial and non-commercial purposes. You can see Atomiv on [GitHub](https://github.com/atomiv).
-
-<h2>Our Principles</h2>
-
-<p>Atomiv has an engineering-oriented approach to software. Our belief is that a lot of software development can be systematized, and that we want to achieve organizational success without too much reliance on having to hire A-players. Thus, it is designed to work well both on teams with lots of seniors but also with juniors. Atomiv is founded upon the following three principles: Quality, Speed and Standardization.</p>
-
-<p><b>Quality Principle</b></p>
-
-<p>Quality software is a prerequisite for producing software which works well, with minimal defects and with low maintenance costs, and overall providing a good customer experience. When projects don't start with a quality architecture and accumulate technical debt over time, it reaches a point when there are too many bugs, the software is unusable, new features cause system breakdown, developers lose productivity and overall leading to customer dissatisfaction. It is essential that projects are started with a solid quality architectural foundation - this is exactly the core focus of Atomiv, to help you develop modular, flexible, extensible and maintainable software.</p>
-
-<p><b>Speed Principle</b></p>
-
-<p>However, even though we recognize the importance the importance of quality, we are also familiar with the time pressures faced in software projects - to deliver early, to deliver fast, whereby in reality, in the short-term, development speed becomes more important than quality, even though quality is essential for long-term development speed. This is a major barrier for organizations looking to setup quality system architecture. This is where Atomiv comes in - it provides a template for the solution architecture as well as components to reduce development time.</p>
-
-<p><b>Standardization Principle</b></p>
-
-<p>Last, but not least we come to standardization - the principle to standardize project structure so that we can systemically achieve quality and speed across our software projects. This also increases re-use and provides organizations with higher flexibility to organize development teams and incorporate new members, and avoids to the "re-invent the wheel" syndrome. It also makes project success a part of the organization, rather than relying on a few "talented" "A-player" individuals. Atomiv did not invent anything new, it simply took existing best practices and provided a standardized templated solution.</p>
-
-<!-- TODO: VC: Mention the factory model, lean, Toyota factories, innovation coming through standardization -->
+<!-- Banner -->
+<header class="ov-banner">
+    <div class="container">
+        <h1>Meet our Team</h1>
+        <img height="" width="" src="{{ site.url }}/img/about/about2.svg" alt="architecture"	class="img-fluid t-logo-img">
+    </div>
+</header>
 
 
-## Our Team
+
+<!-- Promo / Benefits -->
+<article class="ov-about">
+    <div class="container">
+        <div class="about-intro">
+            <!-- Intro -->
+            <p>Atomiv was created to introduce standards for helping software development teams reach 10x productivity levels, by making standards and best practices accessible to everyone.</p>
+            <p>Atomiv Framework is a high-quality high-performance architecture framework built for software enterprise teams. It is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software - accelerate your development whilst retaining high quality.</p>
+            <p class="para-link">Atomiv Framework is open source (MIT licence) so it can be freely used both for commercial and non-commercial purposes. You can see Atomiv on 
+                <a href="https://github.com/atomiv" target="_blank">
+                    GitHub</a>.
+            </p>
+        </div>
+        <!-- row 1 -->
+        <div class="row ov-about-row">
+            <div class="col-12">
+                <!-- align-items-end -->
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <!-- image can be on the right side -->
+                        <img height="100" width="100" src="{{ site.url }}/img/about/valentina.jpg" alt="architecture"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Valentina Cupać</h5>
+                        <h6>Founder & Software Architect</h6>
+                        <p>Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver.</p>
+                        <div>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-xing"></i>
+                            <i class="fab fa-github"></i>
+                            <img height="24" width="24" src="{{ site.url }}/img/about/optivem-logo.svg" alt="architecture"
+                            class="logo-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feel free to contact Valentina via [LinkedIn](https://www.linkedin.com/in/valentinacupac/), [XING](https://www.xing.com/profile/Valentina_Cupac), [GitHub](https://github.com/valentinacupac) and [Optivem](https://optivem.com/). -->
+        <!-- row 2 -->
+        <div class="row ov-about-row">
+            <div class="col-12">
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <img height="100" width="100" src="{{ site.url }}/img/about/jelena.png" alt="architecture"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Jelena Cupać</h5>
+                        <h6>Frontend Developer & Designer</h6>
+                        <p>Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver.</p>
+                        <div>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-xing"></i>
+                            <i class="fab fa-github"></i>
+                            <img height="24" width="24" src="{{ site.url }}/img/about/senovim-logo.svg" alt="architecture"
+                            class="logo-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 
+Feel free to contact Jelena via [LinkedIn](https://www.linkedin.com/in/jelenacupac/), [GitHub](https://github.com/jcupac) and [Senovim](http://senovim.com/). -->
+        <!-- row 3 -->
+        <div class="row ov-about-row">
+            <div class="col-12">
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <img height="100" width="100" src="{{ site.url }}/img/about/petar.jpg" alt="architecture"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Petar Zečević</h5>
+                        <h6>Software Engineer</h6>
+                        <p>Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver.</p>
+                        <div>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-xing"></i>
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 
+Feel free to contact Petar via [GitHub](https://github.com/PetarZecevic). -->
+        <!-- row 5 -->
+        <div class="row ov-about-row">
+            <div class="col-12">
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <img height="100" width="100" src="{{ site.url }}/img/about/tamara.jpg" alt="architecture"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Tamara Golubović</h5>
+                        <h6>Process Manager & Project Manager</h6>
+                        <p>Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver.</p>
+                        <div>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-xing"></i>
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- row 5 -->
+        <div class="row ov-about-row">
+            <div class="col-12">
+                <!-- align-items-end -->
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <!-- image can be on the right side -->
+                        <img height="100" width="100" src="{{ site.url }}/img/about/uros2.jpg" alt="architecture"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Uroš Ljubenović</h5>
+                        <h6>Software Engineer</h6>
+                        <p>Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver.</p>
+                        <div>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-xing"></i>
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feel free to contact Uroš via [LinkedIn](https://www.linkedin.com/in/uroš-ljubenović-0ba686152) and [GitHub](https://github.com/urosl-jubenovic). -->
+        <!-- row 6 -->
+        <div class="row ov-about-row">
+            <div class="col-12">
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <img height="100" width="100" src="{{ site.url }}/img/about/vladimir.jpg" alt="architecture"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Vladimir Maljm</h5>
+                        <h6>IT Manager & System Administrator</h6>
+                        <p>Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver.</p>
+                        <div>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-xing"></i>
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Feel free to contact Vladimir via [LinkedIn](https://www.linkedin.com/in/vladimirmaljm/) and [GitHub](https://github.com/vladimirmaljm). -->
+    </div> 
+</article>
+
+
+
+<!-- ## Our Partners
+
+Our partners are [Optivem](https://optivem.com/) and [Senovim](http://senovim.com/). -->
+
+
+
+
+
+
+
+
+<!-- ## Our Team
 
 **Valentina Cupać** - Founder & Software Architect
 
@@ -53,8 +207,6 @@ Feel free to contact Petar via [GitHub](https://github.com/PetarZecevic).
 
 Tamara is a dedicated project manager with a passion towards business development and process implementation. She started her journey as a support specialist, through sales departments and is now working as a Project manager in IT. Her goal is to make sure that everything goes smoothly, with high productivity, time efficiency and good results. Tamara joined Atomiv to share her experiences and to help project managers improve project processes, overcome challenges and achieve their goals.
 
-<!-- TODO: TG: Add the section to contact Tamara, see example from Valentina above, you choose what sites to have in the contact list -->
-
 **Uroš Ljubenović** - Software Engineer
 
 Uroš is a Software Engineer with a demonstrated history of working in the information technology and services industry. He is skilled in .Net Core, C#, Azure services, SQL Server, ASP.NET MVC, System design, Database design. Uroš is a strong engineering professional with a Master of Engineering - focused in Information systems and technologies from The Faculty of Organizational Sciences. He is interested in system architecture, distributed systems, writing clean and efficient code. Uroš joined Atomiv to share experiences in backed development and system design.
@@ -69,6 +221,5 @@ Feel free to contact Vladimir via [LinkedIn](https://www.linkedin.com/in/vladimi
 
 ## Our Partners
 
-Our partners are [Optivem](https://optivem.com/) and [Senovim](http://senovim.com/).
+Our partners are [Optivem](https://optivem.com/) and [Senovim](http://senovim.com/). -->
 
-<!-- TODO: JC: Add also logos based on #19 -->
