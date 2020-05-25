@@ -272,7 +272,7 @@ h6 {
 .ov-about {
   padding-top: 3rem; // 3
   padding-bottom: 3rem;
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(sm) {
     text-align: center;
   }
   @include media-breakpoint-up (md) {

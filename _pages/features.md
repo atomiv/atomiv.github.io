@@ -32,7 +32,7 @@ description: Features
         <!-- row 1 -->
         <div class="row ov-benefits-row ov-padding-row">
             <div class="col-12 col-md-4 order-md-1 col-img-12">
-                <img height="100" width="100" src="{{ site.url }}/img/features/feat1.svg" alt="architecture"
+                <img height="100" width="100" src="{{ site.url }}/img/features/feat1b.svg" alt="architecture"
                 class="img-fluid w-100 benefits-img">
             </div>
             <div class="col-12 col-md-8 order-md-0 col-text-1">
