@@ -23,7 +23,7 @@ description: About Atomiv
     <div class="container">
         <div class="about-intro">
             <!-- Intro -->
-            <p>Atomiv is an all-in-one template to help IT teams build high quality software faster. It is built specifically for enterprise software development needs, covering project management, architecture and development. Atomiv is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software - accelerate your development whilst retaining high quality. Atomiv is open source (MIT licence) so it can be freely used both for commercial purposes.</p>
+            <p>Atomiv is an all-in-one template to help IT teams build high quality software faster. It is built specifically for enterprise software development needs, covering project management, architecture and development. Atomiv is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software. Atomiv is open source (MIT licence) so it can be freely used both for commercial purposes.</p>
 
 			<!--
             <p class="para-link">
