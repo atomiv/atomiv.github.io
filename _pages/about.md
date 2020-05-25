@@ -43,7 +43,7 @@ description: About Atomiv
                     <div>
                         <h5>Valentina Cupać</h5>
                         <h6>Founder & Software Architect</h6>
-                        <p>Valentina has spent several years in the software development industry, having worked as a Senior Software Developer, Technical Lead and Software Architect. She is responsible for training and mentoring development teams in adopting best practices in software architecture, clean code and automated testing, to help them build high quality software solutions fast. Valentina founded Atomiv to standardize software development, increase team productivity and ensure projects are maintinable in the long-run.</p>
+                        <p>Valentina is a Tech Lead, Software Architect and Senior Developer who cares about clean code, clean architecture and test automation. She founded Atomiv to share best practices in software architecture, standardize software development, increase software quality and team productivity.</p>
                         <div>
                             <i class="fab fa-linkedin"></i>
                             <i class="fab fa-xing"></i>
@@ -68,8 +68,7 @@ description: About Atomiv
                         <h5>Jelena Cupać</h5>
                         <h6>Frontend Developer & Designer</h6>
                         <p>
-                        Jelena is a passionate Frontend Developer with a background in design. She develops web enterprise applications with Angular and designs WordPress themes for content websites. She uses Bootstrap and SASS to create custom designs. She enjoys working with various technologies in order to deliver /// websites that accelerate business performance. Jelena is involved in Atomiv, both designing the Atomiv website as well as developing the Atomiv Angular Template to provide a high quality foundation for frontend developers.
-                        </p>
+                        Jelena is a passionate Frontend Developer with a background in design, with experience in WordPress design, Bootstrap and SASS and Angular development. She designed the Atomiv website and is developing the Angular template to help provide a solid foundation for frontend developers.</p>
                         <div>
                             <i class="fab fa-linkedin"></i>
                             <i class="fab fa-xing"></i>
@@ -94,7 +93,7 @@ Feel free to contact Jelena via [LinkedIn](https://www.linkedin.com/in/jelenacup
                     <div>
                         <h5>Petar Zečević</h5>
                         <h6>Software Engineer</h6>
-                        <p>Petar is a Software Engineer with experience in developing mobile Android applications, internet of things embedded programming, REST API and big data with Apache Spark. He is interested in data mining algorithms, internet of things and performance optimisation. Petar joined Atomiv to share his experiences on big data processing and to help teams to setup systems which would enable them to extract useful information from data which is collected from clients.</p>
+                        <p>Petar is a Software Engineer with experience in Android, IoT, embedded programming, REST API and Big Data with Apache Spark and interested in Data Mining and Performance Optimization. He joined Atomiv to share his experiences and helps teams build systems for Big Data processing.</p>
                         <div>
                             <i class="fab fa-linkedin"></i>
                             <i class="fab fa-xing"></i>
@@ -117,7 +116,7 @@ Feel free to contact Petar via [GitHub](https://github.com/PetarZecevic). -->
                     <div>
                         <h5>Tamara Golubović</h5>
                         <h6>Process Manager & Project Manager</h6>
-                        <p>Tamara is a dedicated project manager with a passion towards business development and process implementation. She started her journey as a support specialist, through sales departments and is now working as a Project manager in IT. Her goal is to make sure that everything goes smoothly, with high productivity, time efficiency and good results. Tamara joined Atomiv to share her experiences and to help project managers improve project processes, overcome challenges and achieve their goals.</p>
+                        <p>Tamara is a dedicated Project Manager with a passion towards business development and process implementation. Tamara joined Atomiv to help project managers improve project processes, ensure everything runs smoothly, high productivity and efficiency so that teams can achieve good results.</p>
                         <div>
                             <i class="fab fa-linkedin"></i>
                             <i class="fab fa-xing"></i>
@@ -140,7 +139,7 @@ Feel free to contact Petar via [GitHub](https://github.com/PetarZecevic). -->
                     <div>
                         <h5>Uroš Ljubenović</h5>
                         <h6>Software Engineer</h6>
-                        <p>Uroš is a Software Engineer with a demonstrated history of working in the information technology and services industry. He is skilled in .Net Core, C#, Azure services, SQL Server, ASP.NET MVC, System design, Database design. Uroš is a strong engineering professional with a Master of Engineering - focused in Information systems and technologies from The Faculty of Organizational Sciences. He is interested in system architecture, distributed systems, writing clean and efficient code. Uroš joined Atomiv to share experiences in backed development and system design.</p>
+                        <p>Uroš is a Software Engineer with experience in .NET Core, C#, Azure services, SQL Server, ASP.NET MVC. He is interested in system architecture, distributed systems, writing clean and efficient code. Uroš joined Atomiv to share experiences in backed development and system design.</p>
                         <div>
                             <i class="fab fa-linkedin"></i>
                             <i class="fab fa-xing"></i>
@@ -162,7 +161,7 @@ Feel free to contact Petar via [GitHub](https://github.com/PetarZecevic). -->
                     <div>
                         <h5>Vladimir Maljm</h5>
                         <h6>IT Manager & System Administrator</h6>
-                        <p>Vladimir is a System Administrator, installing and configuring software and hardware, managing network servers and tools, setting up accounts and workstations, monitoring systems, ensuring security through access controls, firewalls and backups. He has a strong interest in penetration testing and ensuring that companies have good security setup. Vladimir joined Atomiv to share experiences in system administration and to write about processes and actions involved in system administration.</p>
+                        <p>Vladimir is a System Administrator, with experience in managing managing IT systems and networks, monitoring systems and ensuring security. He has a strong interest in penetration testing. Vladimir joined Atomiv to share experiences in system administration processes and recommendations.</p>
                         <div>
                             <i class="fab fa-linkedin"></i>
                             <i class="fab fa-xing"></i>
