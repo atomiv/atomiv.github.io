@@ -157,7 +157,7 @@ description: About Atomiv
                     <div>
                         <h5>Vladimir Maljm</h5>
                         <h6>IT Manager & System Administrator</h6>
-                        <p>Vladimir is a System Administrator, with experience in managing managing IT systems and networks, monitoring systems and ensuring security. He has a strong interest in penetration testing. Vladimir joined Atomiv to share experiences in system administration processes and recommendations.</p>
+                        <p>Vladimir is a System Administrator, with experience in managing managing IT systems and networks, monitoring systems and ensuring security. He has a strong interest in penetration testing. Vladimir joined Atomiv to share experiences in system administration processes.</p>
                         <div>
                             <a href="https://www.linkedin.com/in/vladimirmaljm/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <a href="https://github.com/vladimirmaljm" target="_blank"><i class="fab fa-github"></i></a>
