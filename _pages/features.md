@@ -6,21 +6,6 @@ description: Features
 
 
 <!-- Banner -->
-<!-- <header class="ov-banner2" id="get-started">
-    <div class="container2">
-        <div class="mx-sm-n3">
-            How can Chrome Enterprise work for my organization?
-            Connect with customers around the corner and around the globe
-            <h1>{{ page.title }}</h1>
-            <p class="lead">{{ page.description }}</p>
-        </div>
-    </div>
-</header> -->
-
-
-<!-- it project | collaborate | simplify | communicate -->
-
-<!-- Banner -->
 <header class="ov-banner">
     <div class="container">
         <!-- <div> -->
@@ -30,7 +15,11 @@ description: Features
             <!-- Collaborate and develop with Atomiv -->
             <!-- Atomiv helps you collaborate on and develop great IT projects -->
             <h1>Collaborate and Develop with Atomiv</h1>
-            <img height="" width="" src="{{ site.url }}/img/features/feat0.svg" alt="architecture"	class="img-fluid t-logo-img">
+            <div class="d-flex justify-content-center">
+                <figure class="figure-features">
+                    <img height="" width="" src="{{ site.url }}/img/features/feat0.svg" alt="architecture"	class="img-fluid">
+                </figure>
+            </div>
         <!-- </div> -->
     </div>
 </header>
@@ -43,7 +32,7 @@ description: Features
         <!-- row 1 -->
         <div class="row ov-benefits-row ov-padding-row">
             <div class="col-12 col-md-4 order-md-1 col-img-12">
-                <img height="100" width="100" src="{{ site.url }}/img/features/feat1.svg" alt="architecture"
+                <img height="100" width="100" src="{{ site.url }}/img/features/feat1b.svg" alt="architecture"
                 class="img-fluid w-100 benefits-img">
             </div>
             <div class="col-12 col-md-8 order-md-0 col-text-1">

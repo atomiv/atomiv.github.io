@@ -16,7 +16,7 @@
     line-height: 1.2;
     font-weight: 400;
     color: $white;
-    margin-bottom: 2rem; // 2.5
+    margin-bottom: 3rem; // 2.5
   }
   p {
     font-size: 1.125rem;
@@ -28,7 +28,7 @@
   @include media-breakpoint-up(md) {
     h1 {
       font-size: 2.25rem; // 2.5
-      margin-bottom: 2rem; // 3
+      margin-bottom: 3.5rem; // 3
     }
     p {
       font-size: 1.2rem;
@@ -42,23 +42,77 @@
       font-size: 1.4rem;
     }
   }
-  // banner
-  img {
-    // width: 300px; // h=191
-    height: 191px;
+
+
+  // banner image - features page
+  .figure-features {
+    width: 300px;
+    overflow: hidden;
+    margin: 0;
+    // background-color: pink;
     @include media-breakpoint-up(md) {
-      // width: 350px; // h=223
-      height: 223px;
-    }
-    @include media-breakpoint-up(lg) {
-      // width: 350px;
-      height: 223px;
+      width: 350px;
     }
     @include media-breakpoint-up(xl) {
-      // width: 400px; // h = 254
-      height: 254px;
+      width: 450px;
     }
   }
+  .figure-features img {
+    margin-top: -6.5%;
+    margin-bottom: -1%;
+    width: 100%;
+  }
+  // banner image - about page
+  .figure-features2 {
+    width: 300px;
+    overflow: hidden;
+    margin: 0;
+    // background-color: pink;
+    @include media-breakpoint-up(md) {
+      width: 350px;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 450px;
+    }
+
+  }
+
+// -----------------------
+  img {
+    // height: 100%;
+    // height: 200px;
+    // width: 100%;
+    width: 200px;
+    @include media-breakpoint-up(sm) {
+      // min-height: 200px;
+      width: 200px;
+    }
+    @include media-breakpoint-up(md) {
+      // min-height: 196.69px;
+      width: 200px;
+    }
+    @include media-breakpoint-up(xl) {
+      // min-height: 252.89px;
+      width: 250px;
+    }
+  }
+
+  .img2-contact {
+    width: 120%;
+    margin-bottom: -2.5%;
+    height: 200px;
+    @include media-breakpoint-up(sm) {
+      // height: 200px;
+    }
+    @include media-breakpoint-up(md) {
+      // height: 200px;
+    }
+    @include media-breakpoint-up(xl) {
+      // height: 250px;
+    }
+  }
+
+
 }
 
 
@@ -191,9 +245,11 @@ h5 {
   border-radius: 50%;
   max-width: 140px;
   min-width: 140px;
-  margin-right: 2rem;
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(sm) {
     margin-bottom: 2rem;
+  }
+  @include media-breakpoint-up(md) {
+    margin-right: 2rem;
   }
 }
 // --------------
@@ -218,6 +274,9 @@ h6 {
 .ov-about {
   padding-top: 3rem; // 3
   padding-bottom: 3rem;
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
   @include media-breakpoint-up (md) {
       padding-top: 4rem; // 4
       padding-bottom: 4rem;
