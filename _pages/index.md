@@ -1,5 +1,6 @@
 ---
 layout: home
+title: 10x Enterprise Software Template
 title1: 10x Enterprise Software
 title2: Template
 # title: Atomiv simplifies coding
