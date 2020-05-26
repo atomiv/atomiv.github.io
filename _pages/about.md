@@ -7,7 +7,7 @@ description: About Atomiv
 <!-- Banner -->
 <header class="ov-banner">
     <div class="container">
-        <h1>Meet our Team</h1>
+        <h1>Meet our team</h1>
         <div class="d-flex justify-content-center">
             <figure class="figure-features2">
                 <img height="" width="" src="{{ site.url }}/img/about/about2.svg" alt="architecture" class="img-fluid">
@@ -23,10 +23,12 @@ description: About Atomiv
     <div class="container">
         <div class="about-intro">
             <!-- Intro -->
-            <p>Atomiv was created to introduce standards for helping software development teams reach 10x productivity levels, by making standards and best practices accessible to everyone.</p>
-            <p>Atomiv Framework is a high-quality high-performance architecture framework built for software enterprise teams. It is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software - accelerate your development whilst retaining high quality.</p>
-            <p class="para-link">Atomiv Framework is open source (MIT licence) so it can be freely used both for commercial and non-commercial purposes.
+            <p>Atomiv is an all-in-one template to help IT teams build high quality software faster. It is built specifically for enterprise software development needs, covering project management, architecture and development. Atomiv is rooted in best practices in enterprise architecture, providing a standardized software solution template. This provides your software teams with a clean architecture foundation, so that they can quickly and easily build quality software. Atomiv is open source (MIT licence) so it can be freely used both for commercial purposes.</p>
+
+			<!--
+            <p class="para-link">
             </p>
+			-->
             <!-- ----------- -->
             <!-- <i class="fab fa-linkedin" style="font-size: 1.5rem"></i>
             <p>
@@ -96,7 +98,7 @@ description: About Atomiv
                     <div>
                         <h5>Petar Zečević</h5>
                         <h6>Software Engineer</h6>
-                        <p>Petar is a Software Engineer with experience in Android, IoT, embedded programming, REST API and Big Data with Apache Spark and interested in Data Mining and Performance Optimization. He joined Atomiv to share his experiences and helps teams build systems for Big Data processing.</p>
+                        <p>Petar is a Software Engineer with experience in Android, IoT, embedded programming, REST API and Big Data / Apache Spark. He is interested in Data Mining and Performance Optimization. He joined Atomiv to share his experiences and helps teams build systems for Big Data processing.</p>
                         <div>
                             <a href="https://github.com/PetarZecevic" target="_blank"><i class="fab fa-github"></i></a>
                         </div>
