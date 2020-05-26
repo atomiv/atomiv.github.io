@@ -3,7 +3,7 @@ layout: home
 title1: All-in-one template
 title2: for IT projects
 # title: Atomiv simplifies coding
-# description1: All-in-one template for accelerated software development
+# description1: 10x Enterprise Software Template
 # description2: accelerated software development.
 headerLink: https://docs.atomiv.com
 linkButton: Get Started
