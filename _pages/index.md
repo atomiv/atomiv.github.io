@@ -1,9 +1,9 @@
 ---
 layout: home
-title1: All-in-one template
-title2: for IT projects
+title1: 10x Enterprise Software
+title2: Template
 # title: Atomiv simplifies coding
-# description1: 10x Enterprise Software Template
+# description1: All-in-one template for accelerated software development
 # description2: accelerated software development.
 headerLink: https://docs.atomiv.com
 linkButton: Get Started
