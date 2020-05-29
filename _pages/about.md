@@ -100,6 +100,7 @@ description: About Atomiv
                         <h6>Software Engineer</h6>
                         <p>Petar is a Software Engineer with experience in Android, IoT, embedded programming, REST API and Big Data / Apache Spark. He is interested in Data Mining and Performance Optimization. He joined Atomiv to share his experiences and helps teams build systems for Big Data processing.</p>
                         <div>
+                            <a href="https://www.linkedin.com/in/petar-zečević-0273a41ab/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <a href="https://github.com/PetarZecevic" target="_blank"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
