@@ -168,7 +168,33 @@ description: About Atomiv
                 </div>
             </div>
         </div>
+        <!-- row 7 -->
+        <div class="row ov-about-row">
+            <div class="col-12">
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <img height="100" width="100" src="{{ site.url }}/img/about/boban.jpg" alt="Boban Bojkovski"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Boban Bojkovski</h5>
+                        <h6>Senior DevOps Engineer</h6>
+                        <p>Boban is a Senior DevOps Engineer, with experience in CI/CD and automation, using container and container-orchestration software. He is interested in Cloud Architecture, CloudOps and Serverless. Boban joined Atomiv to share experiences in DevOps processes and tools.</p>
+                        <div>
+                            <a href="https://www.linkedin.com/in/bobanbojkovski" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/bobanbojkovski" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div> 
 </article>
+
+
+- Leadership, team performance.
+- DevOps CI/CD, Automation.
+- Cloud architecture, Serverless.
+- Kubernetes.
 
 
