@@ -11,3 +11,54 @@
 <script type="text/javascript" src="{{ site.url }}/js/prism.js"></script>
 <!-- Atomiv -->
 <script type="text/javascript" src="{{ site.url }}/js/atomiv.js"></script>
+
+<!-- for sidebar -->
+<!-- jQuery Custom Scroller CDN -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script> -->
+
+
+<!-- Menu Toggle Script -->
+<!-- <script>
+    $(document).ready(function () {
+
+
+$('#sidebarCollapse').on('click', function () {
+    console.log('hello');
+    $('#sidebar').toggleClass('active');
+});
+
+
+    // $("#menu-toggle").click(function(e) {
+    //   e.preventDefault();
+    //   $("#wrapper").toggleClass("toggled");
+    // });
+
+}); -->
+
+<script>
+    $(document).ready(function () {
+
+        // $("#sidebar").mCustomScrollbar({
+        //     theme: "minimal"
+        // });
+
+        $('#sidebarCollapse').on('click', function () {
+            console.log('hello');
+            // open or close navbar
+            $('#sidebar').toggleClass('active');
+            console.log('hello there');
+            // close dropdowns
+            // $('.collapse.in').toggleClass('in');
+            // // and also adjust aria-expanded attributes we use for the open/closed arrows
+            // // in our CSS
+            // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+
+    });
+</script>
+
+
+
+
+
+  </script>

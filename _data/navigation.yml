@@ -5,7 +5,8 @@
   url: /features
   
 - title: Templates
-  url: https://docs.atomiv.com/
+  url: /templates
+  # url: https://docs.atomiv.com/
   
 - title: About
   url: /about
