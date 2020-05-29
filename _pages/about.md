@@ -190,11 +190,3 @@ description: About Atomiv
         </div>
     </div> 
 </article>
-
-
-- Leadership, team performance.
-- DevOps CI/CD, Automation.
-- Cloud architecture, Serverless.
-- Kubernetes.
-
-
