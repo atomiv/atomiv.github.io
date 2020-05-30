@@ -2,7 +2,7 @@
 layout: home
 title: 10x Enterprise Software Template
 title1: 10x Enterprise Software
-title2: Template
+title2: Project Template
 # title: Atomiv simplifies coding
 # description1: All-in-one template for accelerated software development
 # description2: accelerated software development.
