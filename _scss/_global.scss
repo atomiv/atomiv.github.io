@@ -19,9 +19,9 @@ html {
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 159px; /* height of your footer */
+  padding-bottom: 250px; /* height of your footer */
   @include media-breakpoint-up(md) {
-    padding-bottom: 138px;
+    padding-bottom: 229px;
   }
   padding-top: 60px; /* fixed nav */
 }

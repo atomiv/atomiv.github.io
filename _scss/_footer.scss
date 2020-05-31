@@ -19,6 +19,7 @@ footer.ov-footer {
     }
     a {
       font-weight: 400; // 500
+      // also color for social media
       color: #495057; // white;
       // &:hover,
       // &:focus {
@@ -31,15 +32,24 @@ footer.ov-footer {
     // @include media-breakpoint-up(sm) {
     //   text-align: left;
     // }
+    .fab {
+      font-size: 1.5rem;
+      margin-right: 1.5rem; // 1, 1.2 or 1.5 squares
+    }
 }
   
 .ov-footer-links {
   padding-left: 0;
   margin-bottom: 1rem;
+  margin-top: 2rem; // for social links
+  padding-top: 2rem;
   li {
     display: inline-block;
     + li {
       margin-left: 1rem;
     }
   }
+  border-top: 1px solid $gray-400;
 }
+
+
