@@ -20,6 +20,8 @@ sass:
   
 highlighter: rouge
 
+plugins:
+  - jekyll-sitemap
 
 # You can also change the default _sass/ directory to a custom directory in your _config.yml:
 # sass:
