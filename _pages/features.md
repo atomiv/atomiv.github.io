@@ -155,27 +155,27 @@ description: Features
 <li>FTP client for communicating with FTP services (uploading files, downloading files, authorization)</li>
 </ul>
 
-<b>Infrastructure - Messaging</b>
+<b>Infrastructure Layer - Messaging</b>
 
 <ul>
 <li>Sending messages to a message broker</li>
 <li>Receiving messages from a message broker</li>
 </ul>
 
-<b>Infrastructure - Jobs</b>
+<b>Infrastructure Layer - Jobs</b>
 
 <ul>
 <li>Configuring and executing job schedulers</li>
 </ul>
 
-<b>Infrastructure - Logging</b>
+<b>Infrastructure Layer - Logging</b>
 
 <ul>
 <li>Logging to various targets (files, databases)</li>
 <li>Logging with various levels (trace, debug, info, warning, error, critical)</li>
 </ul>
 
-<b>Infrastructure - Authentication</b>
+<b>Infrastructure Layer - Authentication</b>
 
 <ul>
 <li>OpenId Connect (authentication with an identity provider)</li>
@@ -187,14 +187,14 @@ description: Features
 <li>User identity with custom attributes</li>
 </ul>
 
-<b>Infrastructure - Configuration</b>
+<b>Infrastructure Layer - Configuration</b>
 
 <ul>
 <li>File-based configuration</li>
 <li>Database-based configuration</li>
 </ul>
 
-<b>Infrastructure - Authorization</b>
+<b>Infrastructure Layer - Authorization</b>
 
 <ul>
 <li>Role-based authorization</li>
@@ -202,19 +202,19 @@ description: Features
 <li>Permission-based authorization</li>
 </ul>
 
-<b>Infrastructure - Validation</b>
+<b>Infrastructure Layer - Validation</b>
 
 <ul>
 <li>Declarative / fluent validation</li>
 </ul>
 
-<b>Infrastructure - Mapping</b>
+<b>Infrastructure Layer - Mapping</b>
 
 <ul>
 <li>Declarative / fluent mapping</li>
 </ul>
 
-<b>Infrastructure - Alerting</b>
+<b>Infrastructure Layer - Alerting</b>
 
 <ul>
 <li>Heartbeat checking for key systems</li>
