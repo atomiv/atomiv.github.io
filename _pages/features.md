@@ -74,117 +74,157 @@ description: Features
 </article>
 
 
+<div class="container">
+
 <h2>Technical Features</h2>
 
-Architecture
+<b>Architecture</b>
 
-* Domain Layer
-* Application Layer
-* Infrastructure Layer
-* Web Layer
+<ul>
+<li>Domain Layer</li>
+<li>Application Layer</li>
+<li>Infrastructure Layer</li>
+<li>Web Layer</li>
+</ul>
 
-Application Layer
+<b>Application Layer</b>
 
-* Commands
-* Queries
-* Command Handlers
-* Application Context
+<ul>
+<li>Commands</li>
+<li>Queries</li>
+<li>Command Handlers</li>
+<li>Application Context</li>
+</ul>
 
-Domain Layer:
+<b>Domain Layer</b>
 
-* Entities
-* Value Objects
-* Domain Services
-* Repository Interfaces
+<ul>
+<li>Entities</li>
+<li>Value Objects</li>
+<li>Domain Services</li>
+<li>Repository Interfaces</li>
+</ul>
 
-Web Layer - REST API:
+<b>Web Layer - REST API</b>
 
-* GET - Getting a single resource by id
-* GET - Getting all resources (ids, names)
-* GET - Paging, sorting, filtering
-* GET - Exporting data to a file
-* POST - Creating a single resource
-* POST - Performing an operation on a single resource
-* POST - Importing data from a file
-* PUT - Updating a single resource 
-* DELETE - Deleting a single resource
+<ul>
+<li>GET - Getting a single resource by id</li>
+<li>GET - Getting all resources (ids, names)</li>
+<li>GET - Paging, sorting, filtering</li>
+<li>GET - Exporting data to a file</li>
+<li>POST - Creating a single resource</li>
+<li>POST - Performing an operation on a single resource</li>
+<li>POST - Importing data from a file</li>
+<li>PUT - Updating a single resource</li>
+<li>DELETE - Deleting a single resource</li>
+</ul>
+
+<b>Infrastructure Layer - Repositories</b>
+
+<ul>
+<li>Repository implementations with ORM</li>
+<li>Repository implementations with raw SQL</li>
+<li>Repository implementations with parameterized SQL</li>
+<li>Repository implementations with stored procedures</li>
+<li>Repository implementations with sql bulk operations (bulk update, bulk delete, bulk insert)</li>
+<li>Repository implementations for batch operations (errors and re-try)</li>
+<li>Repository implementations with NoSQL databases</li>
+<li>Repository implementations with files as source system</li>
+</ul>
+
+<b>Infrastructure Layer - Query Handlers</b>
+
+<ul>
+<li>Query handlers with ORMs</li>
+<li>Query handlers with mixed data sources and data enrichment</li>
+</ul>
+
+<b>Infrastructure Layer - Files</b>
+
+<ul>
+<li>Reading from and writing to various file formats (CSV, TSV, Excel, PDF)</li>
+<li>Importing data from files and other sources (reading, validation, updates)</li>
+</ul>
+
+<b>Infrastructure Layer - Data Sources</b>
+
+<ul>
+<li>REST client for communicating with REST services (authentication and executing REST API methods)</li>
+<li>SOAP client for communicating with SOAP services (authentication and executing REST API methods)</li>
+<li>Process client for executing command line processes (executing local process amd remote procedure calls)</li>
+<li>FTP client for communicating with FTP services (uploading files, downloading files, authorization)</li>
+</ul>
+
+<b>Infrastructure - Messaging</b>
+
+<ul>
+<li>Sending messages to a message broker</li>
+<li>Receiving messages from a message broker</li>
+</ul>
+
+<b>Infrastructure - Jobs</b>
+
+<ul>
+<li>Configuring and executing job schedulers</li>
+</ul>
+
+<b>Infrastructure - Logging</b>
+
+<ul>
+<li>Logging to various targets (files, databases)</li>
+<li>Logging with various levels (trace, debug, info, warning, error, critical)</li>
+</ul>
+
+<b>Infrastructure - Authentication</b>
+
+<ul>
+<li>OpenId Connect (authentication with an identity provider)</li>
+<li>API Key (authentication via API key)</li>
+<li>OAuth (authentication via OAuth)</li>
+<li>Custom authentication (authentication via custom provider)</li>
+<li>Authentication with Google, Microsoft, LinkedIn, GitHub</li>
+<li>Authentication as part of API and separate</li>
+<li>User identity with custom attributes</li>
+</ul>
+
+<b>Infrastructure - Configuration</b>
+
+<ul>
+<li>File-based configuration</li>
+<li>Database-based configuration</li>
+</ul>
+
+<b>Infrastructure - Authorization</b>
+
+<ul>
+<li>Role-based authorization</li>
+<li>Group-based authorization</li>
+<li>Permission-based authorization</li>
+</ul>
+
+<b>Infrastructure - Validation</b>
+
+<ul>
+<li>Declarative / fluent validation</li>
+</ul>
+
+<b>Infrastructure - Mapping</b>
+
+<ul>
+<li>Declarative / fluent mapping</li>
+</ul>
+
+<b>Infrastructure - Alerting</b>
+
+<ul>
+<li>Heartbeat checking for key systems</li>
+<li>Sending emails to system administrators in case of failure, error reports</li>
+</ul>
+
+</div>
 
 
-Infrastructure Layer - Repositories:
 
-* Repository implementations with ORM
-* Repository implementations with raw SQL
-* Repository implementations with parameterized SQL
-* Repository implementations with stored procedures
-* Repository implementations with sql bulk operations (bulk update, bulk delete, bulk insert)
-* Repository implementations for batch operations (errors and re-try)
-* Repository implementations with NoSQL databases
-* Repository implementations with files as source system
-
-Infrastructure Layer - Query Handlers
-
-* Query handlers with ORMs
-* Query handlers with mixed data sources and data enrichment
-
-Infrastructure Layer - Files:
-
-* Reading from and writing to various file formats (CSV, TSV, Excel, PDF)
-* Importing data from files and other sources (reading, validation, updates)
-
-Infrastructure Layer - Data Sources:
-
-* REST client for communicating with REST services (authentication and executing REST API methods)
-* SOAP client for communicating with SOAP services (authentication and executing REST API methods)
-* Process client for executing command line processes (executing local process amd remote procedure calls)
-* FTP client for communicating with FTP services (uploading files, downloading files, authorization)
-
-Infrastructure - Messaging:
-
-* Sending messages to a message broker
-* Receiving messages from a message broker
-
-Infrastructure - Jobs:
-
-* Configuring and executing job schedulers
-
-Infrastructure - Logging:
-
-* Logging to various targets (files, databases)
-* Logging with various levels (trace, debug, info, warning, error, critical)
-
-Infrastructure - Authentication:
-
-* OpenId Connect (authentication with an identity provider)
-* API Key (authentication via API key)
-* OAuth (authentication via OAuth)
-* Custom authentication (authentication via custom provider)
-* Authentication with Google, Microsoft, LinkedIn, GitHub
-* Authentication as part of API and separate
-* User identity with custom attributes
-
-Infrastructure - Configuration:
-
-* File-based configuration
-* Database-based configuration
-
-Infrastructure - Authorization:
-
-* Role-based authorization
-* Group-based authorization
-* Permission-based authorization
-
-Infrastructure - Validation:
-
-* Declarative / fluent validation
-
-Infrastructure - Mapping:
-
-* Declarative / fluent mapping
-
-Infrastructure - Alerting:
-
-* Heartbeat checking for key systems
-* Sending emails to system administrators in case of failure, error reports
 
 
 
