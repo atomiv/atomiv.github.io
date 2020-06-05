@@ -81,144 +81,142 @@ description: Features
 <b>Architecture</b>
 
 <ul>
-<li>Domain Layer</li>
-<li>Application Layer</li>
-<li>Infrastructure Layer</li>
-<li>Web Layer</li>
+<li>Domain Layer [DONE]</li>
+<li>Application Layer [DONE]</li>
+<li>Infrastructure Layer [DONE]</li>
+<li>Web Layer [DONE]</li>
 </ul>
 
 <b>Application Layer</b>
 
 <ul>
-<li>Commands</li>
-<li>Queries</li>
-<li>Command Handlers</li>
-<li>Application Context</li>
+<li>Commands [DONE]</li>
+<li>Queries [DONE]</li>
+<li>Command Handlers [DONE]</li>
+<li>Application Context [DONE]</li>
 </ul>
 
 <b>Domain Layer</b>
 
 <ul>
-<li>Entities</li>
-<li>Value Objects</li>
-<li>Domain Services</li>
-<li>Repository Interfaces</li>
+<li>Entities [DONE]</li>
+<li>Value Objects [DONE]</li>
+<li>Domain Services [DONE]</li>
+<li>Repository Interfaces [DONE]</li>
 </ul>
 
 <b>Web Layer - REST API</b>
 
 <ul>
-<li>GET - Getting a single resource by id</li>
-<li>GET - Getting all resources (ids, names)</li>
-<li>GET - Paging, sorting, filtering</li>
-<li>GET - Exporting data to a file</li>
-<li>POST - Creating a single resource</li>
-<li>POST - Performing an operation on a single resource</li>
-<li>POST - Importing data from a file</li>
-<li>PUT - Updating a single resource</li>
-<li>DELETE - Deleting a single resource</li>
+<li>GET - Getting a single resource by id [DONE]</li>
+<li>GET - Getting all resources (ids, names) [DONE]</li>
+<li>GET - Paging, sorting, filtering [DONE]</li>
+<li>GET - Exporting data to a file [TODO]</li>
+<li>POST - Creating a single resource [DONE]</li>
+<li>POST - Performing an operation on a single resource [DONE]</li>
+<li>POST - Importing data from a file [TODO]</li>
+<li>PUT - Updating a single resource [DONE]</li>
+<li>DELETE - Deleting a single resource [DONE]</li>
 </ul>
 
 <b>Infrastructure Layer - Repositories</b>
 
 <ul>
-<li>Repository implementations with ORM</li>
-<li>Repository implementations with raw SQL</li>
-<li>Repository implementations with parameterized SQL</li>
-<li>Repository implementations with stored procedures</li>
-<li>Repository implementations with sql bulk operations (bulk update, bulk delete, bulk insert)</li>
-<li>Repository implementations for batch operations (errors and re-try)</li>
-<li>Repository implementations with NoSQL databases</li>
-<li>Repository implementations with files as source system</li>
+<li>Repository implementations with ORM [DONE]</li>
+<li>Repository implementations with raw SQL, parameterized SQL, stored procedures[TODO]</li>
+<li>Repository implementations with sql bulk operations (bulk update, bulk delete, bulk insert) [TODO]</li>
+<li>Repository implementations for batch operations (errors and re-try) [TODO]</li>
+<li>Repository implementations with NoSQL databases [TODO]</li>
+<li>Repository implementations with files as data source [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Query Handlers</b>
 
 <ul>
-<li>Query handlers with ORMs</li>
-<li>Query handlers with mixed data sources and data enrichment</li>
+<li>Query handlers with ORMs [DONE]</li>
+<li>Query handlers with mixed data sources and data enrichment [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Files</b>
 
 <ul>
-<li>Reading from and writing to various file formats (CSV, TSV, Excel, PDF)</li>
-<li>Importing data from files and other sources (reading, validation, updates)</li>
+<li>Reading from and writing to various file formats (CSV, TSV, Excel, PDF) [IN PROGRESS]</li>
+<li>Importing data from files and other sources (reading, validation, updates) [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Data Sources</b>
 
 <ul>
-<li>REST client for communicating with REST services (authentication and executing REST API methods)</li>
-<li>SOAP client for communicating with SOAP services (authentication and executing REST API methods)</li>
-<li>Process client for executing command line processes (executing local process amd remote procedure calls)</li>
-<li>FTP client for communicating with FTP services (uploading files, downloading files, authorization)</li>
+<li>REST client for communicating with REST services (authentication and executing REST API methods) [DONE]</li>
+<li>SOAP client for communicating with SOAP services (authentication and executing SOAP methods) [TODO]</li>
+<li>Process client for executing command line processes (executing local process amd remote procedure calls) [DONE]</li>
+<li>FTP client for communicating with FTP services (uploading files, downloading files, authorization) [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Messaging</b>
 
 <ul>
-<li>Sending messages to a message broker</li>
-<li>Receiving messages from a message broker</li>
+<li>Sending messages to a message broker [TODO]</li>
+<li>Receiving messages from a message broker [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Jobs</b>
 
 <ul>
-<li>Configuring and executing job schedulers</li>
+<li>Configuring and executing job schedulers [DONE]</li>
 </ul>
 
 <b>Infrastructure Layer - Logging</b>
 
 <ul>
-<li>Logging to various targets (files, databases)</li>
-<li>Logging with various levels (trace, debug, info, warning, error, critical)</li>
+<li>Logging to various targets (files, databases) [TODO]</li>
+<li>Logging with various levels (trace, debug, info, warning, error, critical) [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Authentication</b>
 
 <ul>
-<li>OpenId Connect (authentication with an identity provider)</li>
-<li>API Key (authentication via API key)</li>
-<li>OAuth (authentication via OAuth)</li>
-<li>Custom authentication (authentication via custom provider)</li>
-<li>Authentication with Google, Microsoft, LinkedIn, GitHub</li>
-<li>Authentication as part of API and separate</li>
-<li>User identity with custom attributes</li>
+<li>OpenId Connect (authentication with an identity provider) [IN PROGRESS]</li>
+<li>API Key (authentication via API key) [TODO]</li>
+<li>OAuth (authentication via OAuth) [TODO]</li>
+<li>Custom authentication (authentication via custom provider) [DONE]</li>
+<li>Authentication with Google, Microsoft, LinkedIn, GitHub [TODO]</li>
+<li>Authentication as part of API and separate [TODO]</li>
+<li>User identity with custom attributes [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Configuration</b>
 
 <ul>
-<li>File-based configuration</li>
-<li>Database-based configuration</li>
+<li>File-based configuration [DONE]</li>
+<li>Database-based configuration [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Authorization</b>
 
 <ul>
-<li>Role-based authorization</li>
-<li>Group-based authorization</li>
-<li>Permission-based authorization</li>
+<li>Role-based authorization [DONE]</li>
+<li>Group-based authorization [TODO]</li>
+<li>Permission-based authorization [DONE]</li>
 </ul>
 
 <b>Infrastructure Layer - Validation</b>
 
 <ul>
-<li>Declarative / fluent validation</li>
+<li>Declarative / fluent validation [DONE]</li>
 </ul>
 
 <b>Infrastructure Layer - Mapping</b>
 
 <ul>
-<li>Declarative / fluent mapping</li>
+<li>Declarative / fluent mapping [DONE]</li>
 </ul>
 
 <b>Infrastructure Layer - Alerting</b>
 
 <ul>
-<li>Heartbeat checking for key systems</li>
-<li>Sending emails to system administrators in case of failure, error reports</li>
+<li>Heartbeat checking for key systems [TODO]</li>
+<li>Sending emails to system administrators in case of failure, error reports [TODO]</li>
 </ul>
 
 </div>
