@@ -68,7 +68,6 @@
           }
           &:focus,
           &.active {
-            font-weight: 500;
             color: $primary !important;
           }
         }
@@ -91,3 +90,13 @@
   }
 }
 
+#navbarDropdown .dropdown-menu {
+  margin-top: 1rem;
+}
+
+.dropdown-menu {
+  margin-top: 0.75rem;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.175);
+}

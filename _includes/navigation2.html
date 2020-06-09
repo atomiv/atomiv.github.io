@@ -23,19 +23,38 @@
     <div class="collapse navbar-collapse order-5 order-md-1" id="navbarResponsive">
       <ul class="navbar-nav ov-navbar-nav ml-auto s-padding">
 
+
+        
         {% for link in site.data.navigation %}
-          {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-            {% else %}
-            {% assign domain = site.url %}
+        <!-- if link.subcategories != null -->
+          {% if link.subcategories != null %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ link.title }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for subcategory in link.subcategories %}
+                <a class="dropdown-item" href="{{ site.url }}{{ subcategory.subhref }}">
+                  {{ subcategory.subtitle }}
+                </a>
+              {% endfor %}
+              </div>
+            </li>
+            
+          {% elsif link.title == page.title %}
+            <li class="nav-item active">
+              <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% else %} 
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.url }}{{ link.href }}">{{ link.title }}</a>
+            </li>
           {% endif %}
-        
-        
-          <li class="nav-item {% if link.url == page.url %}active{% endif %}">
-            <a class="nav-link" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
-          </li>
-      
         {% endfor %}
+
+
+
 
       </ul>
     </div>
