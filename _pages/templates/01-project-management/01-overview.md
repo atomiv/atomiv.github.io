@@ -10,7 +10,6 @@ title: Overview
 ## {{page.title}} -->
 
 
-------------------------
 
 # Overview
 
@@ -21,4 +20,3 @@ DevOps boosts culture of collaboration between software development (Dev) and op
 It enables teams to self service, focusing on planning, developing, measuring and improving what matters.
 ‘four key metrics’ (described in Accelerate) track performance of DevOps implementation in the organisations.
 
-------------------------------

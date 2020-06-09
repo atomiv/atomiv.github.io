@@ -42,3 +42,19 @@
     </li>
   {% endif %}
 {% endfor %}
+
+<!-- ------------------------ -->
+
+---
+layout: post
+---
+
+
+
+(in html)
+
+{% if page.path contains '_posts' %}
+This page is a post
+{% else %}
+This page is a normal page
+{% endif %}

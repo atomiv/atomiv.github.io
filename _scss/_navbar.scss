@@ -71,6 +71,12 @@
             color: $primary !important;
           }
         }
+        button {
+          border: none;
+          background-color: transparent;
+          text-align: right;
+          float: right;
+        }
       }
     }
     @include media-breakpoint-up(md) {
@@ -99,4 +105,5 @@
   border: none;
   border-radius: 0;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.175);
+  // float: right !important;
 }

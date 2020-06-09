@@ -10,11 +10,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <!-- Sidebar BUTTON -->
-    <!-- <button class="sidebar-ellipsis order-0" type="button" id="sidebarCollapse" data-toggle="" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+    <!-- if page.url == == '/templates/' -->
+    {% if page.layout == 'templates' %}
+    <button class="sidebar-ellipsis order-0" type="button" id="sidebarCollapse" data-toggle="" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
       <svg class="bi bi-three-dots-vertical" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
       </svg>
-    </button> -->
+    </button>
+    {% endif %}
   </div>
     <!-- show if page is 'templates' -->
 
@@ -28,10 +31,10 @@
         <!-- if link.subcategories != null -->
           {% if link.subcategories != null %}
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}"
+              <button class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}"
                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ link.title }}
-              </a>
+              </button>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% for subcategory in link.subcategories %}
                 <a class="dropdown-item" href="{{ site.url }}{{ subcategory.subhref }}">
