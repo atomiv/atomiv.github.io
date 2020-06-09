@@ -5,7 +5,7 @@ footer.ov-footer {
     text-align: center;
     padding: 2.5rem 0; // 1.5rem 0
     font-size: 0.9rem;
-    background-color: #f1f1f1; // #f5f5f5; //#1077d4; // #f5f5f5
+    background-color: $gray-200; // originally: #f1f1f1 // #f5f5f5; //#1077d4; // #f5f5f5
     color: $gray-700; // white; // #495057
     // color: $white;
     // @include font-size(.9rem);

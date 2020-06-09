@@ -2,6 +2,12 @@
   min-height: 3.75rem;
   background-color: $white;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+  // 0 -0.4rem 0.9rem 0.2rem rgba(0,0,0,.5
+  box-shadow: 0 -.5rem 1rem .25rem rgba(0,0,0,.4);
+  padding: .5rem 1rem;
+  @include media-breakpoint-up(md) {
+    padding: .5rem 2.25rem;
+  }
   .navbar-brand {
     color: $primary;
     &:hover, &:focus, &:active, &.active {

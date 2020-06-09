@@ -1,14 +1,58 @@
 .main-container2 {
     min-height: calc(100vh - 60px); /* will cover the 100% of viewport */
     margin-top: 60px;
+    .container {
+        // margin-left: 2rem;
+        // margin-right: 10rem;
+        // original
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    @media (min-width: 576px) {
+        .container {
+          max-width: 540px; // 540
+        }
+      }
+      
+      @media (min-width: 768px) {
+        .container {
+          max-width: 720px; // 720
+          padding-right: 4rem; // or 3
+          padding-left: 4rem;
+        }
+      }
+      
+      @media (min-width: 992px) {
+        .container {
+          max-width: 960px; // 920 // 960px;
+        }
+      }
+      
+      @media (min-width: 1200px) {
+        .container {
+          max-width: 960px; // 920 // 1140px;
+        }
+      }
 }
 
 // sidebar
 // .wrapper
 .wrapper {
-    display: flex;
-    // width: 100%;
-    align-items: stretch;
+    display: flex; // not block
+    width: 100%;
+    // JC
+    height: 100vh;
+    // JC
+    // flex-flow: row nowrap;
+    // JC
+    // justify-content:space-between;
+    @include media-breakpoint-up(md) {
+        display: flex;
+        // width: 100%;
+        align-items: stretch;
+        // JC
+        // align-items: flex-start;
+    }
 }
 
 a, a:hover, a:focus {
@@ -18,64 +62,86 @@ a, a:hover, a:focus {
 }
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    min-height: calc(100vh - 60px);
-    // height: calc(100vh);
-    margin-top: 60px;
-    background: #7386D5;
-    color: #fff;
-    transition: all 0.3s;
+    min-width: 288px;
+    max-width: 288px;
+    // JC
+    // min-height: calc(100vh - 60px); // yes
+    // height: 100vh;
+    margin-top: 60px; // yes
+    // sidebar bg ----------------------------------------------------
+    background: $gray-100;
+    background: white;
+    background: rgba(16, 119, 212, 0.07);
+    background: mix($primary, #fff, 7%); // .25
+    color: $gray-900;
+    // border-right: 1px solid $gray-300;
+    // border-right: 1px solid rgba(16, 119, 212, 0.1);
     // activated when no sidenav and 'Toggle Button' is clicked
-    // -webkit-transition: margin .25s ease-out;
-    // -moz-transition: margin .25s ease-out;
-    // -o-transition: margin .25s ease-out;
-    // transition: margin .25s ease-out;
-    @include media-breakpoint-down(md) {}
-}
+    transition: all 0.3s; // .25s
+    // overflow: scroll;
 
-#sidebar .sidebar-header {
-    padding: 20px;
-    background: #6d7fcc;
+    // ... 
+    overflow-y: scroll;
+    height: 100vh;
+    flex: 1 0 auto;
+    // padding-top: 8rem;
+    @include media-breakpoint-down(sm) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
-}
-
-#sidebar ul p {
-    color: #fff;
-    padding: 10px;
+    padding: 1rem 0; // or 1rem or 1.5
+    // padding: 20px 0;
+    // line under all links
+    // border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
+    // heading padding -------------------------------
+    // padding: 10px;
+    // padding: 10px 2rem;
+    padding: 10px 2rem; // 1.5 - 2 squares
+    padding-left: 5rem; // or 4 // used to be 2
+    font-size: 1rem;
+    font-weight: 600;
     display: block;
+    // margin-left: 1.5rem; // v2 2rem 
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    // color: rgb(213, 115, 172);
     background: #fff;
+    background: rgba(16, 119, 212, 0.1);
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    // heading active---------------------------------------
+    color: $primary;
+    font-weight: 600;
+    // background: pink;
+    // border-left: 5px solid #158ffa; // #1077d4 // v2
+    // margin-left: 1.5rem; // v2 calc(1.5rem - 5px)
 }
 ul ul a {
-    font-size: 0.9em !important;
-    padding-left: 30px !important;
-    background: #6d7fcc;
+    font-size: 1rem !important;
+    padding-left: 6rem !important; // used to be 3
+    // under the heading
+    // background: yellow;
+    font-weight: 400 !important;
+    &:hover {
+        background: rgba(16, 119, 212, 0.1) !important;
+        color: $primary !important;
+    }
 }
 
+
 #sidebar.active {
-    margin-left: -250px;
+    margin-left: -288px;
     // activated when there is a sidenav and toggle button is clicked
     // -webkit-transition: margin .25s ease-out;
-    // -moz-transition: margin .25s ease-out;
-    // -o-transition: margin .25s ease-out;
-    // transition: margin .25s ease-out;
 }
 
 // --------------
@@ -83,18 +149,19 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
-.dropdown-toggle::after {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
+// arrow after heading, dropdown
+// .dropdown-toggle::after {
+//     display: block;
+//     position: absolute;
+//     top: 50%;
+//     right: 20px;
+//     transform: translateY(-50%);
+// }
 // ------------
 // sidebar disappears < md
 @media (max-width: 768px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: -288px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -104,9 +171,14 @@ a[data-toggle="collapse"] {
 
 
 // --------------------
+// #content
 #page-content-wrapper {
     // min-width: 100vw;
     width: 100%;
+    // JC
+    min-height: 100vh;
+    // JC
+    transition: all 0.3s;
     @include media-breakpoint-down(sm) {
         // width: 100%;
     }
@@ -114,7 +186,94 @@ a[data-toggle="collapse"] {
 
 // .push, .ov-footer {   height: 60px; }
 
+// visually to look like navbar toggle icon
+.sidebar-ellipsis {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 1px 6px 1px 0px;
+    color: rgba(0,0,0,0.5);
+    font-size: 1.25rem;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    @include media-breakpoint-up(md) {
+        margin-right: .5rem;
+    }
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+}
 
-.content-22 {
+button {
+    outline: 0;
+}
 
+// .btn:focus
+button, button.focus, button:focus, button:active, button.active {
+    outline: 0;
+}
+
+// ----------------------
+.overlay {
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.6);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    // transition: all 0.5s ease-in-out;
+}
+
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 10px;
+}
+
+// -----------------
+.template-banner {
+    background-color: $primary;
+    background-color: rgba(16, 119, 212, 0.75);
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 1rem;
+    margin-top: -60px;
+    h1 {font-weight: 400 !important;}
+}
+
+// sidebar not to scroll down with text
+aside {
+    position: fixed;
+    height: 100vh; // 100%
+    // width: 288px;
+    top: calc(60px);
+    // top: 0;
+    left: 0;
+    overflow: scroll;
+    // overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    // width: 0px;
+    // background: transparent; /* make scrollbar transparent */
+    display:none;
+
+}
+
+.sidebar {
+    display: flex;
 }
