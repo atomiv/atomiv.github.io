@@ -1,6 +1,13 @@
 .main-container2 {
     min-height: calc(100vh - 60px); /* will cover the 100% of viewport */
     margin-top: 60px;
+    padding-bottom: 250px; /* height of your footer */
+    @include media-breakpoint-up(md) {
+      padding-bottom: 250px;
+    }
+    @include media-breakpoint-up(xl) {
+        padding-bottom: 229px;
+    }
     .container {
         // margin-left: 2rem;
         // margin-right: 10rem;
@@ -25,6 +32,8 @@
       @media (min-width: 992px) {
         .container {
           max-width: 960px; // 920 // 960px;
+          padding-right: 6rem; // or 3
+          padding-left: 6rem;
         }
       }
       
@@ -82,9 +91,9 @@ a, a:hover, a:focus {
 
     // ... 
     overflow-y: scroll;
-    height: 100vh;
-    flex: 1 0 auto;
-    // padding-top: 8rem;
+    // height: 100vh;
+    height: calc(100vh - 60px);
+    // flex: 1 0 auto;
     @include media-breakpoint-down(sm) {
         position: fixed;
         top: 0;
@@ -190,7 +199,7 @@ a[data-toggle="collapse"] {
 .sidebar-ellipsis {
     background-color: transparent;
     border-color: transparent;
-    padding: 1px 6px 1px 0px;
+    padding: 1px 6px 1px 6px; // padding: 1px 6px 1px 0px;
     color: rgba(0,0,0,0.5);
     font-size: 1.25rem;
     line-height: 1;
@@ -235,13 +244,25 @@ button, button.focus, button:focus, button:active, button.active {
     opacity: 1;
 }
 
-#dismiss {
-    width: 35px;
-    height: 35px;
-    position: absolute;
-    /* top right corner of the sidebar */
-    top: 10px;
-    right: 10px;
+.overlay2 {
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.6);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    // transition: all 0.5s ease-in-out;
+}
+
+/* display .overlay when it has the .active class */
+.overlay2.active {
+    display: block;
+    opacity: 1;
 }
 
 // -----------------
@@ -276,4 +297,72 @@ aside {
 
 .sidebar {
     display: flex;
+}
+
+// -------------------
+.template-content {
+    padding-bottom: 3rem;
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        line-height: 1.2;
+    }
+    // 'Features' banner heading
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        // padding-bottom: 1rem;
+    }
+    // 'Home' h3
+    h2 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+    // 'Features' headings below
+    h3 {
+        font-size: 1.75rem;
+        margin-bottom: .5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    p {
+        // font-size: 1rem;
+        margin-bottom: 1.5rem;
+    } 
+    @include media-breakpoint-up(md) {
+        h1 {
+            font-size: 2.25rem;
+            margin-bottom: 3.5rem;
+        }
+        h2 {
+            font-size: 2.125rem;
+            margin-bottom: 1.25rem;
+        }
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        h1 {
+            font-size: 2.75rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+        }
+        h3 {
+            font-size: 2.125rem;
+        }
+    }
+    a, a:hover, a:link {
+        color: $primary;
+    }
+}
+
+.template-links {
+    margin-bottom: 3rem; // 3 + 1.5 <p>
+    color: $primary;
+}
+
+.next a {
+    align-items: flex-end;
 }

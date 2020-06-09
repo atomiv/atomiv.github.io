@@ -9,6 +9,7 @@ permalink: /:year/:month/:day/:title
 collections:
   pages:
     output: true
+    # permalink: /:path
     permalink: /:path
 
 sass:

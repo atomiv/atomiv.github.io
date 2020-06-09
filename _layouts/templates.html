@@ -18,6 +18,11 @@ layout: default
   
 	<div class="">
 
+		{% comment %}
+			templates page
+		{% endcomment %}
+
+
 		{% include navigation2.html %}
 		
 
@@ -27,202 +32,28 @@ layout: default
 			<!-- Sidebar -->
 			<nav id="sidebar" style="overflow: auto;">
 				<!-- <aside> -->
-
-				<!-- <div id="dismiss">
-					<i class="fas fa-arrow-left"></i>
-				</div> -->
-		
 				<ul class="list-unstyled components">
-					<!-- 1 -->
-					<li class="active">
-						<!-- #pageSubmneu, #homeSubmenu -->
-						<!-- <a>Another heading<i class="icon-angle-down"></i></a> -->
-						<!-- <a href="#" data-toggle="collapse" data-target="#submenu1">
-							helloss<i class="icon-angle-down"></i>
-							</a> -->
-							<!-- when click on arrow, change direction ... $('[data-toggle=collapse]').click(function(){
-    $(this).find("i").toggleClass("icon-angle-right icon-angle-down");
-}); -->
-<!-- <button class="dropdown-btn">Dropdown
-    <i class="fa fa-caret-down"></i>
-  </button> -->
-						<!-- class="dropdown-toggle" -->
-						<a href="#submenu1" data-toggle="collapse" aria-expanded="false">Project Management</a>
-						<ul class="collapse list-unstyled" id="submenu1">
+				{% for item in site.data.templates.docs %}
+
+					<!-- href="{{site.url}}" alt="{{item.title}}" -->
+					<!-- class="active" -->
+					<li class="{% if item.url == page.url %}active{% endif %}">
+						<a href="#{{ item.url }}" data-toggle="collapse" aria-expanded="false">{{ item.title }}</a>
+						<ul class="collapse list-unstyled" id="{{ item.url }}">
+						{% for entry in item.submenuitems %}
 							<li>
-								<a href="/about">Overview</a>
+								<a href="{{ entry.url }}">{{ entry.page }}</a>
 							</li>
-							<li>
-								<a href="#">Agile</a>
-							</li>
-							<li>
-								<a href="#">History</a>
-							</li>
+						{% endfor %}
 						</ul>
 					</li>
-					<!-- 2 -->
-					<!-- <li>
-						<a href="#">Business Analysis</a>
-					</li> -->
-					<li>
-						<a href="#submenu2" data-toggle="collapse" aria-expanded="false">Business Analysis</a>
-						<ul class="collapse list-unstyled" id="submenu2">
-							<li>
-								<a href="#">Overview</a>
-							</li>
-							<li>
-								<a href="#">Processes</a>
-							</li>
-							<li>
-								<a href="#">Use Cases</a>
-							</li>
-							<li>
-								<a href="#">Domain</a>
-							</li>
-							<li>
-								<a href="#">Applications</a>
-							</li>
-						</ul>
-					</li>
-					<!-- 3 -->
-					<!-- or Architecture?? -->
-					<li>
-						<a href="#submenu3" data-toggle="collapse" aria-expanded="false">Software Architecture</a>
-						<ul class="collapse list-unstyled" id="submenu3">
-							<li>
-								<a href="#">Overview</a>
-							</li>
-							<li>
-								<a href="#">Microservices</a>
-							</li>
-							<li>
-								<a href="#">System</a>
-							</li>
-							<li>
-								<a href="#">Layers</a>
-							</li>
-							<li>
-								<a href="#">Slices</a>
-							</li>
-						</ul>
-					</li>
-					<!-- 4 -->
-					<li>
-						<a href="#submenu4" data-toggle="collapse" aria-expanded="false">.NET Core</a>
-						<ul class="collapse list-unstyled" id="submenu4">
-							<li>
-								<a href="#">Get Started</a>
-							</li>
-							<li>
-								<a href="#">Walkthrough</a>
-							</li>
-							<li>
-								<a href="#">Implementation</a>
-							</li>
-						</ul>
-					</li>
-					<!-- 5 -->
-					<li>
-						<a href="#submenu5" data-toggle="collapse" aria-expanded="false">Angular</a>
-						<ul class="collapse list-unstyled" id="submenu5">
-							<li>
-								<a href="#">Get Started</a>
-							</li>
-							<li>
-								<a href="#">Walkthrough</a>
-							</li>
-						</ul>
-					</li>
-					<!-- 7 -->
-					<!-- order of templates -->
-					<li>
-						<a href="#submenu7" data-toggle="collapse" aria-expanded="false">Quality Assurance</a>
-						<ul class="collapse list-unstyled" id="submenu7">
-							<li>
-								<a href="#">Manual Testing</a>
-							</li>
-							<li>
-								<a href="#">Automated Testing</a>
-							</li>
-						</ul>
-					</li>
-					<!-- 6 -->
-					<li>
-						<a href="#submenu6" data-toggle="collapse" aria-expanded="false">Big Data</a>
-						<ul class="collapse list-unstyled" id="submenu6">
-							<li>
-								<a href="#">Data Sources</a>
-							</li>
-							<li>
-								<a href="#">Data Storage</a>
-							</li>
-							<li>
-								<a href="#">Batch Processing</a>
-							</li>
-							<li>
-								<a href="#">Stream Processing</a>
-							</li>
-							<li>
-								<a href="#">Machine Learning</a>
-							</li>
-							<li>
-								<a href="#">Analytical Data Store</a>
-							</li>
-							<li>
-								<a href="#">Analytics and Reporting</a>
-							</li>														
-						</ul>
-					</li>					
-					<!-- 8 -->
-					<!-- System Adminisration -->
-					<li>
-						<a href="#submenu8" data-toggle="collapse" aria-expanded="false">System Admin</a>
-						<ul class="collapse list-unstyled" id="submenu8">
-							<li>
-								<a href="#">Responsibilities</a>
-							</li>
-							<li>
-								<a href="#">Configuration</a>
-							</li>
-							<li>
-								<a href="#">Maintenance</a>
-							</li>
-							<li>
-								<a href="#">Network</a>
-							</li>
-							<li>
-								<a href="#">Security</a>
-							</li>
-						</ul>
-					</li>
-					<!-- 9 -->
-					<li>
-						<a href="#submenu9" data-toggle="collapse" aria-expanded="false">DevOps</a>
-						<ul class="collapse list-unstyled" id="submenu9">
-							<li>
-								<a href="#">Overview</a>
-							</li>
-							<li>
-								<a href="#">Process</a>
-							</li>
-							<li>
-								<a href="#">Tools</a>
-							</li>
-						</ul>
-					</li>
-					<!-- 10 -->
-					<li>
-						<a href="#submenu10" data-toggle="collapse" aria-expanded="false">Recruitment</a>
-						<ul class="collapse list-unstyled" id="submenu10">
-							<li>
-								<a href="#">Overview</a>
-							</li>
-						</ul>
-					</li>										
+					
+				{% endfor %}										
 				</ul>
 			<!-- </aside> -->
-
 			</nav>
+
+
 
 
 			<!-- Page content -->
@@ -249,39 +80,37 @@ layout: default
                                 <span>Toggle Sidebar</span>
                             </button>
                         </div> -->
-                    
-						<h1>Overview</h1>
-						<p>DevOps boosts culture of collaboration between software development (Dev) and operations (Ops) teams. Emphasises a shift in mindset that leads to increased productivity through automation, security, continuous delivery. </p>
-						<p>It enables teams to self service, focusing on planning, developing, measuring and improving what matters.
-							‘four key metrics’ (described in Accelerate) track performance of DevOps implementation in the organisations.</p>
-						<p>Lead Time for Changes - How long it takes to run (code) changes in production.
-							Deployment Frequency - How often (code) changes are deployed to production.
-							Time to Restore Service - How long it takes to restore failed service.
-							Change Failure Rate - What is the percentage of failed deployments.</p>
-						<p>DevOps transforms business and brings benefits like innovation, shorter time to market, user satisfaction, growth.</p>
+					
 
-						<p>DevOps boosts culture of collaboration between software development (Dev) and operations (Ops) teams. Emphasises a shift in mindset that leads to increased productivity through automation, security, continuous delivery.
-						It enables teams to self service, focusing on planning, developing, measuring and improving what matters.
-							‘four key metrics’ (described in Accelerate) track performance of DevOps implementation in the organisations.</p>
-						<p>Lead Time for Changes - How long it takes to run (code) changes in production.
-							Deployment Frequency - How often (code) changes are deployed to production.
-							Time to Restore Service - How long it takes to restore failed service.
-							Change Failure Rate - What is the percentage of failed deployments.</p>
-						<p>DevOps transforms business and brings benefits like innovation, shorter time to market, user satisfaction, growth.</p>
+						<!-- CONTENT =============================================== -->
+						<div class="template-content">
+							{{content}}
+						</div>
 
-						<p>DevOps boosts culture of collaboration between software development (Dev) and operations (Ops) teams. Emphasises a shift in mindset that leads to increased productivity through automation, security, continuous delivery.
-							It enables teams to self service, focusing on planning, developing, measuring and improving what matters.
-								‘four key metrics’ (described in Accelerate) track performance of DevOps implementation in the organisations.</p>
-							<p>Lead Time for Changes - How long it takes to run (code) changes in production.
-								Deployment Frequency - How often (code) changes are deployed to production.
-								Time to Restore Service - How long it takes to restore failed service.
-								Change Failure Rate - What is the percentage of failed deployments.</p>
-							<p>DevOps transforms business and brings benefits like innovation, shorter time to market, user satisfaction, growth.</p>
 
-						<!-- link to previous part -->
-						<!-- security -->
-						<!-- link to next part -->
-						<!-- process -->
+						<!-- LINKS AT THE BOTTOM ==================================== -->
+						<div class="template-links">
+							<!-- link to previous part -->
+							<span>
+								<a href='#'>
+									<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+									</svg>
+									Data
+								</a>
+							</span>
+							
+							<!-- link to next part -->
+							<span class="next" style="float: right;">
+								<a href="#">
+									Process
+									<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+									  </svg>
+								</a>
+							</span>
+						</div>
+
                     </div>
                     
                     <!-- footer -->
@@ -319,3 +148,20 @@ layout: default
 
 
 
+						<!-- #pageSubmneu, #homeSubmenu -->
+						<!-- <a>Another heading<i class="icon-angle-down"></i></a> -->
+						<!-- <a href="#" data-toggle="collapse" data-target="#submenu1">
+							helloss<i class="icon-angle-down"></i>
+							</a> -->
+							<!-- when click on arrow, change direction ... $('[data-toggle=collapse]').click(function(){
+								$(this).find("i").toggleClass("icon-angle-right icon-angle-down");
+							}); -->
+							<!-- <button class="dropdown-btn">Dropdown
+								<i class="fa fa-caret-down"></i>
+							</button> -->
+						<!-- class="dropdown-toggle" -->
+
+
+						<!-- <div id="dismiss">
+							<i class="fas fa-arrow-left"></i>
+						</div> -->

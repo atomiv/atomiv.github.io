@@ -1,12 +1,30 @@
+.s-padding {
+  margin: .5rem 1rem;
+  @include media-breakpoint-up(md) {
+    margin: .5rem 2.25rem;
+  }
+}
+
 .ov-navbar {
+  @include media-breakpoint-down(sm) {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+  }
+
+
   min-height: 3.75rem;
   background-color: $white;
+  // background-color: transparent;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
   // 0 -0.4rem 0.9rem 0.2rem rgba(0,0,0,.5
   box-shadow: 0 -.5rem 1rem .25rem rgba(0,0,0,.4);
+  // JC
   padding: .5rem 1rem;
+  padding: 0;
   @include media-breakpoint-up(md) {
     padding: .5rem 2.25rem;
+    padding: 0;
   }
   .navbar-brand {
     color: $primary;
@@ -20,7 +38,7 @@
   .navbar-toggler {
     background-color: transparent;
     border-color: transparent;
-    padding: 1px 6px 1px 0px;
+    padding: 1px 6px 1px 6px; // padding: 1px 0px 1px 6px;
     &:focus {
         outline: 0;
         box-shadow: none;
@@ -30,36 +48,42 @@
     width: 1.5rem;
     height: 1.5rem;
   }
-  .navbar-nav {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    .nav-item {
-      .nav-link {
-        color: $gray-900;
-        font-weight: 400;
-        font-size: 1rem;
-        padding: .75rem 0; // 0.5 0
-        &:hover,
-        &:active {
-          color: $primary;
-        }
-        &:focus,
-        &.active {
-          font-weight: 500;
-          color: $primary !important;
+  #navbarResponsive {
+    @include media-breakpoint-down(sm) {
+      text-align: right;
+      background-color: rgb(244, 249, 255);
+    }
+    .navbar-nav {
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      .nav-item {
+        .nav-link {
+          color: $gray-900;
+          font-weight: 400;
+          font-size: 1rem;
+          padding: .75rem 0; // 0.5 0
+          &:hover,
+          &:active {
+            color: $primary;
+          }
+          &:focus,
+          &.active {
+            font-weight: 500;
+            color: $primary !important;
+          }
         }
       }
     }
-  }
-  @include media-breakpoint-up(md) {
-    .navbar-nav {
-      .nav-item {
-        .nav-link {
-          padding: 0 0.7rem;
-        }
-        &:last-child {
+    @include media-breakpoint-up(md) {
+      .navbar-nav {
+        .nav-item {
           .nav-link {
-            padding-right: 0;
+            padding: 0 0.7rem;
+          }
+          &:last-child {
+            .nav-link {
+              padding-right: 0;
+            }
           }
         }
       }

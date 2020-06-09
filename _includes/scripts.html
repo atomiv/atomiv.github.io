@@ -28,13 +28,7 @@ $('#sidebarCollapse').on('click', function () {
     $('#sidebar').toggleClass('active');
 });
 
-
-    // $("#menu-toggle").click(function(e) {
-    //   e.preventDefault();
-    //   $("#wrapper").toggleClass("toggled");
-    // });
-
-}); -->
+ -->
 
 <script>
     $(document).ready(function () {
@@ -49,6 +43,7 @@ $('#sidebarCollapse').on('click', function () {
             $('#sidebar').toggleClass('active');
             $('.overlay').toggleClass('active');
             console.log('hello there');
+            $('.overlay2').removeClass('active');
             // close dropdowns
             // $('.collapse.in').toggleClass('in');
             // // and also adjust aria-expanded attributes we use for the open/closed arrows
@@ -57,6 +52,34 @@ $('#sidebarCollapse').on('click', function () {
         });
 
 
+        // ('body, html'
+        $('.navbar-toggler, #navbarResponsive').on('click', function () {
+            $('#sidebar').removeClass('active');
+            $('.overlay').removeClass('active');
+            $('.overlay2').toggleClass('active');
+        });
+
+        // #mainNav, .navbar-toggler
+        $('body').on('click', function () {
+            // $('#sidebar').removeClass('active');
+            if ($('#navbarResponsive').hasClass('show')) {
+                $('.overlay2').removeClass('active');
+            }
+        });
+
+        /*
+        $('body').on('click', function() {
+            if ($('.menu').hasClass('bar')) {
+                $(".menu").toggleClass('bar')
+            }
+        })
+
+        $(document).on('click',function(){
+            if($("#nav-toggle").hasClass("active")){
+                $('.menu').animate({ right: "-100%" }, 200);
+            }
+        });
+        */
 
         // $('#sidebarCollapse').on('click', function () {
         //     // open sidebar
