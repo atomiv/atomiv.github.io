@@ -5,8 +5,6 @@ permalink: /foundation/overview
 vversion: 0
 ---
 
-# Overview
-
 Ready to accelerate your enterprise software development teams and deliver successful software projects? Welcome to Atomiv.
 
 ## What is the Atomiv?
