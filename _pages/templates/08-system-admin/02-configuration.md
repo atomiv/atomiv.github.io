@@ -7,3 +7,8 @@ vversion: 8
 
 
 ## {{page.permalink}} 
+
+# Configuration
+
+This page is in progress, it will describe configuration...
+
