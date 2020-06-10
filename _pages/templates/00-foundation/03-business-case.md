@@ -1,6 +1,6 @@
 ---
 layout: templates
-title: Case Study
+title: Business Case
 permalink: /foundation/business-case
 vversion: 0
 ---
