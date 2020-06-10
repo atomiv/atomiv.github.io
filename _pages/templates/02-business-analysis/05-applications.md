@@ -1,6 +1,7 @@
 ---
 layout: templates
-permalink: /business-analysis/applications                        
+permalink: /business-analysis/applications        
+vversion: 2                
 ---
 
 

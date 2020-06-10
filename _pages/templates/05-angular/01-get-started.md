@@ -1,6 +1,7 @@
 ---
 layout: templates
 permalink: /angular/get-started
+vversion: 5
 ---
 
 

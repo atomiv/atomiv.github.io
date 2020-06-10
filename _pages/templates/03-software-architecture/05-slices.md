@@ -1,6 +1,7 @@
 ---
 layout: templates
 permalink: /software-architecture/slices
+vversion: 3
 ---
 
 

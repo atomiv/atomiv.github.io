@@ -43,10 +43,10 @@
               {% endfor %}
               </div>
             </li>
-            
-          {% elsif link.title == page.title %}
-            <li class="nav-item active">
-              <a class="nav-link" href="{{ link.url }}">{{ link.title }}</a>
+          <!-- link.title == page.title -->
+          {% elsif link.url == page.url %}
+            <li class="nav-item">
+              <a class="nav-link active" href="{{ link.url }}">{{ link.title }}</a>
             </li>
           {% else %} 
             <li class="nav-item">

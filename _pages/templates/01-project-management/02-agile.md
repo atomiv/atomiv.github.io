@@ -1,6 +1,7 @@
 ---
 layout: templates
 permalink: /project-management/agile
+vversion: 1
 ---
 
 

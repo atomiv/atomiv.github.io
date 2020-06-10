@@ -37,12 +37,32 @@ layout: default
 
 					<!-- href="{{site.url}}" alt="{{item.title}}" -->
 					<!-- class="active" -->
-					<li class="{% if item.url == page.url %}active{% endif %}">
-						<a href="#{{ item.url }}" data-toggle="collapse" aria-expanded="false">{{ item.title }}</a>
-						<ul class="collapse list-unstyled" id="{{ item.url }}">
+					<li>
+						<a class="{% if item.vversion == page.vversion %}active44{% endif %}"
+						href="#{{ item.url }}" data-toggle="collapse" aria-expanded="false">
+							{{ item.title }}
+
+							<!-- {{item.vversion}} .. 
+							{{page.vversion}} -->
+
+
+<!-- 
+							{{item.url}}
+							{{page.url}}
+							{{page.title}} -->
+						</a>
+						<ul class="collapse list-unstyled 
+						{% if item.vversion == page.vversion %}show{% endif %}
+						" id="{{ item.url }}">
 						{% for entry in item.submenuitems %}
-							<li>
-								<a href="{{ entry.url }}">{{ entry.page }}</a>
+							<li class="{% if entry.url == page.url %}active{% endif %}">
+								<a href="{{ entry.url }}">
+									{{ entry.page }}
+
+
+									<!-- {{entry.url}}
+									{{page.url}} -->
+								</a>
 							</li>
 						{% endfor %}
 						</ul>

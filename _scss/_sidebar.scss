@@ -104,7 +104,6 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 1rem 0; // or 1rem or 1.5
-    // padding: 20px 0;
     // line under all links
     // border-bottom: 1px solid #47748b;
 }
@@ -118,7 +117,7 @@ a, a:hover, a:focus {
     font-size: 1rem;
     font-weight: 600;
     display: block;
-    // margin-left: 1.5rem; // v2 2rem 
+    // margin-left: 1.5rem; // v2 2rem
 }
 #sidebar ul li a:hover {
     // color: rgb(213, 115, 172);
@@ -126,13 +125,22 @@ a, a:hover, a:focus {
     background: rgba(16, 119, 212, 0.1);
 }
 
+.active44 {
+    color: $primary !important;
+}
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     // heading active---------------------------------------
-    color: $primary;
+    // only one should be highlighted
+    // color: $primary;
     font-weight: 600;
-    // background: pink;
     // border-left: 5px solid #158ffa; // #1077d4 // v2
     // margin-left: 1.5rem; // v2 calc(1.5rem - 5px)
+}
+#sidebar ul li {
+    a.active, a:active {
+        // background-color: pink !important;
+        color: $primary !important;
+    }
 }
 ul ul a {
     font-size: 1rem !important;
@@ -142,10 +150,15 @@ ul ul a {
     font-weight: 400 !important;
     &:hover {
         background: rgba(16, 119, 212, 0.1) !important;
-        color: $primary !important;
     }
 }
 
+ul ul li {
+    &:active, &.active {
+        color: $primary;
+        background: rgba(16, 119, 212, 0.1) !important;
+    }
+}
 
 #sidebar.active {
     margin-left: -288px;

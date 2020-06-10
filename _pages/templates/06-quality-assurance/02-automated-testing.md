@@ -1,6 +1,7 @@
 ---
 layout: templates
 permalink: /quality-assurance/automated-testing
+vversion: 6
 ---
 
 

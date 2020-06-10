@@ -4,6 +4,7 @@ docs:
 # 1 ---------------------------------------------------------------------
 - title: Project Management
   url: submenu1
+  vversion: 1
   submenuitems:
     - page: Overview
       url: /project-management/overview
@@ -15,6 +16,7 @@ docs:
 # 2 -------------------------------------------------------------------------
 - title: Business Analysis
   url: submenu2
+  vversion: 2
   submenuitems:
     - page: Overview
       url: /business-analysis/overview
@@ -30,6 +32,7 @@ docs:
 # 3 -------------------------------------------------------      
 - title: Software Architecture
   url: submenu3
+  vversion: 3
   submenuitems:
     - page: Overview
       url: /software-architecture/overview
@@ -45,6 +48,7 @@ docs:
 # 4 -------------------------------------------------------      
 - title: .NET Core
   url: submenu4
+  vversion: 4
   submenuitems:
     - page: Get Started
       url: /dot-net-core/get-started
@@ -56,6 +60,7 @@ docs:
 # 5 -------------------------------------------------------      
 - title: Angular
   url: submenu5
+  vversion: 5
   submenuitems:
     - page: Get Started
       url: /angular/get-started
@@ -65,6 +70,7 @@ docs:
 # 6 -------------------------------------------------------      
 - title: Quality Assurance
   url: submenu6
+  vversion: 6
   submenuitems:
     - page: Manual Testing
       url: /quality-assurance/manual-testing
@@ -74,6 +80,7 @@ docs:
 # 7 -------------------------------------------------------      
 - title: Big Data
   url: submenu7
+  vversion: 7
   submenuitems:
     - page: Data Sources
       url: /big-data/data-sources
@@ -93,6 +100,7 @@ docs:
 # 8 -------------------------------------------------------      
 - title: System Admin
   url: submenu8
+  vversion: 8
   submenuitems:
     - page: Responsibilities
       url: /system-admin/responsibilities
@@ -108,6 +116,7 @@ docs:
 # 9 -------------------------------------------------------      
 - title: DevOps
   url: submenu9
+  vversion: 9
   submenuitems:
     - page: Overview
       url: /devops/overview
@@ -120,6 +129,7 @@ docs:
 # 10 -------------------------------------------------------      
 - title: Recruitment
   url: submenu10
+  vversion: 10
   submenuitems:
     - page: Overview
       url: /recruitment/overview

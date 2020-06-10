@@ -1,6 +1,7 @@
 ---
 layout: templates
-permalink: /angular/walkthrough      
+permalink: /angular/walkthrough   
+vversion: 5   
 ---
 
 
