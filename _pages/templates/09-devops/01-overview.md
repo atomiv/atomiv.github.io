@@ -1,8 +1,7 @@
 ---
 layout: templates
-permalink: /project-management/agile
+permalink: /devops/overview
 ---
 
 
 ## {{page.permalink}} 
-

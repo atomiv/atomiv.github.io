@@ -15,6 +15,22 @@
     subhref: /business-analysis/overview
   - subtitle: Software Architecture
     subhref: /software-architecture/overview
+  - subtitle: .NET Core
+    subhref: /dot-net-core/get-started
+  - subtitle: Angular
+    subhref: /angular/get-started
+  - subtitle: Quality Assurance
+    subhref: /quality-assurance/manual-testing
+  - subtitle: Big Data
+    subhref: /big-data/data-sources
+  - subtitle: System Admin
+    subhref: /system-admin/responsibilities
+  - subtitle: DevOps
+    subhref: /devops/overview
+  - subtitle: Recruitment
+    subhref: /recruitment/overview
+
+
   
 - title: About
   url: /about

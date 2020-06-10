@@ -8,39 +8,119 @@ docs:
     - page: Overview
       url: /project-management/overview
     - page: Agile
-      url: /02-agile.html
+      url: /project-management/agile
     - page: History
-      url: /history.html
+      url: /project-management/history
 
 # 2 -------------------------------------------------------------------------
 - title: Business Analysis
   url: submenu2
   submenuitems:
     - page: Overview
-      url:
+      url: /business-analysis/overview
     - page: Processes
-      url:
+      url: /business-analysis/processes
     - page: Use Cases
-      url:
+      url: /business-analysis/use-cases
     - page: Domain
-      url:
+      url: /business-analysis/domain
     - page: Applications
-      url:                                
+      url: /business-analysis/applications                        
 
 # 3 -------------------------------------------------------      
 - title: Software Architecture
   url: submenu3
   submenuitems:
     - page: Overview
-      url:
+      url: /software-architecture/overview
     - page: Microservices
-      url:
+      url: /software-architecture/microservices
     - page: System
-      url:
+      url: /software-architecture/system
     - page: Layers
-      url:
+      url: /software-architecture/layers
     - page: Slices
-      url:     
+      url: /software-architecture/slices
 
+# 4 -------------------------------------------------------      
+- title: .NET Core
+  url: submenu4
+  submenuitems:
+    - page: Get Started
+      url: /dot-net-core/get-started
+    - page: Walkthrough
+      url: /dot-net-core/walkthrough
+    - page: Implementation
+      url: /dot-net-core/implementation
 
+# 5 -------------------------------------------------------      
+- title: Angular
+  url: submenu5
+  submenuitems:
+    - page: Get Started
+      url: /angular/get-started
+    - page: Walkthrough
+      url: /angular/walkthrough      
+
+# 6 -------------------------------------------------------      
+- title: Quality Assurance
+  url: submenu6
+  submenuitems:
+    - page: Manual Testing
+      url: /quality-assurance/manual-testing
+    - page: Automated Testing
+      url: /quality-assurance/automated-testing
+
+# 7 -------------------------------------------------------      
+- title: Big Data
+  url: submenu7
+  submenuitems:
+    - page: Data Sources
+      url: /big-data/data-sources
+    - page: Data Storage
+      url: /big-data/data-storage
+    - page: Batch Processing
+      url: /big-data/batch-processing
+    - page: Stream Processing
+      url: /big-data/stream-processing
+    - page: Machine Learning
+      url: /big-data/machine-learning
+    - page: Analytical Data Store
+      url: /big-data/analytical-data-store
+    - page: Analytics and Reporting
+      url: /big-data/analytics-and-reporting
       
+# 8 -------------------------------------------------------      
+- title: System Admin
+  url: submenu8
+  submenuitems:
+    - page: Responsibilities
+      url: /system-admin/responsibilities
+    - page: Configuration
+      url: /system-admin/configuration
+    - page: Maintenance
+      url: /system-admin/maintenance
+    - page: Network
+      url: /system-admin/network
+    - page: Security
+      url: /system-admin/security
+   
+# 9 -------------------------------------------------------      
+- title: DevOps
+  url: submenu9
+  submenuitems:
+    - page: Overview
+      url: /devops/overview
+    - page: Process
+      url: /devops/process
+    - page: Tools
+      url: /devops/tools
+      
+      
+# 10 -------------------------------------------------------      
+- title: Recruitment
+  url: submenu10
+  submenuitems:
+    - page: Overview
+      url: /recruitment/overview
+        
