@@ -12,12 +12,12 @@
   # url: https://docs.atomiv.com/
   # subcategories:
   subcategories:    
+  - subtitle: Foundation
+    subhref: /foundation/overview
   - subtitle: Project Management
     subhref: /project-management/overview
-    
   - subtitle: Business Analysis
     subhref: /business-analysis/overview
-
   - subtitle: Software Architecture
     subhref: /software-architecture/overview
   - subtitle: .NET Core
@@ -34,8 +34,6 @@
     subhref: /devops/overview
   - subtitle: Recruitment
     subhref: /recruitment/overview
-
-
   
 - title: About
   url: /about
