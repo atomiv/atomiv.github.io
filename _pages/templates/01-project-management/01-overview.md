@@ -6,15 +6,6 @@ vversion: 1
 ---
 
 
-<!-- {{site.title}}
-
-## {{page.title}} -->
-
-
-
-# Overview
-
-
 Probably one of the most important part of successful company is good management. Almost everyone who are dealing with any type of project development must have a project manager.
 
 Therefore, were are coming to the main question, who is a IT Project manager?

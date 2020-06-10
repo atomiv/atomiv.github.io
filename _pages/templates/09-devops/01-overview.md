@@ -6,10 +6,6 @@ vversion: 9
 ---
 
 
-## {{page.permalink}} 
-
-# Overview
-
 DevOps boosts culture of collaboration between software development \(Dev\) and operations \(Ops\) teams. Emphasises a shift in mindset that leads to increased productivity through automation, security, continuous delivery. 
 
 It enables teams to self service, focusing on planning, developing, measuring and improving what matters.

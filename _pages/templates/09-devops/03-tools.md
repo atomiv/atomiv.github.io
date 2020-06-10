@@ -6,7 +6,4 @@ vversion: 9
 ---
 
 
-## {{page.permalink}} 
-
-# Tools
 

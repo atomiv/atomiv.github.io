@@ -6,10 +6,6 @@ vversion: 2
 ---
 
 
-## {{page.permalink}} 
-
-# Use Cases
-
 ## Data Access
 
 There are many Businesses which have Business accounts on ACME Corporation. Each Business can only access the customers and orders which are related to them \(data privacy\).

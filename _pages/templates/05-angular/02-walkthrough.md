@@ -6,7 +6,3 @@ vversion: 5
 ---
 
 
-## {{page.permalink}} 
-
-# Walkthrough
-

@@ -6,10 +6,6 @@ vversion: 3
 ---
 
 
-## {{page.permalink}} 
-
-# Layers
-
 ## Core
 
 At the system center, we have the Core Layer, composed of the Domain Layer and Application Layer.

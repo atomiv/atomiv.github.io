@@ -6,10 +6,6 @@ vversion: 7
 ---
 
 
-## {{page.permalink}} 
-
-# Data Sources
-
 ## Overview
 
 Data sources represent a fundamental part of the big data system. These components are the generators of the data that are collected to provide insights and business value to the companies.

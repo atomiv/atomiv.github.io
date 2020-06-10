@@ -6,10 +6,6 @@ vversion: 3
 ---
 
 
-## {{page.permalink}} 
-
-# Slices
-
 ## Request
 
 Client sends a request to the Presentation Layer.

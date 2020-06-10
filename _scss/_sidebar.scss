@@ -379,3 +379,15 @@ aside {
 .next a {
     align-items: flex-end;
 }
+
+// --------------------------------------------------
+// ![Microservice architecture]({{site.url}}/assets/microservices.png){:class="img-responsive"}
+.img-responsive {
+    max-width: 100%;
+  }
+
+  // max width for jekyll images
+  img[src$=".png"], img[src$=".jpg"], img[src$=".jpeg"], img[src$=".svg"] {
+    width: 100%;
+    margin-bottom: 2rem;
+}

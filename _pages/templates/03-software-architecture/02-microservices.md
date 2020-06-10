@@ -6,10 +6,6 @@ vversion: 3
 ---
 
 
-## {{page.permalink}} 
-
-# Microservices
-
 ### About
 
 One of the newer ideas in the field of software architecture is Microservice architecture. The basic idea of this architecture is the splitting of large monolithic systems into smaller independent units. These small independent units have their own life cycle and cooperate with each other. Applications based on this architecture aim to keep microservices separate \(loosely coupled\) and as cohesive as possible.
@@ -24,7 +20,8 @@ Each service performs a small set of functions and each service can be implement
 
 Each microservice should have its own database. This allows the possibility of applying different types of databases for each microservice. An important rule of microservice is data sovereignty. The service cannot directly access the database of another service. Service should ask for those data from service whose database it is. A common way to improve performance is to replicate data between databases. Therefore, it is necessary to take care that when the data in one database change, the redundant data in other databases remain up-to-date.
 
-![Microservice architecture](../.gitbook/assets/microservices.png)
+![Microservice architecture]({{site.url}}/assets/microservices.png)
+
 
 #### API Gateway and security
 

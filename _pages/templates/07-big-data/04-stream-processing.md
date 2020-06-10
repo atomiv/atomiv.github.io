@@ -6,7 +6,3 @@ vversion: 7
 ---
 
 
-## {{page.permalink}} 
-
-# Stream Processing
-

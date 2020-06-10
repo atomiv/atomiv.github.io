@@ -6,10 +6,6 @@ vversion: 7
 ---
 
 
-## {{page.permalink}} 
-
-# Data Storage
-
 ## Overview
 
 Represent a repository of a collected data from the data sources. In the most solutions, this is a distributed, fail-tolerant DBMS that can hold high volumes of data.

@@ -3,16 +3,10 @@ layout: templates
 url: /system-admin/network
 permalink: /system-admin/network
 vversion: 8
----
 
-
-## {{page.permalink}} 
-
----
 description: Network basics
 ---
 
-# Network
 
 Network security should be taken into account when setting up a wireless network. Each organization has a different privacy policy, so some networks may be set to access the network using a public key, and some with unique logs that each employee or member of the organization receives from the system administrator or network manager.
 

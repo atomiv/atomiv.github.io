@@ -6,10 +6,6 @@ vversion: 3
 ---
 
 
-## {{page.permalink}} 
-
-# System
-
 Atomiv was envisioned to help you design and implement high quality architectures for software projects and products. Atomiv provides a templated solution architecture based on well-known best practices in clean architecture.
 
 ![Architecture diagram](https://atomiv.github.io/img/architecture-layers.svg)

@@ -6,13 +6,7 @@ vversion: 4
 ---
 
 
-## {{page.permalink}} 
-
-# Walkthrough
-
-{% hint style="info" %}
 This documentation is still in progress, we are finalizing it during June 2020, this message will disappear when the documentation has been finalized and ready to use.
-{% endhint %}
 
 ## Introduction
 

@@ -6,10 +6,6 @@ vversion: 4
 ---
 
 
-## {{page.permalink}} 
-
-# Implementation
-
 ## New Projects
 
 The primary intended usage for Atomiv is for building new projects. This is where Atomiv provides the most value - in setting a clean architecture foundation. We recommend the following approach:

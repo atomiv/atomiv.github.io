@@ -6,9 +6,5 @@ vversion: 6
 ---
 
 
-## {{page.permalink}} 
-
-# Manual Testing
-
 This section will contain examples of test cases for ACME Corporation.
 

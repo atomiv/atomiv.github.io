@@ -6,11 +6,6 @@ vversion: 2
 ---
 
 
-## {{page.permalink}} 
-
-
-# Applications
-
 ## ACME Identity
 
 ACME Identity is an Identity Server, a microservice which handles the identities for all ACME employees and ACME subsidaries. A general requirement is that all ACME applications are multi-tenant applications.

@@ -6,10 +6,6 @@ vversion: 2
 ---
 
 
-## {{page.permalink}} 
-
-# Domain
-
 ## Domain Entities
 
 * Business

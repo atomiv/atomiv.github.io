@@ -5,8 +5,3 @@ permalink: /big-data/analytical-data-store
 vversion: 7
 ---
 
-
-## {{page.permalink}} 
-
-# Analytical Data Store
-
