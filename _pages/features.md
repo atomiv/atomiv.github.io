@@ -105,6 +105,13 @@ description: Features
 <li>Repository Interfaces [DONE]</li>
 </ul>
 
+<b>Common Layer</b>
+
+<ul>
+<li>Enums [DONE]</li>
+<li>Resource Translations [TODO]</li>
+</ul>
+
 <b>Web Layer - REST API</b>
 
 <ul>
@@ -190,6 +197,7 @@ description: Features
 <ul>
 <li>File-based configuration [DONE]</li>
 <li>Database-based configuration [TODO]</li>
+<li>Multiple environments [TODO]</li>
 </ul>
 
 <b>Infrastructure Layer - Authorization</b>
@@ -218,6 +226,14 @@ description: Features
 <li>Heartbeat checking for key systems [TODO]</li>
 <li>Sending emails to system administrators in case of failure, error reports [TODO]</li>
 </ul>
+
+<b>Test Layer</b>
+
+<ul>
+<li>Unit tests [DONE]</li>
+<li>Integration tests [DONE]</li>
+</ul>
+
 
 </div>
 
