@@ -1,7 +1,7 @@
 ---
 layout: templates
-title: Templates
-description: Templates
+title: Framework
+description: Framework
 vversion2: 3
 ---
 
