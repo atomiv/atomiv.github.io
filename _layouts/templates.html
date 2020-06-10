@@ -103,25 +103,32 @@ layout: default
 
 						<!-- LINKS AT THE BOTTOM ==================================== -->
 						<!-- TO DO -->
-						<!-- <div class="template-links">
+						<div class="template-links">
+							{% if page.previous.vversion == page.vversion %}
 							<span>
-								<a href='#'>
+								<a href='{{page.previous.url}}'>
 									<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 										<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
 									</svg>
-									Pr Data
+									{{page.previous.title}}
+
+									<!-- {{page.next.vversion}}
+									{{page.vversion}} -->
 								</a>
 							</span>
+							{% endif %}
 							
+							{% if page.next.vversion == page.vversion %}
 							<span class="next" style="float: right;">
-								<a href="#">
-									N Process
+								<a href="{{page.next.url}}">
+									{{page.next.title}}
 									<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 										<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
 									  </svg>
 								</a>
 							</span>
-						</div> -->
+							{% endif %}
+						</div>
 
 
 
