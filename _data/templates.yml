@@ -1,6 +1,18 @@
 # template_list_title: Templates
 docs:
 
+# 0 ---------------------------------------------------------------------
+- title: Foundation
+  url: submenu0
+  vversion: 0
+  submenuitems:
+    - page: Overview
+      url: /foundation/overview
+    - page: Principles
+      url: /foundation/principles
+    - page: Business Case
+      url: /foundation/business-case
+
 # 1 ---------------------------------------------------------------------
 - title: Project Management
   url: submenu1

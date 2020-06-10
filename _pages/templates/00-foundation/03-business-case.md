@@ -2,7 +2,7 @@
 layout: templates
 title: Case Study
 permalink: /foundation/business-case
-vversion: 1
+vversion: 0
 ---
 
 The Atomiv template is based on using a fictional client example to illustrate usage of the template throughout all stages of the IT project.
