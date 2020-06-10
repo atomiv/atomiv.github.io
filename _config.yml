@@ -1,6 +1,6 @@
 title: Atomiv
-tagline: 10x Software Standards
-url: https://atomiv.github.io
+tagline: 10x Software Template
+url: https://atomiv.com
 
 include: ['_pages']
 
@@ -22,6 +22,8 @@ sass:
   
 highlighter: rouge
 
+plugins:
+  - jekyll-sitemap
 
 # You can also change the default _sass/ directory to a custom directory in your _config.yml:
 # sass:
