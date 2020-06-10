@@ -7,15 +7,14 @@
 - title: Templates
   # url: /templates
   # url: https://docs.atomiv.com/
-  # url: /templates/01-project-management/01-overview
   # subcategories:
   subcategories:    
   - subtitle: Project Management
-    subhref: /templates/01-project-management/01-overview
+    subhref: /project-management/overview
   - subtitle: Business Analysis
-    subhref: /templates/02-business-analysis/01-overview
+    subhref: /business-analysis/overview
   - subtitle: Software Architecture
-    subhref: /templates/03-software-architecture/01-overview
+    subhref: /software-architecture/overview
   
 - title: About
   url: /about

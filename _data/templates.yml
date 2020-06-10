@@ -6,8 +6,7 @@ docs:
   url: submenu1
   submenuitems:
     - page: Overview
-      url: /templates/01-project-management/01-overview
-      # permalink: /templates/project-management/overview
+      url: /project-management/overview
     - page: Agile
       url: /02-agile.html
     - page: History

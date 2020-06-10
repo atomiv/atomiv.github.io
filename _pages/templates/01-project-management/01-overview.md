@@ -1,6 +1,7 @@
 ---
 layout: templates
 title: Overview
+permalink: /project-management/overview
 # description: Contact us - Get in touch
 ---
 

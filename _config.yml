@@ -5,6 +5,7 @@ url: https://atomiv.github.io
 include: ['_pages']
 
 permalink: /:year/:month/:day/:title
+# permalink: pretty
 
 collections:
   pages:
