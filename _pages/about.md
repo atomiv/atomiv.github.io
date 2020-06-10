@@ -42,8 +42,10 @@ description: About Atomiv
                 <p class="mt-0">Follow us on LinkedIn</p>
             </a> -->
         </div>
-        <!-- row 1 -->
-        <div class="row ov-about-row">
+		
+        <!-- Valentina Cupać -->
+        
+		<div class="row ov-about-row">
             <div class="col-12">
                 <!-- align-items-end -->
                 <div class="d-md-flex align-items-center">
@@ -66,7 +68,9 @@ description: About Atomiv
                 </div>
             </div>
         </div>
-        <!-- row 2 -->
+		
+        <!-- Jelena Cupać -->
+		
         <div class="row ov-about-row">
             <div class="col-12">
                 <div class="d-md-flex align-items-center">
@@ -88,8 +92,10 @@ description: About Atomiv
                 </div>
             </div>
         </div>
-        <!-- row 3 -->
-        <div class="row ov-about-row">
+		
+        <!-- Petar Zečević -->
+		
+		<div class="row ov-about-row">
             <div class="col-12">
                 <div class="d-md-flex align-items-center">
                     <div>
@@ -108,8 +114,10 @@ description: About Atomiv
                 </div>
             </div>
         </div>
-        <!-- row 5 -->
-        <div class="row ov-about-row">
+		
+        <!-- Tamara Golubović -->
+		
+		<div class="row ov-about-row">
             <div class="col-12">
                 <div class="d-md-flex align-items-center">
                     <div>
@@ -128,8 +136,10 @@ description: About Atomiv
                 </div>
             </div>
         </div>
-        <!-- row 5 -->
-        <div class="row ov-about-row">
+		
+        <!-- Uroš Ljubenović -->
+        
+		<div class="row ov-about-row">
             <div class="col-12">
                 <!-- align-items-end -->
                 <div class="d-md-flex align-items-center">
@@ -150,8 +160,10 @@ description: About Atomiv
                 </div>
             </div>
         </div>
-        <!-- row 6 -->
-        <div class="row ov-about-row">
+		
+        <!-- Vladimir Maljm -->
+        
+		<div class="row ov-about-row">
             <div class="col-12">
                 <div class="d-md-flex align-items-center">
                     <div>
@@ -170,8 +182,10 @@ description: About Atomiv
                 </div>
             </div>
         </div>
-        <!-- row 7 -->
-        <div class="row ov-about-row">
+		
+        <!-- Boban Bojkovski -->
+        
+		<div class="row ov-about-row">
             <div class="col-12">
                 <div class="d-md-flex align-items-center">
                     <div>
