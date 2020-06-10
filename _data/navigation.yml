@@ -1,17 +1,20 @@
 - title: Home
   url: /
+  vversion2: 1
  
 - title: Features
   url: /features
+  vversion2: 2
   
 - title: Templates
+  vversion2: 3
   # url: /templates
   # url: https://docs.atomiv.com/
   # subcategories:
   subcategories:    
   - subtitle: Project Management
     subhref: /project-management/overview
-
+    
   - subtitle: Business Analysis
     subhref: /business-analysis/overview
 
@@ -36,6 +39,8 @@
   
 - title: About
   url: /about
+  vversion2: 4
 
 - title: Contact
   url: /contact
+  vversion2: 5

@@ -19,8 +19,6 @@
     </button>
     {% endif %}
   </div>
-    <!-- show if page is 'templates' -->
-
 
 
     <div class="collapse navbar-collapse order-5 order-md-1" id="navbarResponsive">
@@ -28,6 +26,14 @@
 
 
         {% for link in site.data.navigation %}
+
+        <!-- TO DO -->
+        <!-- templates to be highlighted -->
+        <!-- {{link.vversion2}}
+        {{page.vversion2}}
+        {{page.vversion}} -->
+
+
         <!-- if link.subcategories != null -->
           {% if link.subcategories != null %}
             <li class="nav-item dropdown">
@@ -44,7 +50,8 @@
               </div>
             </li>
           <!-- link.title == page.title -->
-          {% elsif link.url == page.url %}
+          <!-- link.url == page.url -->
+          {% elsif link.vversion2 == page.vversion2 %}
             <li class="nav-item">
               <a class="nav-link active" href="{{ link.url }}">{{ link.title }}</a>
             </li>

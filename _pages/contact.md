@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+vversion2: 5
 description: Contact us - Get in touch
 ---
 

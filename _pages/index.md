@@ -2,6 +2,7 @@
 layout: home
 title1: All-in-one template
 title2: for IT projects
+vversion2: 1
 # title: Atomiv simplifies coding
 # description1: All-in-one template for accelerated software development
 # description2: accelerated software development.
