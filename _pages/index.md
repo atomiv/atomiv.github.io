@@ -1,9 +1,9 @@
 ---
 layout: home
 vversion2: 1
-title: Enterprise Software - Open Framework
-title1: Enterprise Software
-title2: Open Framework
+title: Open Framework for Enterprise Software 
+title1: Open Framework: 
+title2: Enterprise Software
 headerLink: https://atomiv.com/foundation/overview
 linkButton: Get Started
 permalink: /
