@@ -228,6 +228,32 @@ description: About Atomiv
         </div>
 		
 		
+		
+        <!-- Name Surname -->
+        
+		<!--
+		<div class="row ov-about-row">
+            <div class="col-12">
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <img height="100" width="100" src="{{ site.url }}/img/about/raymond.jpg" alt="Raymond Tay"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Name Surname</h5>
+                        <h6>Title</h6>
+                        <p>Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending. </p>
+                        <div>
+                            <a href="https://www.linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		-->
+		
+		
     </div> 
 </article>
 
