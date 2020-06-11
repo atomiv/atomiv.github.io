@@ -205,7 +205,27 @@ description: About Atomiv
             </div>
         </div>
 		
-		<!-- TODO: Raymond, please insert a section for yourself here -->
+        <!-- Raymond Tay -->
+        
+		<div class="row ov-about-row">
+            <div class="col-12">
+                <div class="d-md-flex align-items-center">
+                    <div>
+                        <img height="100" width="100" src="{{ site.url }}/img/about/raymond.jpg" alt="Raymond Tay"
+                        class="img-fluid w-100 profile-img">
+                    </div>
+                    <div>
+                        <h5>Raymond Tay</h5>
+                        <h6>Engineering Head & Software Architect</h6>
+                        <p>Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text.</p>
+                        <div>
+                            <a href="https://www.linkedin.com/in/raymondtayboonleong/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/raymondtay" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		
 		
     </div> 
