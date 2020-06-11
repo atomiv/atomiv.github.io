@@ -216,7 +216,7 @@ description: About Atomiv
                     </div>
                     <div>
                         <h5>Raymond Tay</h5>
-                        <h6>Engineering Head & Software Architect</h6>
+                        <h6>Head of Engineering & Software Architect</h6>
                         <p>Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending. </p>
                         <div>
                             <a href="https://www.linkedin.com/in/raymondtayboonleong/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -238,7 +238,7 @@ description: About Atomiv
                     </div>
                     <div>
                         <h5>Clifford Long</h5>
-                        <h6>Title</h6>
+                        <h6>Director of Quality & Statistician</h6>
                         <p>Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending. </p>
                         <div>
                             <a href="https://www.linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -257,7 +257,7 @@ description: About Atomiv
 		
 		
 		
-		
+	<!-- TEMPLATE for new authors -->
         <!-- Name Surname -->
         
 		<!--
