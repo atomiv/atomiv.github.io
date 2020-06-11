@@ -5,5 +5,14 @@ permalink: /project-management/communication
 vversion: 1
 ---
 
+## Internal communication
 
-Communuication topic.
+<!-- TODO: Tamara -->
+
+<!-- TODO: Valentina -->
+
+## Internal communication
+
+<!-- TODO: Tamara -->
+
+<!-- TODO: Valentina -->
