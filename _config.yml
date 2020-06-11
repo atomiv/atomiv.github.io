@@ -4,6 +4,12 @@ url: https://atomiv.com
 
 include: ['_pages']
 
+exclude:
+  - README.md
+
+gems:
+  - jekyll-sitemap
+
 permalink: /:year/:month/:day/:title
 # permalink: pretty
 
@@ -23,6 +29,7 @@ sass:
 highlighter: rouge
 
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
 
 # You can also change the default _sass/ directory to a custom directory in your _config.yml:
