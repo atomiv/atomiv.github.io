@@ -1,6 +1,18 @@
 # template_list_title: Templates
 docs:
 
+# 0 ---------------------------------------------------------------------
+- title: Foundation
+  url: submenu0
+  vversion: 0
+  submenuitems:
+    - page: Overview
+      url: /foundation/overview
+    - page: Principles
+      url: /foundation/principles
+    - page: Business Case
+      url: /foundation/business-case
+
 # 1 ---------------------------------------------------------------------
 - title: Project Management
   url: submenu1
@@ -10,8 +22,18 @@ docs:
       url: /project-management/overview
     - page: Agile
       url: /project-management/agile
-    - page: History
-      url: /project-management/history
+    - page: Hybrid
+      url: /project-management/hybrid
+    - page: Communication
+      url: /project-management/communication
+    - page: Estimations
+      url: /project-management/estimations
+    - page: Remote
+      url: /project-management/remote
+    - page: Teams
+      url: /project-management/teams
+    - page: Transformation
+      url: /project-management/transformation
 
 # 2 -------------------------------------------------------------------------
 - title: Business Analysis
@@ -72,6 +94,8 @@ docs:
   url: submenu6
   vversion: 6
   submenuitems:
+    - page: Overview
+      url: /quality-assurance/overview
     - page: Manual Testing
       url: /quality-assurance/manual-testing
     - page: Automated Testing

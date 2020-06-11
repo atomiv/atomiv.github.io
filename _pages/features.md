@@ -15,7 +15,7 @@ description: Features
             <!-- How Atomiv demystifies complex projects -->
             <!-- Collaborate and develop with Atomiv -->
             <!-- Atomiv helps you collaborate on and develop great IT projects -->
-            <h1>Collaborate and develop with Atomiv</h1>
+            <h1>Work efficiently with Atomiv</h1>
             <div class="d-flex justify-content-center">
                 <figure class="figure-features">
                     <img height="" width="" src="{{ site.url }}/img/features/feat0.svg" alt="architecture"	class="img-fluid">
