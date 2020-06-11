@@ -22,8 +22,18 @@ docs:
       url: /project-management/overview
     - page: Agile
       url: /project-management/agile
-    - page: History
-      url: /project-management/history
+    - page: Hybrid
+      url: /project-management/hybrid
+    - page: Communication
+      url: /project-management/communication
+    - page: Estimations
+      url: /project-management/estimations
+    - page: Remote
+      url: /project-management/remote
+    - page: Teams
+      url: /project-management/teams
+    - page: Transformation
+      url: /project-management/transformation
 
 # 2 -------------------------------------------------------------------------
 - title: Business Analysis

@@ -1,7 +1,7 @@
 ---
 layout: templates
-title: History
-permalink: /project-management/history
+title: Hybrid
+permalink: /project-management/hybrid
 vversion: 1
 ---
 
