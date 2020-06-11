@@ -29,7 +29,7 @@ The Microservice architecture is also characterized by the use of the API Gatewa
 
 One of the most important roles of the API gateway is security. It should ensure that only authenticated and authorized users can access API back-end. The API Gateway should be able to integrate with existing and custom authentication providers. This ensures the back-end APIs don’t have to implement this logic and any changes to the authentication schemes require no changes to the back-end. 
 
-One of the services in Microservice architecture needs to be implemented as authorization server\(OAuth and the OpenID Connect server\) . When using API gateway there is a single entry point for all the client requests.The client connects to the authorization server and obtains the access token. Then send the access token to the API gateway along with the request. API gateway extracts the access token and sends it to the authorization server to retrieve the JWT. Then API gateway passes this JWT along with the request to the microservices layer.
+One of the services in Microservice architecture needs to be implemented as authorization server\(OAuth and the OpenID Connect server\) . When using API gateway there is a single entry point for all the client requests. The client connects to the authorization server and obtains the access token. Then send the access token to the API gateway along with the request. API gateway extracts the access token and sends it to the authorization server to retrieve the JWT. Then API gateway passes this JWT along with the request to the microservices layer.
 
 API gateway has also one network security advantage. When using API gateway you could be assigned public IP address only to API gateway and private IP addresses to all other back-end APIs. In this way API gateway is only one who is visible from the public network and also only one vulnerable to network attacks.
 
@@ -45,6 +45,13 @@ The challenge that also arises after the transition from a monolithic to a Micro
 
 * Synchronous protocol - The most well-known synchronous protocol is HTTP. With this type of protocol, the client sends a request and waits for a response from the server. An important characteristic  is that the client can continue executing only when it receives a response from the server.
 * Asynchronous Protocol - An asynchronous protocol such as AMQP allows \(Advanced Message Queuing Protocol\) that the client does not have to wait for the server response and may proceed with the execution.
+
+### Message queue
+
+To achieve loose coupling asynchronous and communication message queue is used in Microservice architecture. Message queuing allows applications to communicate by sending messages to each other. Services communicate in such a way that one service sends a message to the message queue and each service subscribed to that type of message receives and processes it in its own way. When a generally accepted data format such as JSON is used for the message format then it is possible to implement each service in a different programming language. The message queue provides temporary message storage when the destination program is busy or not connected. When services communicate via a message queue, they are decoupled and can be easily scaled.  
+
+![Message queuing]({{site.url}}/assets/queue.png)
+
 
 ### Acme Online Store microservice example
 
