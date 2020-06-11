@@ -9,6 +9,8 @@ Quality isn't a thing in itself, it's a byproduct of the processes (manufacuturi
 
 When issues in quality, go back to processes, in which process something went wrong.
 
+Shizzle
+
 ISO 9001-2015
 
 Quality Management / Business Management.
