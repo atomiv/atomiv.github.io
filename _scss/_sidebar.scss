@@ -326,32 +326,44 @@ aside {
     // }
     // 'Home' h3
     h1 {
-        font-size: 1.75rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
     // 'Features' headings below
     h2 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         margin-bottom: .5rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    h3 {
+        font-size: 1.25rem;
+        margin-bottom: .5rem;
+        padding-bottom: .5rem;
+        padding-top: .5rem;
+    }
     p {
         // font-size: 1rem;
         margin-bottom: 1.5rem;
-    } 
+    }
+    ol, ul, dl {
+        margin-bottom: 1.5rem;
+    }
     @include media-breakpoint-up(md) {
         // h1 {
         //     font-size: 2.25rem;
         //     margin-bottom: 3.5rem;
         // }
         h1 {
-            font-size: 2.125rem;
+            font-size: 2rem;
             margin-bottom: 1.25rem;
         }
         h2 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-bottom: 1.25rem;
+        }
+        h3 {
+            font-size: 1.25rem;
         }
     }
     @include media-breakpoint-up(lg) {
@@ -362,7 +374,10 @@ aside {
             font-size: 2.5rem;
         }
         h2 {
-            font-size: 2.125rem;
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.75rem;
         }
     }
     a, a:hover, a:link {

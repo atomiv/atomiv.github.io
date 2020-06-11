@@ -97,13 +97,28 @@
 }
 
 #navbarDropdown .dropdown-menu {
-  margin-top: 1rem;
-}
-
-.dropdown-menu {
-  margin-top: 0.75rem;
+  margin-top: 19px;
   border: none;
   border-radius: 0;
   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.175);
   // float: right !important;
+  display: block;
+  .dropdown-item {
+    color: $gray-900;
+    font-size: 1rem;
+    // padding: .75rem 0; (navbar)
+    padding: .5rem 2.5rem .5rem 1.5rem;
+    &:hover,
+    &:active {
+      color: $primary;
+      // background: pink !important;
+      background: none;
+    }
+    &:focus,
+    &.active {
+      color: $primary !important;
+      background: none;
+    }
+  }
 }
+
