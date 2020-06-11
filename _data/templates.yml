@@ -94,6 +94,8 @@ docs:
   url: submenu6
   vversion: 6
   submenuitems:
+    - page: Overview
+      url: /quality-assurance/overview
     - page: Manual Testing
       url: /quality-assurance/manual-testing
     - page: Automated Testing
