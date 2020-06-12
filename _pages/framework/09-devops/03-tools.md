@@ -8,7 +8,8 @@ vversion: 9
 
 DevOps team is build of professionals with specialized skills and cross-functionality capabilities, using wide number of tools and practices to deliver solutions. 
 
-https://cdn.thenewstack.io/media/2018/11/8bebeea6-cicd-tooling-orchestration-1024x608.png
+![DevOps tools](https://cdn.thenewstack.io/media/2018/11/8bebeea6-cicd-tooling-orchestration-1024x608.png)
+
 source: thenewstack.io
 
 
