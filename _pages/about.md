@@ -239,10 +239,10 @@ description: About Atomiv
                     <div>
                         <h5>Clifford Long</h5>
                         <h6>Director of Quality & Statistician</h6>
-                        <p>Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending. </p>
+                        <p>Clifford is a Quality Professional and Statistician with experience in implementing and improving quality management systems. He enjoys supporting companies in improving processes. He joined Atomiv to share his experience in process optimization and quality management.</p>
                         <div>
-                            <a href="https://www.linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/clifflong" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/longcr" target="_blank"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                 </div>
