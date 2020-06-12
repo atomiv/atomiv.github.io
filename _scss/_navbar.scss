@@ -6,6 +6,13 @@
   }
 }
 
+.s-padding2 {
+  margin: .5rem 1.5rem;
+  @include media-breakpoint-up(md) {
+    margin: .5rem 2.75rem;
+  }
+}
+
 .ov-navbar {
   @include media-breakpoint-down(sm) {
     justify-content: flex-end;
@@ -51,7 +58,7 @@
   }
   #navbarResponsive {
     @include media-breakpoint-down(sm) {
-      text-align: right;
+      text-align: left; // right
       background-color: rgb(244, 249, 255);
     }
     .navbar-nav {
@@ -75,8 +82,8 @@
         button {
           border: none;
           background-color: transparent;
-          text-align: right;
-          float: right;
+          text-align: left; // right
+          float: left; // right
         }
       }
     }
@@ -97,25 +104,36 @@
   }
 }
 
+// .dropdown:hover .dropdown-menu {
+//   @include media-breakpoint-up(md) {
+//     display: block;
+//   }
+// }
+
 #navbarDropdown .dropdown-menu {
-  margin-top: 19px;
-  border: none;
   border-radius: 0;
-  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.175);
-  @include media-breakpoint-down(md) {
-    float: right;
-    background-color: rgba(255, 255, 255, .2);
-    // padding-top: 8rem;
-    margin-top: 3rem;
-    // text-align: right;
+  border-top: 1px solid $gray-200;
+  border-bottom: 1px solid $gray-200;
+  margin: 0 -1.5rem .75rem -1.5rem;
+  background: mix($primary, #fff, 12%);
+  margin-top: 3rem;
+  padding: 1rem 1.5rem;
+  box-shadow: none;
+  @include media-breakpoint-up(md) {
+    margin: 0;
+    margin-top: 19px;
+    border: none;
+    background: white;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.175);
+    padding: 0;
   }
-  // JC show
+  // JC show dropdown
   // display: block;
   .dropdown-item {
     color: $gray-900;
     font-size: 1rem;
     // padding: .75rem 0; (navbar)
-    padding: .5rem 2.5rem .5rem 1.5rem;
+    padding: .5rem 2.5rem .5rem .5rem; // .5, 2.5, .5, 1.5
     &:hover,
     &:active {
       color: $primary;
@@ -144,33 +162,4 @@
 //   width: calc(100% - 200px);
 // }
 
-.navbar-collapse {
-  flex-basis: 100%;
-  flex-grow: 1;
-  align-items: center;
-}
 
-
-.ov-navbar #navbarResponsive .navbar-nav {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
-
-.navbar-nav {
-  // background-color: pink;
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  list-style: none;
-  margin-left: 5rem !important;
-  left: 200px; /* just an estimate of your sidebar's width */
-  width: calc(100% - 200px);
-}
-
-#navbarResponsive {
-  @include media-breakpoint-down(sm) {
-    text-align: right;
-    background-color: rgb(244, 249, 255);
-  }
-  margin-left: 5rem !important;
-}

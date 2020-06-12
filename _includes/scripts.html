@@ -53,7 +53,8 @@ $('#sidebarCollapse').on('click', function () {
 
 
         // ('body, html'
-        $('.navbar-toggler, #navbarResponsive').on('click', function () {
+        // '.navbar-toggler, #navbarResponsive'
+        $('.navbar-toggler').on('click', function () {
             $('#sidebar').removeClass('active');
             $('.overlay').removeClass('active');
             $('.overlay2').toggleClass('active');
@@ -61,12 +62,41 @@ $('#sidebarCollapse').on('click', function () {
 
         // #mainNav, .navbar-toggler
         $('body').on('click', function () {
-            // $('#sidebar').removeClass('active');
+
             if ($('#navbarResponsive').hasClass('show')) {
-                $('.overlay2').removeClass('active');
+                // console.log('test');
+                
+
+                if ($('#navbarDropdown').is(':visible')) {
+
+                    // $('.overlay2').removeClass('active');
+                    // console.log('--------------');
+
+                }
+                else {
+                    $('.overlay2').removeClass('active');
+                    // console.log('elseeee');
+                }
+
             }
+            // else {
+            //     // console.log('soemthing-');
+            // }
+
+
         });
 
+        // overlay active when dropdown btn is clicked in navbar
+        $('#btnDropdown').on('click', function () {
+            $('.overlay2').addClass('active');
+        });
+
+        // $('#, #navbarResponsive').on('click', function() {
+        //     $('.overlay2').addClass('active');
+        //     $('.overlay1').addClass('active');
+        // })
+
+        
         /*
         $('body').on('click', function() {
             if ($('.menu').hasClass('bar')) {

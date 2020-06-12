@@ -113,7 +113,13 @@ a, a:hover, a:focus {
     // padding: 10px;
     // padding: 10px 2rem;
     padding: 10px 2rem; // 1.5 - 2 squares
-    padding-left: 5rem; // or 4 // used to be 2
+    padding-left: 2rem; // or 4 // used to be 2 // 5 is PRETTY
+    @include media-breakpoint-down(sm) {
+        padding-left: 2rem;
+    }
+    @media (max-width: 500px) {
+        padding-left: 2rem;
+    }
     font-size: 1rem;
     font-weight: 600;
     display: block;
@@ -144,7 +150,8 @@ a, a:hover, a:focus {
 }
 ul ul a {
     font-size: 1rem !important;
-    padding-left: 6rem !important; // used to be 3
+    // padding-left: 6rem !important; // used to be 3  .. subtract 3 .. 6 is PRETTy
+    padding-left: 3rem !important;
     // under the heading
     // background: yellow;
     font-weight: 400 !important;
