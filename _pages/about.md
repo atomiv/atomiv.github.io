@@ -217,7 +217,7 @@ description: About Atomiv
                     <div>
                         <h5>Raymond Tay</h5>
                         <h6>Head of Engineering & Software Architect</h6>
-                        <p>Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending. </p>
+                        <p>Raymond is a Head of Engineering and software architect with experience in building data products in PaaS. He is now mostly concerned with building and scaling teams. He joined Atomiv to share experiences in software architecte as well as effective leadership.</p>
                         <div>
                             <a href="https://www.linkedin.com/in/raymondtayboonleong/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <a href="https://github.com/raymondtay" target="_blank"><i class="fab fa-github"></i></a>
