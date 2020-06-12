@@ -14,26 +14,37 @@
   subcategories:    
   - subtitle: Foundation
     subhref: /foundation/overview
+    vversion: 0
   - subtitle: Project Management
     subhref: /project-management/overview
+    vversion: 1
   - subtitle: Business Analysis
     subhref: /business-analysis/overview
+    vversion: 2
   - subtitle: Software Architecture
     subhref: /software-architecture/overview
+    vversion: 3
   - subtitle: .NET Core
     subhref: /dot-net-core/get-started
+    vversion: 4
   - subtitle: Angular
     subhref: /angular/get-started
+    vversion: 5
   - subtitle: Quality Assurance
     subhref: /quality-assurance/overview
+    vversion: 6
   - subtitle: Big Data
     subhref: /big-data/data-sources
+    vversion: 7
   - subtitle: System Admin
     subhref: /system-admin/responsibilities
+    vversion: 8
   - subtitle: DevOps
     subhref: /devops/overview
+    vversion: 9
   - subtitle: Recruitment
     subhref: /recruitment/overview
+    vversion: 10
   
 - title: About
   url: /about

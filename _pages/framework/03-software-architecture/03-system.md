@@ -10,7 +10,7 @@ Atomiv was envisioned to help you design and implement high quality architecture
 
 ![Architecture diagram](https://atomiv.github.io/img/architecture-layers.svg)
 
-### History
+## History
 
 The historical foundations of Atomiv Architecture Standards are based on the following architectures from globally recognized experts in software architecture:
 
@@ -27,7 +27,7 @@ Furthermore, it is rooted in the following design and development approaches:
 * Behavior Driven Development \(BDD\)
 * Command Query Responsibility Segregation \(CQRS\)
 
-### Dependencies
+## Dependencies
 
 To summarize, the dependencies are as follows:
 

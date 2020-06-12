@@ -20,33 +20,35 @@
     {% endif %}
   </div>
 
+    <!-- show -->
+    <div class="collapse navbar-collapse order-5 order-md-" id="navbarResponsive">
+      <!-- ml-auto mr-auto-->
+      <ul class="navbar-nav ov-navbar-nav s-padding2">
 
-    <div class="collapse navbar-collapse order-5 order-md-1" id="navbarResponsive">
-      <ul class="navbar-nav ov-navbar-nav ml-auto s-padding">
-
-
+        
         {% for link in site.data.navigation %}
-
-        <!-- TO DO -->
-        <!-- templates to be highlighted -->
-        <!-- {{link.vversion2}}
-        {{page.vversion2}}
-        {{page.vversion}} -->
-
 
         <!-- if link.subcategories != null -->
           {% if link.subcategories != null %}
             <li class="nav-item dropdown">
-              <button class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}"
+              <button 
+              id="btnDropdown" data-target="#navbarDropdown"
+              class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}"
                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ link.title }}
               </button>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {% for subcategory in link.subcategories %}
-                <a class="dropdown-item" href="{{ site.url }}{{ subcategory.subhref }}">
-                  {{ subcategory.subtitle }}
-                </a>
-              {% endfor %}
+              <!-- id="navbarDropdown" -->
+              <div id="navbarDropdown">
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  {% for subcategory in link.subcategories %}
+                    <a class="dropdown-item 
+                    {% if subcategory.vversion == page.vversion %}active{% endif %}
+                    
+                    " href="{{ site.url }}{{ subcategory.subhref }}">
+                      {{ subcategory.subtitle }}
+                    </a>
+                  {% endfor %}
+                  </div>
               </div>
             </li>
           <!-- link.title == page.title -->
