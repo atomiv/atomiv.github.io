@@ -1,6 +1,6 @@
 ---
 name: Velibor Cakarevic
-position: Embedded Development Engineer
+position: Embedded Development Engineer & CEO
 photo: velibor.jpg
 linkedin: https://rs.linkedin.com/in/velibor-cakarevic-5487731
 xing: https://www.xing.com/profile/Velibor_Cakarevic
