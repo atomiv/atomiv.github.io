@@ -3,7 +3,7 @@ name: Velibor Cakarevic
 position: Embedded Development Engineer
 photo: velibor.jpg
 linkedin: https://rs.linkedin.com/in/velibor-cakarevic-5487731
-xing: 
+xing: https://www.xing.com/profile/Velibor_Cakarevic
 github: https://github.com/tsakard
 website: http://tsakard.com
 ---
