@@ -45,6 +45,11 @@
   - subtitle: Recruitment
     subhref: /recruitment/overview
     vversion: 10
+
+- title: Templates
+  url: /templates
+  vversion2: 6
+
   
 - title: About
   url: /about
