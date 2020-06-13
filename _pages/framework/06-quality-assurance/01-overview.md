@@ -5,16 +5,20 @@ permalink: /quality-assurance/overview
 vversion: 6
 ---
 
-Quality isn't a thing in itself, it's a byproduct of the processes (manufacuturing, engineering, any other process) whatever you do to transform inputs into outputs and how those processes interact with each other. It's how well you design, plan and execute your processes in order to achieve the intended outcomes and efficiency. Having metrics let's you monitor the processes.
+One view of "Quality" is that it is a byproduct, or outcome, of a system that reflects the suitability and effectiveness of an organization's processes and the interactions between processes.  Processes include business functions, design processes (starting with requirements elicitation), manufacturing processes, service processes, customer processes, supplier processes, and anything that transforms inputs into outputs.  "Quality" as an outcome can be measured as conformance to requirements or expectations. 
 
-When issues in quality, go back to processes, in which process something went wrong.
+Improvement of a system and its outcomes is facilitated by structure, which is defined by processes.  Without structure and process, process behavior is typically not stable and is therefore difficult to predict and improve.  Consider Statistical Process Control (SPC).  SPC applies to the behavior of any business processes, not just manufacturing processes.  For improvement of a process to occur, we measure the process and work to reduce special cause variation in order to stabilize the process behavior.  Once stable, the process can be improved.  
 
-Shizzle
+Perhaps not everything lends itself to a defined process (e.g., "creativity"), but these aspects of development do not exist in isolation and can be contained within a set of interrelated processes. 
 
-ISO 9001-2015
+Systems or sets of interrelated processes should include a mechanism for feedback to continually assess/reassess whether the processes are suitable and effective.  This includes the goals of the organization and its stakeholders and the context of the organization. 
 
-Quality Management / Business Management.
+Quality system standards exist as guidelines built on lessons of the past.  Examples include ISO 9001, ISO 13485 (medical device), AS9100 (aerospace), IATF 16949 (automotive), ISO 12207 (software) and the IEEE SWEBOK, and others. The foundation of these standards is based on process and risk.
 
+"Quality" and Six Sigma both approach quality in a process-centric manner as conformance-to-requirements.
+"Quality" and Lean share in common the goal of identifying and reducting waste and improving value-added structure.
+
+-----------------------------------------------
 
 Overview of Quality, what is quality (definition), how quality can be controlled / achieved, examples of how is Quality achieved in manufacturing, how is quality related to Six Sigma and Lean Manufacturing, how is quality related to process standardization... (reduce waste and better metrics, corrective actions, auditing processes)
 

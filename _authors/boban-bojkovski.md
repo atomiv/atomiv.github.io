@@ -1,7 +1,7 @@
 ---
 name: Boban Bojkovski
 position: Senior DevOps Engineer
-photo: boban-bojkovski.jpg
+photo: boban2.jpg
 linkedin: https://www.linkedin.com/in/bobanbojkovski
 xing: 
 github: https://github.com/bobanbojkovski
