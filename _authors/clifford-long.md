@@ -1,10 +1,10 @@
 ---
-name: Raymond Tay
-position: Head of Engineering & Software Architect
-photo: raymond.jpg
-linkedin: https://www.linkedin.com/in/raymondtayboonleong/
+name: Clifford Long
+position: Director of Quality & Statistician
+photo: clifford-long.jpg
+linkedin: https://www.linkedin.com/in/username
 xing: 
-github: https://github.com/raymondtay
+github: https://github.com/username
 website: 
 ---
 Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending.

@@ -33,7 +33,7 @@ description: About Atomiv
                 <div class="d-md-flex align-items-center">
                     <div>
                         <!-- image can be on the right side -->
-                        <img height="100" width="100" src="{{ site.url }}/img/about/{{ author.photo }}" alt="{{author.name}}"
+                        <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}" alt="{{author.name}}"
                         class="img-fluid w-100 profile-img">
                     </div>
                     <div>
