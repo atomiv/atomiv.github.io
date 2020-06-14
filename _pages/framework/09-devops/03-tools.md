@@ -31,8 +31,14 @@ Commonly used tools to support daily operations:
 * Scripting and Programming Languages  
 Bash, Python, Go
 
-* Containers  
-Docker, containerd
+* Docker, rkt, LXC, runC, containerd  
+Dockerfile provides instructions to build an image, a standalone executable software package that contains an application and all its dependencies.
+Container runtime is a managed environment for deploying images (the applications) in containers.
+A container represents running image instance.  
+
+
+![Containerized app workflow](https://quppler.com/wp-content/uploads/2019/03/DockerComponents-300x242.png) &nbsp;&nbsp;&nbsp; ![Container Architecture](https://miro.medium.com/max/350/1*IGYaJSfDLzXjE-aJcTai4Q.png)  
+source: quppler.com and cloud.google.com
 
 * Container Orchestration  
 kubernetes
@@ -44,18 +50,19 @@ VMware
 GitHub
 
 * CI/CD  
-Jenkins CI
+Jenkins CI, CircleCI
 
-* Infrastructure as Code (IaC) automates infrastructure, platform and application management in a descriptive way.
+* Ansible, Chef, Puppet, Terraform, CloudFormation (AWS)  
+Infrastructure as Code (IaC) automates infrastructure, platform and application management in a descriptive way.
 The configuration files (written in json or yaml) are stored in version control system and are serving as single source of truth.
 Idempotence - same call repeatedly produces same result, is a principle of IaC that ensures consistent state in the environment.   
-Ansible, Terraform
 
 [IBM Cloud - Infrastructure as Code](https://www.ibm.com/cloud/learn/infrastructure-as-code "IBM Cloud")
 
-[thenewstack.io - Infrastructure as Code: Evolution and Practice](https://thenewstack.io/infrastructure-as-code-evolution-and-practice/ "thenewstack.io")
 
 * Kubernetes package manager  
 Helm
 
+* Monitoring & Observability  
+New Relic, Splunk, Elasticsearch (elastic stack)
 
