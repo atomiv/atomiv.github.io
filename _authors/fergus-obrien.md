@@ -4,7 +4,7 @@ position: Co-Founder & Recruitment Consultant
 photo: fergus-obrien.jpg
 linkedin: https://www.linkedin.com/in/fergusobrienfintech
 xing: https://www.xing.com/profile/Fergus_OBrien
-github: 
+github: https://github.com/FOB-mmxviii
 website: https://khonvo.com/
 index: 16
 ---
