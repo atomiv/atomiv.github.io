@@ -252,6 +252,60 @@ h5 {
     margin-right: 2rem;
   }
 }
+
+.profile-img-home {
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: 140px;
+  min-width: 140px;
+  margin-bottom: .75rem;
+  margin-top: 1rem;
+}
+
+.community-h2 {
+  margin-bottom: 1rem !important; // 3
+  @include media-breakpoint-up(md) {
+    margin-bottom: 2rem !important; // 4
+  }
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 3rem !important; // 5
+  }
+}
+.community-h5 {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 1.125rem;
+  }
+}
+.overlay-community {
+  position: absolute;
+  top: 0;
+  // bottom: 0;
+  left: 0;
+  // right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  background-color: $primary;
+}
+.community-container:hover .overlay-community {
+  opacity: 1;
+}
+.text-community {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 // --------------
 h5 {
   font-size: 1.75rem;
