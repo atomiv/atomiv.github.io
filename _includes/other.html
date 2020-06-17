@@ -23,7 +23,7 @@
         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {{ link.title }}
       </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <div class="dropdown-menu" aria-labelledby="{{ link.nDropdown }}">
       {% for subcategory in link.subcategories %}
         <a class="dropdown-item" href="{{ site.url }}{{ subcategory.subhref }}">
           {{ subcategory.subtitle }}

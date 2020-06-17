@@ -44,6 +44,10 @@ $('#sidebarCollapse').on('click', function () {
             $('.overlay').toggleClass('active');
             console.log('hello there');
             $('.overlay2').removeClass('active');
+            // for templates
+            // $('.overlay33').removeClass('active');
+
+
             // close dropdowns
             // $('.collapse.in').toggleClass('in');
             // // and also adjust aria-expanded attributes we use for the open/closed arrows
@@ -51,12 +55,23 @@ $('#sidebarCollapse').on('click', function () {
             // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
         });
 
+        // templates sidebar...
+        $('#sidebarCollapse2, .overlay33').on('click', function () {
+            console.log('hello');
+            $('#sidebar2').toggleClass('active');
+            // $('.overlay33').toggleClass('active');
+            console.log('hello there');
+            $('.overlay2').removeClass('active');
+            $('.overlay').removeClass('active');
+        });
 
         // ('body, html'
         // '.navbar-toggler, #navbarResponsive'
         $('.navbar-toggler').on('click', function () {
             $('#sidebar').removeClass('active');
+            $('#sidebar2').removeClass('active');
             $('.overlay').removeClass('active');
+            // $('.overlay33').removeClass('active');
             $('.overlay2').toggleClass('active');
         });
 
@@ -67,15 +82,24 @@ $('#sidebarCollapse').on('click', function () {
                 // console.log('test');
                 
 
-                if ($('#navbarDropdown').is(':visible')) {
+                // nDropdown
+                if ($('#navbarDropdown1').is(':visible')) {
 
                     // $('.overlay2').removeClass('active');
-                    // console.log('--------------');
+                    console.log('--------------');
 
                 }
                 else {
                     $('.overlay2').removeClass('active');
                     // console.log('elseeee');
+                }
+
+
+                if ($('#navbarDropdown2').is(':visible')) {
+                console.log('--------------');
+                }
+                else {
+                $('.overlay2').removeClass('active');
                 }
 
             }

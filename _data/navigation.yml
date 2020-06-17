@@ -8,43 +8,83 @@
   
 - title: Framework
   vversion2: 3
+  nDropdown: navbarDropdown1
   # url: /templates
   # url: https://docs.atomiv.com/
-  # subcategories:
   subcategories:    
   - subtitle: Foundation
-    subhref: /foundation/overview
+    suburl: /foundation/overview
     vversion: 0
+    # unnecessary TODO
+    # same as category number
+    # vversion2: 3
   - subtitle: Project Management
-    subhref: /project-management/overview
+    suburl: /project-management/overview
     vversion: 1
   - subtitle: Business Analysis
-    subhref: /business-analysis/overview
+    suburl: /business-analysis/overview
     vversion: 2
   - subtitle: Software Architecture
-    subhref: /software-architecture/overview
+    suburl: /software-architecture/overview
     vversion: 3
-  - subtitle: .NET Core
-    subhref: /dot-net-core/get-started
+  - subtitle: Software Development
+    suburl: /software-development/overview
     vversion: 4
-  - subtitle: Angular
-    subhref: /angular/get-started
-    vversion: 5
   - subtitle: Quality Assurance
-    subhref: /quality-assurance/overview
+    suburl: /quality-assurance/overview
     vversion: 6
   - subtitle: Big Data
-    subhref: /big-data/data-sources
+    suburl: /big-data/data-sources
     vversion: 7
+  - subtitle: Embedded Development
+    suburl: /embedded-development/overview
+    vversion: 11
   - subtitle: System Admin
-    subhref: /system-admin/responsibilities
+    suburl: /system-admin/responsibilities
     vversion: 8
   - subtitle: DevOps
-    subhref: /devops/overview
+    suburl: /devops/overview
     vversion: 9
   - subtitle: Recruitment
-    subhref: /recruitment/overview
+    suburl: /recruitment/overview
     vversion: 10
+
+- title: Templates
+  # url: /templates
+  vversion2: 6
+  nDropdown: navbarDropdown2
+  subcategories:
+  - subtitle: Estimations
+    suburl: /estimations/get-started
+    category: estimations
+    vversion: 1
+  - subtitle: Requirements
+    suburl: /requirements/get-started
+    vversion: 2
+  - subtitle: .NET Core
+    suburl: /dot-net-core/get-started
+    vversion: 3
+  - subtitle: Angular
+    suburl: /angular/get-started
+    vversion: 4
+  - subtitle: Selenium
+    suburl: /selenium/get-started
+    vversion: 5
+  - subtitle: DevOps
+    suburl: /devops/get-started
+    vversion: 6
+  # - subtitle: Category One
+  #   suburl: /category-one/one
+  #   category: one
+  #   vversion: 1
+  #   href: submenu11
+  # - subtitle: Category Two
+  #   suburl: /category-two/four
+  #   category: two
+  #   vversion: 2
+  #   href: submenu22
+
+
   
 - title: About
   url: /about

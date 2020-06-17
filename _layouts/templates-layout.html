@@ -18,9 +18,6 @@ layout: default
   
 	<div class="">
 
-		{% comment %}
-			templates page
-		{% endcomment %}
 
 
 		{% include navigation.html %}
@@ -30,26 +27,16 @@ layout: default
 		<div class="wrapper" style="overflow: hidden;">
 			<!-- class="sidebar" -->
 			<!-- Sidebar -->
-			<nav id="sidebar" style="overflow: auto;">
-				<!-- <aside> -->
+			<nav id="sidebar2" style="overflow: auto;">
 				<ul class="list-unstyled components">
-				{% for item in site.data.framework.docs %}
+				{% for item in site.data.templates.docs %}
 
-					<!-- href="{{site.url}}" alt="{{item.title}}" -->
-					<!-- class="active" -->
 					<li>
 						<a class="{% if item.vversion == page.vversion %}active44{% endif %}"
 						href="#{{ item.url }}" data-toggle="collapse" aria-expanded="false">
 							{{ item.title }}
 
-							<!-- {{item.vversion}} .. 
-							{{page.vversion}} -->
 
-
-<!-- 
-							{{item.url}}
-							{{page.url}}
-							{{page.title}} -->
 						</a>
 						<ul class="collapse list-unstyled 
 						{% if item.vversion == page.vversion %}show{% endif %}
@@ -59,9 +46,6 @@ layout: default
 								<a href="{{ entry.url }}">
 									{{ entry.page }}
 
-
-									<!-- {{entry.url}}
-									{{page.url}} -->
 								</a>
 							</li>
 						{% endfor %}
@@ -70,7 +54,6 @@ layout: default
 					
 				{% endfor %}										
 				</ul>
-			<!-- </aside> -->
 			</nav>
 
 
@@ -146,7 +129,7 @@ layout: default
 			</div>
 
 			<!-- Dark Overlay element -->
-			<div class="overlay d-md-none"></div>
+			<div class="overlay33 d-md-none"></div>
 		
 		</div>
 
@@ -161,22 +144,3 @@ layout: default
 </html>
 
 
-
-
-						<!-- #pageSubmneu, #homeSubmenu -->
-						<!-- <a>Another heading<i class="icon-angle-down"></i></a> -->
-						<!-- <a href="#" data-toggle="collapse" data-target="#submenu1">
-							helloss<i class="icon-angle-down"></i>
-							</a> -->
-							<!-- when click on arrow, change direction ... $('[data-toggle=collapse]').click(function(){
-								$(this).find("i").toggleClass("icon-angle-right icon-angle-down");
-							}); -->
-							<!-- <button class="dropdown-btn">Dropdown
-								<i class="fa fa-caret-down"></i>
-							</button> -->
-						<!-- class="dropdown-toggle" -->
-
-
-						<!-- <div id="dismiss">
-							<i class="fas fa-arrow-left"></i>
-						</div> -->
