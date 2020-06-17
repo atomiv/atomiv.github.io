@@ -258,7 +258,15 @@ h5 {
   border-radius: 50%;
   max-width: 100px;
   min-width: 100px;
+  @include media-breakpoint-up(sm) {
+    max-width: 110px;
+    min-width: 110px;
+  }
   @include media-breakpoint-up(md) {
+    max-width: 130px;
+    min-width: 130px;
+  }
+  @include media-breakpoint-up(lg) {
     max-width: 140px;
     min-width: 140px;
   }
