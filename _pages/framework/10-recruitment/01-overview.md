@@ -8,3 +8,19 @@ vversion: 10
 
 This page is pending to be written. It will contain information about recruitment process for IT, and best practices for choosing candidates.
 
+Recruitment Start --> Fergus
+
+## Text
+
+###### Text
+
+This is a  paragraph 
+
+* Item 1
+* Item 2
+
+This is a paragraph
+
+
+
+

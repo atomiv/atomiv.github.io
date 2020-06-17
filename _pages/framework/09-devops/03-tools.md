@@ -32,10 +32,11 @@ Commonly used tools to support daily operations:
 Bash, Python, Go
 
 * Docker, rkt, LXC, runC, containerd  
-Dockerfile provides instructions to build an image, a standalone executable software package that contains an application and all its dependencies.
+Container is a lightweight virtual environment for running applications. 
+Container development workflow containes multiple stages like build, test, run, troubleshoot, push. 
+Dockerfile provides instructions to build an image, a standalone executable software package that contains an application and all its dependencies. For consistent and reliable infrastructure treat images as immutable, means build a new image in case an update is required.  
 Container runtime is a managed environment for deploying images (the applications) in containers.
 A container is a running (or stopped) instance of an image.  
-
 ![Containerized app workflow](https://quppler.com/wp-content/uploads/2019/03/DockerComponents-300x242.png) &nbsp; 
 ![Container Architecture](https://miro.medium.com/max/350/1*IGYaJSfDLzXjE-aJcTai4Q.png)  
 source: quppler.com and cloud.google.com
@@ -43,8 +44,13 @@ source: quppler.com and cloud.google.com
 * Container Orchestration  
 Kubernetes
 
-* Virtual Machine  
-VMware, VirtualBox
+* VMware, VirtualBox  
+Virtual machine is (heavyweight) environment that runs complete operating system and applications.
+Virtual machine is known as guest and physical machine as host machine.
+The hypervisor is software installed on the host and manages hardware resources for the guest environment. Common use case is to combine virtualization technologies and run containers inside a virtual machine.  
+[What is a virtual machine?](https://www.redhat.com/en/topics/virtualization/what-is-a-virtual-machine "Red Hat")  
+![Containerized app workflow](https://www.ktexperts.com/wp-content/uploads/2020/01/Hosted-Virtual-Machine-Architecture.png)  
+source: researchgate.net
 
 * Code Repository  
 GitHub
