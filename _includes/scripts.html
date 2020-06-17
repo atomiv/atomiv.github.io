@@ -43,76 +43,97 @@ $('#sidebarCollapse').on('click', function () {
         $('#sidebarCollapse').on('click', function () {
             $('#sidebar').toggleClass('active');
             // $('.overlay44').toggleClass('active');
-            console.log('sidebar opened');
+            // console.log('sidebar opened');
 
-            if ($('.overlay44').is(':visible')) {
-                console.log('overlay visible');
 
-                if ($('#sidebar').is(':visible')) {
-                    console.log('sidebar visible');
-                } else {
-                    console.log('sidebar not visible');
-                    // $('.overlay44').removeClass('active');
-                }
-                
-                    // console.log('--------------');
+            if ($('.navbar-collapse').is(':visible')) {
+                // console.log('navbar opened prior');
             } else {
-                console.log('overlay not visible');
+                // console.log('navbar not opened prior');
                 $('.overlay44').toggleClass('active');
             }
+        });
+        // -------------------------------------
+        $('#sidebarCollapse2').on('click', function () {
+            $('#sidebar2').toggleClass('active');
 
-
-
-            if ($('.ov-navbar').is(':visible')) {
-                console.log('--------------');
+            if ($('.navbar-collapse').is(':visible')) {
+            } else {
+                $('.overlay44').toggleClass('active');
             }
         });
-
-        // $('#sidebarCollapse2, .overlay44').on('click', function () {
-        //     $('#sideba2r').toggleClass('active');
-        //     $('.overlay44').toggleClass('active');
-        //     console.log('hello there');
-        // });
-
+        // ---------------------------------------
         $('.navbar-toggler').on('click', function () {
-            $('#sidebar').removeClass('active');
-            $('#sidebar2').removeClass('active');
 
-            if ($('.overlay44').is(':visible')) {
-                    // console.log('--------------');
+            if ($('#sidebar').hasClass('active')) {
+                // console.log('overlay visible');
+            } else if ($('#sidebar2').hasClass('active')) {
+                // console.log('overlay visible2');
             } else {
-                // $('.overlay44').toggleClass('active');
+                $('.overlay44').toggleClass('active');
+                // console.log('overlay not visible');
             }
 
-            $('.overlay44').toggleClass('active');
+            $('#sidebar').removeClass('active');
+            $('#sidebar2').removeClass('active');
             
         });
         // ----------------------------------
+        $('.overlay44').on('click', function () {
+            // console.log('overlay selected');
+            $('.overlay44').removeClass('active');
+            $('#sidebar').removeClass('active');
+            $('#sidebar2').removeClass('active');
+        });
+        // -------------------------------
+
+        $('body').on('click', function () {
+
+            // console.log('body');
+            // $('.overlay44').removeClass('active');
 
 
-        // $('body').on('click', function () {
+            // check if #sidebar visible
+            // if ($('#sidebar').hasClass('active')) {
+            //     console.log('--------------');
+            // } else {
+            //     if ($('#sidebar2').hasClass('active')) {
+            //         //
+            //     } else {
+            //         $('.overlay44').removeClass('active');
+            //     }
+            // }
 
-        //     if ($('#navbarResponsive').hasClass('show')) {
+
+
+            // if ($('.overlay44').is(':visible')) {
+            //     console.log('--------------');
+            // }
+
+
+
+            // if ($('#navbarResponsive').hasClass('show')) {
                 
-        //         if ($('#navbarDropdown1').is(':visible')) {
-        //             console.log('--------------');
-        //         }
-        //         else {
-        //             $('.overlay2').removeClass('active');
-        //         }
+                // if ($('#navbarDropdown1').is(':visible')) {
+                //     console.log('--------------');
+                // }
+                // else {
+                //     $('.overlay44').removeClass('active');
+                // }
 
-        //         if ($('#navbarDropdown2').is(':visible')) {
-        //         console.log('--------------');
-        //         }
-        //         else {
-        //         $('.overlay2').removeClass('active');
-        //         }
-        //     }
-        // });
+                // if ($('#navbarDropdown2').is(':visible')) {
+                // console.log('--------------');
+                // }
+                // else {
+                // $('.overlay44').removeClass('active');
+                // }
+            // }
+            
+        });
 
 
         // $('#btnDropdown').on('click', function () {
-        //     $('.overlay2').addClass('active');
+        //     $('.overlay44').addClass('active');
         // });
 
         
