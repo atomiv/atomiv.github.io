@@ -250,15 +250,14 @@ button, button.focus, button:focus, button:active, button.active {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    // background: rgba(0, 0, 0, 0.6);
-    background: rgba(122, 18, 113, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     z-index: 998;
     opacity: 0;
 }
 
 .overlay44.active {
     display: block;
-    opacity: 0;
+    opacity: 1;
 }
 
 // ----------------------
