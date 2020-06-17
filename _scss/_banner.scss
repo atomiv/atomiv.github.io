@@ -286,12 +286,19 @@ h5 {
   padding-bottom: 1rem;
   font-size: .89rem;
   margin-top: .75rem;
-  @include media-breakpoint-up(sm) {
-    // font-size: 1rem;
+  @include media-breakpoint-up(md) {
+    font-size: 1rem;
   }
 }
 .text-community .community-h5 {
   padding-bottom: 0;
+  font-size: .8rem;
+  @include media-breakpoint-up(md) {
+    font-size: .89rem;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 1rem;
+  }
 }
 .overlay-community {
   position: absolute;
@@ -313,15 +320,14 @@ h5 {
     height: 140px;
     width: 140px;
   }
-  opacity: 0.5;
+  opacity: 0;
   transition: .5s ease;
-  background-color: gray;
-  background-color: $primary;
+  background-color: $gray-900;
   object-fit: cover;
   border-radius: 50%;
 }
 .img-c-container:hover .overlay-community {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .text-community {
   color: white;
