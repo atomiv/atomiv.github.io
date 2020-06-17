@@ -1,7 +1,7 @@
 ---
-name: Miroslav Trničić
+name: Miroslav Trninić
 position: Senior Software Developer
-photo: miroslav-trnicic.jpg
+photo: miroslav-trninic.jpg
 linkedin: www.linkedin.com/in/miroslavtrninic
 xing: 
 github: https://github.com/carousel
