@@ -256,8 +256,12 @@ h5 {
 .profile-img-home {
   object-fit: cover;
   border-radius: 50%;
-  max-width: 140px;
-  min-width: 140px;
+  max-width: 100px;
+  min-width: 100px;
+  @include media-breakpoint-up(md) {
+    max-width: 140px;
+    min-width: 140px;
+  }
   margin-bottom: .75rem;
   margin-top: 1rem;
 }
@@ -273,10 +277,10 @@ h5 {
 }
 .community-h5 {
   text-align: center;
-  font-size: 1rem;
   padding-bottom: 1rem;
+  font-size: .89rem;
   @include media-breakpoint-up(sm) {
-    font-size: 1.125rem;
+    // font-size: 1rem;
   }
 }
 .overlay-community {
