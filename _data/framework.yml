@@ -5,7 +5,9 @@ docs:
 - title: Foundation
   url: submenu0
   vversion: 0
+  # sub
   submenuitems:
+    # title
     - page: Overview
       url: /foundation/overview
     - page: Principles
@@ -58,6 +60,8 @@ docs:
   submenuitems:
     - page: Overview
       url: /software-architecture/overview
+    - page: Domain Driven Design
+      url: /software-architecture/domain-driven-design
     - page: Microservices
       url: /software-architecture/microservices
     - page: System
@@ -68,26 +72,12 @@ docs:
       url: /software-architecture/slices
 
 # 4 -------------------------------------------------------      
-- title: .NET Core
+- title: Software Development
   url: submenu4
   vversion: 4
   submenuitems:
-    - page: Get Started
-      url: /dot-net-core/get-started
-    - page: Walkthrough
-      url: /dot-net-core/walkthrough
-    - page: Implementation
-      url: /dot-net-core/implementation
-
-# 5 -------------------------------------------------------      
-- title: Angular
-  url: submenu5
-  vversion: 5
-  submenuitems:
-    - page: Get Started
-      url: /angular/get-started
-    - page: Walkthrough
-      url: /angular/walkthrough      
+    - page: Overview
+      url: /software-architecture/overview
 
 # 6 -------------------------------------------------------      
 - title: Quality Assurance
@@ -120,7 +110,14 @@ docs:
       url: /big-data/analytical-data-store
     - page: Analytics and Reporting
       url: /big-data/analytics-and-reporting
-      
+
+# 11 -------------------------------------------------------      
+- title: Embedded Development
+  url: submenu11
+  vversion: 11
+  submenuitems:
+    - page: Overview
+      url: /embedded-development/overview
 # 8 -------------------------------------------------------      
 - title: System Admin
   url: submenu8
