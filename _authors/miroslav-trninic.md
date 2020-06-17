@@ -8,4 +8,4 @@ github: https://github.com/carousel
 website: 
 index: 43
 ---
-Miroslav is a Senior Software Developer, with extensive experience in Java Spring development. He has worked in various projects from small size MVP-s to large enterprise web applications. Miroslav has joined Atomiv to share his experience in Domain Driven Design (DDD).
+Miroslav is a Senior Software Developer, with extensive experience in Java Spring development. He has worked in various projects from small size MVP-s to large enterprise applications. Miroslav has joined Atomiv to share his experience with Domain Driven Design (DDD).
