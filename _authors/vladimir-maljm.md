@@ -6,6 +6,6 @@ linkedin: https://www.linkedin.com/in/vladimirmaljm/
 xing: 
 github: https://github.com/vladimirmaljm
 website: 
-index: 41
+index: 50
 ---
 Vladimir is a System Administrator, with experience in managing managing IT systems and networks, monitoring systems and ensuring security. He has a strong interest in penetration testing. Vladimir joined Atomiv to share experiences in system administration processes.
