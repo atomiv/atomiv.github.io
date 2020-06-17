@@ -13,7 +13,8 @@ gems:
 permalink: /:year/:month/:day/:title
 # permalink: pretty
 
-collections_dir: my_collections
+# if colelctions not at root level
+# collections_dir: my_collections
 
 collections:
   pages:

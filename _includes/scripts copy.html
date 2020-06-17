@@ -1,0 +1,152 @@
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+
+<!-- <script src="{{ site.url }}/js/custom/custom.js"></script>	 -->
+
+<!-- Prism -->
+<script type="text/javascript" src="{{ site.url }}/js/prism-toolbar.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/clipboard.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/copy-to-clipboard.js"></script>
+<script type="text/javascript" src="{{ site.url }}/js/prism.js"></script>
+<!-- Atomiv -->
+<script type="text/javascript" src="{{ site.url }}/js/atomiv.js"></script>
+
+<!-- for sidebar -->
+<!-- jQuery Custom Scroller CDN -->
+<!-- JC -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script> -->
+
+
+<!-- Menu Toggle Script -->
+<!-- <script>
+    $(document).ready(function () {
+
+
+$('#sidebarCollapse').on('click', function () {
+    console.log('hello');
+    $('#sidebar').toggleClass('active');
+});
+
+ -->
+
+<script>
+    $(document).ready(function () {
+
+
+        // $("#sidebar").mCustomScrollbar({
+        //     theme: "minimal"
+        // });
+
+        $('#sidebarCollapse, .overlay').on('click', function () {
+            console.log('hello');
+            // open or close navbar
+            $('#sidebar').toggleClass('active');
+            $('.overlay').toggleClass('active');
+            console.log('hello there');
+            $('.overlay2').removeClass('active');
+            // for templates
+            $('.overlay33').removeClass('active');
+
+
+            // close dropdowns
+            // $('.collapse.in').toggleClass('in');
+            // // and also adjust aria-expanded attributes we use for the open/closed arrows
+            // // in our CSS
+            // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+
+
+        // templates sidebar...
+        $('#sidebarCollapse2, .overlay33').on('click', function () {
+            console.log('hello');
+            $('#sidebar2').toggleClass('active');
+            $('.overlay33').toggleClass('active');
+            console.log('hello there');
+            $('.overlay2').removeClass('active');
+            $('.overlay').removeClass('active');
+        });
+
+        // ('body, html'
+        // '.navbar-toggler, #navbarResponsive'
+        $('.navbar-toggler').on('click', function () {
+            $('#sidebar').removeClass('active');
+            $('#sidebar2').removeClass('active');
+            $('.overlay').removeClass('active');
+            // $('.overlay33').removeClass('active');
+            $('.overlay2').toggleClass('active');
+        });
+
+        // #mainNav, .navbar-toggler
+        $('body').on('click', function () {
+
+            if ($('#navbarResponsive').hasClass('show')) {
+                // console.log('test');
+                
+
+                // nDropdown
+                if ($('#navbarDropdown1').is(':visible')) {
+
+                    // $('.overlay2').removeClass('active');
+                    console.log('--------------');
+
+                }
+                else {
+                    $('.overlay2').removeClass('active');
+                    // console.log('elseeee');
+                }
+
+
+                if ($('#navbarDropdown2').is(':visible')) {
+                console.log('--------------');
+                }
+                else {
+                $('.overlay2').removeClass('active');
+                }
+
+            }
+            // else {
+            //     // console.log('soemthing-');
+            // }
+
+
+        });
+
+        // overlay active when dropdown btn is clicked in navbar
+        $('#btnDropdown').on('click', function () {
+            $('.overlay2').addClass('active');
+        });
+
+        // $('#, #navbarResponsive').on('click', function() {
+        //     $('.overlay2').addClass('active');
+        //     $('.overlay1').addClass('active');
+        // })
+
+        
+        /*
+        $('body').on('click', function() {
+            if ($('.menu').hasClass('bar')) {
+                $(".menu").toggleClass('bar')
+            }
+        })
+
+        $(document).on('click',function(){
+            if($("#nav-toggle").hasClass("active")){
+                $('.menu').animate({ right: "-100%" }, 200);
+            }
+        });
+        */
+
+        // $('#sidebarCollapse').on('click', function () {
+        //     // open sidebar
+        //     $('#sidebar').addClass('active');
+        //     // fade in the overlay
+        //     $('.overlay').addClass('active');
+        //     $('.collapse.in').toggleClass('in');
+        //     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        // });
+
+    });
+</script>
+
+

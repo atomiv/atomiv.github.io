@@ -243,6 +243,24 @@ button, button.focus, button:focus, button:active, button.active {
     outline: 0;
 }
 
+// ---------------
+
+.overlay44 {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    // background: rgba(0, 0, 0, 0.6);
+    background: rgba(122, 18, 113, 0.4);
+    z-index: 998;
+    opacity: 0;
+}
+
+.overlay44.active {
+    display: block;
+    opacity: 0;
+}
+
 // ----------------------
 .overlay, .overlay33 {
     display: none;
@@ -253,7 +271,7 @@ button, button.focus, button:focus, button:active, button.active {
     /* transparent black */
     background: rgba(0, 0, 0, 0.6);
     /* middle layer, i.e. appears below the sidebar */
-    z-index: 998;
+    z-index: 996;
     opacity: 0;
     /* animate the transition */
     // transition: all 0.5s ease-in-out;
@@ -274,7 +292,7 @@ button, button.focus, button:focus, button:active, button.active {
     /* transparent black */
     background: rgba(0, 0, 0, 0.6);
     /* middle layer, i.e. appears below the sidebar */
-    z-index: 998;
+    z-index: 997;
     opacity: 0;
     /* animate the transition */
     // transition: all 0.5s ease-in-out;

@@ -33,116 +33,89 @@ $('#sidebarCollapse').on('click', function () {
 <script>
     $(document).ready(function () {
 
+
         // $("#sidebar").mCustomScrollbar({
         //     theme: "minimal"
         // });
 
-        $('#sidebarCollapse, .overlay').on('click', function () {
-            console.log('hello');
-            // open or close navbar
+
+        // ------------------------
+        $('#sidebarCollapse').on('click', function () {
             $('#sidebar').toggleClass('active');
-            $('.overlay').toggleClass('active');
-            console.log('hello there');
-            $('.overlay2').removeClass('active');
-            // for templates
-            // $('.overlay33').removeClass('active');
+            // $('.overlay44').toggleClass('active');
+            console.log('sidebar opened');
+
+            if ($('.overlay44').is(':visible')) {
+                console.log('overlay visible');
+
+                if ($('#sidebar').is(':visible')) {
+                    console.log('sidebar visible');
+                } else {
+                    console.log('sidebar not visible');
+                    // $('.overlay44').removeClass('active');
+                }
+                
+                    // console.log('--------------');
+            } else {
+                console.log('overlay not visible');
+                $('.overlay44').toggleClass('active');
+            }
 
 
-            // close dropdowns
-            // $('.collapse.in').toggleClass('in');
-            // // and also adjust aria-expanded attributes we use for the open/closed arrows
-            // // in our CSS
-            // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+
+            if ($('.ov-navbar').is(':visible')) {
+                console.log('--------------');
+            }
         });
 
-        // templates sidebar...
-        $('#sidebarCollapse2, .overlay33').on('click', function () {
-            console.log('hello');
-            $('#sidebar2').toggleClass('active');
-            // $('.overlay33').toggleClass('active');
-            console.log('hello there');
-            $('.overlay2').removeClass('active');
-            $('.overlay').removeClass('active');
-        });
+        // $('#sidebarCollapse2, .overlay44').on('click', function () {
+        //     $('#sideba2r').toggleClass('active');
+        //     $('.overlay44').toggleClass('active');
+        //     console.log('hello there');
+        // });
 
-        // ('body, html'
-        // '.navbar-toggler, #navbarResponsive'
         $('.navbar-toggler').on('click', function () {
             $('#sidebar').removeClass('active');
             $('#sidebar2').removeClass('active');
-            $('.overlay').removeClass('active');
-            // $('.overlay33').removeClass('active');
-            $('.overlay2').toggleClass('active');
-        });
 
-        // #mainNav, .navbar-toggler
-        $('body').on('click', function () {
-
-            if ($('#navbarResponsive').hasClass('show')) {
-                // console.log('test');
-                
-
-                // nDropdown
-                if ($('#navbarDropdown1').is(':visible')) {
-
-                    // $('.overlay2').removeClass('active');
-                    console.log('--------------');
-
-                }
-                else {
-                    $('.overlay2').removeClass('active');
-                    // console.log('elseeee');
-                }
-
-
-                if ($('#navbarDropdown2').is(':visible')) {
-                console.log('--------------');
-                }
-                else {
-                $('.overlay2').removeClass('active');
-                }
-
+            if ($('.overlay44').is(':visible')) {
+                    // console.log('--------------');
+            } else {
+                // $('.overlay44').toggleClass('active');
             }
-            // else {
-            //     // console.log('soemthing-');
-            // }
 
-
+            $('.overlay44').toggleClass('active');
+            
         });
+        // ----------------------------------
 
-        // overlay active when dropdown btn is clicked in navbar
-        $('#btnDropdown').on('click', function () {
-            $('.overlay2').addClass('active');
-        });
 
-        // $('#, #navbarResponsive').on('click', function() {
+        // $('body').on('click', function () {
+
+        //     if ($('#navbarResponsive').hasClass('show')) {
+                
+        //         if ($('#navbarDropdown1').is(':visible')) {
+        //             console.log('--------------');
+        //         }
+        //         else {
+        //             $('.overlay2').removeClass('active');
+        //         }
+
+        //         if ($('#navbarDropdown2').is(':visible')) {
+        //         console.log('--------------');
+        //         }
+        //         else {
+        //         $('.overlay2').removeClass('active');
+        //         }
+        //     }
+        // });
+
+
+        // $('#btnDropdown').on('click', function () {
         //     $('.overlay2').addClass('active');
-        //     $('.overlay1').addClass('active');
-        // })
+        // });
 
         
-        /*
-        $('body').on('click', function() {
-            if ($('.menu').hasClass('bar')) {
-                $(".menu").toggleClass('bar')
-            }
-        })
-
-        $(document).on('click',function(){
-            if($("#nav-toggle").hasClass("active")){
-                $('.menu').animate({ right: "-100%" }, 200);
-            }
-        });
-        */
-
-        // $('#sidebarCollapse').on('click', function () {
-        //     // open sidebar
-        //     $('#sidebar').addClass('active');
-        //     // fade in the overlay
-        //     $('.overlay').addClass('active');
-        //     $('.collapse.in').toggleClass('in');
-        //     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-        // });
 
     });
 </script>
