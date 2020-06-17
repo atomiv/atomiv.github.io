@@ -2,7 +2,7 @@
 name: Divna Simeunović
 position: Business Analyst & IIBA Serbia President
 photo: divna-simeunovic.jpg
-linkedin: https://rs.linkedin.com/in/divnasimeunovic
+linkedin: https://www.linkedin.com/in/divnasimeunovic
 xing: 
 github: https://github.com/divnas
 website: 
