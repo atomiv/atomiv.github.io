@@ -6,8 +6,9 @@ vversion: 3
 vversion2: 3
 ---
 
+## Definition
 
-Insert content about Domain Driven Design...
+Domain Driven Design (DDD) is a conceptual software framework for developing business applications, created by [Eric Evans](https://twitter.com/ericevans0?lang=en) and initially described in his famous [Blue Book](https://domainlanguage.com/ddd/blue-book/)
 
 ## This is a heading
 

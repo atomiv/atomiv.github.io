@@ -24,8 +24,10 @@ collections:
     # permalink: /:collection/:name
   authors:
     output: true
-  templates:
-    output: true
+  # templates:
+  #   output: true
+
+  
     # layout: templates-layout
     # permalink: /:collection/:name
     # permalink: /:title
