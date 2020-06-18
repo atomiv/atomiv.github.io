@@ -41,7 +41,14 @@ description: About Atomiv
                         <h5>{{ author.name }}</h5>
                         <h6>{{ author.position }}</h6>
                         <p>{{ author.content | markdownify }}</p>
-                        <div>
+                        <!-- adb5bd -->
+                        {% if author.city and author.country %}
+                        <p class="mb-1 mb-md-0">{{ author.city}}, {{ author.country }}</p>
+                        {% endif %}
+                        {% if author.degree and author.university %}
+                        <p class="mt-0 mb-4 mb-md-3">{{ author.degree }} | {{ author.university }}</p>
+                        {% endif %}
+                        <div style="">
                             {% if author.linkedin %}
                             <a href="{{ author.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
                             {% endif %}
