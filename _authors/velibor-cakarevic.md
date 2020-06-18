@@ -6,14 +6,10 @@ linkedin: https://rs.linkedin.com/in/velibor-cakarevic-5487731
 xing: https://www.xing.com/profile/Velibor_Cakarevic
 github: https://github.com/tsakard
 website: http://tsakard.com
-<<<<<<< Updated upstream
-index: 40
-=======
 index: 140
 city: München
 country: Germany
 degree: M.Sc. Electrical Engineering
 university: Lund University
->>>>>>> Stashed changes
 ---
 Velibor is an Embedded Development Engineer / Freelancer, with experience in development of real-time software for embedded systems and code optimization. He joined Atomiv to share his experiences in best practices for embedded development and Linux / Android OS.
