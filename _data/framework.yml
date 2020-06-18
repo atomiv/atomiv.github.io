@@ -60,12 +60,12 @@ docs:
   submenuitems:
     - page: Overview
       url: /software-architecture/overview
-    - page: Domain Driven Design
-      url: /software-architecture/domain-driven-design
     - page: Microservices
       url: /software-architecture/microservices
-    - page: System
-      url: /software-architecture/system
+    - page: Domain Driven Design
+      url: /software-architecture/domain-driven-design
+    - page: Clean Architecture
+      url: /software-architecture/clean-architecture
     - page: Layers
       url: /software-architecture/layers
     - page: Slices

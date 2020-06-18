@@ -1,7 +1,7 @@
 ---
 layout: templates
 title: System
-permalink: /software-architecture/system
+permalink: /software-architecture/clean-architecture
 vversion: 3
 vversion2: 3
 ---
