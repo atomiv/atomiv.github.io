@@ -6,7 +6,7 @@ linkedin: https://rs.linkedin.com/in/divnasimeunovic
 xing: 
 github: https://github.com/divnas
 website: 
-index: 150
+index: 133
 city: Belgrade
 country: Serbia
 degree: B. Sc. Electrical Engineering & Electronics

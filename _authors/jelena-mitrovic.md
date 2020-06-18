@@ -6,7 +6,7 @@ linkedin:
 xing: 
 github: https://github.com/jelenamitrovic980
 website: 
-index: 160
+index: 143
 city: Belgrade
 country: Serbia
 degree:

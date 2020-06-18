@@ -6,7 +6,7 @@ linkedin: www.linkedin.com/in/miroslavtrninic
 xing: 
 github: https://github.com/carousel
 website: http://antitask.com
-index: 155
+index: 131
 city: Banja Luka
 country: Bosnia and Herzegovina
 degree: B.Sc. Business Administration and Management
