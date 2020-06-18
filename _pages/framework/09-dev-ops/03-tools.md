@@ -42,8 +42,20 @@ A container is a running (or stopped) instance of an image.
 ![Container Architecture](https://miro.medium.com/max/350/1*IGYaJSfDLzXjE-aJcTai4Q.png)  
 source: quppler.com and cloud.google.com
 
-* Container Orchestration  
-Kubernetes
+* Kubernetes, Mesos, Docker Swarm  
+Container orchestration manages containers lifecycles, and is used to automate tasks like:
+    * Provisioning and deployment
+    * Configuration and scheduling
+    * Resource allocation
+    * Container availability 
+    * Scaling or removing containers based on balancing workloads across your infrastructure
+    * Load balancing and traffic routing 
+    * Monitoring container health
+    * Configuring applications based on the container in which they will run
+    * Keeping interactions between containers secure  
+
+  
+  [Red Hat - What is container orchestration?](https://www.redhat.com/en/topics/containers/what-is-container-orchestration "Red Hat")
 
 * VMware, VirtualBox  
 Virtual machine is (heavyweight) environment that runs complete operating system and applications.
