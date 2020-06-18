@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/valentinacupac/
 xing: https://www.xing.com/profile/Valentina_Cupac
 github: https://github.com/valentinacupac
 website: https://optivem.com/
-index: 10
+index: 101
 city: Belgrade
 country: Serbia
 degree: B.Sc. Computer Science & Advanced Mathematics

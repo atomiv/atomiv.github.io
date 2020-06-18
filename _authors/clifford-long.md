@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/clifflong
 xing: https://www.xing.com/profile/Clifford_Long
 github: https://github.com/longcr
 website: https://effectivestatistics.com
-index: 30
+index: 121
 city: Illinois
 country: United States
 degree: M.Sc. Statistics

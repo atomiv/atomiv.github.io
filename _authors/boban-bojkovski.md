@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/bobanbojkovski
 xing: 
 github: https://github.com/bobanbojkovski
 website: 
-index: 14
+index: 111
 city: Köln
 country: Germany
 degree: M.IT. Software Engineering

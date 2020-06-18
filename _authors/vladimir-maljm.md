@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/vladimirmaljm/
 xing: 
 github: https://github.com/vladimirmaljm
 website: 
-index: 50
+index: 142
 city: Belgrade
 country: Serbia
 degree: Cert. IT Infrastructure Security

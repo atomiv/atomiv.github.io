@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/petar-zečević-0273a41ab/
 xing: 
 github: https://github.com/PetarZecevic
 website: 
-index: 12
+index: 103
 city: Novi Sad
 country: Serbia
 degree: B. Computer Engineering & Computer Communication

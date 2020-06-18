@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/jelenacupac/
 xing: 
 github: https://github.com/jcupac
 website: http://senovim.com/
-index: 11
+index: 102
 city: Belgrade
 country: Serbia
 degree: B. Design in Architecture

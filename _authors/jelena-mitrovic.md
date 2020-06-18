@@ -6,7 +6,7 @@ linkedin:
 xing: 
 github: https://github.com/jelenamitrovic980
 website: 
-index: 51
+index: 143
 city:
 country:
 degree:

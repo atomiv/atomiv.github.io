@@ -6,7 +6,7 @@ linkedin: http://www.linkedin.com/in/vidakovic-milan
 xing: 
 github: https://github.com/milan-vidakovic-work
 website: 
-index: 41
+index: 123
 city:
 country:
 degree:

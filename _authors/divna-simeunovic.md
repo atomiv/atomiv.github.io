@@ -6,7 +6,7 @@ linkedin: https://rs.linkedin.com/in/divnasimeunovic
 xing: 
 github: https://github.com/divnas
 website: 
-index: 42
+index: 133
 city:
 country:
 degree:

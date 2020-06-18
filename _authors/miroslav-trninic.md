@@ -6,7 +6,7 @@ linkedin: www.linkedin.com/in/miroslavtrninic
 xing: 
 github: https://github.com/carousel
 website: 
-index: 43
+index: 131
 city:
 country:
 degree:
