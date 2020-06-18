@@ -15,6 +15,14 @@ docs:
     - page: Business Case
       url: /foundation/business-case
 
+# 12 -------------------------------------------------------------------
+- title: Leadership
+  url: submenu12
+  vversion: 12
+  submenuitems:
+    - page: Overview
+      url: /leadership/overview
+
 # 1 ---------------------------------------------------------------------
 - title: Project Management
   url: submenu1
