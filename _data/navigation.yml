@@ -54,15 +54,9 @@
   vversion2: 6
   nDropdown: navbarDropdown2
   subcategories:
-  - subtitle: Estimations
-    suburl: /estimations/get-started
-    category: estimations
-    vversion: 1
-  - subtitle: Requirements
-    suburl: /requirements/get-started
-    vversion: 2
+
   - subtitle: .NET Core
-    suburl: /dot-net-core/get-started
+    suburl: /dotnet/get-started
     vversion: 3
   - subtitle: Angular
     suburl: /angular/get-started
@@ -73,6 +67,14 @@
   - subtitle: DevOps
     suburl: /devops/get-started
     vversion: 6
+  - subtitle: Estimations
+    suburl: /estimations/get-started
+    category: estimations
+    vversion: 1
+  - subtitle: Requirements
+    suburl: /requirements/get-started
+    vversion: 2
+    
   # - subtitle: Category One
   #   suburl: /category-one/one
   #   category: one
