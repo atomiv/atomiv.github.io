@@ -43,17 +43,16 @@ A container is a running (or stopped) instance of an image.
 source: quppler.com and cloud.google.com
 
 * Kubernetes, Mesos, Docker Swarm  
-Container orchestration manages containers lifecycles, and is used to automate tasks like:
+Container orchestration manages containers lifecycles, it is used to automate tasks like:
     * Provisioning and deployment
     * Configuration and scheduling
     * Resource allocation
     * Container availability 
     * Scaling or removing containers based on balancing workloads across your infrastructure
-    * Load balancing and traffic routing 
+    * Load balancing, traffic routing, service discovery 
     * Monitoring container health
     * Configuring applications based on the container in which they will run
     * Keeping interactions between containers secure  
-
   
   [Red Hat - What is container orchestration?](https://www.redhat.com/en/topics/containers/what-is-container-orchestration "Red Hat")
 
