@@ -1,35 +1,17 @@
 # template_list_title: Templates
 docs:
 
-# 0 ---------------------------------------------------------------------
-- title: Estimations
-  url: submenu100
-  vversion: 1
-  # sub
-  submenuitems:
-    # title
-    - page: Get Started
-      url: /estimations/get-started
-
-# 1 ---------------------------------------------------------------------
-- title: Requirements
-  url: submenu101
-  vversion: 2
-  submenuitems:
-    - page: Get Started
-      url: /requirements/get-started
-
 # 2 -------------------------------------------------------------------------
 - title: .NET Core
   url: submenu102
   vversion: 3
   submenuitems:
     - page: Get Started
-      url: /dot-net-core/get-started
+      url: /dotnet/get-started
     - page: Walkthrough
-      url: /dot-net-core/walkthrough
+      url: /dotnet/walkthrough
     - page: Implementation
-      url: /dot-net-core/implementation                     
+      url: /dotnet/implementation                     
 
 # 3 -------------------------------------------------------      
 - title: Angular
@@ -56,3 +38,22 @@ docs:
   submenuitems:
     - page: Get Started
       url: /devops/get-started
+
+
+# 0 ---------------------------------------------------------------------
+- title: Estimations
+  url: submenu100
+  vversion: 1
+  # sub
+  submenuitems:
+    # title
+    - page: Get Started
+      url: /estimations/get-started
+
+# 1 ---------------------------------------------------------------------
+- title: Requirements
+  url: submenu101
+  vversion: 2
+  submenuitems:
+    - page: Get Started
+      url: /requirements/get-started

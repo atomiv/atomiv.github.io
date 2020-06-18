@@ -1,7 +1,7 @@
 ---
 layout: templates-layout
 title: Get Started
-permalink: /dot-net-core/get-started
+permalink: /dotnet/get-started
 vversion: 3
 vversion2: 6
 ---

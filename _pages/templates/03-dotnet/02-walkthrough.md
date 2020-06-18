@@ -1,7 +1,7 @@
 ---
 layout: templates-layout
 title: Walkthrough
-permalink: /dot-net-core/walkthrough
+permalink: /dotnet/walkthrough
 vversion: 3
 vversion2: 6
 ---
