@@ -7,10 +7,37 @@ vversion2: 3
 ---
 
 
-In this section, we provide a template for business analysis, based on analyzing business processes and requirements for Acme Online Store.
+## What is business analysis in IT
 
-Firstly, we provide a template for documenting business processes for Acme Corporation:
+This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.
+ 
+## What is the role of business analysis in IT solution
+ 
+Understanding the domain, learning job, concept how to do, how to present... Functional design of IT solution.
+ 
+## What is the importance of business analysis
 
-Then based on the business processes, actual use cases can be extracted to identify the users of the system and what they can perform:
+This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.
 
-Finally, we provide a template for documenting domain entities and events:
+## What are the processes in business analysis
+
+This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.
+
+* Point 1
+* Point 1
+* Point 1
+* Point 1
+* Point 1
+
+## What are the tools and techniques in business analysis
+
+This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.
+
+* Point 1
+* Point 1
+* Point 1
+* Point 1
+* Point 1
+
+* dgds
+
