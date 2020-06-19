@@ -43,16 +43,8 @@ A container is a running (or stopped) instance of an image.
 source: quppler.com and cloud.google.com
 
 * Kubernetes, Mesos, Docker Swarm  
-Container orchestration manages containers lifecycles, it is used to automate tasks like:
-    * Provisioning and deployment
-    * Configuration and scheduling
-    * Resource allocation
-    * Container availability 
-    * Scaling or removing containers based on balancing workloads across your infrastructure
-    * Load balancing, traffic routing, service discovery 
-    * Monitoring container health
-    * Configuring applications based on the container in which they will run
-    * Keeping interactions between containers secure  
+Container orchestration manages containers lifecycles.  
+It is used to control and automate processes like container provisioning, deployment, scheduling, availability, service discovery, load balancing, monitoring.    
   
   [Red Hat - What is container orchestration?](https://www.redhat.com/en/topics/containers/what-is-container-orchestration "Red Hat")
 
@@ -60,9 +52,10 @@ Container orchestration manages containers lifecycles, it is used to automate ta
 Virtual machine is (heavyweight) environment that runs complete operating system and applications.
 Virtual machine is known as guest and physical machine as host machine.
 The hypervisor is software installed on the host and manages hardware resources for the guest environment. Common use case is to combine virtualization technologies and run containers inside a virtual machine.  
-[What is a virtual machine?](https://www.redhat.com/en/topics/virtualization/what-is-a-virtual-machine "Red Hat")  
-![Containerized app workflow](https://www.ktexperts.com/wp-content/uploads/2020/01/Hosted-Virtual-Machine-Architecture.png)  
-source: researchgate.net
+  
+  [What is a virtual machine?](https://www.redhat.com/en/topics/virtualization/what-is-a-virtual-machine "Red Hat")  
+  ![Containerized app workflow](https://www.ktexperts.com/wp-content/uploads/2020/01/Hosted-Virtual-Machine-Architecture.png)  
+  source: researchgate.net
 
 * Code Repository  
 GitHub
@@ -74,7 +67,8 @@ Jenkins CI, CircleCI
 Infrastructure as Code (IaC) automates infrastructure, platform and application management in a descriptive way.
 The configuration files (written in json or yaml) are stored in version control system and are serving as single source of truth.
 Idempotence - same call repeatedly produces same result, is a principle of IaC that ensures consistent state in the environment.   
-[IBM Cloud - Infrastructure as Code](https://www.ibm.com/cloud/learn/infrastructure-as-code "IBM Cloud")
+
+  [IBM Cloud - Infrastructure as Code](https://www.ibm.com/cloud/learn/infrastructure-as-code "IBM Cloud")
 
 
 * Kubernetes package manager  
