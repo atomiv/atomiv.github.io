@@ -18,6 +18,9 @@
     # unnecessary TODO
     # same as category number
     # vversion2: 3
+  - subtitle: Leadership
+    suburl: /leadership/overview
+    vversion: 12
   - subtitle: Project Management
     suburl: /project-management/overview
     vversion: 1
