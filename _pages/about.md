@@ -129,7 +129,7 @@ Standardization principle
 Last, but not least we come to standardization - the principle to standardize project structure so that we can systemically achieve quality and speed across our software projects. This also increases re-use and provides organizations with higher flexibility to organize development teams and incorporate new members, and avoids to the "re-invent the wheel" syndrome. It also makes project success a part of the organization, rather than relying on a few "talented" "A-player" individuals. Atomiv did not invent anything new, it simply took existing best practices and provided a standardized templated solution.
 
 Licensed under the MIT license. This means you’re free to use it for commercial and non-commercial purposes.
-Copyright © 2019 Optivem All Rights Reserved.
+Copyright © 2019 Atomiv All Rights Reserved.
 
 
 Support

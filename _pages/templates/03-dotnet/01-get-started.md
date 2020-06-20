@@ -22,7 +22,7 @@ Ensure you have the following installed:
 Run Visual Studio \(in the "Getting Started", select "Continue without code"\), use the Package Manager Console \(Tools &gt; NuGet Package Manager &gt; Package Manager Console\) to install the Atomiv Template \(in the future you can also uninstall and re-install newer versions\):
 
 ```text
-PM> dotnet new -i Optivem.Atomiv.Templates
+PM> dotnet new -i Atomiv.Templates
 ```
 
 ## Create project

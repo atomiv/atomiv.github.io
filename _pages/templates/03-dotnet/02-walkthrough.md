@@ -125,25 +125,25 @@ This is a readonly repository:
 
 ### Application
 
-Dtos are referenced in the project Optivem.Northwind.Core.Application.Dto. For example, we have the SupplierRequest:
+Dtos are referenced in the project Atomiv.Northwind.Core.Application.Dto. For example, we have the SupplierRequest:
 
 In that same project, we also have the SupplierResponse:
 
- We declare the interfaces for services in the project Optivem.Northwind.Core.Application.Service. For example, we have the interface ISupplierService:
+ We declare the interfaces for services in the project Atomiv.Northwind.Core.Application.Service. For example, we have the interface ISupplierService:
 
-Then we need to implement the services in the project Optivem.Northwind.Core.Application.Service.Default. For example, we have implemented SupplierService:
+Then we need to implement the services in the project Atomiv.Northwind.Core.Application.Service.Default. For example, we have implemented SupplierService:
 
 ### Infrastructure
 
-Domain We implement repositories using the EntityFrameworkCore implementation in the project Optivem.Northwind.Infrastructure.Repository.EntityFrameworkCore \(note: we could have used other providers\). For example, we have implemented SupplierRepository:
+Domain We implement repositories using the EntityFrameworkCore implementation in the project Atomiv.Northwind.Infrastructure.Repository.EntityFrameworkCore \(note: we could have used other providers\). For example, we have implemented SupplierRepository:
 
 Inside that same project, we also add the repository SupplierRepository to the unit of work class NorthwindUnitOfWork:
 
- \#\#\# Application We implement request mapping using AutoMapper in the project Optivem.Northwind.Infrastructure.Application.Mapping. For example, we have implemented SupplierRequestMapping:
+ \#\#\# Application We implement request mapping using AutoMapper in the project Atomiv.Northwind.Infrastructure.Application.Mapping. For example, we have implemented SupplierRequestMapping:
 
 Furthermore, inside that same project we also implement the response mapping. For example, we have implemented SupplierResponseMapping:
 
- \#\# Web \#\#\# AspNetCore Inside the project Optivem.Northwind.Web.AspNetCore.Rest, we register the services and the mappings inside Startup. For example, we have registered SupplierService, SupplierRequestMapping and SupplierResponseMapping:
+ \#\# Web \#\#\# AspNetCore Inside the project Atomiv.Northwind.Web.AspNetCore.Rest, we register the services and the mappings inside Startup. For example, we have registered SupplierService, SupplierRequestMapping and SupplierResponseMapping:
 
 Furthermore, in that project, inside the folder Controllers we also need to implement the controllers. For example, we have implemented SuppliersController:
 
