@@ -9,13 +9,16 @@ vversion2: 3
 
 Software Architecture is very important for the long-term maintainability of projects.
 
-## Heading
+## Introducing Software Architecture
 
 Something.
 
-## Heading
+## Importance of Software Architecture for Project Success
 
 Something.
 
+## Best Practices in Software Architecture
+
+Something.
 
 
