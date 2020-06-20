@@ -4,7 +4,7 @@ position: Program Manager
 photo: jon-campbell.jpg
 linkedin: http://www.linkedin.com/in/jonrcampbell
 xing: 
-github: 
+github: https://github.com/jrc51773
 website: 
 index: 124
 city: Richmond
