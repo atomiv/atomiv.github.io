@@ -9,8 +9,7 @@
 - title: Framework
   vversion2: 3
   nDropdown: navbarDropdown1
-  # url: /templates
-  # url: https://docs.atomiv.com/
+  
   subcategories:    
   - subtitle: Foundation
     suburl: /foundation/overview
