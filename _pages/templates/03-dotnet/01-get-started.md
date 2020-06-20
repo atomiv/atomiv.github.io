@@ -30,14 +30,14 @@ PM> dotnet new -i Atomiv.Templates
 Create the directory for your new project \(MyWebShop\) and go inside that directory:
 
 ```text
-PM> mkdir C:\Users\Valentina.Cupac\source\repos\MyWebShop
-PM> cd C:\Users\Valentina.Cupac\source\repos\MyWebShop
+PM> mkdir MyWebShop
+PM> cd MyWebShop
 ```
 
 Create a new solution \(MyWebShop.sln\) based on the template inside that directory:
 
 ```text
-PM> dotnet new atomiv-microservice
+PM> dotnet new atomiv
 ```
 
 ## Create database
