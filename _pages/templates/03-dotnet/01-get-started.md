@@ -40,6 +40,10 @@ Create a new solution \(MyWebShop.sln\) based on the template inside that direct
 PM> dotnet new atomiv
 ```
 
+## Open project
+
+Open the solution \(MyWebShop.sln\) and set MyWebShop.Web.RestApi as the StartUp project, and build the solution.
+
 ## Create database
 
 Then adjust the database connection \(inside the project MyWebShop.Web.RestApi, open up the file appsettings.Development.json and ensure that DefaultConnection is appropriately set to your development database server, note that the database does not exist\) yet. Then from the Package Manager Console, run the command to create the database:
@@ -51,8 +55,6 @@ PM> dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
 You can verify inside SQL Server Management Studio that the database has been created.
 
 ## Run project
-
-Open the solution \(MyWebShop.sln\) and set MyWebShop.Web.RestApi as the StartUp project, and build the solution.
 
 Then run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/](https://localhost:44315/api/values). You can also execute API calls via swagger, e.g. [https://localhost:44315/swagger/index.html](https://localhost:44315/swagger/index.html) and verify that the response is successful. \(Note that the port on your computer may differ from the port here.\) Finally, at the end you can stop debugging.
 
