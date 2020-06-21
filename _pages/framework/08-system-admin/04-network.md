@@ -53,3 +53,6 @@ Select the **Allow other network users to connect through this computer's Intern
 Select **OK** to save the changes.
 
 Return to the **Network and Sharing Center** to verify that the ad hoc network is connected to the internet through the other interface.
+
+![](https://raw.githubusercontent.com/atomiv/atomiv.github.io/master/_pages/framework/08-system-admin/images/pic2.png)  
+
