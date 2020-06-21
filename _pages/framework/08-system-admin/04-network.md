@@ -59,4 +59,4 @@ Return to the **Network and Sharing Center** to verify that the ad hoc network i
 
 You should know that Ad hoc wireless networking only includes WEP-only security and when the host computer shuts down or disconnects from the ad hoc network, Ad hoc network is deleted.
 
-Youou should also pay attention and keep in mind that the SSID cannot be hidden (*you cannot disable SSID broadcast like infrastructure mode devices can*), nor can you see how much the signal is like in the infrastructure mode, so you must make sure that all ad hoc devices are within range of the host computer. The baud rate is limited to 11mbps
+Also pay attention and keep in mind that the SSID cannot be hidden (*you cannot disable SSID broadcast like infrastructure mode devices can*), neither can you see how much the signal strength  is like in the infrastructure mode, so you must make sure that all ad hoc devices are within range of the host computer. The baud rate is limited to 11mbps
