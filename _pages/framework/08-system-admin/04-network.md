@@ -48,3 +48,8 @@ In the list of network adapters on the computer, right-click the adapter that yo
 Click to the **Sharing** tab,
 
 Select the **Allow other network users to connect through this computer's Internet connection** check box. Then, select the **Home networking connection** drop-down arrow and choose the interface from the ad hoc network.
+
+
+Select **OK** to save the changes.
+
+Return to the **Network and Sharing Center** to verify that the ad hoc network is connected to the internet through the other interface.
