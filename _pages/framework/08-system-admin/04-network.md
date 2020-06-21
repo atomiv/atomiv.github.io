@@ -39,6 +39,12 @@ then start the hosted network,
 
 `netsh wlan start hostednetwork`
 
-open the **Control Panel**, select **Network and Sharing Center**, select **Change adapter settings
+open the **Control Panel**, select **Network and Sharing Center**, select **Change adapter settings**,
 
 ![](https://github.com/atomiv/atomiv.github.io/blob/master/_pages/framework/08-system-admin/images/pic1.png)  
+
+In the list of network adapters on the computer, right-click the adapter that you're connected with, then choose **Properties**,
+
+Click to the **Sharing** tab,
+
+Select the **Allow other network users to connect through this computer's Internet connection** check box. Then, select the **Home networking connection** drop-down arrow and choose the interface from the ad hoc network.
