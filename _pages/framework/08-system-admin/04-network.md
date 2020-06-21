@@ -41,4 +41,4 @@ then start the hosted network,
 
 open the **Control Panel**, select **Network and Sharing Center**, select **Change adapter settings
 
-![CPimg](https://github.com/atomiv/atomiv.github.io/blob/master/_pages/framework/08-system-admin/images/pic1.png)  
+![](https://github.com/atomiv/atomiv.github.io/blob/master/_pages/framework/08-system-admin/images/pic1.png)  
