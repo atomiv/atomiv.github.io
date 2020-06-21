@@ -24,3 +24,7 @@ This environment is mainly used for homes, small office or home office and uses 
 
 A device that creates a wireless local area network that can be used to relieve one WLAN network or to increase the signal range. AP connects to the router by cable or wirelessly and can be configured as a separate wireless network with a special network name.
 
+## Ad hoc mode
+
+Ad hoc mode is used to directly connect two or more computers and printers. Devices in this mode do not require a central server, router, or access point for communication, data exchange, and printing. They are already accessing each other with a simple wifi connection
+
