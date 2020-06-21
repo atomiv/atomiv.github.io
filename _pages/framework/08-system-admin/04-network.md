@@ -26,12 +26,16 @@ A device that creates a wireless local area network that can be used to relieve 
 
 ## Ad hoc mode
 
-Ad hoc mode is used to directly connect two or more computers and printers. Devices in this mode do not require a central server, router, or access point for communication, data exchange, and printing. They are already accessing each other with a simple wifi connection.
+Ad hoc mode is used to directly connect two or more computers and printers. Devices in this mode do not require a central server, router, or access point for communication, data exchange, and printing. They are already accessing each other with a simple wifi connection. In order for this mode to work smoothly, it is best for all devices in the network to be close to each other so that the signal of the wireless network is good between them.
 
 ### How to Set Up an Ad-Hoc Network on Windows
 
 In order to set up an ad hoc network, it is necessary for the devices to have a wireless network adapter and to support the hosted network.
-For Windows 8 and 10, open the Command prompt as administrator and enter the following code where you will replace the SSID with the name of your network and the your password.
+For Windows 8 and 10, open the Command prompt as administrator and enter the following code where you will replace the SSID with the name of your network and the your password,
 
 `netsh wlan set hostednetwork mode=allow ssid=networkname key=password`
+
+then start the hosted network,
+
+`netsh wlan start hostednetwork`
 
