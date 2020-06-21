@@ -44,6 +44,8 @@ After this, open the **Control Panel**, select **Network and Sharing Center**, s
 
 ![](https://raw.githubusercontent.com/atomiv/atomiv.github.io/master/_pages/framework/08-system-admin/images/pic1.png)  
 
+< *in the example as in the picture, you need to connect the device to the network with a cable so that the wireless device is free*
+
 In the list of network adapters on the computer, right-click the adapter that you're connected with, then choose **Properties**,
 
 Click to the **Sharing** tab,
