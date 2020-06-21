@@ -31,15 +31,16 @@ Ad hoc mode is used to directly connect two or more computers and printers. Devi
 ### How to Set Up an Ad-Hoc Network on Windows
 
 In order to set up an ad hoc network, it is necessary for the devices to have a wireless network adapter and to support the hosted network.
-For Windows 8 and 10, open the Command prompt as administrator and enter the following code where you will replace the SSID with the name of your network and your password,
+If you are creating an ad hoc network via a laptop, make sure the host device is connected to the LAN via a network cable to avoid using a wireless adapter.
+For Windows 8, 8.1 and 10, open the Command prompt as administrator and enter the following code where you will replace the SSID with the name of your network and key with your password,
 
 `netsh wlan set hostednetwork mode=allow ssid=networkname key=password`
 
-then start the hosted network,
+then start the hosted network with code,
 
 `netsh wlan start hostednetwork`
 
-open the **Control Panel**, select **Network and Sharing Center**, select **Change adapter settings**,
+After this, open the **Control Panel**, select **Network and Sharing Center**, select **Change adapter settings**,
 
 ![](https://raw.githubusercontent.com/atomiv/atomiv.github.io/master/_pages/framework/08-system-admin/images/pic1.png)  
 
@@ -56,3 +57,6 @@ Return to the **Network and Sharing Center** to verify that the ad hoc network i
 
 ![](https://raw.githubusercontent.com/atomiv/atomiv.github.io/master/_pages/framework/08-system-admin/images/pic2.png)  
 
+You should know that Ad hoc wireless networking only includes WEP-only security and when the host computer shuts down or disconnects from the ad hoc network, Ad hoc network is deleted.
+
+Youou should also pay attention and keep in mind that the SSID cannot be hidden (<you cannot disable SSID broadcast like infrastructure mode devices can>), nor can you see how much the signal is like in the infrastructure mode, so you must make sure that all ad hoc devices are within range of the host computer. The baud rate is limited to 11mbps
