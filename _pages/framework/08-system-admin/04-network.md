@@ -39,3 +39,4 @@ then start the hosted network,
 
 `netsh wlan start hostednetwork`
 
+open the **Control Panel**, open the **Control Panel**, select **Network and Sharing Center**, select **Change adapter settings**
