@@ -41,7 +41,7 @@ then start the hosted network,
 
 open the **Control Panel**, select **Network and Sharing Center**, select **Change adapter settings**,
 
-![](https://github.com/atomiv/atomiv.github.io/blob/master/_pages/framework/08-system-admin/images/pic1.png)  
+![](https://raw.githubusercontent.com/atomiv/atomiv.github.io/master/_pages/framework/08-system-admin/images/pic1.png)  
 
 In the list of network adapters on the computer, right-click the adapter that you're connected with, then choose **Properties**,
 
