@@ -12,4 +12,4 @@ country: United States
 degree: B. English Language and Literature/Letters
 university: University of Washington
 ---
-Brooke is a Frontend Developer, with skills in JavaScript and HTML. She because interested in coding after completing a Nanodegree in Frontend Development at Udacity. Brooke joined Atomiv to contribute to the React template for frontend development.
+Brooke is a Frontend Developer, with skills in JavaScript and HTML. She became interested in coding after completing a Nanodegree in Frontend Development at Udacity. Brooke joined Atomiv to contribute to the React template for frontend development.
