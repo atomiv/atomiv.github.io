@@ -29,8 +29,8 @@ Issue tracking tool
 DevOps teams also use good balance between practical approach and tools to integrate and automate processes in organization.  
 Commonly used tools to support daily operations:
 
-* Scripting and Programming Languages  
-Bash, Python, Go
+* Bash, Python, Go  
+Scripting and programming languages
 
 * Docker, rkt, LXC, runC, containerd  
 Container is a lightweight virtual environment for running applications. 
@@ -74,6 +74,10 @@ Idempotence - same call repeatedly produces same result, is a principle of IaC t
 * Kubernetes package manager  
 Helm
 
-* Monitoring & Observability  
-New Relic, Splunk, Elasticsearch (elastic stack)
+* New Relic, Splunk, Elasticsearch (elastic stack)  
+The concepts of monitoring and observability help to understand complete system state, addressing questions as when, what, why a service is failing.  
+The process contains activities like collecting metrics at various levels (infrastructure, OS, application, data), logging, generating alerts, visualising, analysing.  
+The feedback (technical, business) loop assist team to take right actions in the process of continuous improvement.  
 
+  [Google Site Reliability Engineering book - Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems "Google SRE book")
+  
