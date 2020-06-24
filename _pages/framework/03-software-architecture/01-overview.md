@@ -1,3 +1,10 @@
+---
+layout: templates
+title: Overview
+permalink: /software-architecture/overview
+vversion: 3
+vversion2: 3
+
 ## Introduction to Software Architecture
 
 Software architecture definitions usually come in a form of abstract, high-level structural building block schemes and convoluted data path analytical diagrams. Pair that with equally mystifying, and rarely clearly demarcated software design patterns, it becomes obvious how many succumb to common software development pitfalls.    
