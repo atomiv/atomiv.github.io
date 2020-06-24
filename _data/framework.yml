@@ -22,6 +22,8 @@ docs:
   submenuitems:
     - page: Overview
       url: /leadership/overview
+    - page: Teams
+      url: /leadership/teams
 
 # 1 ---------------------------------------------------------------------
 - title: Project Management
