@@ -24,6 +24,8 @@ docs:
       url: /leadership/overview
     - page: Teams
       url: /leadership/teams
+    - page: Cross Functional
+      url: /leadership/cross-functional      
 
 # 1 ---------------------------------------------------------------------
 - title: Project Management
