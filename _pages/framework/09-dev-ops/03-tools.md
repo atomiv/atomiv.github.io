@@ -60,21 +60,25 @@ The hypervisor is software installed on the host and manages hardware resources 
 * Code Repository  
 GitHub
 
-* CI/CD  
-Jenkins CI, CircleCI
+* Jenkins CI, CircleCI, GitLab, Travis CI  
+Continuous integration (CI) and continuous delivery (CD) operates on set of principles and practices that enables teams to automate the process of building, testing, delivering solutions.  
+CI/CD tools increase visibility into the state of the entire pipeline, and provide fast feedback enabling teams to correct errors in real time.  
 
-* Ansible, Chef, Puppet, Terraform, CloudFormation (AWS)  
+  [Red Hat - What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd "Red Hat")
+
+* Ansible, Chef, Puppet, Terraform  
 Infrastructure as Code (IaC) automates infrastructure, platform and application management in a descriptive way.
 The configuration files (written in json or yaml) are stored in version control system and are serving as single source of truth.
 Idempotence - same call repeatedly produces same result, is a principle of IaC that ensures consistent state in the environment.   
 
   [IBM Cloud - Infrastructure as Code](https://www.ibm.com/cloud/learn/infrastructure-as-code "IBM Cloud")
 
-
+<!---
 * Kubernetes package manager  
-Helm
+Helm 
+--->
 
-* New Relic, Splunk, Elasticsearch (elastic stack)  
+* New Relic, Datadog, Splunk, Elasticsearch (elastic stack)  
 The concepts of monitoring and observability help to understand complete system state, addressing questions as when, what, why a service is failing.  
 The process contains activities like collecting metrics at various levels (infrastructure, OS, application, data), logging, generating alerts, visualising, analysing.  
 The feedback (technical, business) loop assist team to take right actions in the process of continuous improvement.  
