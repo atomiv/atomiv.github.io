@@ -6,27 +6,6 @@ vversion: 12
 vversion2: 3
 ---
 
-## Importance of teams
-
-This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.
-
-sample sample .... 
- 
-## How to build strong teams
- 
-This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.
- 
-## How to scale teams
-
-This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph.
-
-* Point 1
-* Point 1
-* Point 1
-* Point 1
-* Point 1 sdfdsg
-
-
 ##	Why cross-functional teams are needed
 
 Cross functional teams exist due to the complexity of the business environment and technical projects. No single person has all of the knowledge. Individual team members with specific expertise/knowledge/experience are needed to cover all aspects of any given project. Allows for greater depth and scope. In today's environment, teams are often dispersed globally.
