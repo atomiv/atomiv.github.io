@@ -13,6 +13,17 @@ docs:
     - page: Implementation
       url: /dotnet/implementation                     
 
+# 2 -------------------------------------------------------------------------
+- title: Java
+  url: submenu1022
+  vversion: 3
+  submenuitems:
+    - page: Get Started
+      url: /java/get-started
+    - page: Walkthrough
+      url: /java/walkthrough 
+
+
 # 3 -------------------------------------------------------      
 - title: Angular
   url: submenu103
