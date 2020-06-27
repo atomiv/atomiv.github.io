@@ -60,6 +60,9 @@
   - subtitle: .NET Core
     suburl: /dotnet/get-started
     vversion: 3
+  - subtitle: Java
+    suburl: /java/get-started
+    vversion: 7
   - subtitle: Angular
     suburl: /angular/get-started
     vversion: 4

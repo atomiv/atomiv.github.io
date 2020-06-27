@@ -2,7 +2,7 @@
 layout: templates-layout
 title: Get Started
 permalink: /java/get-started
-vversion: 3
+vversion: 7
 vversion2: 6
 ---
 

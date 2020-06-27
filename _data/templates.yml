@@ -16,7 +16,7 @@ docs:
 # 2 -------------------------------------------------------------------------
 - title: Java
   url: submenu1022
-  vversion: 3
+  vversion: 7
   submenuitems:
     - page: Get Started
       url: /java/get-started
