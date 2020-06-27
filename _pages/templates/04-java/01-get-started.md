@@ -11,9 +11,11 @@ vversion2: 6
 Ensure you have the following installed:
 
 * [https://jdk.java.net](https://jdk.java.net) (We have used Java JDK 14)
-* [https://www.eclipse.org/downloads](https://www.eclipse.org/downloads) (We have used Eclipse IDE 2020-06)
+* [https://www.eclipse.org/downloads](https://www.eclipse.org/downloads) (We have used Eclipse IDE 2020-06 which is free to download, another alternative is NetBeans, but for developers who already have IntelliJ we recommend IntelliJ)
 
 JAVA_HOME also needs to be set within environment variables (pointing to the Java JDK installation).
+
+Current build tool used is Maven (which is the most popular build tool) but there is also Gradle (pending switch to Gradle)
 
 ## Running the template
 
