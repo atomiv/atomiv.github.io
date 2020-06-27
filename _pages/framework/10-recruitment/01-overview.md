@@ -28,22 +28,22 @@ Once we have this high-level overview, and have reconciled it with the annual hi
 
 1. Define the ideal profile, in terms of the following:
   - Hard skills (what they bring to the table on day 1)
-    - golang and/or c++
-    - distributed systems
-    - has worked on projects from ideation to production
-    - 5-7 years of post-graduation experience
+     - golang and/or c++
+     - distributed systems
+     - has worked on projects from ideation to production
+     - 5-7 years of post-graduation experience
   - Soft skills (what personal characteristics will be important in being successful)
-    - potential for leading a team
-    - interested in mentoring + development
-    - enjoys CS theory
+     - potential for leading a team
+     - interested in mentoring + development
+     - enjoys CS theory
   - Motivation (why they want to make this change)
-    - not impressed by current state of market
-    - disillusioned by small contribution in big company
-    - interested by specific technical challenge
+     - not impressed by current state of market
+     - disillusioned by small contribution in big company
+     - interested by specific technical challenge
   - Interview Process
-    - Who is going to be involved
-    - How will it be structured
-    - What review mechanisms do we need
+     - Who is going to be involved
+     - How will it be structured
+     - What review mechanisms do we need
    
 ## Anticipate
 
