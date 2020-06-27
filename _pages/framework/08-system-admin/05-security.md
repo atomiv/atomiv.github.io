@@ -1,6 +1,6 @@
 ---
 layout: templates
-url: /system-admin/security
+title: Security
 permalink: /system-admin/security
 vversion: 8
 vversion2: 3

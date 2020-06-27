@@ -1,6 +1,6 @@
 ---
 layout: templates
-url: /system-admin/network
+title: Network
 permalink: /system-admin/network
 vversion: 8
 vversion2: 3

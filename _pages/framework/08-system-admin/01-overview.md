@@ -1,7 +1,7 @@
 ---
 layout: templates
-url: /system-admin/responsibilities
-permalink: /system-admin/responsibilities
+title: Overview
+permalink: /system-admin/overview
 vversion: 8
 vversion2: 3
 ---
