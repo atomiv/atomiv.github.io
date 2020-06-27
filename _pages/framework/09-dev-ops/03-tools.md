@@ -57,8 +57,11 @@ The hypervisor is software installed on the host and manages hardware resources 
   ![Containerized app workflow](https://www.ktexperts.com/wp-content/uploads/2020/01/Hosted-Virtual-Machine-Architecture.png)  
   source: researchgate.net
 
-* Code Repository  
-GitHub
+* GitHub, GitLab, Bitbucket  
+Source code management supports teams to collaborate on developing solutions using tools and practices to effectively manage and track code changes in a shared codebase.  
+Teams use version control tools and define own practical code workflow, a model that aims to make branching and release management more consistent and seamless.  
+
+  [nvie - A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model "nvie")
 
 * Jenkins CI, CircleCI, GitLab, Travis CI  
 Continuous integration (CI) and continuous delivery (CD) operates on set of principles and practices that enables teams to automate the process of building, testing, delivering solutions.  
