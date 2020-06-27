@@ -27,60 +27,46 @@ From the outcome of this process, we might decide that the ideal hiring roadmap 
 Once we have this high-level overview, and have reconciled it with the annual hiring budget, we are now in a position to operate at item level.
 
 1. Define the ideal profile, in terms of the following:
-  1. Hard skills (what they bring to the table on day 1)
-    1. golang and/or c++
-    2. distributed systems
-    3. has worked on projects from ideation to production
-    4. 5-7 years of post-graduation experience
-  2. Soft skills (what personal characteristics will be important in being successful)
-    1. potential for leading a team
-    2. interested in mentoring + development
-    3. enjoys CS theory
-  3. Motivation (why they want to make this change)
-    1. not impressed by current state of market
-    2. disillusioned by small contribution in big company
-    3. interested by specific technical challenge
-  4. Interview Process
-    1. Who is going to be involved
-    2. How will it be structured
-    3. What review mechanisms do we need
+  - Hard skills (what they bring to the table on day 1)
+    - golang and/or c++
+    - distributed systems
+    - has worked on projects from ideation to production
+    - 5-7 years of post-graduation experience
+  - Soft skills (what personal characteristics will be important in being successful)
+    - potential for leading a team
+    - interested in mentoring + development
+    - enjoys CS theory
+  - Motivation (why they want to make this change)
+    - not impressed by current state of market
+    - disillusioned by small contribution in big company
+    - interested by specific technical challenge
+  - Interview Process
+    - Who is going to be involved
+    - How will it be structured
+    - What review mechanisms do we need
    
 ## Anticipate
 
 There are going to be some recurring resources that we need throughout the recruiting process. Because this is a hybrid exercise, most of these resources will fall under the category of marketing materials. So we make an index of the available resources at our disposal:
 
-* website
-* collateral documents (explaining product) or demo videos
-* relevant team bios
-* company blog
-* links to press, publicity or announcements
-* a simple app outlining key info
-* any other online/offline resources that add value
+* Website
+* Collateral documents (explaining product) or demo videos
+* Relevant team bios
+* Company blog
+* Links to press, publicity or announcements
+* A simple app outlining key info
+* Any other online/offline resources that add value
 
-1. Build a list of important background factors, which may include such things as:
-  1. Ideal target companies
-  2. Companies to avoid (clients, partners, investor network etc)
-  3. Relevant companies that are experiencing layoffs
-  4. Former colleagues from group network
+Build a list of important background factors, which may include such things as:
+  - Ideal target companies
+  - Companies to avoid (clients, partners, investor network etc)
+  - Relevant companies that are experiencing layoffs
+  - Former colleagues from group network
 
-2. Devise a search strategy:
-  1. Where are we going to find these individuals
-    1. Linkedin, Job Board, Referral, Employee Network
-  2. Who is going to be in charge of the deliverables
-    1. Recruiter, Recruitment Project Manager, Founding team
-  3. Weekly review process
-    1. Friday status update meeting
-
-3. Collate relevant resources
-There are going to be some recurring resources that we need throughout the recruiting process. Because this is effectively a sales exercise, most of these resources will fall under the category of marketing materials. So we make an index of the available resources at our disposal:
-
-* website
-* collateral documents (explaining product) or demo videos
-* relevant team bios
-* company blog
-* links to press, publicity or announcements
-* a simple app outlining key info
-* any other online/offline resources that add value
+Devise a search strategy:
+  - Where are we going to find these individuals (e.g. Linkedin, Job Board, Referral, Employee Network etc)
+  - Who is going to be in charge of the deliverables (e.g. Recruiter, Recruitment Project Manager, Founding team etc)
+  - Review process (e.g. Friday status update meeting)
 
 ## Identify
 
@@ -90,9 +76,7 @@ Boolean queries are a means of interrogating datasets so as to obtain results th
 
 Our biggest talent dataset for software engineers is currently LinkedIn, so we will use this platform as our primary locus of talent identification. It should be noted that other platforms (Github, StackOverflow, Job Boards, Meetup, Event Databases, University Lists etc) could be used along similar lines, with different specifics. Every online database that is publicly/privately accessible, can be queried for relevant results.
 
-Example Search String:
-
-(”software engineer” OR “senior engineer” OR “senior software”) AND (observability OR metrics OR traces OR logs OR tracing OR logging) AND (c++ OR golang)
+Example Search String: (”software engineer” OR “senior engineer” OR “senior software”) AND (observability OR metrics OR traces OR logs OR tracing OR logging) AND (c++ OR golang)
 
 This is starter search-string, intended to give us enough information to conduct the next segment of our search. By trawling the results from the starter-search, we equip ourselves with a library of keywords, market data and pattern data which enables us to continually iterate on our query content.
 
@@ -109,9 +93,9 @@ We need to make sure that the message is carefully scripted, trying to optimize 
 
 We might come up with the following intro message:
 
-<insert_name>,
+Name,
 
-I’ve read all about your work @ <insert_company_name> doing <insert_personalized_content>.
+I’ve read all about your work @ insert_company_name doing insert_personalized_content.
 
 We are a Berlin based engineering team focused on setting the direction of Observability for the next 10-20 years. After working in Google’s Distributed Tracing team for a combined 30+ years, we realized that it’s possible and preferable to combine Metrics, Traces & Logs under one single intuitive UI. Check out our backgrounds here and here, or check out our demo here.
 
@@ -119,7 +103,7 @@ After securing $3M in Series A funding from our preferred investors, we’re loo
 
 Would you be open to jumping on a call to discuss in more detail?
 
-Best,
+Best regards,
 Recruiter 
 
 The messaging must be continually improved, updated, critiqued, and optimized (A/B testing, hiring manager feedback, cross-team collaboration etc). 
@@ -128,12 +112,12 @@ Eventually, we will end up with a scenario where we have interested candidates r
 
 ## Screen
 
-Now we have candidates in play, we need to separate the wheat from the chaff. Only we can define what is wheat and what is chaff - one man’s rubbish is another man’s treasure. So we will implement a screening process which optimizes on all elements of organisational requirement:
+Now we have candidates in play, we need to separate the wheat from the chaff. So we will implement a screening process which optimizes on all elements of organisational requirement:
 
-1. Motivation Screening → basic assessment: why do you want to join us, what similar work have you done in the past, what questions do you have about our team/org
-2. Light technical Screening → verbal assessment: tell us about the technical detail of similar work you have done in the past, what are your thoughts about the current state of Observability
-3. Written Technical Assessment → either customized/improvised, or using an established online assessor (e.g. HackerRank, Codesignal. Codility etc)
-4. Final Screening → what reservations do you have about our mission? what will you focus on in week 1 if we don’t dictate terms? what do you think of our competitors?
+- Motivation Screening → basic assessment: why do you want to join us, what similar work have you done in the past, what questions do you have about our team/org
+- Light technical Screening → verbal assessment: tell us about the technical detail of similar work you have done in the past, what are your thoughts about the current state of Observability
+- Written Technical Assessment → either customized/improvised, or using an established online assessor (e.g. HackerRank, Codesignal. Codility etc)
+- Final Screening → what reservations do you have about our mission? what will you focus on in week 1 if we don’t dictate terms? what do you think of our competitors?
 
 ## On-board
 
