@@ -23,7 +23,7 @@ Communication tool that connects people, applications (for instance through bot 
 Wiki, documentation tool for sharing knowledge and experience. 
 
 * Jira  
-Issue tracking tool
+Tool that supports teams to plan, report, manage work and track progress.
 
 
 DevOps teams also use good balance between practical approach and tools to integrate and automate processes in organization.  
@@ -33,11 +33,11 @@ Commonly used tools to support daily operations:
 Scripting and programming languages
 
 * Docker, rkt, LXC, runC, containerd  
-Container is a lightweight virtual environment for running applications. 
-Container development workflow containes multiple stages like build, test, run, troubleshoot, push. 
-Dockerfile provides instructions to build an image, a standalone executable software package that contains an application and all its dependencies. For consistent and reliable infrastructure treat images as immutable, means build a new image in case an update is required.  
-Container runtime is a managed environment for deploying images (the applications) in containers.
-A container is a running (or stopped) instance of an image.  
+Container is a lightweight virtual environment for running applications.  
+Containerization involves building an image, a standalone executable software package that contains an application and all its dependencies.
+Preferable approach to build a container image is using Dockerfile. A Dockerfile is a text file with instructions on how to build an image.  
+For consistent and reliable infrastructure images are treated as immutable, it means we build a new image in case an update is required.
+The container runtime is a managed environment used for deploying images (the applications) in containers.  
 ![Containerized app workflow](https://quppler.com/wp-content/uploads/2019/03/DockerComponents-300x242.png) &nbsp; 
 ![Container Architecture](https://miro.medium.com/max/350/1*IGYaJSfDLzXjE-aJcTai4Q.png)  
 source: quppler.com and cloud.google.com
