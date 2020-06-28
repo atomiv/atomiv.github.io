@@ -26,7 +26,8 @@ layout: default
 				<div class="row masthead-row">
 					<div class="col-12 col-md-6 text-center text-md-left">
 						<h1>{{ page.title1 }} <br class="heading-br"/>{{ page.title2 }}</h1>
-						<a href="{{ page.headerLink }}" class="btn btn-lg btn-ov-secondary mb-0" target="_blank" rel="license noopener">
+						<!-- {{ page.headerLink }} -->
+						<a href="/foundation/overview" class="btn btn-lg btn-ov-secondary mb-0">
 						{{ page.linkButton }}
 						</a>
 					</div>
@@ -122,12 +123,11 @@ layout: default
 
 
 		<!-- Templates list -->
-		<article class="ov-benefits">
+		<!-- <article class="ov-benefits">
 			<div class="container ov-template">
 				<h2>Framework</h2>
 
 				<div class="row ov-template-row">
-					<!-- row 1 -->
 					<div class="col-12 col-md-6">
 						<a href="/project-management/overview">
 							<div class="ov-inner-row grow">
@@ -136,7 +136,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 2 -->
 					<div class="col-12 col-md-6">
 						<a href="/business-analysis/overview">
 							<div class="ov-inner-row grow">
@@ -145,7 +144,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 3 -->
 					<div class="col-12 col-md-6">
 						<a href="/software-architecture/overview">
 							<div class="ov-inner-row grow">
@@ -154,7 +152,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 4 -->
 					<div class="col-12 col-md-6">
 						<a href="/dot-net-core/get-started">
 							<div class="ov-inner-row grow">
@@ -163,7 +160,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 5 -->
 					<div class="col-12 col-md-6">
 						<a href="/angular/get-started">
 							<div class="ov-inner-row grow">
@@ -172,7 +168,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 6 -->
 					<div class="col-12 col-md-6">
 						<a href="/quality-assurance/manual-testing">
 							<div class="ov-inner-row grow">
@@ -181,8 +176,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 7 -->
-					<!-- no proper url -->
 					<div class="col-12 col-md-6">
 						<a href="/big-data/data-sources">
 							<div class="ov-inner-row grow">
@@ -191,7 +184,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 8 -->
 					<div class="col-12 col-md-6">
 						<a href="/system-admin/responsibilities">
 							<div class="ov-inner-row grow">
@@ -200,7 +192,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 9 -->
 					<div class="col-12 col-md-6">
 						<a href="/devops/overview">
 							<div class="ov-inner-row grow">
@@ -209,7 +200,6 @@ layout: default
 							</div>
 						</a>
 					</div>
-					<!-- row 10 -->
 					<div class="col-12 col-md-6">
 						<a href="/recruitment/overview">
 							<div class="ov-inner-row grow">
@@ -219,18 +209,16 @@ layout: default
 						</a>
 					</div>					
 
-					<!-- row 7 -->
 					<div class="col-12 col-md-6">
-						<a href="https://docs.atomiv.com/devops" target="_blank">
+						<a href="/devops/overview" target="_blank">
 							<div class="ov-inner-row grow">
 								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
 								<h4>DevOps</h4>
 							</div>
 						</a>
 					</div>
-					<!-- row 8 -->
 					<div class="col-12 col-md-6">
-						<a href="https://docs.atomiv.com/recruitment" target="_blank">
+						<a href="/recruitment/overview" target="_blank">
 							<div class="ov-inner-row grow">
 								<img height="100" width="100" src="{{ site.url }}/img/digital/atomiv.svg" alt="architecture" class="t-img">
 								<h4>Recruitment</h4>
@@ -241,16 +229,15 @@ layout: default
 				</div>
 
 			</div>
-		</article>
+		</article> -->
 
-		
-		
+
 		
 		<!-- link trademark to the logos, check if necessary, automapper -->
 
 		<!-- Technologies used list -->
 		<article class="ov-benefits">
-			<div class="container ov-template">
+			<div class="container ov-template p-0">
 				<h2>Technologies</h2>
 				<div class="row ov-template-row t-logo-row">
 					<a href="https://docs.microsoft.com/en-us/dotnet/" target="_blank">
@@ -265,6 +252,42 @@ layout: default
 				</div>
 			</div>
 		</article>
+		
+		
+
+
+		<article class="ov-benefits">
+			<div class="container ov-template">
+				<h2 class="community-h2">Community</h2>
+
+				<div class="row ov-template-row">
+					{% assign authors = site.authors | sort: 'index' %}
+					{% for author in authors %}
+					<div class="col-4 col-md-3 col-lg-3 community-container">
+						<!-- d-flex align-items-center justify-content-center  community-container-->
+						<div class="d-flex align-items-center justify-content-center">
+							<div class="img-c-container">
+								<img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=3" alt="{{author.name}}"
+								class="img-fluid w-100 profile-img-home">
+								<div class="overlay-community">
+									<div class="text-community"><h5 class="community-h5">{{ author.position }}</h5></div>
+								</div>
+							</div>
+						</div>
+
+						<h5 class="community-h5">{{ author.name }}</h5>
+	
+					</div>
+					
+					{% endfor %}
+
+				</div>
+
+			</div>
+		</article>
+		
+		
+
 
 
 		<!-- Partners, Sponsors -->

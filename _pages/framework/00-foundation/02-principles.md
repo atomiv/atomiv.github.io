@@ -3,6 +3,7 @@ layout: templates
 title: Principles
 permalink: /foundation/principles
 vversion: 0
+vversion2: 3
 ---
 
 Atomiv has an engineering-oriented approach to software. Our belief is that a lot of software development can be systematized, and that we want to achieve organizational success without too much reliance on having to hire A-players. Thus, it is designed to work well both on teams with lots of seniors but also with juniors.

@@ -1,0 +1,169 @@
+# template_list_title: Templates
+docs:
+
+# 0 ---------------------------------------------------------------------
+- title: Foundation
+  url: submenu0
+  vversion: 0
+  # sub
+  submenuitems:
+    # title
+    - page: Overview
+      url: /foundation/overview
+    - page: Principles
+      url: /foundation/principles
+    - page: Business Case
+      url: /foundation/business-case
+
+# 12 -------------------------------------------------------------------
+- title: Leadership
+  url: submenu12
+  vversion: 12
+  submenuitems:
+    - page: Overview
+      url: /leadership/overview
+    - page: Teams
+      url: /leadership/teams
+    - page: Cross Functional
+      url: /leadership/cross-functional      
+
+# 1 ---------------------------------------------------------------------
+- title: Project Management
+  url: submenu1
+  vversion: 1
+  submenuitems:
+    - page: Overview
+      url: /project-management/overview
+    - page: Agile
+      url: /project-management/agile
+    - page: Hybrid
+      url: /project-management/hybrid
+    - page: Communication
+      url: /project-management/communication
+    - page: Estimations
+      url: /project-management/estimations
+    - page: Remote
+      url: /project-management/remote
+    - page: Teams
+      url: /project-management/teams
+    - page: Transformation
+      url: /project-management/transformation
+
+# 2 -------------------------------------------------------------------------
+- title: Business Analysis
+  url: submenu2
+  vversion: 2
+  submenuitems:
+    - page: Overview
+      url: /business-analysis/overview
+    - page: Processes
+      url: /business-analysis/processes
+    - page: Use Cases
+      url: /business-analysis/use-cases
+    - page: Domain
+      url: /business-analysis/domain
+    - page: Applications
+      url: /business-analysis/applications                        
+
+# 3 -------------------------------------------------------      
+- title: Software Architecture
+  url: submenu3
+  vversion: 3
+  submenuitems:
+    - page: Overview
+      url: /software-architecture/overview
+    - page: Microservices
+      url: /software-architecture/microservices
+    - page: Domain Driven Design
+      url: /software-architecture/domain-driven-design
+    - page: Clean Architecture
+      url: /software-architecture/clean-architecture
+    - page: Layers
+      url: /software-architecture/layers
+    - page: Slices
+      url: /software-architecture/slices
+
+# 4 -------------------------------------------------------      
+- title: Software Development
+  url: submenu4
+  vversion: 4
+  submenuitems:
+    - page: Overview
+      url: /software-architecture/overview
+
+# 6 -------------------------------------------------------      
+- title: Quality Assurance
+  url: submenu6
+  vversion: 6
+  submenuitems:
+    - page: Overview
+      url: /quality-assurance/overview
+    - page: Manual Testing
+      url: /quality-assurance/manual-testing
+    - page: Automated Testing
+      url: /quality-assurance/automated-testing
+
+# 7 -------------------------------------------------------      
+- title: Big Data
+  url: submenu7
+  vversion: 7
+  submenuitems:
+    - page: Data Sources
+      url: /big-data/data-sources
+    - page: Data Storage
+      url: /big-data/data-storage
+    - page: Batch Processing
+      url: /big-data/batch-processing
+    - page: Stream Processing
+      url: /big-data/stream-processing
+    - page: Machine Learning
+      url: /big-data/machine-learning
+    - page: Analytical Data Store
+      url: /big-data/analytical-data-store
+    - page: Analytics and Reporting
+      url: /big-data/analytics-and-reporting
+
+# 11 -------------------------------------------------------      
+- title: Embedded Development
+  url: submenu11
+  vversion: 11
+  submenuitems:
+    - page: Overview
+      url: /embedded-development/overview
+# 8 -------------------------------------------------------      
+- title: System Admin
+  url: submenu8
+  vversion: 8
+  submenuitems:
+    - page: Responsibilities
+      url: /system-admin/responsibilities
+    - page: Configuration
+      url: /system-admin/configuration
+    - page: Maintenance
+      url: /system-admin/maintenance
+    - page: Network
+      url: /system-admin/network
+    - page: Security
+      url: /system-admin/security
+   
+# 9 -------------------------------------------------------      
+- title: DevOps
+  url: submenu9
+  vversion: 9
+  submenuitems:
+    - page: Overview
+      url: /devops/overview
+    - page: Process
+      url: /devops/process
+    - page: Tools
+      url: /devops/tools
+      
+      
+# 10 -------------------------------------------------------      
+- title: Recruitment
+  url: submenu10
+  vversion: 10
+  submenuitems:
+    - page: Overview
+      url: /recruitment/overview
+        

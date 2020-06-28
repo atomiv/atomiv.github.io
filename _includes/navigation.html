@@ -6,47 +6,70 @@
       <img src="{{ site.url }}/img/logo.svg" height="32" width="" alt="{{ site.title }}">
     </a>
     <!-- Main nav BUTTON -->
-    <button class="navbar-toggler order-3 order-md-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed order-3 order-md-2" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
+      <span class="close">
+        <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+          <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+        </svg>
+      </span>
     </button>
     <!-- Sidebar BUTTON -->
+    <!-- JC TODO -->
     <!-- if page.url == == '/templates/' -->
-    {% if page.layout == 'templates' %}
+
+    <!-- Framework -->
+    {% if page.layout == 'templates'%}
     <button class="sidebar-ellipsis order-0" type="button" id="sidebarCollapse" data-toggle="" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
       <svg class="bi bi-three-dots-vertical" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
       </svg>
     </button>
     {% endif %}
+
+    <!-- Templates -->
+    {% if page.layout == 'templates-layout'%}
+    <button class="sidebar-ellipsis order-0" type="button" id="sidebarCollapse2" data-toggle="" data-target="#sidebar2" aria-controls="sidebar2" aria-expanded="false" aria-label="Toggle sidebar2">
+      <svg class="bi bi-three-dots-vertical" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+      </svg>
+    </button>
+    {% endif %}
+
   </div>
 
-
-    <div class="collapse navbar-collapse order-5 order-md-1" id="navbarResponsive">
-      <ul class="navbar-nav ov-navbar-nav ml-auto s-padding">
-
-
+    <!-- show order-md-1-->
+    <div class="collapse navbar-collapse order-5" id="navbarResponsive">
+      <!-- ml-auto mr-auto-->
+      <ul class="navbar-nav ov-navbar-nav s-padding2">
+        
         {% for link in site.data.navigation %}
 
-        <!-- TO DO -->
-        <!-- templates to be highlighted -->
-        <!-- {{link.vversion2}}
-        {{page.vversion2}}
-        {{page.vversion}} -->
-
-
-        <!-- if link.subcategories != null -->
           {% if link.subcategories != null %}
+
             <li class="nav-item dropdown">
-              <button class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}"
+              <button 
+              id="btnDropdown" data-target="#{{ link.nDropdown }}"
+              class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.url }}"
                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ link.title }}
               </button>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {% for subcategory in link.subcategories %}
-                <a class="dropdown-item" href="{{ site.url }}{{ subcategory.subhref }}">
-                  {{ subcategory.subtitle }}
-                </a>
-              {% endfor %}
+              <div id="{{ link.nDropdown }}">
+                <div class="dropdown-menu" aria-labelledby="{{ link.nDropdown }}">
+                  {% for subcategory in link.subcategories %}
+                    
+                    <a class="dropdown-item 
+                    {% if subcategory.vversion == page.vversion 
+                    and link.vversion2 == page.vversion2
+                    %}active{% endif %}
+                    
+                    " href="{{ site.url }}{{ subcategory.suburl }}">
+                      {{ subcategory.subtitle }}
+
+                    </a>
+                  {% endfor %}
+                  </div>
               </div>
             </li>
           <!-- link.title == page.title -->
@@ -70,4 +93,6 @@
     </button> -->
 </nav>
 
-<div class="overlay2 d-md-none"></div>
+<!-- <div class="overlay2 d-md-none"></div> -->
+<div class="overlay44 d-md-none"></div>
+

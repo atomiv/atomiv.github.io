@@ -31,6 +31,15 @@
 //   }
 
 
+// navbar toggler
+.navbar-toggler.collapsed .close {
+    display: none;
+  }
+  
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+  }
+
 
 
 // ---

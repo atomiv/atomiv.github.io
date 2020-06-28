@@ -4,7 +4,7 @@ vversion2: 1
 title: Open Framework for Enterprise Software 
 title1: Open Framework 
 title2: Enterprise Software
-headerLink: https://atomiv.com/foundation/overview
+headerLink: https://atomiv.org/foundation/overview
 linkButton: Get Started
 permalink: /
 ---

@@ -1,6 +1,6 @@
 title: Atomiv
 tagline: 10x Software Template
-url: https://atomiv.com
+url: https://atomiv.org
 
 include: ['_pages']
 
@@ -13,11 +13,33 @@ gems:
 permalink: /:year/:month/:day/:title
 # permalink: pretty
 
+# if colelctions not at root level
+# collections_dir: my_collections
+
 collections:
   pages:
     output: true
     permalink: /:path
+    vversion2: 3
     # permalink: /:collection/:name
+  authors:
+    output: true
+  # templates:
+  #   output: true
+
+  
+    # layout: templates-layout
+    # permalink: /:collection/:name
+    # permalink: /:title
+
+templates-categories:
+  # configuration array to store templates order
+  - two
+    # href=""
+    # suburl: /category-one/one
+  - one
+    # suburl: /category-two/four
+
 
 sass:
   # where to search for Sass files, if the folder is called '_scss'

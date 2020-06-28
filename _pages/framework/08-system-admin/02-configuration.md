@@ -1,8 +1,9 @@
 ---
 layout: templates
-url: /system-admin/configuration
+title: Configuration
 permalink: /system-admin/configuration
 vversion: 8
+vversion2: 3
 ---
 
 

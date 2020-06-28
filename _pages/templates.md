@@ -1,36 +1,32 @@
 ---
-layout: templates
-title: Framework
-description: Framework
-vversion2: 3
+layout: templates-layout
+title: Templates
+description: Templates
+vversion2: 6
+# permalink: /templates/
 ---
 
+hello
 
-<!-- sidenav -->
-<!-- Sidebar -->
-
-
+templates.md
 
 
 
+<div class="container">
+{% assign categories = site.templates | group_by: "category" %}
+
+{% for category in site.templates-categories %}
+    {% assign current-category = categories | where: 'name', category | first %}
+    {% assign category-templates = current-category.items %}
+    <p>{{ category }}</p>
+        {% for item in category-templates %}
+        <!-- li class="collapsed" -->
+        <!-- item.title -->
+        <!-- a href="{{ site.baseurl }}{{ item.url }} -->
+        <p>{{ item.title }}</p>
+        {% endfor %}
+{% endfor %}
+</div>
 
 
-<!-- TODO: VC: Adding in details regarding the templates -->
-
-<!--
-TEMPLATES
-
-These would be row-based, including title, paragraph and then a screencast, and it would also link to the menu items
-
-Backend (screencast: installing and running template in Visual Studio, shows Swagger)
-Frontend (screencast: installing and running template in Visual Studio Code, shows screen)
-QA (screencast: installing and running template in Visual Studio, shows Test Explorer)
-DevOps (future)
-PM (future)
-BA (future)
-Process (screencast: viewing/downloading the templates for documents/process)
--->
->>>>>>>
-
-
-
+<!-- ---------------------- -->

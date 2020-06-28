@@ -3,6 +3,7 @@ layout: templates
 title: Agile
 permalink: /project-management/agile
 vversion: 1
+vversion2: 3
 ---
 
 ## What is Agile? 

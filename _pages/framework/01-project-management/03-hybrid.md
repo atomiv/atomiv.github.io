@@ -3,6 +3,7 @@ layout: templates
 title: Hybrid
 permalink: /project-management/hybrid
 vversion: 1
+vversion2: 3
 ---
 
 

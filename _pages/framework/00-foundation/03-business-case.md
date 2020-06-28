@@ -3,6 +3,7 @@ layout: templates
 title: Business Case
 permalink: /foundation/business-case
 vversion: 0
+vversion2: 3
 ---
 
 The Atomiv template is based on using a fictional client example to illustrate usage of the template throughout all stages of the IT project.

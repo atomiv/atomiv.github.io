@@ -1,7 +1,24 @@
-vcupac:
-    name: Valentina Cupać
-    email: valentina.cupac@optivem.com
-    web: https://www.linkedin.com/in/valentinacupac/
-    github: https://github.com/valentinacupac
-    linkedin: https://www.linkedin.com/in/valentinacupac/
-    xing: https://www.xing.com/profile/Valentina_Cupac
+- id: 1
+  name: Valentina Cupać
+  
+
+- id: 2
+  name: Jelena Cupać
+
+
+
+# new author
+
+- id: >
+  name:
+  position: 
+  about: 
+  photo: Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending.
+  linkedin: 
+  xing: 
+  github: 
+  website: 
+
+
+
+    

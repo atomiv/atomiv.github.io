@@ -113,7 +113,13 @@ a, a:hover, a:focus {
     // padding: 10px;
     // padding: 10px 2rem;
     padding: 10px 2rem; // 1.5 - 2 squares
-    padding-left: 5rem; // or 4 // used to be 2
+    padding-left: 2rem; // or 4 // used to be 2 // 5 is PRETTY
+    @include media-breakpoint-down(sm) {
+        padding-left: 2rem;
+    }
+    @media (max-width: 500px) {
+        padding-left: 2rem;
+    }
     font-size: 1rem;
     font-weight: 600;
     display: block;
@@ -137,14 +143,16 @@ a, a:hover, a:focus {
     // margin-left: 1.5rem; // v2 calc(1.5rem - 5px)
 }
 #sidebar ul li {
-    a.active, a:active {
+    // a:active, 
+    a.active {
         // background-color: pink !important;
         color: $primary !important;
     }
 }
 ul ul a {
     font-size: 1rem !important;
-    padding-left: 6rem !important; // used to be 3
+    // padding-left: 6rem !important; // used to be 3  .. subtract 3 .. 6 is PRETTy
+    padding-left: 3rem !important;
     // under the heading
     // background: yellow;
     font-weight: 400 !important;
@@ -235,8 +243,25 @@ button, button.focus, button:focus, button:active, button.active {
     outline: 0;
 }
 
+// ---------------
+
+.overlay44 {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 998;
+    opacity: 0;
+}
+
+.overlay44.active {
+    display: block;
+    opacity: 1;
+}
+
 // ----------------------
-.overlay {
+.overlay, .overlay33 {
     display: none;
     position: fixed;
     /* full screen */
@@ -245,14 +270,14 @@ button, button.focus, button:focus, button:active, button.active {
     /* transparent black */
     background: rgba(0, 0, 0, 0.6);
     /* middle layer, i.e. appears below the sidebar */
-    z-index: 998;
+    z-index: 996;
     opacity: 0;
     /* animate the transition */
     // transition: all 0.5s ease-in-out;
 }
 
 /* display .overlay when it has the .active class */
-.overlay.active {
+.overlay.active, .overlay33.active {
     display: block;
     opacity: 1;
 }
@@ -266,7 +291,7 @@ button, button.focus, button:focus, button:active, button.active {
     /* transparent black */
     background: rgba(0, 0, 0, 0.6);
     /* middle layer, i.e. appears below the sidebar */
-    z-index: 998;
+    z-index: 997;
     opacity: 0;
     /* animate the transition */
     // transition: all 0.5s ease-in-out;
@@ -326,32 +351,44 @@ aside {
     // }
     // 'Home' h3
     h1 {
-        font-size: 1.75rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
     // 'Features' headings below
     h2 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         margin-bottom: .5rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    h3 {
+        font-size: 1.25rem;
+        margin-bottom: .5rem;
+        padding-bottom: .5rem;
+        padding-top: .5rem;
+    }
     p {
         // font-size: 1rem;
         margin-bottom: 1.5rem;
-    } 
+    }
+    ol, ul, dl {
+        margin-bottom: 1.5rem;
+    }
     @include media-breakpoint-up(md) {
         // h1 {
         //     font-size: 2.25rem;
         //     margin-bottom: 3.5rem;
         // }
         h1 {
-            font-size: 2.125rem;
+            font-size: 2rem;
             margin-bottom: 1.25rem;
         }
         h2 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-bottom: 1.25rem;
+        }
+        h3 {
+            font-size: 1.25rem;
         }
     }
     @include media-breakpoint-up(lg) {
@@ -362,7 +399,10 @@ aside {
             font-size: 2.5rem;
         }
         h2 {
-            font-size: 2.125rem;
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.75rem;
         }
     }
     a, a:hover, a:link {
@@ -392,3 +432,74 @@ aside {
         margin-bottom: 2rem;
     }
 }
+
+
+// ============================================
+//  sidebar2
+
+#sidebar2 {
+    min-width: 288px;
+    max-width: 288px;
+    margin-top: 60px; // yes
+    background: $gray-100;
+    background: white;
+    background: rgba(16, 119, 212, 0.07);
+    background: mix($primary, #fff, 7%); // .25
+    color: $gray-900;
+    transition: all 0.3s; // .25s
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+    @include media-breakpoint-down(sm) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+}
+
+#sidebar2 ul.components {
+    padding: 1rem 0; // or 1rem or 1.5
+}
+
+#sidebar2 ul li a {
+    padding: 10px 2rem; // 1.5 - 2 squares
+    padding-left: 2rem; // or 4 // used to be 2 // 5 is PRETTY
+    @include media-breakpoint-down(sm) {
+        padding-left: 2rem;
+    }
+    @media (max-width: 500px) {
+        padding-left: 2rem;
+    }
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+}
+#sidebar2 ul li a:hover {
+    background: #fff;
+    background: rgba(16, 119, 212, 0.1);
+}
+
+#sidebar2 ul li.active > a, a[aria-expanded="true"] {
+    font-weight: 600;
+}
+#sidebar2 ul li {
+    a.active {
+        color: $primary !important;
+    }
+}
+
+
+#sidebar2.active {
+    margin-left: -288px;
+}
+
+
+@media (max-width: 768px) {
+    #sidebar2 {
+        margin-left: -288px;
+    }
+    #sidebar2.active {
+        margin-left: 0;
+    }
+}
+// ---------------------

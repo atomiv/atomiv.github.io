@@ -2,7 +2,8 @@
 layout: templates
 title: Applications
 permalink: /business-analysis/applications        
-vversion: 2                
+vversion: 2
+vversion2: 3                
 ---
 
 

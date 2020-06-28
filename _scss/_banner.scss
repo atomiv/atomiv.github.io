@@ -252,6 +252,97 @@ h5 {
     margin-right: 2rem;
   }
 }
+
+.profile-img-home {
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: 100px;
+  min-width: 100px;
+  @include media-breakpoint-up(sm) {
+    max-width: 110px;
+    min-width: 110px;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 130px;
+    min-width: 130px;
+  }
+  @include media-breakpoint-up(lg) {
+    max-width: 140px;
+    min-width: 140px;
+  }
+}
+
+.community-h2 {
+  margin-bottom: 0rem !important; // 3
+  @include media-breakpoint-up(md) {
+    margin-bottom: 2rem !important; // 4
+  }
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 3rem !important; // 5
+  }
+}
+.community-h5 {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: .89rem;
+  margin-top: .75rem;
+  @include media-breakpoint-up(md) {
+    font-size: 1rem;
+  }
+}
+.text-community .community-h5 {
+  padding-bottom: 0;
+  font-size: .8rem;
+  @include media-breakpoint-up(md) {
+    font-size: .89rem;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 1rem;
+  }
+}
+.overlay-community {
+  position: absolute;
+  top: 0;
+  // bottom: 0;
+  // left: 0;
+  // right: 0;
+  height: 100px;
+  width: 100px;
+  @include media-breakpoint-up(sm) {
+    height: 110px;
+    width: 110px;
+  }
+  @include media-breakpoint-up(md) {
+    height: 130px;
+    width: 130px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 140px;
+    width: 140px;
+  }
+  opacity: 0;
+  transition: .5s ease;
+  background-color: $gray-900;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.img-c-container:hover .overlay-community {
+  opacity: 0.7;
+}
+.text-community {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.community-container {
+  margin-top: 1rem;
+}
 // --------------
 h5 {
   font-size: 1.75rem;
@@ -314,7 +405,7 @@ h6 {
 }
 
 
-.fab {
+.fab, .fa {
   font-size: 1.5rem; // 1.25
   margin-right: .75rem; // .625
 }
