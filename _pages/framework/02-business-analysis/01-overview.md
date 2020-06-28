@@ -10,6 +10,7 @@ vversion2: 3
 ## What is business analysis in IT
 
 Business analysis is a broad profession. According to Business Analysis Body of Knowledge (BABOK® v3) published by International Institute of Business Analysis (IIBA), "Business analysis is the practice of enabling change in an enterprise by defining needs and recommending solutions that deliver value to stakeholders. Business analysis enables an enterprise to articulate needs and the rationale for change, and to design and describe solutions that can deliver value." 
+
 Business analysis can be performed from a diverse array of perspectives, and Information Technology is one of them. When working in the information technology (IT) discipline, business analysts collaborate with both the business stakeholders and technical teams to ensure that needs are understood, and that designed solution meets business objectives and brings real value.
  
 ## What is the role of business analysis in IT solution
