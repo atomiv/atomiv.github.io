@@ -49,7 +49,7 @@ with 30 tasks that are performed by buisiness analysts.
 
 In Business analysis applied to Information Technology field all six knowledge areas are used.
 
-A significant factor of IT project sucess is to determine how to approact requirements elicition and there are three major styles:
+A significant factor of IT project success is to determine how to approach requirements elicition and there are three major styles:
 * Collaborative: involves direct interaction with stakeholders, and relies on their experiences, expertise, and judgment.
 * Research: involves systematically discovering and studying information from materials or sources that are not directly known by stakeholders involved in the change. 
 * Experiments: involves identifying information that could not be known without some sort of controlled test. Some information cannot be drawn from people or documents—because it is unknown. Experiments can help discover this kind of information. Experiments include observational studies, proofs of concept, and prototypes. 
