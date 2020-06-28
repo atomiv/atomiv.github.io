@@ -36,8 +36,8 @@ Scripting and programming languages
 Container is a lightweight virtual environment for running applications.  
 Containerization involves building an image, a standalone executable software package that contains an application and all its dependencies.
 Preferable approach to build a container image is using Dockerfile. A Dockerfile is a text file with instructions on how to build an image.  
-For consistent and reliable infrastructure images are treated as immutable, it means we build a new image in case an update is required.
-The container runtime is a managed environment used for deploying images (the applications) in containers.  
+For consistent and reliable infrastructure images are treated as immutable, it means we build a new image in case an update is required.  
+Container runtime is a managed environment used for deploying images (the applications) in containers.  
 ![Containerized app workflow](https://quppler.com/wp-content/uploads/2019/03/DockerComponents-300x242.png) &nbsp; 
 ![Container Architecture](https://miro.medium.com/max/350/1*IGYaJSfDLzXjE-aJcTai4Q.png)  
 source: quppler.com and cloud.google.com
