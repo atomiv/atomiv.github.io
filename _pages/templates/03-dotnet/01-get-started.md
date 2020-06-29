@@ -64,5 +64,22 @@ To run the automated tests, open up the Test Explorer \(Visual Studio main menu:
 
 Then you can use this solution for your actual project needs. We recommend you firstly see the sample structure \(with customers, products and orders\), so that you can see the overall flow, then you can add your own classes and interfaces.
 
+## Migrations
 
+To add a new migration:
 
+```text
+PM> dotnet ef migrations add NameOfTheNewMigration --project .\src\Tools\MyWebShop.Tools.Migrator
+```
+
+To remove the last run migration:
+
+```text
+PM> dotnet ef migrations remove --project .\src\Tools\MyWebShop.Tools.Migrator
+```
+
+To update the database based on migrations:
+
+```text
+PM> dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
+```
