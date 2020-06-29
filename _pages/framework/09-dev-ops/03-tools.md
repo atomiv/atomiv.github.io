@@ -30,7 +30,7 @@ DevOps teams also use good balance between practical approach and tools to integ
 Commonly used tools to support daily operations:
 
 * Bash, Python, Go  
-Scripting and programming languages
+Scripting and programming are common processes to develop, extend, integrate solutions, automate processes with aim to improve teams productivity.
 
 * Docker, rkt, LXC, runC, containerd  
 Container is a lightweight virtual environment for running applications.  
