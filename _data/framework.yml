@@ -135,8 +135,8 @@ docs:
   url: submenu8
   vversion: 8
   submenuitems:
-    - page: Responsibilities
-      url: /system-admin/responsibilities
+    - page: Overview
+      url: /system-admin/overview
     - page: Configuration
       url: /system-admin/configuration
     - page: Maintenance
