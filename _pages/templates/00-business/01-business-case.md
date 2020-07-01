@@ -1,7 +1,7 @@
 ---
 layout: templates
 title: Business Case
-permalink: /foundation/business-case
+permalink: /business/business-case
 vversion: 0
 vversion2: 3
 ---
