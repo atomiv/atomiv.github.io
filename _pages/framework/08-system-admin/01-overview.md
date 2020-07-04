@@ -7,5 +7,5 @@ vversion2: 3
 ---
 
 
-This page is in progress, it will describe responsibilities of system administrators...
+System administrators are very important for the reliable and successful functioning of the data center, IT infrastructure and network operational center.
 
