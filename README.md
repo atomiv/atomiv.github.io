@@ -16,5 +16,5 @@ You can send questions, improvement suggestions and issue reports using [Issues]
 
 ## License
 
-Copyright © 2020 Optivem All Rights Reserved.
+Copyright © 2020 Atomiv All Rights Reserved.
 Source code is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).

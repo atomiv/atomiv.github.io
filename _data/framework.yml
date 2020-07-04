@@ -15,6 +15,18 @@ docs:
     - page: Business Case
       url: /foundation/business-case
 
+# 12 -------------------------------------------------------------------
+- title: Leadership
+  url: submenu12
+  vversion: 12
+  submenuitems:
+    - page: Overview
+      url: /leadership/overview
+    - page: Teams
+      url: /leadership/teams
+    - page: Cross Functional
+      url: /leadership/cross-functional      
+
 # 1 ---------------------------------------------------------------------
 - title: Project Management
   url: submenu1
@@ -60,12 +72,12 @@ docs:
   submenuitems:
     - page: Overview
       url: /software-architecture/overview
-    - page: Domain Driven Design
-      url: /software-architecture/domain-driven-design
     - page: Microservices
       url: /software-architecture/microservices
-    - page: System
-      url: /software-architecture/system
+    - page: Domain Driven Design
+      url: /software-architecture/domain-driven-design
+    - page: Clean Architecture
+      url: /software-architecture/clean-architecture
     - page: Layers
       url: /software-architecture/layers
     - page: Slices
@@ -123,8 +135,8 @@ docs:
   url: submenu8
   vversion: 8
   submenuitems:
-    - page: Responsibilities
-      url: /system-admin/responsibilities
+    - page: Overview
+      url: /system-admin/overview
     - page: Configuration
       url: /system-admin/configuration
     - page: Maintenance

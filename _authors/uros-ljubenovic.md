@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/uroš-ljubenović-0ba686152
 xing: 
 github: https://github.com/urosl-jubenovic
 website: 
-index: 115
+index: 141
 city: Belgrade
 country: Serbia
 degree: M.Sc. Information Systems

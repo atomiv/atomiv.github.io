@@ -13,8 +13,7 @@
 - title: Framework
   vversion2: 3
   nDropdown: navbarDropdown1
-  # url: /templates
-  # url: https://docs.atomiv.com/
+  
   subcategories:    
   - subtitle: Foundation
     suburl: /foundation/overview
@@ -22,6 +21,9 @@
     # unnecessary TODO
     # same as category number
     # vversion2: 3
+  - subtitle: Leadership
+    suburl: /leadership/overview
+    vversion: 12
   - subtitle: Project Management
     suburl: /project-management/overview
     vversion: 1
@@ -44,7 +46,7 @@
     suburl: /embedded-development/overview
     vversion: 11
   - subtitle: System Admin
-    suburl: /system-admin/responsibilities
+    suburl: /system-admin/overview
     vversion: 8
   - subtitle: DevOps
     suburl: /devops/overview
@@ -58,16 +60,13 @@
   vversion2: 6
   nDropdown: navbarDropdown2
   subcategories:
-  - subtitle: Estimations
-    suburl: /estimations/get-started
-    category: estimations
-    vversion: 1
-  - subtitle: Requirements
-    suburl: /requirements/get-started
-    vversion: 2
+
   - subtitle: .NET Core
-    suburl: /dot-net-core/get-started
+    suburl: /dotnet/get-started
     vversion: 3
+  - subtitle: Java
+    suburl: /java/get-started
+    vversion: 7
   - subtitle: Angular
     suburl: /angular/get-started
     vversion: 4
@@ -77,6 +76,14 @@
   - subtitle: DevOps
     suburl: /devops/get-started
     vversion: 6
+  - subtitle: Estimations
+    suburl: /estimations/get-started
+    category: estimations
+    vversion: 1
+  - subtitle: Requirements
+    suburl: /requirements/get-started
+    vversion: 2
+    
   # - subtitle: Category One
   #   suburl: /category-one/one
   #   category: one

@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/fergusobrienfintech
 xing: https://www.xing.com/profile/Fergus_OBrien
 github: https://github.com/FOB-mmxviii
 website: https://khonvo.com/
-index: 135
+index: 113
 city: London
 country: United Kingdom
 degree: B.A. Literae Humaniores

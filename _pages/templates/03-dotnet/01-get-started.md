@@ -1,7 +1,7 @@
 ---
 layout: templates-layout
 title: Get Started
-permalink: /dot-net-core/get-started
+permalink: /dotnet/get-started
 vversion: 3
 vversion2: 6
 ---
@@ -22,7 +22,7 @@ Ensure you have the following installed:
 Run Visual Studio \(in the "Getting Started", select "Continue without code"\), use the Package Manager Console \(Tools &gt; NuGet Package Manager &gt; Package Manager Console\) to install the Atomiv Template \(in the future you can also uninstall and re-install newer versions\):
 
 ```text
-PM> dotnet new -i Optivem.Atomiv.Templates
+PM> dotnet new -i Atomiv.Templates
 ```
 
 ## Create project
@@ -30,15 +30,19 @@ PM> dotnet new -i Optivem.Atomiv.Templates
 Create the directory for your new project \(MyWebShop\) and go inside that directory:
 
 ```text
-PM> mkdir C:\Users\Valentina.Cupac\source\repos\MyWebShop
-PM> cd C:\Users\Valentina.Cupac\source\repos\MyWebShop
+PM> mkdir MyWebShop
+PM> cd MyWebShop
 ```
 
 Create a new solution \(MyWebShop.sln\) based on the template inside that directory:
 
 ```text
-PM> dotnet new atomiv-microservice
+PM> dotnet new atomiv
 ```
+
+## Open project
+
+Open the solution \(MyWebShop.sln\) and set MyWebShop.Web.RestApi as the StartUp project, and build the solution.
 
 ## Create database
 
@@ -52,8 +56,6 @@ You can verify inside SQL Server Management Studio that the database has been cr
 
 ## Run project
 
-Open the solution \(MyWebShop.sln\) and set MyWebShop.Web.RestApi as the StartUp project, and build the solution.
-
 Then run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/](https://localhost:44315/api/values). You can also execute API calls via swagger, e.g. [https://localhost:44315/swagger/index.html](https://localhost:44315/swagger/index.html) and verify that the response is successful. \(Note that the port on your computer may differ from the port here.\) Finally, at the end you can stop debugging.
 
 ## Automated tests
@@ -62,5 +64,22 @@ To run the automated tests, open up the Test Explorer \(Visual Studio main menu:
 
 Then you can use this solution for your actual project needs. We recommend you firstly see the sample structure \(with customers, products and orders\), so that you can see the overall flow, then you can add your own classes and interfaces.
 
+## Migrations
 
+To add a new migration:
 
+```text
+PM> dotnet ef migrations add NameOfTheNewMigration --project .\src\Tools\MyWebShop.Tools.Migrator
+```
+
+To remove the last run migration:
+
+```text
+PM> dotnet ef migrations remove --project .\src\Tools\MyWebShop.Tools.Migrator
+```
+
+To update the database based on migrations:
+
+```text
+PM> dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
+```

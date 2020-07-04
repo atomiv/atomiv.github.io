@@ -1,6 +1,6 @@
 ---
 layout: templates
-url: /system-admin/maintenance
+title: Maintenance
 permalink: /system-admin/maintenance
 vversion: 8
 vversion2: 3

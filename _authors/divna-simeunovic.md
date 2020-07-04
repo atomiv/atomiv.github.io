@@ -6,10 +6,10 @@ linkedin: https://rs.linkedin.com/in/divnasimeunovic
 xing: 
 github: https://github.com/divnas
 website: 
-index: 150
+index: 133
 city: Belgrade
 country: Serbia
 degree: B. Sc. Electrical Engineering & Electronics
-university: University of Belgrade
+university: University of Belgrade (ETF)
 ---
 Divna is a Business Analyst, applying an engineering approach to solving business problems through software solutions. She has worked in teams of international consultants. Divna joined Atomiv to share experiences regarding best practices in BA.

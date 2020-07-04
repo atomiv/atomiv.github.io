@@ -10,14 +10,14 @@ One view of "Quality" is that it is a byproduct, or outcome, of a system that re
 
 Improvement of a system and its outcomes is facilitated by structure, which is defined by processes.  Without structure and process, process behavior is typically not stable and is therefore difficult to predict and improve.  Consider Statistical Process Control (SPC).  SPC applies to the behavior of any business processes, not just manufacturing processes.  For improvement of a process to occur, we measure the process and work to reduce special cause variation in order to stabilize the process behavior.  Once stable, the process can be improved.  
 
-Perhaps not everything lends itself to a defined process (e.g., "creativity"), but these aspects of development do not exist in isolation and can be contained within a set of interrelated processes. 
+Perhaps not everything lends itself to a defined process (e.g., "creativity"), but these aspects of development do not exist in isolation and can be contained within a set of interrelated processes. This is particularly true if a system needs to scale with growth.
 
 Systems or sets of interrelated processes should include a mechanism for feedback to continually assess/reassess whether the processes are suitable and effective.  This includes the goals of the organization and its stakeholders and the context of the organization. 
 
-Quality system standards exist as guidelines built on lessons of the past.  Examples include ISO 9001, ISO 13485 (medical device), AS9100 (aerospace), IATF 16949 (automotive), ISO 12207 (software) and the IEEE SWEBOK, and others. The foundation of these standards is based on process and risk.
+Quality system standards exist as guidelines built on lessons of the past codified as current best practices.  Examples include ISO 9001, ISO 13485 (medical device), AS9100 (aerospace), IATF 16949 (automotive), ISO 12207 (software) and the IEEE SWEBOK, and others. The foundation of these standards is based on process and risk management.  They do not prescribe methods; rather, they encourage structure that is suitable and effective for the context and goals of an organization.
 
 "Quality" and Six Sigma both approach quality in a process-centric manner as conformance-to-requirements.
-"Quality" and Lean share in common the goal of identifying and reducting waste and improving value-added structure.
+"Quality" and Lean share in common the goal of identifying and reducing waste and improving value-added structure. 
 
 -----------------------------------------------
 

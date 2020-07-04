@@ -1,7 +1,7 @@
 ---
 layout: templates-layout
 title: Implementation
-permalink: /dot-net-core/implementation
+permalink: /dotnet/implementation
 vversion: 3
 vversion2: 6
 ---
