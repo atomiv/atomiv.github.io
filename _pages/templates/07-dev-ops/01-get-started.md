@@ -10,71 +10,101 @@ vversion2: 6
 
 DevOps Template - Containerization
 
-Phase 1: Create / build image
+### Task 1 - containerization
 
-1. Containerization of envioronment ( .NET Core environment, npm angular) --> images
-2. Installation of templates (.NET Core template, Angular template, Java template, Selenium)
-All this goes into container image
+#### Prerequisites
 
---> DevOps container image template
+* Installed [Docker](https://docs.docker.com/get-docker/) to build image and run container.
 
-Put the image into image repository
+#### Goal is to containerize (dockerize) Spring Boot application. A sample application prints out a text message in web browser.  
+HelloController.java snippet:
+```
+@RestController
+public class HelloController {
 
+	@RequestMapping("/")
+	public String index() {
+		return "Hello to this app!";
+	}
+}
+```
+Documentation is available at https://atomiv.org/java/get-started
+  
+Get a copy of the sample code.
+```
+git clone https://github.com/atomiv/atomiv-java.git
+```
+  
+Change to **template.web.restapi** directory.
+```
+cd atomiv-java/template.web.restapi
+```
 
-Generally separate images for DB
-
-Image = environment (minimal) + dependencies/libraries + code
-
-This is why images are small.
-
-Challenges - best practices - how to build images... how to do it in minimal way and fast (so that developers wait less time), so that deployments can go more frequently in less time
-
-
-
-Phase 2: Running image on development/staging (container: Docker or Docker Compose)
-
-
-Note: one docker compose, says container for application, container for database, and what is the sequence in which they should be run
-
-Ned to run the image -> use Docker
-Docker builds the image and running the image
-This is generally used development environment
-
-This is a manual process (steps) -> developer installs Docker and puts image on it
-
-Docker configuration file, which image to use for building, compiling code and on what image to run the code
-
-Containers are short-lived (unlike servers). Containers can be shutdown. (Image running or stopped))
-
-Reusability: if developer has Windows, developer can be sure that the code when run locally will have same effects on production...
-
-When developer commits code, then a new image is created, then the image could be depoyed on staging/production/etc
-
+Create a Dockerfile, for instance **template.web.restapi.Dockerfile** uses multistage build feature to optimize the image build process. 
+```
+FROM maven:3.6.3-ibmjava-8-alpine AS builder
+WORKDIR /app
+COPY ./pom.xml ./
+RUN mvn dependency:go-offline -B
+COPY ./src ./src/
+RUN mvn package
 
 
+FROM openjdk:8-jre-alpine
+WORKDIR /app
+COPY --from=builder /app/target/template.web.restapi-0.0.1-SNAPSHOT.jar ./
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "template.web.restapi-0.0.1-SNAPSHOT.jar"]
+```
+  
+Build new **atomiv/atomiv-java:0.1** image.
+```
+docker build -f template.web.restapi.Dockerfile -t atomiv/atomiv-java:0.1 .
+```
+  
+List images.
+```
+docker image ls
+```
+Output:
+```
+REPOSITORY           TAG                      IMAGE ID            CREATED             SIZE
+atomiv/atomiv-java   0.1                      b739d7b1c9df        4 seconds ago       106MB
+<none>               <none>                   9fa8270ebbc0        13 seconds ago      373MB
+maven                3.6.3-ibmjava-8-alpine   147a1ed602ad        3 days ago          274MB
+openjdk              8-jre-alpine             f7a292bbb70c        13 months ago       84.9MB
+```
+  
+Run container using the new **atomiv/atomiv-java:0.1** image.
+```
+docker run --name atomiv-java-0.1 -d -p 8080:8080 atomiv/atomiv-java:0.1
+```
+  
+List containers.
+```
+docker container ps -a
+```
+Output:
+```
+CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                    NAMES
+9b1c0ce21847        atomiv/atomiv-java:0.1   "java -jar template.…"   21 seconds ago      Up 20 seconds       0.0.0.0:8080->8080/tcp   atomiv-java-0.1
+```
+  
+Open a web browser, type url http://localhost:8080/ and following text will be displayed.
+```
+Hello to this app!
+```
+  
+Stop and delete the container.
+```
+docker stop atomiv-java-0.1  
+docker rm atomiv-java-0.1
+```
 
-Phase 3 Running image on production (orchestrators: Kubernetes or Docker Swarm)
-
-Orchestrators for production environment
-
-
-Phase 4
-
-Making Jenkins pipeline (Jenkins) - stages:
-* Code build
-* Image is created/built
-* Image is run and tested
-
-One dashboard, avoiding manual
-
-
-BENEFITS
-
-
-* Guranteed same environment -> avoid mismatching environments (avoid works on my machine issue)
-
-* Economic - reduce developer time spent on administration/configuration
-
+Delete all images.
+```
+docker rmi $(docker images -a -q)
+```
 
 <!--
 
