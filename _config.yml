@@ -3,6 +3,7 @@ tagline: 10x Software Template
 url: https://atomiv.com
 
 include: ['_pages']
+# exclude: ['README.md']
 
 exclude:
   - README.md
@@ -14,9 +15,19 @@ permalink: /:year/:month/:day/:title
 # permalink: pretty
 
 # if colelctions not at root level
-# collections_dir: my_collections
+collections_dir: content
 
 collections:
+  staff_members:
+    output: true
+    # default permalink
+    # permalink: /:collection/:name
+    order:
+      - jelena.md
+      - ana.md
+      - jane.md
+    # title: The Grey Parrot Stories
+    # sequence: 1
   pages:
     output: true
     permalink: /:path
@@ -31,6 +42,29 @@ collections:
     # layout: templates-layout
     # permalink: /:collection/:name
     # permalink: /:title
+
+
+# Now you can remove layout from the front matter of all pages and posts.
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"    
+
+
+
+
+
 
 templates-categories:
   # configuration array to store templates order
@@ -63,3 +97,13 @@ plugins:
 # Enable minification on your compiled CSS by updating your _config.yml to include:
 # sass:
 #   style: compressed
+
+
+
+
+# {% assign collections = site.collections | sort: 'sequence' %}
+# {% for collection in site.collections %}
+#   {% if collection.title %}
+# * {{ collection.title | escape }}
+#   {% endif %}
+# {% endfor %}
