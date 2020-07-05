@@ -20,7 +20,9 @@ Keeping records of computers, borrowing, software, licenses, failures, hardware,
 ### Software
 
 It excludes software that consumes more resources in the background, checks CPU usage, and resets software that uses it too much.
-
-  memory usage and, if necessary, clears the cache or increases it if it is necessary for some processes to use more memory.
-
+memory usage and, if necessary, clears the cache or increases it if it is necessary for some processes to use more memory.
 You should check the list of processes in the table in the task manager that still exist after shutdown and that additionally consume resources.
+
+### Backups
+
+Depending on whether the company has a backup solution or not, the administrator should take care of whether the third-party software he uses works smoothly or devises a solution to back up data and, if necessary, the operating system as a whole.
