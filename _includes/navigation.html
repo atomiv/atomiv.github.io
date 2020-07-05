@@ -58,46 +58,14 @@
               <div id="{{ link.nDropdown }}">
                 <div class="dropdown-menu" aria-labelledby="{{ link.nDropdown }}">
                   {% for subcategory in link.subcategories %}
-<!-- TO DO, that Framework = Framework, link.title and page.url -->
-<!-- Also, enable elipsis -->
-                  {% assign words = page.url | replace:'/',' ' | truncatewords: 1,"" | capitalize %}
-                  <!-- { % for word in words % }{{ word | capitalize }} { % endfor % } -->
                     
-                    <!-- Framework -->
-<!-- below works -->
-<!-- {{ link.title }}... CCC -->
-                    <!-- {{ page.url }} .. DDD -->
-                    <!-- actual page open -->
-                    <!-- {{ page.title }}... -->
-                    
-                    <!-- { % assign my_url = subcategory.suburl | split: ", " % } -->
-                    <!-- {{ my_url.first }} -->
-
-
-                    <!-- { % assign words = subcategory.suburl | split: '/' %} -->
-                    <!-- { % for word in words % }{{ word | capitalize }} { % endfor % }  -->
-
-<!-- BBB below works -->
-<!-- {{ page.url | replace:'/',' ' | truncatewords: 1,"" | capitalize}} -->
-                    <!-- {{ page.url | split:'/' | first }} -->
-
-                    <!-- {{ subcategory.suburl | split: "/" | first }} -->
-
-
-
-
-                    <!-- { % if subcategory.vversion == page.vversion 
-                    and link.vversion2 == page.vversion2 -->
                     <a class="dropdown-item 
-                    {% if subcategory.subtitle == page.category
-                    
+                    {% if subcategory.vversion == page.vversion 
+                    and link.vversion2 == page.vversion2
                     %}active{% endif %}
                     
                     " href="{{ site.url }}{{ subcategory.suburl }}">
-                      <!-- {{ subcategory.subtitle }} -->
-
-                      {% assign words = subcategory.subtitle | split: '-' %}
-                      {% for word in words %}{{ word | capitalize }} {% endfor %}
+                      {{ subcategory.subtitle }}
 
                     </a>
                   {% endfor %}
@@ -106,7 +74,7 @@
             </li>
           <!-- link.title == page.title -->
           <!-- link.url == page.url -->
-          {% elsif link.url == page.url %}
+          {% elsif link.vversion2 == page.vversion2 %}
             <li class="nav-item">
               <a class="nav-link active" href="{{ link.url }}">{{ link.title }}</a>
             </li>
@@ -127,3 +95,4 @@
 
 <!-- <div class="overlay2 d-md-none"></div> -->
 <div class="overlay44 d-md-none"></div>
+
