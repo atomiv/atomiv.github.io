@@ -26,3 +26,14 @@ You should check the list of processes in the table in the task manager that sti
 ### Backups
 
 Depending on whether the company has a backup solution or not, the administrator should take care of whether the third-party software he uses works smoothly or devises a solution to back up data and, if necessary, the operating system as a whole.
+
+If it is possible to simulate a situation where disaster recovery is needed as soon as possible.
+
+### Patching
+
+regularly download operating system furnaces to increase security against known vulnerabilities.
+
+### Test software installation
+
+Before installing any software, it is best to do a virtual machine test to avoid possible file loss and poor system setup.
+
