@@ -37,3 +37,10 @@ regularly download operating system furnaces to increase security against known 
 
 Before installing any software, it is best to do a virtual machine test to avoid possible file loss and poor system setup.
 
+### Syslog server
+
+Configure the syslog server to keep track of system and application records, to check for previous records in real time in the event of an unauthorized or other intrusion, and to diagnose and fix the problem.
+
+### Automation
+ 
+Writing scripts to automatically complete tasks to save employees time and help them complete tasks on time.
