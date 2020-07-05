@@ -1,102 +1,68 @@
+# - title: Staff
+#   url: /staff
+
 - title: Home
   url: /
-  vversion2: 1
  
 - title: Features
   url: /features
-  vversion2: 2
-  
+
 - title: Framework
-  vversion2: 3
   nDropdown: navbarDropdown1
   
   subcategories:    
-  - subtitle: Foundation
-    suburl: /foundation/overview
-    vversion: 0
-    # unnecessary TODO
-    # same as category number
-    # vversion2: 3
-  - subtitle: Leadership
-    suburl: /leadership/overview
-    vversion: 12
-  - subtitle: Project Management
-    suburl: /project-management/overview
-    vversion: 1
-  - subtitle: Business Analysis
-    suburl: /business-analysis/overview
-    vversion: 2
-  - subtitle: Software Architecture
-    suburl: /software-architecture/overview
-    vversion: 3
-  - subtitle: Software Development
-    suburl: /software-development/overview
-    vversion: 4
-  - subtitle: Quality Assurance
-    suburl: /quality-assurance/overview
-    vversion: 6
-  - subtitle: Big Data
-    suburl: /big-data/data-sources
-    vversion: 7
-  - subtitle: Embedded Development
-    suburl: /embedded-development/overview
-    vversion: 11
-  - subtitle: System Admin
-    suburl: /system-admin/overview
-    vversion: 8
-  - subtitle: DevOps
-    suburl: /devops/overview
-    vversion: 9
-  - subtitle: Recruitment
-    suburl: /recruitment/overview
-    vversion: 10
+  - subtitle: foundation
+    suburl: /framework/foundation/overview
+  - subtitle: leadership
+    suburl: /framework/leadership/overview
+  - subtitle: project-management
+    suburl: /framework/project-management/overview
+  - subtitle: business-analysis
+    suburl: /framework/business-analysis/overview
+  - subtitle: software-achitecture
+    suburl: /framework/software-architecture/overview
+  - subtitle: software-development
+    suburl: /framework/software-development/overview
+  - subtitle: quality-assurance
+    suburl: /framework/quality-assurance/overview
+  - subtitle: big-data
+    suburl: /framework/big-data/data-sources
+  - subtitle: embedded-development
+    suburl: /framework/embedded-development/overview
+  - subtitle: system-admin
+    suburl: /framework/system-admin/overview
+  - subtitle: dev-ops
+    suburl: /framework/dev-ops/overview
+  - subtitle: recruitment
+    suburl: /framework/recruitment/overview
 
 - title: Templates
-  # url: /templates
-  vversion2: 6
   nDropdown: navbarDropdown2
   subcategories:
 
   - subtitle: .NET Core
-    suburl: /dotnet/get-started
-    vversion: 3
+    suburl: /templates/dotnet/get-started
   - subtitle: Java
-    suburl: /java/get-started
-    vversion: 7
+    suburl: /templates/java/get-started
   - subtitle: Angular
-    suburl: /angular/get-started
-    vversion: 4
+    suburl: /templates/angular/get-started
   - subtitle: Selenium
-    suburl: /selenium/get-started
-    vversion: 5
-  - subtitle: DevOps
-    suburl: /devops/get-started
-    vversion: 6
+    suburl: /templates/selenium/get-started
+  - subtitle: Dev Ops
+    suburl: /templates/dev-ops/get-started
   - subtitle: Estimations
-    suburl: /estimations/get-started
-    category: estimations
-    vversion: 1
+    suburl: /templates/estimations/get-started
   - subtitle: Requirements
-    suburl: /requirements/get-started
-    vversion: 2
-    
-  # - subtitle: Category One
-  #   suburl: /category-one/one
-  #   category: one
-  #   vversion: 1
-  #   href: submenu11
-  # - subtitle: Category Two
-  #   suburl: /category-two/four
-  #   category: two
-  #   vversion: 2
-  #   href: submenu22
-
-
+    suburl: /templates/requirements/get-started
   
 - title: About
   url: /about
-  vversion2: 4
 
 - title: Contact
   url: /contact
-  vversion2: 5
+
+
+
+
+
+
