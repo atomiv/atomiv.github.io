@@ -16,3 +16,11 @@ Although it seems that system administrators have a large list of responsibiliti
 ### Documentation
 
 Keeping records of computers, borrowing, software, licenses, failures, hardware, servers (physical and virtual), open and closed ports, IP addresses, passwords, etc.
+
+### Software
+
+It excludes software that consumes more resources in the background, checks CPU usage, and resets software that uses it too much.
+
+  memory usage and, if necessary, clears the cache or increases it if it is necessary for some processes to use more memory.
+
+You should check the list of processes in the table in the task manager that still exist after shutdown and that additionally consume resources.
