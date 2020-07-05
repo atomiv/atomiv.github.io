@@ -13,6 +13,6 @@ It is necessary to have experience in several areas such as networking, backup, 
 
 Although it seems that system administrators have a large list of responsibilities, we will single out some that are the most important in practice:
 
-###Documentation - 
+### Documentation
 
-eeping records of computers, borrowing, software, licenses, failures, hardware, servers (physical and virtual), open and closed ports, IP addresses, passwords, etc.
+Keeping records of computers, borrowing, software, licenses, failures, hardware, servers (physical and virtual), open and closed ports, IP addresses, passwords, etc.
