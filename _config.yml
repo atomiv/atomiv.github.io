@@ -4,8 +4,7 @@ url: https://atomiv.org
 
 include: ['_pages']
 
-exclude:
-  - README.md
+exclude: ['not needed', README.md ]
 
 gems:
   - jekyll-sitemap
@@ -13,39 +12,176 @@ gems:
 permalink: /:year/:month/:day/:title
 # permalink: pretty
 
-# if colelctions not at root level
-# collections_dir: my_collections
+# if collections not at root level
+collections_dir: content
 
 collections:
+  staff_members:
+    output: true
+    # permalink: /:collection/:name
+    # permalink: /:title
+    order:
+      - liverpool/jessica.md
+      - liverpool/jelena.md
+    # title: Staff
+    # sequence: 1
   pages:
     output: true
     permalink: /:path
-    vversion2: 3
-    # permalink: /:collection/:name
   authors:
     output: true
-  # templates:
-  #   output: true
+    order: 
+      - valentina-cupac.md
+      - jelena-cupac.md
+      - petar-zecevic.md
+      - boban-bojkovski.md
+      - tamara-golubovic.md
+      - fergus-obrien.md
+      - clifford-long.md
+      - velibor-cakarevic.md
+      - andrew-griffing.md
+      - jon-campbell.md
+      - milan-vidakovic.md
+      - miroslav-trninic.md
+      - raymond-tay.md
+      - divna-simeunovic.md
+      - uros-ljubenovic.md
+      - vladimir-maljm.md
+      - jelena-mitrovic.md
+      - brooke-steele.md
+  framework:
+    output: true
+    # path: /:collection/:path/
+    title: framework
+    order:
+      - foundation/overview.md
+      - foundation/principles.md
+      - foundation/business-case.md
+
+      - project-management/overview.md
+      - project-management/agile.md
+      - project-management/hybrid.md
+      - project-management/communication.md
+      - project-management/estimations.md
+      - project-management/remote.md
+      - project-management/teams.md
+      - project-management/transformation.md
+
+      - leadership/overview.md
+      - leadership/teams.md
+      - leadership/cross-functional.md
+
+      - business-analysis/overview.md
+      - business-analysis/processes.md
+      - business-analysis/use-cases.md
+      - business-analysis/domain.md
+      - business-analysis/applications.md
+
+      - software-architecture/overview.md
+      - software-architecture/domain-driven-design.md
+      - software-architecture/microservices.md
+      - software-architecture/clean-architecture.md
+      - software-architecture/layers.md
+      - software-architecture/slices.md
+
+      - software-development/overview.md
+
+      - quality-assurance/overview.md
+      - quality-assurance/manual-testing.md
+      - quality-assurance/automated-testing.md
+
+      - big-data/data-sources.md
+      - big-data/data-storage.md
+      - big-data/batch-processing.md
+      - big-data/stream-processing.md
+      - big-data/machine-learning.md
+      - big-data/analytical-data-store.md
+      - big-data/analytics-and-reporting.md
+
+      - embedded-development/overview.md
+
+      - system-admin/overview.md
+      - system-admin/configuration.md
+      - system-admin/maintenance.md
+      - system-admin/network.md
+      - system-admin/security.md
+
+      - dev-ops/overview.md
+      - dev-ops/process.md
+      - dev-ops/tools.md
+
+      - recruitment/overview.md
+  templates:
+    output: true
+    order:
+      - estimations/get-started.md
+
+      - requirements/get-started.md
+
+      - dotnet/get-started.md
+      - dotnet/walkthrough.md
+      - dotnet/implementation.md
+
+      - java/get-started.md
+      - java/walkthrough.md
+
+      - angular/get-started.md
+      - angular/walkthrough.md
+
+      - selenium/get-started.md
+
+      - dev-ops/get-started.md
 
   
-    # layout: templates-layout
-    # permalink: /:collection/:name
-    # permalink: /:title
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: "_staff_members"
+      type: "staff_members"
+    values:
+      layout: "staff_member"
+  - scope:
+      path: "_framework"
+      type: "framework"
+    values:
+      layout: "framework"      
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "_templates"
+      type: "templates"
+    values:
+      layout: "template"
+  # - scope:
+  #     path: ""
+  ###   type: "pages"
+  #   values:
+  #     layout: "default"    
 
-templates-categories:
-  # configuration array to store templates order
-  - two
-    # href=""
-    # suburl: /category-one/one
-  - one
-    # suburl: /category-two/four
+    # layout: "page"
+    # comments: true
+    # search: true
+    # sidebar: home_sidebar
+    # topnav: topnav
+
+    # nav: "manual"
+
+
 
 
 sass:
   # where to search for Sass files, if the folder is called '_scss'
   # sass_dir: assets/css
-  # sass_dir: _scss
+  # sass_dir: _sass (default)
   sass_dir: _scss
+  # Enable minification on your compiled CSS
   style: compressed
   
 highlighter: rouge
@@ -54,12 +190,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# You can also change the default _sass/ directory to a custom directory in your _config.yml:
-# sass:
-#   sass_dir: _lib
-#   or ... sass_dir: _sass
 
-
-# Enable minification on your compiled CSS by updating your _config.yml to include:
-# sass:
-#   style: compressed

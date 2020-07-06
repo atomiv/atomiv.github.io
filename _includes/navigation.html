@@ -58,14 +58,62 @@
               <div id="{{ link.nDropdown }}">
                 <div class="dropdown-menu" aria-labelledby="{{ link.nDropdown }}">
                   {% for subcategory in link.subcategories %}
+<!-- TO DO, that Framework = Framework, link.title and page.url -->
+<!-- Also, enable elipsis -->
+                  <!-- {% assign words = page.url | replace:'/',' ' | truncatewords: 1,"" | capitalize %} -->
+
                     
+<!-- below works -->
+<!-- result: Framework. result: Templates -->
+<!-- {{ link.title }} ... CCC -->
+                    <!-- {{ page.url }} .. DDD -->
+                    <!-- actual page open -->
+                    <!-- {{ page.title }}... -->
+                    
+                    <!-- { % assign my_url = subcategory.suburl | split: ", " % } -->
+                    <!-- {{ my_url.first }} -->
+
+
+                    <!-- { % assign words = subcategory.suburl | split: '/' %} -->
+                    <!-- { % for word in words % }{{ word | capitalize }} { % endfor % }  -->
+
+<!-- BBB below works -->
+<!-- result: Framework -->
+<!-- AAA {{ page.url | replace:'/',' ' | truncatewords: 1,"" | downcase}} ... DDD -->
+<!-- ---- -->
+{% assign page_url_first = page.url | replace:'/',' ' | truncatewords: 1,"" | downcase %}
+<!-- {{ page_url_first }} -->
+<!-- ---- -->
+<!-- {% assign filename = page.url | split: '/' | last %}
+{{filename}}
+---- -->
+                    <!-- {{ page.url | split:'/' | first }} -->
+
+                    <!-- {{ subcategory.suburl | split: "/" | first }} -->
+
+<!-- page.url contains link.url -->
+<!-- {{ page.url }}... -->
+<!-- {{ link.title}} -->
+<!-- {{ subcategory.suburl }} -->
+<!-- __ -->
+{% assign dropdown_url_first = subcategory.suburl | replace:'/',' ' | truncatewords: 1,"" | downcase %}
+<!-- {{ dropdown_url_first }} -->
+<!-- __ -->
+                    <!-- subcategory.suburl contains page.url -->
+                    <!-- { % if subcategory.vversion == page.vversion 
+                    and link.vversion2 == page.vversion2 -->
                     <a class="dropdown-item 
-                    {% if subcategory.vversion == page.vversion 
-                    and link.vversion2 == page.vversion2
+                    {% if subcategory.subtitle == page.category and
+                      page_url_first == dropdown_url_first
                     %}active{% endif %}
                     
                     " href="{{ site.url }}{{ subcategory.suburl }}">
-                      {{ subcategory.subtitle }}
+                      <!-- {{ subcategory.subtitle }} -->
+
+                      {% assign words = subcategory.subtitle | split: '-' %}
+                      {% for word in words %}
+                        {{ word | capitalize | replace: 'Dotnet','.NET' }}
+                      {% endfor %}
 
                     </a>
                   {% endfor %}
@@ -74,7 +122,7 @@
             </li>
           <!-- link.title == page.title -->
           <!-- link.url == page.url -->
-          {% elsif link.vversion2 == page.vversion2 %}
+          {% elsif link.url == page.url %}
             <li class="nav-item">
               <a class="nav-link active" href="{{ link.url }}">{{ link.title }}</a>
             </li>
@@ -95,4 +143,3 @@
 
 <!-- <div class="overlay2 d-md-none"></div> -->
 <div class="overlay44 d-md-none"></div>
-
