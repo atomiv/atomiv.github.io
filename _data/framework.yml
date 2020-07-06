@@ -147,16 +147,16 @@ docs:
       url: /system-admin/security
    
 # 9 -------------------------------------------------------      
-- title: Dev Ops
+- title: DevOps
   url: submenu9
   vversion: 9
   submenuitems:
     - page: Overview
-      url: /dev-ops/overview
+      url: /devops/overview
     - page: Process
-      url: /dev-ops/process
+      url: /devops/process
     - page: Tools
-      url: /dev-ops/tools
+      url: /devops/tools
       
       
 # 10 -------------------------------------------------------      

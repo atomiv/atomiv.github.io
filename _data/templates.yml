@@ -43,12 +43,12 @@ docs:
       url: /selenium/get-started
 
 # 6 -------------------------------------------------------      
-- title: Dev Ops
+- title: DevOps
   url: submenu105
   vversion: 6
   submenuitems:
     - page: Get Started
-      url: /dev-ops/get-started
+      url: /devops/get-started
 
 
 # 0 ---------------------------------------------------------------------
