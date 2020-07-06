@@ -5,7 +5,7 @@
     <!-- assign groups = site.framework -->
     <!-- assign groups = page.collection | group_by: "category" -->
     <!--  | split: '-'  -->
-    {% assign groups = site.framework | group_by: "category" %}
+    {% assign groups = site.framework | group_by: "category" | sort: 'order' %}
     {% for group in groups %}
         <li>
             <a href="#{{ group.name }}"
