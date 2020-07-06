@@ -19,17 +19,16 @@ Small failures in the implementation of routers, firewalls, virtual private netw
 
 Some free tools for system administrators:
 
+Wireshark[Wireshark](https://duckduckgo.com, https://www.wireshark.org/), a packet analyzer for sysadmins
 
-    Wireshark[Wireshark](https://duckduckgo.com, https://www.wireshark.org/), a packet analyzer for sysadmins
+KeePass Password Safe, a free open source password manager
 
-    KeePass Password Safe, a free open source password manager
+Malwarebytes, a free anti-malware and antivirus tool
 
-    Malwarebytes, a free anti-malware and antivirus tool
+NMAP, a powerful security scanner
 
-    NMAP, a powerful security scanner
+NIKTO, an open source web server scanner
 
-    NIKTO, an open source web server scanner
+Ansible, a tool for automating secure IT provisioning
 
-    Ansible, a tool for automating secure IT provisioning
-
-    Metasploit, a tool for understanding attack vectors and doing penetration testing
+Metasploit, a tool for understanding attack vectors and doing penetration testing
