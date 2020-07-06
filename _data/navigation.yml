@@ -40,9 +40,6 @@
   nDropdown: navbarDropdown2
   subcategories:
 
-    # delete
-  - subtitle: foundation
-    suburl: /templates/foundation/overview
   - subtitle: dotnet
     suburl: /templates/dotnet/get-started
   - subtitle: java

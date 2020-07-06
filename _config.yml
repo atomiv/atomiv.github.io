@@ -115,12 +115,6 @@ collections:
   templates:
     output: true
     order:
-      # delete
-      - foundation/overview.md
-      - foundation/principles.md
-      - foundation/business-case.md
-
-
       - estimations/get-started.md
 
       - requirements/get-started.md
