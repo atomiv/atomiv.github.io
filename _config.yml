@@ -52,10 +52,13 @@ collections:
       - brooke-steele.md
   framework:
     output: true
+    # path: /:collection/:path/
+    title: framework
     order:
       - foundation/overview.md
       - foundation/principles.md
       - foundation/business-case.md
+
       - project-management/overview.md
       - project-management/agile.md
       - project-management/hybrid.md
@@ -64,24 +67,30 @@ collections:
       - project-management/remote.md
       - project-management/teams.md
       - project-management/transformation.md
+
       - leadership/overview.md
       - leadership/teams.md
       - leadership/cross-functional.md
+
       - business-analysis/overview.md
       - business-analysis/processes.md
       - business-analysis/use-cases.md
       - business-analysis/domain.md
       - business-analysis/applications.md
+
       - software-architecture/overview.md
       - software-architecture/domain-driven-design.md
       - software-architecture/microservices.md
       - software-architecture/clean-architecture.md
       - software-architecture/layers.md
       - software-architecture/slices.md
+
       - software-development/overview.md
+
       - quality-assurance/overview.md
       - quality-assurance/manual-testing.md
       - quality-assurance/automated-testing.md
+
       - big-data/data-sources.md
       - big-data/data-storage.md
       - big-data/batch-processing.md
@@ -89,37 +98,48 @@ collections:
       - big-data/machine-learning.md
       - big-data/analytical-data-store.md
       - big-data/analytics-and-reporting.md
+
       - embedded-development/overview.md
+
       - system-admin/overview.md
       - system-admin/configuration.md
       - system-admin/maintenance.md
       - system-admin/network.md
       - system-admin/security.md
+
       - dev-ops/overview.md
       - dev-ops/process.md
       - dev-ops/tools.md
+
       - recruitment/overview.md
   templates:
     output: true
-    # permalink: /:collection/:name
-    # permalink: /:title
     order:
+      # delete
+      - foundation/overview.md
+      - foundation/principles.md
+      - foundation/business-case.md
+
+
       - estimations/get-started.md
+
       - requirements/get-started.md
+
       - dotnet/get-started.md
       - dotnet/walkthrough.md
       - dotnet/implementation.md
+
       - java/get-started.md
       - java/walkthrough.md
+
       - angular/get-started.md
       - angular/walkthrough.md
+
       - selenium/get-started.md
+
       - dev-ops/get-started.md
 
   
-
-
-# Now you can remove layout from the front matter of all pages and posts.
 defaults:
   - scope:
       path: ""
@@ -163,21 +183,12 @@ defaults:
 
 
 
-
-# templates-categories:
-#   # configuration array to store templates order
-#   - two
-#     # href=""
-#     # suburl: /category-one/one
-#   - one
-#     # suburl: /category-two/four
-
-
 sass:
   # where to search for Sass files, if the folder is called '_scss'
   # sass_dir: assets/css
-  # sass_dir: _scss
+  # sass_dir: _sass (default)
   sass_dir: _scss
+  # Enable minification on your compiled CSS
   style: compressed
   
 highlighter: rouge
@@ -186,21 +197,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# You can also change the default _sass/ directory to a custom directory in your _config.yml:
-# sass:
-#   sass_dir: _lib
-#   or ... sass_dir: _sass
 
-
-# Enable minification on your compiled CSS by updating your _config.yml to include:
-# sass:
-#   style: compressed
-
-
-
-# {% assign collections = site.collections | sort: 'sequence' %}
-# {% for collection in site.collections %}
-#   {% if collection.title %}
-# * {{ collection.title | escape }}
-#   {% endif %}
-# {% endfor %}

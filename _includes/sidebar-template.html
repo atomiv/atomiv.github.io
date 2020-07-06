@@ -11,7 +11,7 @@
             class="{% if group.name == page.category %}active44{% endif %}"
 			data-toggle="collapse" aria-expanded="false">
                 {% assign words = group.name | split: '-' %}
-                {% for word in words %}{{ word | capitalize }} {% endfor %} 
+                {% for word in words %}{{ word | capitalize | replace: 'Dotnet','.NET' }} {% endfor %} 
             </a>
 
             {% for item in group.items %}

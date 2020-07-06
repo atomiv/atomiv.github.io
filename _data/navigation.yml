@@ -40,19 +40,22 @@
   nDropdown: navbarDropdown2
   subcategories:
 
-  - subtitle: .NET Core
+    # delete
+  - subtitle: foundation
+    suburl: /templates/foundation/overview
+  - subtitle: dotnet
     suburl: /templates/dotnet/get-started
-  - subtitle: Java
+  - subtitle: java
     suburl: /templates/java/get-started
-  - subtitle: Angular
+  - subtitle: angular
     suburl: /templates/angular/get-started
-  - subtitle: Selenium
+  - subtitle: selenium
     suburl: /templates/selenium/get-started
-  - subtitle: Dev Ops
+  - subtitle: dev-ops
     suburl: /templates/dev-ops/get-started
-  - subtitle: Estimations
+  - subtitle: estimations
     suburl: /templates/estimations/get-started
-  - subtitle: Requirements
+  - subtitle: requirements
     suburl: /templates/requirements/get-started
   
 - title: About

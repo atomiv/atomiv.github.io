@@ -60,12 +60,12 @@
                   {% for subcategory in link.subcategories %}
 <!-- TO DO, that Framework = Framework, link.title and page.url -->
 <!-- Also, enable elipsis -->
-                  {% assign words = page.url | replace:'/',' ' | truncatewords: 1,"" | capitalize %}
-                  <!-- { % for word in words % }{{ word | capitalize }} { % endfor % } -->
+                  <!-- {% assign words = page.url | replace:'/',' ' | truncatewords: 1,"" | capitalize %} -->
+
                     
-                    <!-- Framework -->
 <!-- below works -->
-<!-- {{ link.title }}... CCC -->
+<!-- result: Framework. result: Templates -->
+<!-- {{ link.title }} ... CCC -->
                     <!-- {{ page.url }} .. DDD -->
                     <!-- actual page open -->
                     <!-- {{ page.title }}... -->
@@ -78,26 +78,42 @@
                     <!-- { % for word in words % }{{ word | capitalize }} { % endfor % }  -->
 
 <!-- BBB below works -->
-<!-- {{ page.url | replace:'/',' ' | truncatewords: 1,"" | capitalize}} -->
+<!-- result: Framework -->
+<!-- AAA {{ page.url | replace:'/',' ' | truncatewords: 1,"" | downcase}} ... DDD -->
+<!-- ---- -->
+{% assign page_url_first = page.url | replace:'/',' ' | truncatewords: 1,"" | downcase %}
+<!-- {{ page_url_first }} -->
+<!-- ---- -->
+<!-- {% assign filename = page.url | split: '/' | last %}
+{{filename}}
+---- -->
                     <!-- {{ page.url | split:'/' | first }} -->
 
                     <!-- {{ subcategory.suburl | split: "/" | first }} -->
 
-
-
-
+<!-- page.url contains link.url -->
+<!-- {{ page.url }}... -->
+<!-- {{ link.title}} -->
+<!-- {{ subcategory.suburl }} -->
+<!-- __ -->
+{% assign dropdown_url_first = subcategory.suburl | replace:'/',' ' | truncatewords: 1,"" | downcase %}
+<!-- {{ dropdown_url_first }} -->
+<!-- __ -->
+                    <!-- subcategory.suburl contains page.url -->
                     <!-- { % if subcategory.vversion == page.vversion 
                     and link.vversion2 == page.vversion2 -->
                     <a class="dropdown-item 
-                    {% if subcategory.subtitle == page.category
-                    
+                    {% if subcategory.subtitle == page.category and
+                      page_url_first == dropdown_url_first
                     %}active{% endif %}
                     
                     " href="{{ site.url }}{{ subcategory.suburl }}">
                       <!-- {{ subcategory.subtitle }} -->
 
                       {% assign words = subcategory.subtitle | split: '-' %}
-                      {% for word in words %}{{ word | capitalize }} {% endfor %}
+                      {% for word in words %}
+                        {{ word | capitalize | replace: 'Dotnet','.NET' }}
+                      {% endfor %}
 
                     </a>
                   {% endfor %}
