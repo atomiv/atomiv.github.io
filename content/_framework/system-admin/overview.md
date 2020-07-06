@@ -7,6 +7,23 @@ System administrators are very important for the reliable and successful functio
 
 It is necessary to have experience in several areas such as networking, backup, operating systems, databases, IT system security, middleware basics, peripheral setup, etc.
 
+Responsibilities may include the following:
+
+- Defending systems against unauthorized access
+- Performing vulnerability and penetration tests
+- Monitoring traffic for suspicious activity
+- Configuring and supporting security tools (firewalls, antivirus, and IDS/IPS software)
+- Implementing network security policies
+- Analyzing and establishing security requirements
+- Identifying threats and working on steps to defend against them
+- Training employees in security awareness/procedures
+- Developing and updating disaster recovery protocols
+- Conducting security audits
+- Making policy recommendations
+- Providing technical security advice
+- Consulting with staff, managers and executives on best security practices.
+
+
 Although it seems that system administrators have a large list of responsibilities, we will single out some that are the most important in practice:
 
 ### Documentation
