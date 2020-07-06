@@ -15,7 +15,7 @@
                 <!-- {{ group.name | replace: '-', ' ' | capitalize }}  -->
 
                 {% assign words = group.name | split: '-' %}
-                {% for word in words %}{{ word | capitalize  }} {% endfor %} 
+                {% for word in words %}{{ word | capitalize | replace: 'Dotnet','.NET' }} {% endfor %} 
 
                 <!-- Replace {{ word | capitalize }}  with 
                     {% if word == 'and' %}{{ word }} {% else %}{{ word | capitalize }} {% endif %}  -->
