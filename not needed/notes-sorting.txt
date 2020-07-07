@@ -1,0 +1,96 @@
+<!-- --------------------------------------------------- -->
+<!-- JELENA
+
+{% for author in site.data.authors.docs %}
+{% assign author_data = site.authors | where: 'city',  'Sydney' %}
+
+{% for author in author_data %}
+
+<p>Author: {{ author.name }}</p>
+
+{% endfor %}            
+{% endfor %} -->
+<!-- assign author_data = site.data.authors | where: 'twitter', article_authors  -->
+<!-- ------------------------------------------------------------ -->
+
+<!-- <ul>
+  {% for author in site.authors %}
+  {% assign aaa = site.authors | where: 'city',  'Belgrade' %}
+  {% if author %}
+    <li>
+      <h2>{{ aaa.name }}</h2>
+      <h3>{{ aaa.position }}</h3>
+      <p>{{ aaa.content | markdownify }}</p>
+    </li>
+  {% endif %}
+  {% endfor %}
+</ul> -->
+<!-- -------------------------------------------------------- -->
+
+<!-- {% assign my-portfolio-list = site.portfolio_items | sort: 'order' %}
+      {% for my-portfolio in my-portfolio-list  %}
+       // processing code
+      {% endfor %} -->
+
+
+<!-- ------------------------------------------ -->
+
+<!-- I guess I don’t understand what you want. I just tried:
+
+- name: Air
+  id: air
+  page-title: page1-title
+  description: Decs_1
+  group:
+  - name: Grp-Name1
+    id: Grp-name1-id
+    page-title: Grp-name1-title
+  - name: Grp-Name2
+    id: Grp-name2-id
+    page-title: Grp-name1-title
+  - name: Grp-Name3
+    id: Grp-name3-id
+    page-title: Grp-name3-title
+
+- name: Air2
+  id: air2
+  page-title: page1-title2
+  description: Decs_12
+  group:
+  - name: Grp-Name12
+    id: Grp-name1-id2
+    page-title: Grp-name1-title2
+  - name: Grp-Name22
+    id: Grp-name2-id
+    page-title: Grp-name1-title2
+  - name: Grp-Name32
+    id: Grp-name3-id2
+    page-title: Grp-name3-title2
+{% for niche in site.data.sections %}
+Niche ID = {{ niche.id }} <br>
+{% for group in niche.group %}
+group name = {{ group.name }}<br>
+{% endfor %}
+<hr>
+{% endfor %} -->
+
+------------------------------------
+
+        {% assign pizza = site.authors | where: "city", "Sydney" %}
+
+        {% for article in pizza %}
+            <p>pizza.name</p>
+        {% endfor %}
+
+        --------------
+
+                {% for author in site.data.authors.docs %}
+		
+        {{author.name}} <br/>
+
+                {% assign author = site.data.authors[page.author] %}
+
+                {{ author.position }}
+
+        <!-- {% include author.html %} -->
+        {% endfor %}

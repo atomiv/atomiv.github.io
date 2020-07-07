@@ -1,81 +1,81 @@
 docs:
 
-- title: Valentina Cupać
+- name: Valentina Cupać
   url: valentina-cupac
 
-- title: Jelena Cupać
+- name: Jelena Cupać
   url: jelena-cupac
 
-- title: Petar Zečević
+- name: Petar Zečević
   url: petar-zecevic
 
-- title: Boban Bojkovski
+- name: Boban Bojkovski
   url: boban-bojkovski
 
-- title: Tamara Golubović
+- name: Tamara Golubović
   url: tamara-golubovic
 
-- title: Fergus O'Brien
+- name: Fergus O'Brien
   url: fergus-obrien
 
-- title: Clifford Long
+- name: Clifford Long
   url: clifford-long
 
-- title: Velibor Cakarevic
+- name: Velibor Cakarevic
   url: velibor-cakarevic
 
-- title: Andrew Griffing
+- name: Andrew Griffing
   url: andrew-griffing
 
-- title: Jon Campbell
+- name: Jon Campbell
   url: jon-campbell
 
-- title: Milan Vidaković
+- name: Milan Vidaković
   url: milan-vidakovic
 
-- title: Miroslav Trninić
+- name: Miroslav Trninić
   url: miroslav-trninic
 
-- title: Raymond Tay
+- name: Raymond Tay
   url: raymond-tay
 
-- title: Divna Simeunović
+- name: Divna Simeunović
   url: divna-simeunovic
 
-- title: Uroš Ljubenović
+- name: Uroš Ljubenović
   url: uros-ljubenovic
 
-- title: Vladimir Maljm
+- name: Vladimir Maljm
   url: vladimir-maljm
 
-- title: Jelena Mitrović
+- name: Jelena Mitrović
   url: jelena-mitrovic
 
-- title: Brooke Steele
+- name: Brooke Steele
   url: brooke-steele
 
 
 
 
-- id: 1
-  name: Valentina Cupać
+# - id: 1
+#   name: Valentina Cupać
   
 
-- id: 2
-  name: Jelena Cupać
+# - id: 2
+#   name: Jelena Cupać
 
 
-# new author
+# # new author
 
-- id: >
-  name:
-  position: 
-  about: 
-  photo: Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending.
-  linkedin: 
-  xing: 
-  github: 
-  website: 
+# - id: >
+#   name:
+#   position: 
+#   about: 
+#   photo: Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending.
+#   linkedin: 
+#   xing: 
+#   github: 
+#   website: 
 
 
 
