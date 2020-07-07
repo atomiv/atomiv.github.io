@@ -1,0 +1,146 @@
+# in _data folder
+
+# template_list_title: Templates
+docs:
+
+- title: Foundation
+  url: foundation
+  submenuitems:
+    - page: Overview
+      url: /framework/foundation/overview
+    - page: Principles
+      url: /framework/foundation/principles
+    - page: Business Case
+      url: /framework/foundation/business-case
+
+- title: Leadership
+  url: leadership
+  submenuitems:
+    - page: Overview
+      url: /framework/leadership/overview
+    - page: Teams
+      url: /framework/leadership/teams
+    - page: Cross Functional
+      url: /framework/leadership/cross-functional      
+
+- title: Project Management
+  url: project-management
+  submenuitems:
+    - page: Overview
+      url: /framework/project-management/overview
+    - page: Agile
+      url: /framework/project-management/agile
+    - page: Hybrid
+      url: /framework/project-management/hybrid
+    - page: Communication
+      url: /framework/project-management/communication
+    - page: Estimations
+      url: /framework/project-management/estimations
+    - page: Remote
+      url: /framework/project-management/remote
+    - page: Teams
+      url: /framework/project-management/teams
+    - page: Transformation
+      url: /framework/project-management/transformation
+
+- title: Business Analysis
+  url: business-analysis
+  submenuitems:
+    - page: Overview
+      url: /framework/business-analysis/overview
+    - page: Processes
+      url: /framework/business-analysis/processes
+    - page: Use Cases
+      url: /framework/business-analysis/use-cases
+    - page: Domain
+      url: /framework/business-analysis/domain
+    - page: Applications
+      url: /framework/business-analysis/applications                        
+
+- title: Software Architecture
+  url: software-architecture
+  submenuitems:
+    - page: Overview
+      url: /framework/software-architecture/overview
+    - page: Microservices
+      url: /framework/software-architecture/microservices
+    - page: Domain Driven Design
+      url: /framework/software-architecture/domain-driven-design
+    - page: Clean Architecture
+      url: /framework/software-architecture/clean-architecture
+    - page: Layers
+      url: /framework/software-architecture/layers
+    - page: Slices
+      url: /framework/software-architecture/slices
+
+- title: Software Development
+  url: software-development
+  submenuitems:
+    - page: Overview
+      url: /framework/software-development/overview
+
+- title: Quality Assurance
+  url: quality-assurance
+  submenuitems:
+    - page: Overview
+      url: /framework/quality-assurance/overview
+    - page: Manual Testing
+      url: /framework/quality-assurance/manual-testing
+    - page: Automated Testing
+      url: /framework/quality-assurance/automated-testing
+
+- title: Big Data
+  url: big-data
+  submenuitems:
+    - page: Data Sources
+      url: /framework/big-data/data-sources
+    - page: Data Storage
+      url: /framework/big-data/data-storage
+    - page: Batch Processing
+      url: /framework/big-data/batch-processing
+    - page: Stream Processing
+      url: /framework/big-data/stream-processing
+    - page: Machine Learning
+      url: /framework/big-data/machine-learning
+    - page: Analytical Data Store
+      url: /framework/big-data/analytical-data-store
+    - page: Analytics and Reporting
+      url: /framework/big-data/analytics-and-reporting
+
+- title: Embedded Development
+  url: embedded-development
+  submenuitems:
+    - page: Overview
+      url: /framework/embedded-development/overview
+
+- title: System Admin
+  url: system-admin
+  submenuitems:
+    - page: Overview
+      url: /framework/system-admin/overview
+    - page: Configuration
+      url: /framework/system-admin/configuration
+    - page: Maintenance
+      url: /framework/system-admin/maintenance
+    - page: Network
+      url: /framework/system-admin/network
+    - page: Security
+      url: /framework/system-admin/security
+   
+- title: Dev Ops
+  url: dev-ops
+  submenuitems:
+    - page: Overview
+      url: /framework/dev-ops/overview
+    - page: Process
+      url: /framework/dev-ops/process
+    - page: Tools
+      url: /framework/dev-ops/tools
+      
+      
+- title: Recruitment
+  url: recruitment
+  submenuitems:
+    - page: Overview
+      url: /framework/recruitment/overview
+        

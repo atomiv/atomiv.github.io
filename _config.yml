@@ -4,8 +4,7 @@ url: https://atomiv.org
 
 include: ['_pages']
 
-exclude:
-  - README.md
+exclude: ['not needed', README.md ]
 
 gems:
   - jekyll-sitemap

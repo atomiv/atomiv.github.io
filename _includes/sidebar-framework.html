@@ -2,40 +2,38 @@
     <ul class="list-unstyled components">
     <!-- site.frameworks -->
     <!--  | sort: 'order' -->
-    <!-- assign groups = site.framework -->
-    <!-- assign groups = page.collection | group_by: "category" -->
-    <!--  | split: '-'  -->
-    {% assign groups = site.framework | group_by: "category" %}
-    {% for group in groups %}
-        <li>
-            <a href="#{{ group.name }}"
-            class="{% if group.name == page.category %}active44{% endif %}"
-            data-toggle="collapse" aria-expanded="false">
+    {% for item in site.data.framework.docs %}
 
-                <!-- {{ group.name | replace: '-', ' ' | capitalize }}  -->
+    <!-- {{page.title}}_<br/> -->
+    <!-- {{item.title}}_<br /> -->
+    <!-- {{page.url}}_<br /> -->
+    <!-- {{item.url}}_<br /> -->
+    {% assign item_title_1 = item.title | downcase | replace:' ','-' %}
+    {% assign page_url_2 = page.url | replace:'/','-' | truncatewords: 2,"" | downcase %}
 
-                {% assign words = group.name | split: '-' %}
-                {% for word in words %}{{ word | capitalize | replace: 'Dotnet','.NET' }} {% endfor %} 
+    <!-- {{item_title_1}}<br/> -->
+    <!-- {{page_url_2}}<br/> -->
+    <li>
+        <a class="{% if page_url_2 contains item_title_1 %}active44{% endif %}"
+        href="#{{ item.url }}" data-toggle="collapse" aria-expanded="false">
+            {{ item.title }}
 
-                <!-- Replace {{ word | capitalize }}  with 
-                    {% if word == 'and' %}{{ word }} {% else %}{{ word | capitalize }} {% endif %}  -->
+        </a>
+        <ul class="collapse list-unstyled 
+        {% if page_url_2 contains item_title_1 %}show{% endif %}
+        " id="{{ item.url }}">
+        {% for entry in item.submenuitems %}
+            <li class="{% if entry.url == page.url %}active{% endif %}">
+                <a href="{{ entry.url }}">
+                    {{ entry.page }}
 
-            </a>
-
-            {% for item in group.items %}
-            <ul class="collapse list-unstyled 
-            {% if group.name == page.category %}show{% endif %}
-            " id="{{ group.name }}">
-                <li class="{% if item.url == page.url %}active{% endif %}">
-                    <a href="{{ item.url }}">
-                        {{ item.title }}
-                    </a>
-                </li>
-            </ul>
-            {% endfor %}
-        </li>
-        
-    {% endfor %}										
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+    </li>
+    
+{% endfor %}										
     </ul>
 </nav>
 

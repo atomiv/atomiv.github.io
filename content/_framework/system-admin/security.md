@@ -15,21 +15,20 @@ In many companies, the policy is that system administrators on most computers tu
 ## Network security
 
 Internet security is monitored and maintained using a couple of tools that many sysadmins use to secure small but vulnerable holes in their network.
-
 Small failures in the implementation of routers, firewalls, virtual private networks and virtual machines can lead to major security problems.
 
 Some free tools for system administrators:
 
-Wireshark[Wireshark](https://duckduckgo.com, https://www.wireshark.org/), a packet analyzer for sysadmins
+[Wireshark](https://www.wireshark.org/), a packet analyzer for sysadmins
 
-KeePass Password Safe, a free open source password manager
+[KeePass Password Safe](http://keepass.info/), a free open source password manager
 
-Malwarebytes, a free anti-malware and antivirus tool
+[Malwarebytes](https://www.malwarebytes.com/), a free anti-malware and antivirus tool
 
-NMAP, a powerful security scanner
+[NMAP](http://searchsecurity.techtarget.co.uk/tip/Nmap-tutorial-Nmap-scan-examples-for-vulnerability-discovery), a powerful security scanner
 
-NIKTO, an open source web server scanner
+[NIKTO](https://cirt.net/Nikto2), an open source web server scanner
 
-Ansible, a tool for automating secure IT provisioning
+[Ansible](https://www.ansible.com/), a tool for automating secure IT provisioning
 
-Metasploit, a tool for understanding attack vectors and doing penetration testing
+[Metasploit](https://www.metasploit.com/), a tool for understanding attack vectors and doing penetration testing
