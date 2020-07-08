@@ -4,5 +4,26 @@ category: quality-assurance
 ---
 
 
-This section will contain instructions for getting the template for automated Selenium tests.
+## What is automated testing
 
+This is some text.
+
+* This is a bullet point.
+* This is a bullet point.
+* This is a bullet point.
+
+## Why automated testing is relevant
+
+This is some text.
+
+* This is a bullet point.
+* This is a bullet point.
+* This is a bullet point.
+
+## What is the process of automated testing
+
+This is some text.
+
+* This is a bullet point.
+* This is a bullet point.
+* This is a bullet point.
