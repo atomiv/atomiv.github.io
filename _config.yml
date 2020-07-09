@@ -49,6 +49,8 @@ collections:
       - vladimir-maljm.md
       - jelena-mitrovic.md
       - brooke-steele.md
+  features:
+    output: true
   framework:
     output: true
     # path: /:collection/:path/
@@ -144,6 +146,11 @@ defaults:
       type: "staff_members"
     values:
       layout: "staff_member"
+  - scope:
+      path: "_features"
+      type: "features"
+    values:
+      layout: "feature"          
   - scope:
       path: "_framework"
       type: "framework"

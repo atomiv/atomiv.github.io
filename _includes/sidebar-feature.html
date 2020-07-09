@@ -1,0 +1,23 @@
+<nav id="sidebar" style="overflow: auto;">
+    <ul class="list-unstyled components">
+    {% for item in site.data.features.docs %}
+
+    {% assign item_title_1 = item.url %}
+    {% assign page_url_2 = page.url | replace:'/','-' | truncatewords: 2,"" | downcase %}
+
+    <li>
+        <!-- {{ item.url }} -->
+        <a class="{% if page_url_2 contains item_title_1 %}active44{% endif %}"
+        href="{{ item.url }}">
+            {{ item.title }}
+
+        </a>
+    </li>
+
+    
+{% endfor %}													
+    </ul>
+
+</nav>
+
+

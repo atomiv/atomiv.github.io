@@ -1,0 +1,19 @@
+# in _data folder
+
+# template_list_title: Templates
+docs:
+
+- title: Overview
+  url: /features/
+
+- title: Backend
+  url: /features/backend
+
+- title: Frontend
+  url: /features/frontend
+
+- title: QA
+  url: /features/q-a
+
+- title: Dev Ops
+  url: /features/dev-ops
