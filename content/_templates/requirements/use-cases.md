@@ -1,6 +1,6 @@
 ---
 title: Use Cases
-category: business-analysis
+category: requirements
 ---
 
 

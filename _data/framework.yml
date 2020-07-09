@@ -30,42 +30,24 @@ docs:
       url: /framework/project-management/overview
     - page: Agile
       url: /framework/project-management/agile
-    - page: Hybrid
-      url: /framework/project-management/hybrid
     - page: Communication
       url: /framework/project-management/communication
-    - page: Estimations
-      url: /framework/project-management/estimations
-    - page: Remote
-      url: /framework/project-management/remote
-    - page: Teams
-      url: /framework/project-management/teams
-    - page: Transformation
-      url: /framework/project-management/transformation
 
 - title: Business Analysis
   url: business-analysis
   submenuitems:
     - page: Overview
-      url: /framework/business-analysis/overview
-    - page: Processes
-      url: /framework/business-analysis/processes
-    - page: Use Cases
-      url: /framework/business-analysis/use-cases
-    - page: Domain
-      url: /framework/business-analysis/domain
-    - page: Applications
-      url: /framework/business-analysis/applications                        
+      url: /framework/business-analysis/overview                       
 
 - title: Software Architecture
   url: software-architecture
   submenuitems:
     - page: Overview
       url: /framework/software-architecture/overview
-    - page: Microservices
-      url: /framework/software-architecture/microservices
     - page: Domain Driven Design
       url: /framework/software-architecture/domain-driven-design
+    - page: Microservices
+      url: /framework/software-architecture/microservices
     - page: Clean Architecture
       url: /framework/software-architecture/clean-architecture
     - page: Layers

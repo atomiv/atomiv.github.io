@@ -1,6 +1,6 @@
 ---
 title: Domain
-category: business-analysis
+category: requirements
 ---
 
 

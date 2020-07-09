@@ -44,3 +44,14 @@ Therefore, we would like to separate those two and write down what one PM should
   
 Depending on type of service or product your company is creating, projects can be managed in two different principles, waterfall and agile. In the following sections, you will be able to see difference between these two.  
 
+## Building strong teams
+
+Some text.
+
+## Transforming processes and teams
+
+Some text
+
+## Managing remote teams
+
+Some text

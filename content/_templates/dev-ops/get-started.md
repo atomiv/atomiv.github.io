@@ -3,17 +3,13 @@ title: Get Started
 category: dev-ops
 ---
 
-
-
-DevOps Template - Containerization
+## DevOps Template - Containerization
 
 ### Task 1 - containerization
 
-#### Prerequisites
+#### Objectives
 
-* Installed [Docker](https://docs.docker.com/get-docker/) to build image and run container.
-
-#### Goal is to containerize (dockerize) Spring Boot application. A sample application prints out a text message in web browser.  
+Goal is to containerize (dockerize) Spring Boot application. A sample application prints out a text message in web browser.  
 HelloController.java snippet:
 ```
 @RestController
@@ -26,6 +22,10 @@ public class HelloController {
 }
 ```
 Documentation is available at https://atomiv.org/java/get-started
+
+#### Prerequisites
+
+* Installed [Docker](https://docs.docker.com/get-docker/) to build image and run container.
   
 Get a copy of the sample code.
 ```
@@ -37,9 +37,14 @@ Change to **template.web.restapi** directory.
 cd atomiv-java/template.web.restapi
 ```
 
-Create a Dockerfile, for instance **template.web.restapi.Dockerfile** uses multistage build feature to optimize the image build process. 
+Create a new Dockerfile, for instance **template.web.restapi.Dockerfile** uses multistage build feature to optimize the image build process. 
+
+Note, the image sources are from:
+* https://hub.docker.com/_/maven
+* TODO: BB: Insert what is the source for images for JRE?
+
 ```
-FROM maven:3.6.3-ibmjava-8-alpine AS builder
+FROM maven:3.6.3-openjdk-14-slim
 WORKDIR /app
 COPY ./pom.xml ./
 RUN mvn dependency:go-offline -B
@@ -47,7 +52,7 @@ COPY ./src ./src/
 RUN mvn package
 
 
-FROM openjdk:8-jre-alpine
+FROM openjdk:14-jdk-slim
 WORKDIR /app
 COPY --from=builder /app/target/template.web.restapi-0.0.1-SNAPSHOT.jar ./
 EXPOSE 8080
@@ -104,15 +109,7 @@ docker rmi $(docker images -a -q)
 ```
 
 <!--
-
 FUTURE: when committing, automate the whole process
-
-
-
 TODO: VC CHECK: initially laptop, then virtual machine on server  for long term
-
-
-Demo -> laptop -> screencast recording (VC)
-
-
+Demo - laptop - screencast recording (VC)
 -->
