@@ -52,10 +52,10 @@ docs:
   submenuitems:
     - page: Overview
       url: /framework/software-architecture/overview
-    - page: Microservices
-      url: /framework/software-architecture/microservices
     - page: Domain Driven Design
       url: /framework/software-architecture/domain-driven-design
+    - page: Microservices
+      url: /framework/software-architecture/microservices
     - page: Clean Architecture
       url: /framework/software-architecture/clean-architecture
     - page: Layers
