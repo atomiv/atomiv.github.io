@@ -49,4 +49,10 @@ Still, Scrum have some basics which should be followed:
 * Daily standup meetings:
 * Grooming: 
 
+## Hybrid Agile
 
+Some text.
+
+## Estimations
+
+Some text.
