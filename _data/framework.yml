@@ -37,15 +37,7 @@ docs:
   url: business-analysis
   submenuitems:
     - page: Overview
-      url: /framework/business-analysis/overview
-    - page: Processes
-      url: /framework/business-analysis/processes
-    - page: Use Cases
-      url: /framework/business-analysis/use-cases
-    - page: Domain
-      url: /framework/business-analysis/domain
-    - page: Applications
-      url: /framework/business-analysis/applications                        
+      url: /framework/business-analysis/overview                       
 
 - title: Software Architecture
   url: software-architecture

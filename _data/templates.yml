@@ -14,6 +14,14 @@ docs:
   submenuitems:
     - page: Get Started
       url: /templates/requirements/get-started
+    - page: Processes
+      url: /templates/requirements/processes
+    - page: Use Cases
+      url: /templates/requirements/use-cases
+    - page: Domain
+      url: /templates/requirements/domain
+    - page: Applications
+      url: /templates/requirements/applications 
 
 - title: .NET
   url: dotnet
