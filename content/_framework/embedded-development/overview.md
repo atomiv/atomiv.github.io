@@ -22,9 +22,13 @@ Embedded processors often use a battery as an energy source. Therefore it is nec
  * Smartphone
  * Missile
  
-
-
+ 
 ## Some heading
+
+The final product should not have an overhead... 
+Additional memory is a good thing though ...
+Bootloader ...
+Memory laoyout ...
 
 This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph.
 
