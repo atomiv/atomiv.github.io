@@ -44,7 +44,7 @@ Note, the image sources are from:
 * TODO: BB: Insert what is the source for images for JRE?
 
 ```
-FROM maven:3.6.3-openjdk-14-alpine AS builder
+FROM maven:3.6.3-openjdk-14-slim
 WORKDIR /app
 COPY ./pom.xml ./
 RUN mvn dependency:go-offline -B
