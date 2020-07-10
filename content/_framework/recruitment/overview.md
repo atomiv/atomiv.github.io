@@ -83,13 +83,13 @@ In the talent landscape of 2020, the process of identification is indelibly entw
 
 One of our biggest data sets for software engineers is LinkedIn, so we might use this platform as our primary locus of talent identification. But, every online database that is publicly/privately accessible, can be queried for relevant results. Github, StackOverflow, Job Boards, Meetup, Event Databases, University Lists (and so on) can be used along similar lines. The querying syntax and the UI will differ, but the fundamentals should remain similar.
 
-Example Search Query: (”software engineer” OR “senior engineer” OR “senior software”) AND (observability OR metrics OR traces OR logs OR tracing OR logging) AND (c++ OR golang)
+   - Example Search Query: (”software engineer” OR “senior engineer” OR “senior software”) AND (observability OR metrics OR traces OR logs OR tracing OR logging) AND (c++ OR golang)
 
 This is starter search-string, intended to give us enough information to conduct the next segment of our search. By trawling the results from the starter-search, we equip ourselves with a library of keywords, market data and pattern data which enables us to continually iterate on our query formulation. Each current stage of the search powers the subsequent stage, from an information perspective. So our next two searches may look like this:
 
-Example Search Query #2: (”software engineer” OR “senior engineer” OR “senior software”) AND (observability) AND (metrics OR traces OR logs OR tracing OR logging) AND (c++ OR golang) NOT (director OR principal OR chief OR freelance OR freelancer OR contractor)
+   - Example Search Query #2: (”software engineer” OR “senior engineer” OR “senior software”) AND (observability) AND (metrics OR traces OR logs OR tracing OR logging) AND (c++ OR golang) NOT (director OR principal OR chief OR freelance OR freelancer OR contractor)
 
-Example Search Query #3: (”software engineer” OR “senior engineer” OR “senior software”) AND (observability) AND (metrics OR traces OR logs OR tracing OR logging OR monitoring OR aggregation) AND (c++ OR golang) NOT (director OR principal OR chief OR freelance OR freelancer OR contractor OR "devops engineer" OR recruiter OR "engineering manager")
+   - Example Search Query #3: (”software engineer” OR “senior engineer” OR “senior software”) AND (observability) AND (metrics OR traces OR logs OR tracing OR logging OR monitoring OR aggregation) AND (c++ OR golang) NOT (director OR principal OR chief OR freelance OR freelancer OR contractor OR "devops engineer" OR recruiter OR "engineering manager")
 
 This process can be repeated ad infinitum. Typically, OR clauses will increase the number of results returned, whereas AND/NOT clauses will reduce the number of results returned. By consciously controlling this interplay between the widening and narrowing of results, we can maximize our chances of identiying the right people with the right skills in the right places.
 
@@ -106,18 +106,18 @@ We need to make sure that the messaging is carefully scripted, trying to optimiz
 
 We might come up with the following intro message:
 
-Name,
+*Name,
 
-I’ve read all about your work @ insert_company_name doing insert_personalized_content.
+*I’ve read all about your work @ insert_company_name doing insert_personalized_content.
 
-We are a Berlin based engineering team focused on setting the direction of Observability for the next 10-20 years. After working in Google’s Distributed Tracing team for a combined 30+ years, we realized that it’s possible and preferable to combine Metrics, Traces & Logs under one single intuitive UI. Check out our backgrounds here and here, or check out our demo here.
+*We are a Berlin based engineering team focused on setting the direction of Observability for the next 10-20 years. After working in Google’s Distributed Tracing team for a combined 30+ years, we realized that it’s possible and preferable to combine Metrics, Traces & Logs under one single intuitive UI. Check out our backgrounds here and here, or check out our demo here.
 
-After securing $3M in Series A funding from our preferred investors, we’re looking to scale the Backend engineering team with further energy, knowledge and enthusiasm. From what we’ve read about your background, you would be a perfect fit. Please take a look at the formal requirements here.
+*After securing $3M in Series A funding from our preferred investors, we’re looking to scale the Backend engineering team with further energy, knowledge and enthusiasm. From what we’ve read about your background, you would be a perfect fit. Please take a look at the formal requirements here.
 
-Would you be open to jumping on a call to discuss in more detail?
+*Would you be open to jumping on a call to discuss in more detail?
 
-Best regards,
-Recruiter 
+*Best regards,
+*Recruiter 
 
 The messaging must be continually improved, updated, critiqued, and optimized (A/B testing, hiring manager feedback, cross-team collaboration etc). 
 
@@ -176,9 +176,11 @@ Now that all of this work has been done, it's essential that a thorough on-board
    - budget
    - market conditions
    - need to screen v need to sell
+   
 * There is no singular best solution to this optimization challenge.
    - all you can do is find the best model for your given organisational needs
    - it will require thinking about the organisation across multiple dimensions: marketing, sales, engineering, biz ops, public relations etc
+   
 * Recruiting is a team game, and requires great planning, communication, collaboration and agility
    - everyone in the business can be a recruiter
    - a healthy recruiting function is a good indicator of a healthy business
