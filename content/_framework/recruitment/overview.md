@@ -18,7 +18,7 @@ Below is a set of resources which may be useful if you want to explore any of th
 * https://builtin.com/tech-recruiter-resources
 * https://theundercoverrecruiter.com/
 
-Email me at fergus.obrien.navstar@gmail.com if you would like more detail on any of these topics, or if you have suggestions to improve the clarity, structure or content of this schematic outline.
+
 
 
 ## Define
@@ -187,3 +187,7 @@ Now that all of this work has been done, it's essential that a thorough on-board
    - everyone in the business can be a recruiter
    - a healthy recruiting function is a good indicator of a healthy business
       
+
+## Contact
+
+You can email fergus.obrien.navstar@gmail.com if you would like more detail on any of these topics, or if you have suggestions to improve the clarity, structure or content of this schematic outline.
