@@ -20,9 +20,9 @@ Embedded processors often use a battery as an energy source. Therefore it is nec
  the product to take situations into account. The software developed is targeting special use cases. 
  
  Some procudts that belong to the category of embedded systems:
- * Pacemaker
- * Smartphone
- * Missile
+ * Pacemaker - e.g. reads the heart beat
+ * Smartphone - e.g. gets notification of incoming call and needs to take action in order to present that information to the user.
+ * Missile - e.g. searches and follows it target even if the target is turning, increasing its speed or throwing out decoy.
  
  
 ## Some heading
