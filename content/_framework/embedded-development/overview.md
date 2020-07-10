@@ -19,7 +19,7 @@ Embedded Development is about developing software that is executed on an embedde
 Embedded processors often use a battery as an energy source. Therefore it is necessary to keep in mind not to consume unnecessary energy when that is not needed. Such situation can be to reduce the speed that the processor is executing the software. However the developer needs to develop the software . Another solution can be to put the microcontroller in a sleep mode. In that case it needs to be woken up, which is also the task of the developer to know what can be important in order to wake up the microcontroller.
  the product to take situations into account. The software developed is targeting special use cases. 
  
- Some procudts that belong to the category of embedded systems:
+ Some products that belong to the category of embedded systems:
  * Pacemaker - e.g. reads the heart beat
  * Smartphone - e.g. gets notification of incoming call and needs to take action in order to present that information to the user.
  * Missile - e.g. searches and follows it target even if the target is turning, increasing its speed or throwing out decoy.
