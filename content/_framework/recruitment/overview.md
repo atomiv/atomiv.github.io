@@ -11,12 +11,7 @@ Each set of recruiting activities is heavily dependent upon the specific organis
 
 What we'll do in this article is explore the fictional use case of a Berlin-based startup building Observability software, in order to examine the common threads of a well-designed recruitment lifecycle, and outline the different considerations involved at each stage.
 
-Below is a set of resources which may be useful if you want to explore any of these topics in greater detail:
-* http://booleanblackbelt.com/
-* https://www.sourcing.games/
-* https://www.socialtalent.com/blog
-* https://builtin.com/tech-recruiter-resources
-* https://theundercoverrecruiter.com/
+
 
 
 
@@ -186,7 +181,15 @@ Now that all of this work has been done, it's essential that a thorough on-board
 * Recruiting is a team game, and requires great planning, communication, collaboration and agility
    - everyone in the business can be a recruiter
    - a healthy recruiting function is a good indicator of a healthy business
-      
+
+## Resources
+
+Below is a set of resources which may be useful if you want to explore any of these topics in greater detail:
+* http://booleanblackbelt.com/
+* https://www.sourcing.games/
+* https://www.socialtalent.com/blog
+* https://builtin.com/tech-recruiter-resources
+* https://theundercoverrecruiter.com/
 
 ## Contact
 
