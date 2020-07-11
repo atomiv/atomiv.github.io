@@ -13,7 +13,7 @@ Also Android open source
 ## What is Embedded Systems
 
 According to Encyclopedia Brittanica “Embedded processor, a class of computer, or computer chip, embedded in various machines”.
-Embedded systems can be thought of as a device that contains or incorporates a microcontroller, which has memory encapsulated inside, contains softare making it possible to commuicate with its peripheral such as sensors through its Pins. The communication is following standardised pattern called "protocol". 
+Embedded systems can be thought of as a device that contains or incorporates a microcontroller, which has memory encapsulated inside, contains sofwtare making it possible to commuicate with its peripheral such as sensors through its Pins and execute tasks. The communication with its peripherals is following a standardised pattern, called "protocol". 
 
 When buying a new washing machine nowadays you can most likely be certains of that it has a micocontroller inside. It is communicating with its periherals in order to e.g. know at what speed the washing machine drum is rotating. Depending on the current speed, which the microcontroller knows by reading/getting the data from its peripheral it knows if it should send (write data) and increase or decrease the speed, all depending on the current washing program. Embedded systems can be thought as an autonomous systems which has already preset parameters to follow during the executing, in this case a certain washing program with temperature, water level and rotating speed. Embedded system is developed for handling certain purpose. Some products that belong to the category of embedded systems:
 
@@ -21,8 +21,13 @@ When buying a new washing machine nowadays you can most likely be certains of th
  * Smartphone - e.g. gets notification of incoming call and needs to take action in order to present that information to the user.
  * Missile - e.g. searches and follows it target even if the target is turning, increasing its speed or throwing out decoy.
  
-The purpose is broken down into requirements in a phase before starting the implementaion. E.g. if an accessory of a smartphone is to be developed there is a certain requiarement about how much current the accessory is allowed to draw. Accoridng to that requirement there has to be investigation made in finding the correct microcontroller that consumes maximum the allowed energy according to the requirement. 
+The products above are targeting certain purpose and the embedded microcontroller executes the code, reads the data from its peripheral and based on the input continues to execute or makes some changes to the system, which is mention in the bullets above.
+
+
+The purpose is defined in requirements in a phase before the implementaion. E.g. if an accessory of a smartphone is to be developed one requirement is a certainly about how much current the accessory is allowed to draw from the smartphone. Accoridng to that requirement there has to be investigation made in finding the correct microcontroller that consumes maximum energy, according to the requirement. 
  
+
+
 
 They contain a processor or microcontroller that are executing the code. The processor can read the data from its sensors, i.e. thermometer and perform an action such as turn the fridge on if the temperature has increased beyond a treshold. 
 Embedded Development is about developing software that is executed on an embedded processor.
