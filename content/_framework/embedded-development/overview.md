@@ -21,7 +21,7 @@ When buying a new washing machine nowadays you can most likely be certains of th
  * Smartphone - e.g. gets notification of incoming call and needs to take action in order to present that information to the user.
  * Missile - e.g. searches and follows it target even if the target is turning, increasing its speed or throwing out decoy.
  
-The requirements are determined in the phase before starting the implementaion, this phase is called requirements phase. E.g. if an accessory of a smartphone is to be developed there is a certain requiarement about how much current the accessory is allowed to draw. Accoridng to that requirement there has to be investigation made in finding the correct microcontroller that consumes maximum the allowed energy according to the requirement. 
+The purpose is broken down into requirements in a phase before starting the implementaion. E.g. if an accessory of a smartphone is to be developed there is a certain requiarement about how much current the accessory is allowed to draw. Accoridng to that requirement there has to be investigation made in finding the correct microcontroller that consumes maximum the allowed energy according to the requirement. 
  
 
 They contain a processor or microcontroller that are executing the code. The processor can read the data from its sensors, i.e. thermometer and perform an action such as turn the fridge on if the temperature has increased beyond a treshold. 
