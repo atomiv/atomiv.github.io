@@ -26,28 +26,5 @@ Embedded processors often use a battery as an energy source. Therefore it is nec
  * Smartphone - e.g. gets notification of incoming call and needs to take action in order to present that information to the user.
  * Missile - e.g. searches and follows it target even if the target is turning, increasing its speed or throwing out decoy.
  
- 
-## Some heading
-
-The final product should not have an overhead... 
-Additional memory is a good thing though ...
-Bootloader ...
-Memory laoyout ...
-
-This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph.
-
-* This is a bullet point.
-* This is a bullet point.
-* This is a bullet point.
-
-## Some heading
-
-This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph. This is paragraph.
-
-* This is a bullet point.
-* This is a bullet point.
-* This is a bullet point.
-
-
 
 
