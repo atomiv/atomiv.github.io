@@ -1,0 +1,5 @@
+Architecture,.NET,Java
+Entities,y,n
+Value Objects,y,n
+Domain Services,y,n
+Repository Interfaces,y,n

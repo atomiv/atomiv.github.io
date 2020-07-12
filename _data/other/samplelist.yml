@@ -1,0 +1,26 @@
+toc:
+  - title: Group 1
+    subfolderitems:
+      - page: Thing 1
+      - page: Thing 2
+      - page: Thing 3
+  - title: Group 2
+    subfolderitems:
+      - page: Piece 1
+      - page: Piece 2
+      - page: Piece 3
+
+
+backend-features:
+  - title: Architecture
+    subfolderitems:
+      - page: Domain Layer
+      - page: Application Layer
+      - page: Infrastructure Layer
+      - page: Web Layer
+  - title: Application Layer
+    subfolderitrms:
+      - page: Commands
+      - page: Queries
+      - page: Command handlers
+      - page: Application Context

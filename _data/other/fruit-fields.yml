@@ -1,0 +1,16 @@
+apple:
+  field: "<code>apple</code>"
+  description: >
+    <p>A round red fruit that tastes tart, sweet, and crisp.</p>
+  required: false
+  type: "String"
+  values: "<p><i>Example</i>: <code>Honeycrisp</code>, <code>Pink Lady</code></p>"
+
+
+orange:
+  field: "Orange"
+  description: >
+    <p>A small orange-colored fruit divided into sections with a sweet and juicy taste.</p>
+  required: false
+  type: "String"
+  values: "<p><i>Example</i>: <code>Navel</code>, <code>Minneola</code></p>"

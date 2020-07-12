@@ -13,7 +13,7 @@ docs:
   url: /features/frontend
 
 - title: QA
-  url: /features/q-a
+  url: /features/qa
 
-- title: Dev Ops
-  url: /features/dev-ops
+- title: DevOps
+  url: /features/devops
