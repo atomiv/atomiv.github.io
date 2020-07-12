@@ -108,9 +108,9 @@ collections:
       - system-admin/network.md
       - system-admin/security.md
 
-      - dev-ops/overview.md
-      - dev-ops/process.md
-      - dev-ops/tools.md
+      - devops/overview.md
+      - devops/process.md
+      - devops/tools.md
 
       - recruitment/overview.md
   templates:
@@ -132,7 +132,7 @@ collections:
 
       - selenium/get-started.md
 
-      - dev-ops/get-started.md
+      - devops/get-started.md
 
   
 defaults:

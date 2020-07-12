@@ -109,15 +109,15 @@ docs:
     - page: Security
       url: /framework/system-admin/security
    
-- title: Dev Ops
-  url: dev-ops
+- title: DevOps
+  url: devops
   submenuitems:
     - page: Overview
-      url: /framework/dev-ops/overview
+      url: /framework/devops/overview
     - page: Process
-      url: /framework/dev-ops/process
+      url: /framework/devops/process
     - page: Tools
-      url: /framework/dev-ops/tools
+      url: /framework/devops/tools
       
       
 - title: Recruitment

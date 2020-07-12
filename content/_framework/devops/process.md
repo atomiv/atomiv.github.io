@@ -1,6 +1,6 @@
 ---
 title: Process
-category: dev-ops
+category: devops
 ---
 
 

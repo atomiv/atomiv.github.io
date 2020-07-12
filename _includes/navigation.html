@@ -112,7 +112,7 @@
 
                       {% assign words = subcategory.subtitle | split: '-' %}
                       {% for word in words %}
-                        {{ word | capitalize | replace: 'Dotnet','.NET' }}
+                        {{ word | capitalize | replace: 'Dotnet','.NET' | replace: 'Devops','DevOps' }}
                       {% endfor %}
 
                     </a>

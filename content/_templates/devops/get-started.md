@@ -1,6 +1,6 @@
 ---
 title: Get Started
-category: dev-ops
+category: devops
 ---
 
 ## DevOps Template - Containerization
@@ -108,8 +108,11 @@ Delete all images.
 docker rmi $(docker images -a -q)
 ```
 
-<!--
-FUTURE: when committing, automate the whole process
+
+
+
+
+{% comment %} FUTURE: when committing, automate the whole process
 TODO: VC CHECK: initially laptop, then virtual machine on server  for long term
-Demo - laptop - screencast recording (VC)
--->
+Demo - laptop - screencast recording (VC) {% endcomment %}
+

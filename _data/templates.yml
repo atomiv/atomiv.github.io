@@ -35,11 +35,11 @@ docs:
     - page: Get Started
       url: /templates/selenium/get-started
 
-- title: Dev Ops
-  url: dev-ops
+- title: DevOps
+  url: devops
   submenuitems:
     - page: Get Started
-      url: /templates/dev-ops/get-started
+      url: /templates/devops/get-started
 
 - title: Estimations
   url: estimations
