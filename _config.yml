@@ -150,12 +150,12 @@ defaults:
       path: "_features"
       type: "features"
     values:
-      layout: "feature"          
+      layout: "sidebar-feature"          
   - scope:
       path: "_framework"
       type: "framework"
     values:
-      layout: "framework"      
+      layout: "sidebar-framework"      
   - scope:
       path: ""
       type: "posts"
@@ -165,7 +165,7 @@ defaults:
       path: "_templates"
       type: "templates"
     values:
-      layout: "template"
+      layout: "sidebar-template"
   # - scope:
   #     path: ""
   ###   type: "pages"

@@ -109,10 +109,7 @@ docker rmi $(docker images -a -q)
 ```
 
 
-
-
-
-{% comment %} FUTURE: when committing, automate the whole process
+<!-- FUTURE: when committing, automate the whole process
 TODO: VC CHECK: initially laptop, then virtual machine on server  for long term
-Demo - laptop - screencast recording (VC) {% endcomment %}
+Demo - laptop - screencast recording (VC) -->
 

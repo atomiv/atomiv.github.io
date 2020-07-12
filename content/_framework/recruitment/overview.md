@@ -8,7 +8,7 @@ category: recruitment
 Recruitment - in the context of collaborative technology projects - denotes a broad set of business processes and human activities that enable cross-functional teams to optimize their collective efficacy by adding complimentary skillsets, hard and soft.
 
 
-{% comment %} What's the importance of recruitment for companies? How does it affect company success? Why are recruiters? Why processes are important in recruitment? Optimization sentence. .... for top management audience.... How is recruitment related to company ROI, people assets {% endcomment %}
+<!-- What's the importance of recruitment for companies? How does it affect company success? Why are recruiters? Why processes are important in recruitment? Optimization sentence. .... for top management audience.... How is recruitment related to company ROI, people assets -->
 
 
 Each set of recruiting activities is heavily dependent upon the specific organisational needs, and will differ substantially from case to case. However, there are a set of core ingredients that form the kernel of a typical recruitment process.
@@ -18,7 +18,7 @@ What we'll do in this article is explore the fictional use case of a Berlin-base
 ## Roles
 
 
-{% comment %} List of roles: Recruiter, Recruitment Project Manager, Founding team .... roles and responsibilities (what the role is and what are the responsibilities covered by role) {% endcomment %}
+<!-- List of roles: Recruiter, Recruitment Project Manager, Founding team .... roles and responsibilities (what the role is and what are the responsibilities covered by role) -->
 
 
 * Recruiter
@@ -28,7 +28,7 @@ What we'll do in this article is explore the fictional use case of a Berlin-base
 * Candidate
 
 
-{% comment %} Sometimes there's mutliple people taking on roles, or in smaller companies one person takes on these roles... Also someone might not have a formal designation, e.g. for a smaller company the founder or software developers could be recruiters {% endcomment %}
+<!-- Sometimes there's mutliple people taking on roles, or in smaller companies one person takes on these roles... Also someone might not have a formal designation, e.g. for a smaller company the founder or software developers could be recruiters -->
 
 
 ## Process
@@ -36,10 +36,10 @@ What we'll do in this article is explore the fictional use case of a Berlin-base
 ### Define
 
 
-{% comment %} TODO: to define the organisational needs - EXPAND, for top management audience {% endcomment %}
+<!-- TODO: to define the organisational needs - EXPAND, for top management audience -->
 
 
-{% comment %} TODO: recruitment roadmap - EXPAND, for top management audience... what's in a roadmpa, maybe some examples {% endcomment %}
+<!-- TODO: recruitment roadmap - EXPAND, for top management audience... what's in a roadmpa, maybe some examples -->
 
 
 The primary recruiter and the key stakeholders must get together to define the organisational needs, and lay out a recruitment roadmap for a given time period. In many cases, this may mean looking forward across the coming 12 month period, and then breaking that down further in terms of prioritisation.
@@ -68,7 +68,7 @@ Once we have this high-level overview, and have reconciled it with the annual hi
      - interested by specific technical challenge
 
 
-{% comment %} Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases {% endcomment %}
+<!-- Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases -->
 
      
 **Define the Interview Process**, in terms of the following:
@@ -85,7 +85,7 @@ Once we have this high-level overview, and have reconciled it with the annual hi
 There are going to be some recurring resources that we need throughout the recruiting process. Because this is a hybrid exercise, most of these resources will fall under the category of marketing materials. So we make an index of the available resources at our disposal:
 
 
-{% comment %} Before starting interviews, you'll know who the company is, what they do, how they differentiate themselves, what the culture looks like.... give people resources instead of addressing it directly.... you start to look at org as outsider, where would someone find info... neeed to make sure everyone on the team (recruiters / intervewsi) knows where they are and can link to them... Mostly useful for recruiters but also a marketing exercise. Better attract talent.... Linking to optimization - knhowledge is centralized accessbile, avoiding re-explaining same topics... and also consistent messaging between recruitment and hiring and founders, everyone on panel similar language... this is like project management {% endcomment %}
+<!-- Before starting interviews, you'll know who the company is, what they do, how they differentiate themselves, what the culture looks like.... give people resources instead of addressing it directly.... you start to look at org as outsider, where would someone find info... neeed to make sure everyone on the team (recruiters / intervewsi) knows where they are and can link to them... Mostly useful for recruiters but also a marketing exercise. Better attract talent.... Linking to optimization - knhowledge is centralized accessbile, avoiding re-explaining same topics... and also consistent messaging between recruitment and hiring and founders, everyone on panel similar language... this is like project management -->
 
 
 
@@ -99,7 +99,7 @@ There are going to be some recurring resources that we need throughout the recru
 
 
 
-{% comment %} Clarification: These are factors regarding which employees to target vs avoid, based on the companies they work in... demands and restrictions and availabilities {% endcomment %}
+<!-- Clarification: These are factors regarding which employees to target vs avoid, based on the companies they work in... demands and restrictions and availabilities -->
 
 
 
@@ -132,7 +132,7 @@ This process can be repeated ad infinitum. Typically, **OR clauses** will increa
 
 
 
-{% comment %} Start off with a query, learn from the results, and then iteratively refine the query {% endcomment %}
+<!-- Start off with a query, learn from the results, and then iteratively refine the query -->
 
 
 
@@ -140,7 +140,7 @@ This process can be repeated ad infinitum. Typically, **OR clauses** will increa
 
 
 
-{% comment %} How does a recruiter establish contact with potential candidates? {% endcomment %}
+<!-- How does a recruiter establish contact with potential candidates? -->
 
 
 
@@ -169,9 +169,7 @@ We might come up with the following intro message:
 *Recruiter* 
 
 
-
-{% comment %} TODO: VC: Move over to templates section, the template will be referenced {% endcomment %}
-
+<!-- TODO: VC: Move over to templates section, the template will be referenced  -->
 
 
 The messaging must be continually improved, updated, critiqued, and optimized (A/B testing, hiring manager feedback, cross-team collaboration etc). 
@@ -254,7 +252,5 @@ Below is a set of resources which may be useful if you want to explore any of th
 You can email fergus.obrien.navstar@gmail.com if you would like more detail on any of these topics, or if you have suggestions to improve the clarity, structure or content of this schematic outline.
 
 
-
-
-{% comment %} TODO: VC: authors link, checking regarding spam bots and email addresses {% endcomment %}
+<!-- TODO: VC: authors link, checking regarding spam bots and email addresses -->
 

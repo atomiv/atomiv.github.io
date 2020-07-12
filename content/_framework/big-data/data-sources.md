@@ -3,10 +3,6 @@ title: Data Sources
 category: big-data
 ---
 
-{% comment %}
-    templates page
-{% endcomment %}
-        
         
 ## Overview
 

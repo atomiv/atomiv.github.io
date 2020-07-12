@@ -4,7 +4,7 @@
 docs:
 
 - title: Overview
-  url: /features
+  url: /features/overview
 
 - title: Backend
   url: /features/backend

@@ -5,12 +5,12 @@ category: project-management
 
 ## Internal communication
 
-{% comment %} TODO: Tamara {% endcomment %}
+<!-- TODO: Tamara -->
 
-{% comment %} TODO: Valentina {% endcomment %}
+<!-- TODO: Valentina -->
 
 ## Internal communication
 
-{% comment %} TODO: Tamara {% endcomment %}
+<!-- TODO: Tamara -->
 
-{% comment %} TODO: Valentina {% endcomment %}
+<!-- TODO: Valentina -->
