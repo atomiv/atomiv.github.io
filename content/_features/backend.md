@@ -2,7 +2,7 @@
 title: Backend
 ---
 
-<!-- <h2>Technical Features</h2> -->
+<h2>Technical Features</h2>
 
 
   {% for backend_hash in site.data.backend %}
