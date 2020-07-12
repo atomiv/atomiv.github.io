@@ -45,7 +45,6 @@ $('#sidebarCollapse').on('click', function () {
             // $('.overlay44').toggleClass('active');
             // console.log('sidebar opened');
 
-
             if ($('.navbar-collapse').is(':visible')) {
                 // console.log('navbar opened prior');
             } else {
@@ -63,12 +62,22 @@ $('#sidebarCollapse').on('click', function () {
             }
         });
         // ---------------------------------------
+        $('#sidebarCollapse3').on('click', function () {
+            $('#sidebar3').toggleClass('active');
+
+            if ($('.navbar-collapse').is(':visible')) {
+            } else {
+                $('.overlay44').toggleClass('active');
+            }
+        });
+        // ---------------------------------------
         $('.navbar-toggler').on('click', function () {
 
             if ($('#sidebar').hasClass('active')) {
                 // console.log('overlay visible');
             } else if ($('#sidebar2').hasClass('active')) {
                 // console.log('overlay visible2');
+            } else if ($('#sidebar3').hasClass('active')) {
             } else {
                 $('.overlay44').toggleClass('active');
                 // console.log('overlay not visible');
@@ -76,6 +85,7 @@ $('#sidebarCollapse').on('click', function () {
 
             $('#sidebar').removeClass('active');
             $('#sidebar2').removeClass('active');
+            $('#sidebar3').removeClass('active');
             
         });
         // ----------------------------------
@@ -84,6 +94,7 @@ $('#sidebarCollapse').on('click', function () {
             $('.overlay44').removeClass('active');
             $('#sidebar').removeClass('active');
             $('#sidebar2').removeClass('active');
+            $('#sidebar3').removeClass('active');
         });
         // -------------------------------
 

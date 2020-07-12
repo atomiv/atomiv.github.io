@@ -70,7 +70,7 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
-#sidebar {
+.sidebar {
     min-width: 288px;
     max-width: 288px;
     // JC
@@ -102,13 +102,13 @@ a, a:hover, a:focus {
     }
 }
 
-#sidebar ul.components {
+.sidebar ul.components {
     padding: 1rem 0; // or 1rem or 1.5
     // line under all links
     // border-bottom: 1px solid #47748b;
 }
 
-#sidebar ul li a {
+.sidebar ul li a {
     // heading padding -------------------------------
     // padding: 10px;
     // padding: 10px 2rem;
@@ -125,7 +125,7 @@ a, a:hover, a:focus {
     display: block;
     // margin-left: 1.5rem; // v2 2rem
 }
-#sidebar ul li a:hover {
+.sidebar ul li a:hover {
     // color: rgb(213, 115, 172);
     background: #fff;
     background: rgba(16, 119, 212, 0.1);
@@ -134,7 +134,7 @@ a, a:hover, a:focus {
 .active44 {
     color: $primary !important;
 }
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+.sidebar ul li.active > a, a[aria-expanded="true"] {
     // heading active---------------------------------------
     // only one should be highlighted
     // color: $primary;
@@ -142,7 +142,7 @@ a, a:hover, a:focus {
     // border-left: 5px solid #158ffa; // #1077d4 // v2
     // margin-left: 1.5rem; // v2 calc(1.5rem - 5px)
 }
-#sidebar ul li {
+.sidebar ul li {
     // a:active, 
     a.active {
         // background-color: pink !important;
@@ -168,7 +168,7 @@ ul ul li {
     }
 }
 
-#sidebar.active {
+.sidebar.active {
     margin-left: -288px;
     // activated when there is a sidenav and toggle button is clicked
     // -webkit-transition: margin .25s ease-out;
@@ -190,10 +190,10 @@ a[data-toggle="collapse"] {
 // ------------
 // sidebar disappears < md
 @media (max-width: 768px) {
-    #sidebar {
+    .sidebar {
         margin-left: -288px;
     }
-    #sidebar.active {
+    .sidebar.active {
         margin-left: 0;
     }
 }
@@ -333,9 +333,9 @@ aside {
 
 }
 
-.sidebar {
-    display: flex;
-}
+// .sidebar {
+//     display: flex;
+// }
 
 // -------------------
 .template-content {
@@ -433,73 +433,3 @@ aside {
     }
 }
 
-
-// ============================================
-//  sidebar2
-
-#sidebar2 {
-    min-width: 288px;
-    max-width: 288px;
-    margin-top: 60px; // yes
-    background: $gray-100;
-    background: white;
-    background: rgba(16, 119, 212, 0.07);
-    background: mix($primary, #fff, 7%); // .25
-    color: $gray-900;
-    transition: all 0.3s; // .25s
-    overflow-y: scroll;
-    height: calc(100vh - 60px);
-    @include media-breakpoint-down(sm) {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 999;
-    }
-}
-
-#sidebar2 ul.components {
-    padding: 1rem 0; // or 1rem or 1.5
-}
-
-#sidebar2 ul li a {
-    padding: 10px 2rem; // 1.5 - 2 squares
-    padding-left: 2rem; // or 4 // used to be 2 // 5 is PRETTY
-    @include media-breakpoint-down(sm) {
-        padding-left: 2rem;
-    }
-    @media (max-width: 500px) {
-        padding-left: 2rem;
-    }
-    font-size: 1rem;
-    font-weight: 600;
-    display: block;
-}
-#sidebar2 ul li a:hover {
-    background: #fff;
-    background: rgba(16, 119, 212, 0.1);
-}
-
-#sidebar2 ul li.active > a, a[aria-expanded="true"] {
-    font-weight: 600;
-}
-#sidebar2 ul li {
-    a.active {
-        color: $primary !important;
-    }
-}
-
-
-#sidebar2.active {
-    margin-left: -288px;
-}
-
-
-@media (max-width: 768px) {
-    #sidebar2 {
-        margin-left: -288px;
-    }
-    #sidebar2.active {
-        margin-left: 0;
-    }
-}
-// ---------------------
