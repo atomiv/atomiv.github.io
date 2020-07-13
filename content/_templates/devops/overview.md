@@ -1,6 +1,6 @@
 ---
 title: Overview
-category: dev-ops
+category: devops
 ---
 
 Welcome to the DevOps template.
