@@ -1,5 +1,5 @@
 ---
-# layout: page
+layout: sidebar-feature
 title: Work efficiently with Atomiv
 description: Features
 figure-class: figure-features
@@ -9,12 +9,12 @@ alt: features
 ---
 
 
-
 <!-- Promo / Benefits -->
 <article class="ov-benefits22">
-    <div class="container">
+    <!-- <div class="container"> -->
         <!-- row 1 -->
         <div class="row ov-benefits-row ov-padding-row">
+            <!-- col-md-4 -->
             <div class="col-12 col-md-4 order-md-1 col-img-12">
                 <img height="100" width="100" src="{{ site.url }}/img/features/feat1b.svg" alt="architecture"
                 class="img-fluid w-100 benefits-img">
@@ -54,7 +54,7 @@ alt: features
                 <p>Atomiv follows globally recognized best practices in project management and software development. This means your teams get the assurance that they are implementing IT projects in the best way.</p>
             </div>
         </div>
-    </div> 
+    <!-- </div>  -->
 </article>
 
 

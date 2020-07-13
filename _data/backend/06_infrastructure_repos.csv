@@ -1,0 +1,7 @@
+Infrastructure Layer - Repositories,.NET, Java
+Repository implementations with ORM,n,n
+"Repository implementations with raw SQL, parameterized SQL, stored procedures",n,n
+"Repository implementations with sql bulk operations (bulk update, bulk delete, bulk insert)",n,n
+Repository implementations for batch operations (errors and re-try),n,n
+Repository implementations with NoSQL databases,n,n
+Repository implementations with files as data source,n,n

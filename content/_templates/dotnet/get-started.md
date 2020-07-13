@@ -11,10 +11,11 @@ This documentation is still in progress, we are finalizing it during June 2020, 
 Ensure you have the following installed for running the application:
 
 * [https://dotnet.microsoft.com/download/dotnet-core](https://dotnet.microsoft.com/download/dotnet-core) \(we have used .NET Core SDK 3.1\)
-* [SQL Server 2017 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) and [SQL Server Management Studio 17.9.1](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+* [SQL Server 2017 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 Additionally, the following should be installed (for developers):
 * [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/) \(we have used Visual Studio Community 2019, and installed via the Visual Studio Installer: ASP.NET and web development\)
+* [SQL Server Management Studio 17.9.1](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
 ## Template Installation
 
@@ -43,6 +44,12 @@ Create a new solution \(MyWebShop.sln\) based on the template inside that direct
 dotnet new atomiv
 ```
 
+You should see output like:
+
+```text
+The template "Atomiv" was created successfully.
+```
+
 ## Open project
 
 Note: If you're using Visual Studio, then open the solution \(MyWebShop.sln\) and set MyWebShop.Web.RestApi as the StartUp project.
@@ -53,6 +60,16 @@ Build the solution:
 dotnet build
 ```
 
+You should see output like:
+
+```text
+Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+...
+Build succeeded.
+...
+```
+
 ## Create database
 
 Note: If needed, you can adjust the database connection \(inside the project MyWebShop.Web.RestApi, open up the file appsettings.Development.json and ensure that DefaultConnection is appropriately set to your development database server, note that the database does not exist\) yet. 
@@ -61,6 +78,17 @@ Run the command to create the database:
 
 ```text
 dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
+```
+
+You should see outout like:
+
+```text
+Build started...
+Build succeeded.
+The environment is Development.
+Applying migration ...
+Applying migration ...
+Done.
 ```
 
 You can verify inside SQL Server Management Studio that the database has been created.
@@ -103,6 +131,19 @@ You can run tests via the command:
 
 ```text
 dotnet test
+```
+
+You should see output like:
+
+```text
+Microsoft (R) Test Execution Command Line Tool Version 16.5.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+
+...
+
+Test Run Successful.
 ```
 
 Note: If you're using Visual Studio, then to run the automated tests, open up the Test Explorer \(Visual Studio main menu: Test &gt; Windows &gt; Test Explorer\) and rebuild the solution to discover all the tests. For Integration and System tests, you can set the database connection string \(opening up appsettings.Test.json inside the test projects and setting a value for DefaultConnection\). Click on “Run All” inside the Test Explorer \(all tests should pass\).

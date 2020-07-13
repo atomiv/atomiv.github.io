@@ -5,7 +5,10 @@
   url: /
  
 - title: Features
-  url: /features
+  url: /features/overview
+
+# - title: Features2
+#   url: /features2
 
 - title: Framework
   nDropdown: navbarDropdown1
@@ -31,8 +34,8 @@
     suburl: /framework/embedded-development/overview
   - subtitle: system-admin
     suburl: /framework/system-admin/overview
-  - subtitle: dev-ops
-    suburl: /framework/dev-ops/overview
+  - subtitle: devops
+    suburl: /framework/devops/overview
   - subtitle: recruitment
     suburl: /framework/recruitment/overview
 
@@ -48,8 +51,8 @@
     suburl: /templates/angular/get-started
   - subtitle: selenium
     suburl: /templates/selenium/get-started
-  - subtitle: dev-ops
-    suburl: /templates/dev-ops/get-started
+  - subtitle: devops
+    suburl: /templates/devops/get-started
   - subtitle: estimations
     suburl: /templates/estimations/get-started
   - subtitle: requirements

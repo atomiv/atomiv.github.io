@@ -1,6 +1,6 @@
 ---
 title: Tools
-category: dev-ops
+category: devops
 ---
   
   
@@ -73,10 +73,10 @@ Idempotence - same call repeatedly produces same result, is a principle of IaC t
 
   [IBM Cloud - Infrastructure as Code](https://www.ibm.com/cloud/learn/infrastructure-as-code "IBM Cloud")
 
-<!---
-* Kubernetes package manager  
-Helm 
---->
+
+<!-- * Kubernetes package manager  
+Helm  -->
+
 
 * New Relic, Datadog, Splunk, Elasticsearch (elastic stack)  
 The concepts of monitoring and observability help to understand complete system state, addressing questions as when, what, why a service is failing.  

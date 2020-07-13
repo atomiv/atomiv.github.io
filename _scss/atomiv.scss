@@ -58,3 +58,43 @@
 // ...
 
 
+// technical details table FEATURES
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  // border:2px solid #ff0000;
+  width: 100%;
+  max-width: 100%;
+  // border-style: none;
+  margin-bottom: 2rem !important; // 3rem or 2rem
+}
+
+th{
+  // border:2px solid #9e265e;
+  background: $gray-100;
+  font-weight: 400;
+  // color: rgb(24, 60, 177);
+  background: rgb(108, 116, 155);
+  background: rgb(78, 104, 160);
+  background: rgb(78, 104, 160);
+  background: rgb(63, 86, 138);
+  color: white;
+}
+
+tr {
+  // background-color: $gray-100;
+}
+
+
+.table th, .table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid $gray-300; // #eaeaea
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+.table tbody+tbody {
+  border-top: 1px solid $gray-300;
+}

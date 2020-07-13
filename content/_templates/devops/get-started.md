@@ -1,6 +1,6 @@
 ---
 title: Get Started
-category: dev-ops
+category: devops
 ---
 
 ## DevOps Template - Containerization
@@ -44,7 +44,7 @@ Note, the image sources are from:
 * TODO: BB: Insert what is the source for images for JRE?
 
 ```
-FROM maven:3.6.3-openjdk-14-slim
+FROM maven:3.6.3-openjdk-14-slim AS builder
 WORKDIR /app
 COPY ./pom.xml ./
 RUN mvn dependency:go-offline -B
@@ -92,7 +92,7 @@ CONTAINER ID        IMAGE                    COMMAND                  CREATED   
 9b1c0ce21847        atomiv/atomiv-java:0.1   "java -jar template.…"   21 seconds ago      Up 20 seconds       0.0.0.0:8080->8080/tcp   atomiv-java-0.1
 ```
   
-Open a web browser, type url http://localhost:8080/ and following text will be displayed.
+Open a web browser, type url <http://localhost:8080/> and following text will be displayed.
 ```
 Hello to this app!
 ```
@@ -108,8 +108,8 @@ Delete all images.
 docker rmi $(docker images -a -q)
 ```
 
-<!--
-FUTURE: when committing, automate the whole process
+
+<!-- FUTURE: when committing, automate the whole process
 TODO: VC CHECK: initially laptop, then virtual machine on server  for long term
-Demo - laptop - screencast recording (VC)
--->
+Demo - laptop - screencast recording (VC) -->
+
