@@ -17,4 +17,6 @@ The products above are targeting certain purpose and the embedded microcontrolle
 
 The purpose is defined in requirements in an early phase before the implementation. If e.g. an accessory of a smartphone is to be developed one requirement would be about how much current the accessory is allowed to draw from the smartphone. According to that requirement there has to be investigation made in finding the correct microcontroller that consumes maximum energy. Further depending om the size of the developed software and the purpose of it, the memory size, execution speed and peripherals (which sensors to communicate with) has to be taken into account.
 
+## What are the goals when developing embedded systems
+
 Developing a embedded system the goals is to make a solution that serves the purpose at a reasonable cost. The disadvantages of such an solution is that it may not support changes as the requirements changes. It is therefore the task of the engineer to predict what may be required into the future. Choosing a microcontroller that has more memory than required can be a way of preparing for the future, even if the current cost is a bit higher. But this is something the engineer has to decide when looking in the crystal ball.
