@@ -39,9 +39,9 @@ cd atomiv-java/template.web.restapi
 
 Create a new Dockerfile, for instance **template.web.restapi.Dockerfile** uses multistage build feature to optimize the image build process. 
 
-Note, the image sources are from:
+Note, the image sources are from docker hub:
 * https://hub.docker.com/_/maven
-* TODO: BB: Insert what is the source for images for JRE?
+* https://hub.docker.com/_/openjdk
 
 ```
 FROM maven:3.6.3-openjdk-14-slim AS builder
@@ -58,6 +58,7 @@ COPY --from=builder /app/target/template.web.restapi-0.0.1-SNAPSHOT.jar ./
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "template.web.restapi-0.0.1-SNAPSHOT.jar"]
 ```
+Sample Dockerfiles are located at [atomiv-devops Dockerfiles](https://github.com/atomiv/atomiv-devops/tree/master/Dockerfiles)
   
 Build new **atomiv/atomiv-java:0.1** image.
 ```
