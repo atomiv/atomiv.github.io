@@ -41,6 +41,12 @@ docs:
     - page: Get Started
       url: /templates/dev-ops/get-started
 
+- title: Android
+  url: android
+  submenuitems:
+    - page: Get Started
+      url: /templates/android/get-started
+
 - title: Estimations
   url: estimations
   submenuitems:
