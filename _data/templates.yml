@@ -46,6 +46,8 @@ docs:
   submenuitems:
     - page: Get Started
       url: /templates/android/get-started
+    - page: Walkthrough
+      url: /templates/android/walkthrough
 
 - title: Estimations
   url: estimations

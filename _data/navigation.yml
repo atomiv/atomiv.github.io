@@ -53,6 +53,8 @@
     suburl: /templates/selenium/get-started
   - subtitle: devops
     suburl: /templates/devops/get-started
+  - subtitle: android
+    suburl: /templates/android/get-started
   - subtitle: estimations
     suburl: /templates/estimations/get-started
   - subtitle: requirements
