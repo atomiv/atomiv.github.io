@@ -52,9 +52,6 @@ Therefore, we would like to separate those two and write down what one PM should
 * Leadership skills
 * Ability to use your initiative and make decisions under pressure 
  
-## Project Management Methodologies
-  
-Depending on type of service or product your company is creating, projects can be managed in two different principles, waterfall and agile. In the following sections, you will be able to see difference between these two.  
 
 ## Building strong teams
 
@@ -67,3 +64,7 @@ Some text
 ## Managing remote teams
 
 Some text
+
+## Project Management Methodologies
+  
+Depending on type of service or product your company is creating, projects can be managed in two different principles, waterfall and agile. In the following sections, you will be able to see difference between these two.  
