@@ -37,7 +37,20 @@ Project manager is directly responsible for the atmosphere and the communication
 
 Therefore, we would like to separate those two and write down what one PM should have from technical side and one from human side, so if you are hiring someone you will know what to look for:  
   
+ Technical:  
 
+* Organizational skills
+* Technical knowledge related to the certain field
+* Communication skills (written and verbal)
+  
+ Human:  
+
+* Empathy
+* Communication skills 
+* Open mind
+* Listening skills
+* Leadership skills
+* Ability to use your initiative and make decisions under pressure 
  
 ## Project Management Methodologies
   
