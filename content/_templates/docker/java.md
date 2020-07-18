@@ -1,15 +1,16 @@
 ---
-title: Get Started
-category: devops
+title: Java
+category: docker
 ---
 
-## DevOps Template - Containerization
+## Step 1 - Containerization
 
-### Task 1 - containerization
+Goal is to containerize (dockerize) Spring Boot application. 
 
-#### Objectives
+A sample application prints out a text message in web browser.  
 
-Goal is to containerize (dockerize) Spring Boot application. A sample application prints out a text message in web browser.  
+Documentation is available at https://atomiv.org/java/get-started
+
 HelloController.java snippet:
 ```
 @RestController
@@ -21,16 +22,15 @@ public class HelloController {
 	}
 }
 ```
-Documentation is available at https://atomiv.org/java/get-started
 
-#### Prerequisites
+### Get Source Code
 
-* Installed [Docker](https://docs.docker.com/get-docker/) to build image and run container.
-  
 Get a copy of the sample code.
 ```
 git clone https://github.com/atomiv/atomiv-java.git
 ```
+  
+### Create Dockerfile
   
 Change to **template.web.restapi** directory.
 ```
@@ -39,9 +39,9 @@ cd atomiv-java/template.web.restapi
 
 Create a new Dockerfile, for instance **template.web.restapi.Dockerfile** uses multistage build feature to optimize the image build process. 
 
-Note, the image sources are from:
+Note, the image sources are from docker hub:
 * https://hub.docker.com/_/maven
-* TODO: BB: Insert what is the source for images for JRE?
+* https://hub.docker.com/_/openjdk
 
 ```
 FROM maven:3.6.3-openjdk-14-slim AS builder
@@ -58,6 +58,9 @@ COPY --from=builder /app/target/template.web.restapi-0.0.1-SNAPSHOT.jar ./
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "template.web.restapi-0.0.1-SNAPSHOT.jar"]
 ```
+Sample Dockerfiles are located at [atomiv-devops Dockerfiles](https://github.com/atomiv/atomiv-devops/tree/master/Dockerfiles)
+  
+### Build Image
   
 Build new **atomiv/atomiv-java:0.1** image.
 ```
@@ -77,6 +80,8 @@ maven                3.6.3-ibmjava-8-alpine   147a1ed602ad        3 days ago    
 openjdk              8-jre-alpine             f7a292bbb70c        13 months ago       84.9MB
 ```
   
+### Run Container
+  
 Run container using the new **atomiv/atomiv-java:0.1** image.
 ```
 docker run --name atomiv-java-0.1 -d -p 8080:8080 atomiv/atomiv-java:0.1
@@ -91,11 +96,15 @@ Output:
 CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                    NAMES
 9b1c0ce21847        atomiv/atomiv-java:0.1   "java -jar template.…"   21 seconds ago      Up 20 seconds       0.0.0.0:8080->8080/tcp   atomiv-java-0.1
 ```
+
+### Run Application
   
 Open a web browser, type url <http://localhost:8080/> and following text will be displayed.
 ```
 Hello to this app!
 ```
+
+### Stop Container
   
 Stop and delete the container.
 ```
@@ -103,13 +112,10 @@ docker stop atomiv-java-0.1
 docker rm atomiv-java-0.1
 ```
 
+### Delete Images
+
 Delete all images.
 ```
 docker rmi $(docker images -a -q)
 ```
-
-
-<!-- FUTURE: when committing, automate the whole process
-TODO: VC CHECK: initially laptop, then virtual machine on server  for long term
-Demo - laptop - screencast recording (VC) -->
 

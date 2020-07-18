@@ -27,22 +27,31 @@ But this shouldn’t be the case, documentation can represent the ordinary notep
 
 ## Communication in Project Management
 
-Communication \(Client and Team\)
-
 As we said, there are many different principles how project should be managed, but we want to share with you something which is usually not covered by book but means almost everything. If somebody is managing a project that usually means that he or she is working and managing one whole team.  
- Are project going to be successful or not, in a lot depends on people who are working on it. That is why we need to stop talking just about which qualifications, degree, or course certain future or current PM has, we need to talk about its possibility to understand the team and to pull out the best of it.
+Are project going to be successful or not, in a lot depends on people who are working on it. That is why we need to stop talking just about which qualifications, degree, or course certain future or current PM has, we need to talk about its possibility to understand the team and to pull out the best of it.
+
+Communication during project or team management is the vital part of a successful project. How the project scope and requirements will be presented, explained and handled will reflect the final outcome and team satisfaction. There must be an atmosphere where the team members are comfortable to ask questions, make inquiries and mistakes as well. 
+Project manager is directly responsible for the atmosphere and the communication in the projects so everything starts from him or her and reflects to the team, so try to stay open minded which will help you to realize and understand all needs, the team and stakeholders as well. 
 
 ## Soft Skills and Hard Skills
 
 Therefore, we would like to separate those two and write down what one PM should have from technical side and one from human side, so if you are hiring someone you will know what to look for:  
   
  Technical:  
+
+* Organizational skills
+* Technical knowledge related to the certain field
+* Communication skills (written and verbal)
   
  Human:  
+
+* Empathy
+* Communication skills 
+* Open mind
+* Listening skills
+* Leadership skills
+* Ability to use your initiative and make decisions under pressure 
  
-## Project Management Methodologies
-  
-Depending on type of service or product your company is creating, projects can be managed in two different principles, waterfall and agile. In the following sections, you will be able to see difference between these two.  
 
 ## Building strong teams
 
@@ -55,3 +64,7 @@ Some text
 ## Managing remote teams
 
 Some text
+
+## Project Management Methodologies
+  
+Depending on type of service or product your company is creating, projects can be managed in two different principles, waterfall and agile. In the following sections, you will be able to see difference between these two.  

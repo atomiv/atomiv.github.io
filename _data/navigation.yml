@@ -43,20 +43,27 @@
   nDropdown: navbarDropdown2
   subcategories:
 
-  - subtitle: dotnet
-    suburl: /templates/dotnet/get-started
-  - subtitle: java
-    suburl: /templates/java/get-started
-  - subtitle: angular
-    suburl: /templates/angular/get-started
-  - subtitle: selenium
-    suburl: /templates/selenium/get-started
-  - subtitle: devops
-    suburl: /templates/devops/get-started
-  - subtitle: estimations
-    suburl: /templates/estimations/get-started
+  - subtitle: projects
+    suburl: /templates/projects/overview
   - subtitle: requirements
-    suburl: /templates/requirements/get-started
+    suburl: /templates/requirements/overview
+  - subtitle: recruitment
+    suburl: /templates/recruitment/overview
+  - subtitle: dotnet
+    suburl: /templates/dotnet/overview
+  - subtitle: java
+    suburl: /templates/java/overview
+  - subtitle: angular
+    suburl: /templates/angular/overview
+  - subtitle: selenium
+    suburl: /templates/selenium/overview
+  - subtitle: android
+    suburl: /templates/android/overview
+  - subtitle: docker
+    suburl: /templates/docker/overview
+  - subtitle: kubernetes
+    suburl: /templates/kubernetes/overview
+
   
 - title: About
   url: /about

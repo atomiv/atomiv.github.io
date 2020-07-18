@@ -21,7 +21,9 @@ docs:
     - page: Teams
       url: /framework/leadership/teams
     - page: Cross Functional
-      url: /framework/leadership/cross-functional      
+      url: /framework/leadership/cross-functional
+    - page: Change Management
+      url: /framework/leadership/change-management
 
 - title: Project Management
   url: project-management
