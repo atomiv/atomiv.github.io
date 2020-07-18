@@ -135,15 +135,9 @@ collections:
 
       - devops/get-started.md
 
-topic_order:
-  - jelena-cupac.md
-  - valentina-cupac.md
-  - petar-zecevic.md
-  - boban-bojkovski.md
-  - tamara-golubovic.md
-  - fergus-obrien.md  
 
-  
+
+
 defaults:
   - scope:
       path: ""

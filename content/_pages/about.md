@@ -16,15 +16,15 @@ alt: about
             <p>{{ page.description }}</p>
         </div>
         <!-- site.authors -->
-            {% assign authors = site.authors | first %}
+            {% assign authors = site.authors %}
             {% for author in authors %}
             <div class="row ov-about-row">
                 <div class="col-12">
                     <div class="d-md-flex align-items-center">
                         <div>
                             <!-- TO DO VC increment version number when changing image -->
-                            <!-- <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=4" alt="{{author.name}}"
-                            class="img-fluid w-100 profile-img"> -->
+                            <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=4" alt="{{author.name}}"
+                            class="img-fluid w-100 profile-img">
                         </div>
                         <div>
                             <h5>{{ author.name | escape }}</h5>
