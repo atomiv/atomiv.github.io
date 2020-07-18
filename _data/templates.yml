@@ -91,6 +91,8 @@ docs:
       url: /templates/docker/get-started
     - page: Java
       url: /templates/docker/java
+    - page: .NET
+      url: /templates/docker/dotnet
       
 - title: Kubernetes
   url: kubernetes
