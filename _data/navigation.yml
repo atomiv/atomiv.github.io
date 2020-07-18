@@ -44,21 +44,21 @@
   subcategories:
 
   - subtitle: dotnet
-    suburl: /templates/dotnet/get-started
+    suburl: /templates/dotnet/overview
   - subtitle: java
-    suburl: /templates/java/get-started
+    suburl: /templates/java/overview
   - subtitle: angular
-    suburl: /templates/angular/get-started
+    suburl: /templates/angular/overview
   - subtitle: selenium
-    suburl: /templates/selenium/get-started
+    suburl: /templates/selenium/overview
   - subtitle: devops
-    suburl: /templates/devops/get-started
+    suburl: /templates/devops/overview
   - subtitle: android
-    suburl: /templates/android/get-started
+    suburl: /templates/android/overview
   - subtitle: estimations
     suburl: /templates/estimations/get-started
   - subtitle: requirements
-    suburl: /templates/requirements/get-started
+    suburl: /templates/requirements/overview
   
 - title: About
   url: /about
