@@ -11,6 +11,8 @@ docs:
       url: /templates/projects/overview
     - page: Estimations
       url: /templates/projects/estimations
+    - page: Meetings
+      url: /templates/projects/meetings
 
 - title: Requirements
   url: requirements

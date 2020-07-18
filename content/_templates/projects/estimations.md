@@ -3,7 +3,7 @@ title: Estimations
 category: projects
 ---
 
-Estimations for development team:
+## Development Team Estimations
 
 * Research (design)
 * Wireframe (design)
@@ -11,11 +11,11 @@ Estimations for development team:
 * Testing
 * Deployment
 
-Estimations for management:
+## Management Estimations
 
 * Project management (percentage)
 * Technical management (percentage)
 
-Handling risks in estimations:
+## Project Risk Estimations
 
 * Buffer (percentage)
