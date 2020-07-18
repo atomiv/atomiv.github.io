@@ -27,7 +27,7 @@ alt: about
                             class="img-fluid w-100 profile-img">
                         </div>
                         <div>
-                            <h5>{{ author.name }}</h5>.
+                            <h5>{{ author.name }}</h5>
                             <h6>{{ author.position }}</h6>
                             <p>{{ author.content | markdownify }}</p>
                             {% if author.city and author.country %}
@@ -49,7 +49,7 @@ alt: about
                                 {% if author.website %}
                                 <a href="{{ author.website }}" target="_blank"><i class="fa fa-globe"></i></a>
                                 {% endif %}
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
