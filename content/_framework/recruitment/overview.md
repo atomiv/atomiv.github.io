@@ -58,7 +58,7 @@ Once we have this high-level overview, and have reconciled it with the annual hi
 * Soft skills (what personal characteristics will be important in being successful)
 * Motivation (why they want to make this change)
 
-See the [template](https://atomiv.org/templates/recruitment/profile) for defining an ideal profile here 
+See the [template](https://atomiv.org/templates/recruitment/profile) for defining an ideal profile.
 
 <!-- Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases -->
      
