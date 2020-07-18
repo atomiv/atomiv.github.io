@@ -29,8 +29,6 @@ collections:
     output: true
     permalink: /:path
   authors:
-    output: true
-    permalink: /:collection/:path/
     order: 
       - jelena-cupac.md
       - valentina-cupac.md
@@ -50,6 +48,8 @@ collections:
       - vladimir-maljm.md
       - jelena-mitrovic.md
       - brooke-steele.md
+    output: true
+    permalink: /:collection/:path/
   features:
     output: true
   framework:
