@@ -6,6 +6,8 @@ docs:
 - title: .NET
   url: dotnet
   submenuitems:
+    - page: Overview
+      url: /templates/dotnet/overview
     - page: Get Started
       url: /templates/dotnet/get-started
     - page: Walkthrough
@@ -16,6 +18,8 @@ docs:
 - title: Java
   url: java
   submenuitems:
+    - page: Overview
+      url: /templates/java/overview
     - page: Get Started
       url: /templates/java/get-started
     - page: Walkthrough
@@ -24,6 +28,8 @@ docs:
 - title: Angular
   url: angular
   submenuitems:
+    - page: Overview
+      url: /templates/angular/overview
     - page: Get Started
       url: /templates/angular/get-started
     - page: Walkthrough
@@ -32,18 +38,24 @@ docs:
 - title: Selenium
   url: selenium
   submenuitems:
+    - page: Overview
+      url: /templates/selenium/overview
     - page: Get Started
       url: /templates/selenium/get-started
 
 - title: DevOps
   url: devops
   submenuitems:
+    - page: Overview
+      url: /templates/devops/overview
     - page: Get Started
       url: /templates/devops/get-started
 
 - title: Android
   url: android
   submenuitems:
+    - page: Overview
+      url: /templates/android/overview
     - page: Get Started
       url: /templates/android/get-started
     - page: Walkthrough
