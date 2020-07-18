@@ -40,19 +40,23 @@ layout: default
 							{{content}}
 						</div>
 
+						<!-- &laquo; -->
+						<!-- &raquo; -->
+						<!-- {{ page.title }} <br /> -->
+						<!-- {{ page.url }} <br /> -->
+						<!-- {{ page.category }}... <br/> -->
+						<!-- {{page.previous.title}} <br/> -->
+						<!-- {{page.previous.url}} <br/> -->
+						<!-- {{page.next.url}} <br/> -->
+						<!-- PC: {{page.category}} <br/> -->
+						<!-- PPC: {{page.previous.category}} <br/> -->
 
-<!-- ------------------------------------------------------
-
-            {% for author in site.authors %}
-
-			{{ author.name }}
-
-			{% endfor %} -->
 
 
-						<div class="template-links">
+
+						<!-- <div class="template-links"> -->
 							<!-- { % if page.previous.url % } -->
-							{% if page.previous.category == page.category %}
+							<!-- {% if page.previous.category == page.category %}
 							<span>
 								<a href='{{page.previous.url}}'>
 									<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -61,10 +65,10 @@ layout: default
 									{{page.previous.title}}
 								</a>
 							</span>
-							{% endif %}
+							{% endif %} -->
 							
 							<!-- { % if page.next.url % } -->
-							{% if page.next.category == page.category %}
+							<!-- {% if page.next.category == page.category %}
 							<span class="next" style="float: right;">
 								<a href="{{page.next.url}}">
 									{{page.next.title}}
@@ -73,11 +77,8 @@ layout: default
 									  </svg>
 								</a>
 							</span>
-							{% endif %}
-						</div>
-
-
-
+							{% endif %} -->
+						<!-- </div> -->
 
 
 
@@ -157,3 +158,19 @@ layout: default
 							</span>
 							{% endif %}
 						</div> -->
+
+
+<!-- { % assign fruits = "orange,apple,peach" | split: ',' %}
+
+{ % for fruit in fruits %}
+  {{ fruit }}
+{ % endfor %} -->
+
+
+
+							<!-- function next() {
+								document.location.href='{% if num_of_pages > next_i %}{{ entry[next_i].url }}{% else %}{{ entry[0].url }}{% endif %}';
+							}
+							function prev() {
+								document.location.href='{% if prev_i < 0 %}{{ entry[last_i].url }}{% else %}{{ entry[prev_i].url }}{% endif %}';
+							} -->
