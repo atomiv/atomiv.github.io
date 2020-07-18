@@ -53,23 +53,14 @@ From the outcome of this process, we might decide that the ideal hiring roadmap 
 Once we have this high-level overview, and have reconciled it with the annual hiring budget, we are now in a position to operate at item level.
 
 **Define the ideal profile**, in terms of the following:
-  - Hard skills (what they bring to the table on day 1)
-     - golang and/or c++
-     - distributed systems
-     - has worked on projects from ideation to production
-     - 5-7 years of enterprise experience
-  - Soft skills (what personal characteristics will be important in being successful)
-     - potential for leading a team
-     - interested in mentoring + development
-     - works well in an autonomous environment
-  - Motivation (why they want to make this change)
-     - not impressed by current state of market
-     - disillusioned by small contribution in big company
-     - interested by specific technical challenge
 
+* Hard skills (what they bring to the table on day 1)
+* Soft skills (what personal characteristics will be important in being successful)
+* Motivation (why they want to make this change)
+
+See the template for defining an ideal profile here https://atomiv.org/templates/recruitment/profile
 
 <!-- Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases -->
-
      
 **Define the Interview Process**, in terms of the following:
   - Who is going to be involved
