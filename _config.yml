@@ -31,8 +31,8 @@ collections:
   authors:
     output: true
     order: 
-      - valentina-cupac.md
       - jelena-cupac.md
+      - valentina-cupac.md
       - petar-zecevic.md
       - boban-bojkovski.md
       - tamara-golubovic.md

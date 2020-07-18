@@ -16,7 +16,9 @@ alt: about
             <p>{{ page.description }}</p>
         </div>
         <!-- site.authors -->
+        {% for siteauthor in site.data.authors.docs %}
             {% for author in site.authors %}
+            {% if siteauthor.name == author.name %}
             <div class="row ov-about-row">
                 <div class="col-12">
                     <div class="d-md-flex align-items-center">
@@ -53,7 +55,9 @@ alt: about
                     </div>
                 </div>
             </div>
+            {% endif %}            
             {% endfor %}
+        {% endfor %}
     </div>
 </article>
 
