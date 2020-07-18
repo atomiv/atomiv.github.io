@@ -141,9 +141,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: authors
+      type: "authors"
     values:
-      layout: author
+      layout: "author"
   - scope:
       path: "_staff_members"
       type: "staff_members"
