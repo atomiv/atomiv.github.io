@@ -3,11 +3,7 @@ title: Get Started
 category: devops
 ---
 
-## DevOps Template - Containerization
-
-### Task 1 - containerization
-
-#### Objectives
+## Step 1 - Containerization
 
 Goal is to containerize (dockerize) Spring Boot application. A sample application prints out a text message in web browser.  
 HelloController.java snippet:
@@ -22,10 +18,6 @@ public class HelloController {
 }
 ```
 Documentation is available at https://atomiv.org/java/get-started
-
-#### Prerequisites
-
-* Installed [Docker](https://docs.docker.com/get-docker/) to build image and run container.
   
 Get a copy of the sample code.
 ```
@@ -108,9 +100,4 @@ Delete all images.
 ```
 docker rmi $(docker images -a -q)
 ```
-
-
-<!-- FUTURE: when committing, automate the whole process
-TODO: VC CHECK: initially laptop, then virtual machine on server  for long term
-Demo - laptop - screencast recording (VC) -->
 

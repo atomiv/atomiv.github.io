@@ -55,8 +55,8 @@
     suburl: /templates/angular/overview
   - subtitle: selenium
     suburl: /templates/selenium/overview
-  - subtitle: devops
-    suburl: /templates/devops/overview
+  - subtitle: docker
+    suburl: /templates/docker/overview
   - subtitle: android
     suburl: /templates/android/overview
 

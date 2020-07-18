@@ -70,13 +70,15 @@ docs:
     - page: Get Started
       url: /templates/selenium/get-started
 
-- title: DevOps
-  url: devops
+- title: Docker
+  url: docker
   submenuitems:
     - page: Overview
-      url: /templates/devops/overview
+      url: /templates/docker/overview
     - page: Get Started
-      url: /templates/devops/get-started
+      url: /templates/docker/get-started
+    - page: Java
+      url: /templates/docker/java
 
 - title: Android
   url: android
