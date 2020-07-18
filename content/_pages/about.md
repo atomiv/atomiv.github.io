@@ -23,12 +23,12 @@ alt: about
                     <div class="d-md-flex align-items-center">
                         <div>
                             <!-- TO DO VC increment version number when changing image -->
-                            <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=4" alt="{{author.name}}"
-                            class="img-fluid w-100 profile-img">
+                            <!-- <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=4" alt="{{author.name}}"
+                            class="img-fluid w-100 profile-img"> -->
                         </div>
                         <div>
-                            <h5>{{ author.name }}</h5>
-                            <h6>{{ author.position }}</h6>
+                            <h5>{{ author.name | escape }}</h5>
+                            <!-- <h6>{{ author.position }}</h6>
                             <p>{{ author.content | markdownify }}</p>
                             {% if author.city and author.country %}
                             <p class="mb-1 mb-md-0">{{ author.city}}, {{ author.country }}</p>
@@ -49,7 +49,7 @@ alt: about
                                 {% if author.website %}
                                 <a href="{{ author.website }}" target="_blank"><i class="fa fa-globe"></i></a>
                                 {% endif %}
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
