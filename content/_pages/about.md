@@ -16,7 +16,7 @@ alt: about
             <p>{{ page.description }}</p>
         </div>
         <!-- site.authors -->
-            {% for author in site.authors %}
+            {% for author in site.authors limit:3 %}
             <div class="row ov-about-row">
                 <div class="col-12">
                     <div class="d-md-flex align-items-center">
