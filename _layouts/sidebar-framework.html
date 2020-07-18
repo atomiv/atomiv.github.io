@@ -40,24 +40,15 @@ layout: default
 							{{content}}
 						</div>
 
-						<!-- &laquo; -->
-						<!-- &raquo; -->
-						<!-- {{ page.title }} <br /> -->
-						<!-- {{ page.url }} <br /> -->
-						<!-- {{ page.category }}... <br/> -->
 
+<!-- ------------------------------------------------------
 
+            {% for author in site.authors %}
 
-						<!-- {{page.previous.title}} <br/> -->
-						<!-- {{page.previous.url}} <br/> -->
+			{{ author.name }}
 
-						<!-- {{page.next.url}} <br/> -->
+			{% endfor %} -->
 
-						<!-- PC: {{page.category}} <br/> -->
-						<!-- PPC: {{page.previous.category}} <br/> -->
-
-<!-- {{page.previous.url}} <br/> -->
-<!-- {{page.next.url}} <br/> -->
 
 						<div class="template-links">
 							<!-- { % if page.previous.url % } -->
@@ -84,6 +75,11 @@ layout: default
 							</span>
 							{% endif %}
 						</div>
+
+
+
+
+
 
 
                     </div>
@@ -127,4 +123,37 @@ layout: default
 
 						<!-- <div id="dismiss">
 							<i class="fas fa-arrow-left"></i>
+						</div> -->
+
+
+
+
+
+
+
+
+
+
+						<!-- <div class="template-links">
+							{% if page.previous.category == page.category %}
+							<span>
+								<a href='{{page.previous.url}}'>
+									<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+									</svg>
+									{{page.previous.title}}
+								</a>
+							</span>
+							{% endif %}
+							
+							{% if page.next.category == page.category %}
+							<span class="next" style="float: right;">
+								<a href="{{page.next.url}}">
+									{{page.next.title}}
+									<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+									  </svg>
+								</a>
+							</span>
+							{% endif %}
 						</div> -->
