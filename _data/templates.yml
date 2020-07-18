@@ -3,6 +3,29 @@
 # template_list_title: Templates
 docs:
 
+
+- title: Projects
+  url: projects
+  submenuitems:
+    - page: Overview
+      url: /templates/projects/overview
+    - page: Estimations
+      url: /templates/projects/estimations
+
+- title: Requirements
+  url: requirements
+  submenuitems:
+    - page: Overview
+      url: /templates/requirements/overview
+    - page: Processes
+      url: /templates/requirements/processes
+    - page: Use Cases
+      url: /templates/requirements/use-cases
+    - page: Domain
+      url: /templates/requirements/domain
+    - page: Applications
+      url: /templates/requirements/applications 
+
 - title: .NET
   url: dotnet
   submenuitems:
@@ -61,22 +84,4 @@ docs:
     - page: Walkthrough
       url: /templates/android/walkthrough
 
-- title: Estimations
-  url: estimations
-  submenuitems:
-    - page: Get Started
-      url: /templates/estimations/get-started
 
-- title: Requirements
-  url: requirements
-  submenuitems:
-    - page: Get Started
-      url: /templates/requirements/get-started
-    - page: Processes
-      url: /templates/requirements/processes
-    - page: Use Cases
-      url: /templates/requirements/use-cases
-    - page: Domain
-      url: /templates/requirements/domain
-    - page: Applications
-      url: /templates/requirements/applications 

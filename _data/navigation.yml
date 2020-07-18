@@ -43,6 +43,10 @@
   nDropdown: navbarDropdown2
   subcategories:
 
+  - subtitle: projects
+    suburl: /templates/projects/overview
+  - subtitle: requirements
+    suburl: /templates/requirements/overview
   - subtitle: dotnet
     suburl: /templates/dotnet/overview
   - subtitle: java
@@ -55,10 +59,7 @@
     suburl: /templates/devops/overview
   - subtitle: android
     suburl: /templates/android/overview
-  - subtitle: estimations
-    suburl: /templates/estimations/get-started
-  - subtitle: requirements
-    suburl: /templates/requirements/overview
+
   
 - title: About
   url: /about
