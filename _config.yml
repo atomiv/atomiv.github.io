@@ -13,7 +13,7 @@ permalink: /:year/:month/:day/:title
 # permalink: pretty
 
 # if collections not at root level
-# collections_dir: content
+collections_dir: content
 
 collections:
   staff_members:
