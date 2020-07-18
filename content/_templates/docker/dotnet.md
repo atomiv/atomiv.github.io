@@ -15,7 +15,7 @@ Some text.
 
 Some text.  
 
-## Build Image
+### Build Image
   
 Some text.
   

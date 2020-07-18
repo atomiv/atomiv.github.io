@@ -23,7 +23,7 @@ public class HelloController {
 }
 ```
 
-### Clone Repository
+### Get Source Code
 
 Get a copy of the sample code.
 ```
@@ -60,7 +60,7 @@ ENTRYPOINT ["java", "-jar", "template.web.restapi-0.0.1-SNAPSHOT.jar"]
 ```
 Sample Dockerfiles are located at [atomiv-devops Dockerfiles](https://github.com/atomiv/atomiv-devops/tree/master/Dockerfiles)
   
-## Build Image
+### Build Image
   
 Build new **atomiv/atomiv-java:0.1** image.
 ```
