@@ -30,6 +30,14 @@ docs:
     - page: Applications
       url: /templates/requirements/applications 
 
+- title: Recruitment
+  url: recruitment
+  submenuitems:
+    - page: Overview
+      url: /templates/recruitment/overview
+    - page: Profile
+      url: /templates/recruitment/profile
+
 - title: .NET
   url: dotnet
   submenuitems:

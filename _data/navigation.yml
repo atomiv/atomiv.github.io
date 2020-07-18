@@ -47,6 +47,8 @@
     suburl: /templates/projects/overview
   - subtitle: requirements
     suburl: /templates/requirements/overview
+  - subtitle: recruitment
+    suburl: /templates/recruitment/overview
   - subtitle: dotnet
     suburl: /templates/dotnet/overview
   - subtitle: java
