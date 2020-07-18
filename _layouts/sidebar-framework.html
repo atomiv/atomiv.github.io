@@ -46,6 +46,13 @@ layout: default
 						<!-- {{ page.url }} <br /> -->
 						<!-- {{ page.category }}... <br/> -->
 
+						{{page.previous.title}} <br/>
+						{{page.previous.url}} <br/>
+						PC: {{page.category}} <br/>
+						PPC: {{page.previous.category}}
+
+
+
 						<div class="template-links">
 							<!-- { % if page.previous.url % } -->
 							{% if page.previous.category == page.category %}
