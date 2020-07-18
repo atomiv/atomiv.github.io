@@ -30,6 +30,7 @@ collections:
     permalink: /:path
   authors:
     output: true
+    authors: true
     order: 
       - jelena-cupac.md
       - valentina-cupac.md

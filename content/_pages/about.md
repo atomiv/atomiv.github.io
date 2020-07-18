@@ -16,7 +16,7 @@ alt: about
             <p>{{ page.description }}</p>
         </div>
         <!-- site.authors -->
-            {% assign authors = site.authors %}
+            {% assign authors = site.authors | sort: 'order' %}
             {% for author in authors %}
             <div class="row ov-about-row">
                 <div class="col-12">
