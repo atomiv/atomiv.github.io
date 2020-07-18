@@ -55,10 +55,12 @@
     suburl: /templates/angular/overview
   - subtitle: selenium
     suburl: /templates/selenium/overview
-  - subtitle: docker
-    suburl: /templates/docker/overview
   - subtitle: android
     suburl: /templates/android/overview
+  - subtitle: docker
+    suburl: /templates/docker/overview
+  - subtitle: kubernetes
+    suburl: /templates/kubernetes/overview
 
   
 - title: About

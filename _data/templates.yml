@@ -70,15 +70,7 @@ docs:
     - page: Get Started
       url: /templates/selenium/get-started
 
-- title: Docker
-  url: docker
-  submenuitems:
-    - page: Overview
-      url: /templates/docker/overview
-    - page: Get Started
-      url: /templates/docker/get-started
-    - page: Java
-      url: /templates/docker/java
+
 
 - title: Android
   url: android
@@ -90,4 +82,19 @@ docs:
     - page: Walkthrough
       url: /templates/android/walkthrough
 
+- title: Docker
+  url: docker
+  submenuitems:
+    - page: Overview
+      url: /templates/docker/overview
+    - page: Get Started
+      url: /templates/docker/get-started
+    - page: Java
+      url: /templates/docker/java
+      
+- title: Kubernetes
+  url: kubernetes
+  submenuitems:
+    - page: Overview
+      url: /templates/kubernetes/overview
 
