@@ -1,6 +1,6 @@
 ---
-title: Get Started
-category: devops
+title: Java
+category: docker
 ---
 
 ## Step 1 - Containerization

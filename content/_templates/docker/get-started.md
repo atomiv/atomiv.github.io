@@ -1,6 +1,6 @@
 ---
 title: Get Started
-category: devops
+category: docker
 ---
 
 ## Installation
