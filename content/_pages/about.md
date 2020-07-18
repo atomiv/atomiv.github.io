@@ -16,7 +16,7 @@ alt: about
             <p>{{ page.description }}</p>
         </div>
         <!-- site.authors -->
-            {% assign authors = site.authors %}
+            {% assign authors = site.authors | sort: 'order' %}
             {% for author in authors %}
             <div class="row ov-about-row">
                 <div class="col-12">
@@ -27,8 +27,8 @@ alt: about
                             class="img-fluid w-100 profile-img">
                         </div>
                         <div>
-                            <h5>{{ author.name | escape }}</h5>
-                            <!-- <h6>{{ author.position }}</h6>
+                            <h5>{{ author.name }}</h5>.
+                            <h6>{{ author.position }}</h6>
                             <p>{{ author.content | markdownify }}</p>
                             {% if author.city and author.country %}
                             <p class="mb-1 mb-md-0">{{ author.city}}, {{ author.country }}</p>
