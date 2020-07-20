@@ -1,3 +1,39 @@
-<h5>{{ author.name }}</h5>
-  <h6>{{ author.position }}</h6>
-  {{author.city}}
+  <!-- photo <br/>
+name <br/>
+description <br/>
+social media links <br/> -->
+
+
+<div class="row ov-about-row2">
+  <!-- text-center -->
+  <div class="col-12 text-center text-lg-left">
+      <div class="d-lg-flex align-items-center">
+          <div>
+              <!-- TO DO VC increment version number when changing image -->
+              <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=4" alt="{{author.name}}"
+              class="img-fluid w-100 profile-img2">
+          </div>
+          <div>
+              <h5>{{ author.name }} 
+                <!-- <span>| {{ author.position }}</span> -->
+              </h5>
+              <!-- <h6>{{ author.position }}</h6> -->
+              <p>{{ author.short_bio }}</p>
+              <div>
+                  {% if author.linkedin %}
+                  <a href="{{ author.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  {% endif %}
+                  {% if author.xing %}
+                  <a href="{{ author.xing }}" target="_blank"><i class="fab fa-xing"></i></a>
+                  {% endif %}
+                  {% if author.github %}
+                  <a href="{{ author.github }}" target="_blank"><i class="fab fa-github"></i></a>
+                  {% endif %}
+                  {% if author.website %}
+                  <a href="{{ author.website }}" target="_blank"><i class="fa fa-globe"></i></a>
+                  {% endif %}
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
