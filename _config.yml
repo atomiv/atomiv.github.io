@@ -29,10 +29,9 @@ collections:
     output: true
     permalink: /:path
   authors:
-    output: true
     order: 
-      - valentina-cupac.md
       - jelena-cupac.md
+      - valentina-cupac.md
       - petar-zecevic.md
       - boban-bojkovski.md
       - tamara-golubovic.md
@@ -49,6 +48,8 @@ collections:
       - vladimir-maljm.md
       - jelena-mitrovic.md
       - brooke-steele.md
+    output: true
+    permalink: /:collection/:path/
   features:
     output: true
   framework:
@@ -134,10 +135,12 @@ collections:
 
       - devops/get-started.md
 
-  
+
+
+
 defaults:
   - scope:
-      path: ""
+      path: "_authors"
       type: "authors"
     values:
       layout: "author"
