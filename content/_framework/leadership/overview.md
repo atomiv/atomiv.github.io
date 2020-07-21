@@ -7,11 +7,12 @@ authors: [ andrew-griffing ]
 ## Introduction
 
 Leadership…
-…Is about both principles (section 1 below) and practices (section 2 below)
-… Applies to anyone in any role no matter how many people in the team
-… Is tightly linked with effective management
-… Needs to be adapted to situation and context
-The below principles are not “MECE”, but are the key things to emphasise over and above “generally accepted” leadership principles
+* …Is about both principles (section 1 below) and practices (section 2 below)
+* … Applies to anyone in any role no matter how many people in the team
+* … Is tightly linked with effective management
+* … Needs to be adapted to situation and context
+
+The below principles are not “MECE”, but are the key things to emphasise over and above "generally accepted" leadership principles
 
 ## Principles
 
