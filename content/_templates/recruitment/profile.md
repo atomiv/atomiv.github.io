@@ -1,6 +1,7 @@
 ---
 title: Profile
 category: recruitment
+author: [ fergus-obrien ]
 ---
 
 The following is a template for defining the ideal candidate profile.

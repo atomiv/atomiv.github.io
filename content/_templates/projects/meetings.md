@@ -1,6 +1,7 @@
 ---
 title: Meetings
 category: projects
+author: [ tamara-golubovic ]
 ---
 
 ## Internal team meetings

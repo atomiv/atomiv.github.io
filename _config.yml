@@ -47,7 +47,7 @@ collections:
       - uros-ljubenovic.md
       - vladimir-maljm.md
       - jelena-mitrovic.md
-      - brooke-steele.md
+      - amer-khan.md
     output: true
     permalink: /:collection/:path/
   features:
@@ -134,9 +134,6 @@ collections:
       - selenium/get-started.md
 
       - devops/get-started.md
-
-
-
 
 defaults:
   - scope:

@@ -1,6 +1,7 @@
 ---
 title: System
 category: software-architecture
+author: [ valentina-cupac ]
 ---
 
 

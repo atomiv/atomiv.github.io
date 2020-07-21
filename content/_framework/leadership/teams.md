@@ -1,6 +1,7 @@
 ---
 title: Teams 
 category: leadership
+author: [ raymond-tay ]
 ---
 
 ## Importance of teams

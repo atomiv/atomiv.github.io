@@ -76,6 +76,8 @@ docs:
 - title: Big Data
   url: big-data
   submenuitems:
+    - page: Overview
+      url: /framework/big-data/overview
     - page: Data Sources
       url: /framework/big-data/data-sources
     - page: Data Storage
@@ -116,8 +118,6 @@ docs:
   submenuitems:
     - page: Overview
       url: /framework/devops/overview
-    - page: Process
-      url: /framework/devops/process
     - page: Tools
       url: /framework/devops/tools
       

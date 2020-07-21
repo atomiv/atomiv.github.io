@@ -1,6 +1,7 @@
 ---
 title: Get Started
 category: docker
+author: [ boban-bojkovski, valentina-cupac ]
 ---
 
 ## Installation

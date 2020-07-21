@@ -1,31 +1,37 @@
 ---
 title: Overview
 category: recruitment
+author: [ fergus-obrien ]
 ---
 
 ## Overview
 
-Recruitment - in the context of collaborative technology projects - denotes a broad set of business processes and human activities that enable cross-functional teams to optimize their collective efficacy by adding complimentary skillsets, hard and soft.
+Recruitment denotes a broad set of business processes and human activities that enable cross-functional teams to optimize their collective efficacy by adding complimentary skillsets, hard and soft. Done well, recruiting can be an incredible business enabler which allows a team to add the right specialist knowledge, at the right time, with maximal impact across the whole organisation. Done badly, recruiting can be a drain on time and resources, with long-term damage that can be hard to undo.
 
+Each set of recruiting activities is heavily dependent upon the specific organisational needs, and will differ substantially from case to case. A five-person startup has very different requirements to a publicly listed multinational. However, there are a set of core ingredients that form the kernel of a well-designed recruitment process, and these can be adapted as required. 
+
+This underlying framework can further be understood as outlining a series of optimization problems. By understanding the optimization dynamics at every point of the process, a management team should be able to implement a recruitment process that is perfectly suited to their own business needs, balancing the interplay of budget, timelines and human input to push towards best case scenarios which cater for growth and resilience.
+
+It should also be noted that many of the activites outlined in this framework constitute generalist tasks which may serve as a useful indicators of overall business health and agility. If any of the steps outlined prove difficult to follow, that may be an indication of business immaturity, siloed information hierarchies, insufficient intra-team communication, overly centralised decision making, or similar.
 
 <!-- What's the importance of recruitment for companies? How does it affect company success? Why are recruiters? Why processes are important in recruitment? Optimization sentence. .... for top management audience.... How is recruitment related to company ROI, people assets -->
 
 
-Each set of recruiting activities is heavily dependent upon the specific organisational needs, and will differ substantially from case to case. However, there are a set of core ingredients that form the kernel of a typical recruitment process.
-
-What we'll do in this article is explore the fictional use case of a Berlin-based startup building Observability software, in order to examine the common threads of a well-designed recruitment lifecycle, and outline the different considerations involved at each stage.
+<!-- This document will explore the fictional use case of a Berlin-based startup building Observability software, in order to examine the common threads of a well-designed recruitment lifecycle, and outline the different considerations involved at each stage.
 
 ## Roles
 
-
 <!-- List of roles: Recruiter, Recruitment Project Manager, Founding team .... roles and responsibilities (what the role is and what are the responsibilities covered by role) -->
 
+Any recruitment process is going to start with an acknowledgement that the existing team needs to be supplemented with additional expertise. Whether that realisation comes from management, team members, investors, or from elsewhere, it necessitates the creation of an adhoc or a formalized team structure that will collaborate on a successful project planning and execution. A lean version of this assemblage might look as follows:
 
-* Recruiter
-* Recruitment Project Manager
-* Hiring Manager
-* Founding team
-* Candidate
+* **Hiring Manager** --> responsible for: identifying current capability gaps, building business case for new hire, defining hard/soft skills of new hire, securing budget approval, agreeing on structure of interview process, manging adhoc contributors, taking the lead on final decisions.
+
+* **Recruiter** --> responsible for: working with hiring manager to document capability gaps, putting together a project plan, ensuring that all stakeholders are working together, advocating for a positive candidate experience, balancing competing priorities, delivering project to completion.
+
+* **Recruitment Project/Programme Manager** --> responsible for: budget approval, monitoring patterns in hiring activity, supporting group wide hiring, identifying recurring blockages, establishing feedback mechanisms, implementing periodic reviews, advocating for continuous improvement and standardisation of processes.
+
+* **Adhoc Contributors** --> responsible for: assisting with specific items of project planning and execution, delivering specialised input within the interview process, participating as contributors in evaluation meetings, advocating for needs of existing team.
 
 
 <!-- Sometimes there's mutliple people taking on roles, or in smaller companies one person takes on these roles... Also someone might not have a formal designation, e.g. for a smaller company the founder or software developers could be recruiters -->
@@ -35,56 +41,79 @@ What we'll do in this article is explore the fictional use case of a Berlin-base
 
 ### Define
 
-
 <!-- TODO: to define the organisational needs - EXPAND, for top management audience -->
-
-
 <!-- TODO: recruitment roadmap - EXPAND, for top management audience... what's in a roadmpa, maybe some examples -->
 
+Once the project team has been established, it is important that they get together to outline the key objectives and discuss the optimization challenges that they are facing.
 
-The primary recruiter and the key stakeholders must get together to define the organisational needs, and lay out a recruitment roadmap for a given time period. In many cases, this may mean looking forward across the coming 12 month period, and then breaking that down further in terms of prioritisation.
+Some of the key questions to address:
+* What is the budget
+* What are the time constraints
+* What is the level of flexibility when it comes to budget and time
+* How does this hire fit within the broader context of a long-term hiring roadmap
+* Is the role definition understood across the team
+* Where is this information going to be stored, and is their need for permissioned access
+* How frequently does the team need to meet to review progress
+* What does success look like
 
-From the outcome of this process, we might decide that the ideal hiring roadmap for our fictional startup should look something like this:
-* Q1 ー 1 Senior Backend Enginer
-* Q2 ー 2 Mid-level Backend Engineers
-* Q3 ー 1 Senior Frontend Engineer + 1 Junior Frontend Engineer
-* Q4 ー UX Specialist + Devops Engineer + Customer Support Engineer
-
-Once we have this high-level overview, and have reconciled it with the annual hiring budget, we are now in a position to operate at item level.
+These are primarily "big picture" questions which frame the recruitment needs against the broader backdrop of organisation structure and strategy. Once those relationships have been understood, it is time to turn to the specific requirements. 
 
 **Define the ideal profile**, in terms of the following:
 
-* Hard skills (what they bring to the table on day 1)
+* Hard skills (what the new hire will bring to the table on day 1)
+     * Essential + Desired
 * Soft skills (what personal characteristics will be important in being successful)
-* Motivation (why they want to make this change)
+     * Essential + Desired
+* Motivation (why this person want to make this change)
 
-See the [template](https://atomiv.org/templates/recruitment/profile) for defining an ideal profile here 
+See the [template](https://atomiv.org/templates/recruitment/profile) for defining an ideal profile. Some of the factors that affect these definitions include: building for short term v building for long term, value driven business v outcomes driven business, desire to retain existing culture v desire to transform existing culture, immediate impact required v gradual ramping up.
 
 <!-- Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases -->
      
-**Define the Interview Process**, in terms of the following:
-  - Who is going to be involved
-  - How will it be structured
-  - What is the rationale for each stage
-  - What are the ideal outcomes for each stage
-  - What are the feedback mechanisms that will guide the process
+**Define the interview process**, in terms of the following:
+ * Who is going to be involved
+ * How will it be structured
+ * What is the rationale for each stage
+ * What are the ideal outcomes for each stage
+ * What are the feedback mechanisms that will guide the process
 
+The major optimization challenge here is to build an interview process that is sufficiently rigorous that it eliminates all unsuitable candidates, without placing unnecessary procedural barriers that discourage capable applicants from completing the interview process. A seven stage process will usually generate more useful insights about candidate suitability than a three stage process, but, the length of the process itself may become an obstacle. When thinking about this dynamic, the recruitment team should aim to remove as much friction as possible, without compromising unduly on screening rigor. An interview process that is simultaneously enjoyable and challenging is a standard feature of hiring at companies who have been successful in navigating this optimization challenge.
+
+
+**Define the search strategy**, in terms of the following:
+  
+ * Passive Strategy
+    * Posting adverts and generating candidate flow via responses 
+    * These adverts may be places on resources like LinkedIn, Job Boards, Industry Networking websites, and so on
+    * The cost is best calculated in terms of total advertising cost, and time invested in screening incoming resumes
+ * Active Strategy
+    * Identifying candidates via boolean querying of web resources
+    * These queries can be run against datasets contained on LinkedIn, Job Boards, GitHub, Internal Databases, and so on
+    * The cost is best calculated in terms of subscription cost, and time invested in active outreach
+ * Hybrid Strategy
+    * Elements of both of the above
 
    
 ### Anticipate
 
-There are going to be some recurring resources that we need throughout the recruiting process. Because this is a hybrid exercise, most of these resources will fall under the category of marketing materials. So we make an index of the available resources at our disposal:
+Once the high-level and low-level definition has been finalised, it is tempting to jump straight into the project execution phase. However, and this is especially true in organisations that are lacking in maturity, or operating at a high-velocity, it is vital to build an index of resources that will be required throughout the interview process.
+
+This comes down to the fact that recruitment is a two-way exercise. On the one hand, it is important to define and screen so that the right candidates are identified and assessed. On the other hand, candidates must be provided with a set of informational resources which will allow them to understand the nature of the organisation that they are contemplating joining. An additional reason for encouraging this phase is that it enables to recruiting team to synchronize on messaging, presentation and language.
 
 
 <!-- Before starting interviews, you'll know who the company is, what they do, how they differentiate themselves, what the culture looks like.... give people resources instead of addressing it directly.... you start to look at org as outsider, where would someone find info... neeed to make sure everyone on the team (recruiters / intervewsi) knows where they are and can link to them... Mostly useful for recruiters but also a marketing exercise. Better attract talent.... Linking to optimization - knhowledge is centralized accessbile, avoiding re-explaining same topics... and also consistent messaging between recruitment and hiring and founders, everyone on panel similar language... this is like project management -->
 
-
+Make a list of the resources available to candidates looking to learn more about the business. This may include:
 
 * Website
-* Collateral documents (explaining product) or demo videos
+* Collateral documents 
+* Demo videos or other product explainers
 * Relevant team bios
 * Company blog
 * Links to press, publicity or announcements
+* Past employee feedback from places like Glassdoor
+* Funding announcements from places like Crunchbase
+* Customer testimonials or case studies
 * A simple app outlining key info
 * Any other online/offline resources that add value
 
@@ -92,24 +121,47 @@ There are going to be some recurring resources that we need throughout the recru
 
 <!-- Clarification: These are factors regarding which employees to target vs avoid, based on the companies they work in... demands and restrictions and availabilities -->
 
+Another valuable set of materials to collate pertains to resources that will help the recruiter in any active outbound campaigns that he/she chooses to embark upon. This may include:
 
+* Ideal target companies (e.g. competitors, companies of a similar size/stage, companies with a similar hiring bar)
+* Companies to avoid (e.g. clients, partners, investor network affiliations, companies with a low hiring bar etc)
+* Relevant companies that are experiencing layoffs
+* Former colleagues from team network (to target referrals)
+* Past messaging used in previous hiring activities
 
-**Build a list of important background factors, which may include such things as:**
-  - Ideal target companies
-  - Companies to avoid (clients, partners, investor network etc)
-  - Relevant companies that are experiencing layoffs
-  - Former colleagues from group network
-
-**Devise a search strategy:**
-  - Where are we going to find these individuals (e.g. LinkedIn, Job Board, Referral, Employee Network etc)
-  - Who is going to be in charge of the deliverables (e.g. Recruiter, Recruitment Project Manager, Founding team etc)
-  - Review process (e.g. Friday status update meeting)
 
 ### Identify
 
-In the talent landscape of 2020, the process of identification is indelibly entwined with the technical act of boolean querying. Boolean queries are a means of interrogating datasets so as to obtain results that suit your needs.
+Assuming that there is some element of active sourcing required as part of the recruitment strategy, there will likely be need for the Recruiter to construct a set of boolean queries that surface prospective candidates with relevant skills and backgrounds. Boolean queries are a syntactically governed method of interrogating datasets so as to obtain relevant results.
 
-One of our largest datasets for software engineers is LinkedIn, so we might use this platform as our primary locus of talent identification. But, every online database that is publicly/privately accessible, can be queried for relevant results. Github, StackOverflow, Job Boards, Meetup, Event Databases, University Lists (and so on) can be used along similar lines. The querying syntax and the UI will differ, but the fundamentals should remain similar.
+One of the largest professional services datasets is curated by LinkedIn, and as such, this is a common locus for many active identification campaigns. However, every online database that is publicly/privately accessible, can be queried for relevant results. Github, StackOverflow, Job Boards, Meetup, Event Databases, University Lists (and so on) can be used along similar lines.
+
+First order of business is to review the boolean guidelines on your platform of choice. In the case of LinkedIn, these read as follows:
+
+> * **Quoted searches**: For an exact phrase, enclose the phrase in quotation marks. For example, type "product manager". You can also use quotation marks if you want to find someone with a multi-word title.
+>    * LinkedIn search only supports standard, straight quotation marks ("). Other software or websites may use special symbols that our system does not recognize. Curly quotation marks (“), also known as smart quotes or typographer's quotes, aren't supported.
+>    * In order to optimize overall site performance, stop words such as "by", "in", "with", etc. aren't used.
+> * **NOT searches**: Type the word NOT (capital letters) immediately before a search term to exclude it from your search results. This typically limits your search results. For example, "programmer NOT manager".
+> * **OR searches**: Type the word OR (capital letters) to see results that include one or more items in a list. This typically broadens your search results. For example, > "sales OR marketing OR advertising”.
+> * **AND searches**: AND searches: Type the word AND (capital letters) to see results that include all items in a list. This typically limits your search results. For example, "accountant AND finance AND CPA".
+
+> Note: You don't need to use AND. If your search has two or more terms, you'll automatically see results that include all of them.
+> Parenthetical searches - To do a complex search, you can combine terms using parentheses. For example, to find people who have "VP" in their profiles, but exclude > "assistant to VP" or SVPs, type VP NOT (assistant OR SVP).
+> When handling searches, the overall order to precedence is:
+
+> * Quotes [""]
+> * Parentheses [()]
+> * NOT
+> * AND
+> * OR
+> * Important:
+
+> * The + and - operators are not officially supported by LinkedIn. Using AND in place of + and NOT in place of - makes a query much easier to read and guarantees that we'll handle the search correctly.
+> * When using NOT, AND, or OR operators, you must type them in uppercase letters.
+> * We don't support wildcard "*" searches.
+> * Boolean search will work in the keyword field in Recruiter and Linkedin.com, and will work in the Company, title, and keyword field in Sales Navigator.
+
+Now that we have been briefed on the way in which queries are parsed, we can start to formulate our own starter query, using the information put together in the definition phase earlier. 
 
    - **Example Search Query #1:** (”software engineer” OR “senior engineer” OR “senior software”) AND (observability OR metrics OR traces OR logs OR tracing OR logging) AND (c++ OR golang)
 
