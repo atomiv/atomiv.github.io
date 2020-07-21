@@ -91,7 +91,8 @@ layout: default
 						{% assign content = page.authors | strip_newlines %}
 
 						<!-- if page.authors != "" and page.authors != nil -->
-						{% if content != "" %}
+						{% if content != "" and content != nil and content !="[]" %}
+
 
 						<hr class="author-hr">
 
