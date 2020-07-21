@@ -6,7 +6,7 @@ authors: [ boban-bojkovski ]
 
 ## Orchestration and Scheduling
 
-### Kubernetes, Mesos, Docker Swarm  
+**Kubernetes, Mesos, Docker Swarm**
 
 Container orchestration manages containers lifecycles.  
 
@@ -17,7 +17,7 @@ It is used to control and automate processes like container provisioning, deploy
 
 <!-- NOTE: Question from VC: Does this belong here or somewhere else? I didn't know, so I put it here but please check -->
 
-### VMware, VirtualBox  
+**VMware, VirtualBox**
 
 Virtual machine is (heavyweight) environment that runs complete operating system and applications.
 
@@ -31,7 +31,7 @@ The hypervisor is software installed on the host and manages hardware resources 
   
 ## Monitoring and Logging  
 
-### New Relic, Datadog, Splunk, Elasticsearch (elastic stack)  
+**New Relic, Datadog, Splunk, Elasticsearch (elastic stack)**
 
 The concepts of monitoring and observability help to understand complete system state, addressing questions as when, what, why a service is failing.  
 

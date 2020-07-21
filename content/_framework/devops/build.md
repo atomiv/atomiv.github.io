@@ -10,11 +10,11 @@ Commonly used tools to support daily operations:
 
 ## Build
 
-### Bash, Python, Go  
+**Bash, Python, Go**
 
 Scripting and programming are common processes to develop, extend, integrate solutions, automate processes with aim to improve teams productivity.
 
-### Docker, rkt, LXC, runC, containerd  
+**Docker, rkt, LXC, runC, containerd**
 
 Container is a lightweight virtual environment for running applications. Containerization involves building an image, a standalone executable software package that contains an application and all its dependencies.
 
@@ -28,7 +28,7 @@ source: quppler.com and cloud.google.com
 
 ## Version Control
 
-###  GitHub, GitLab, Bitbucket  
+**GitHub, GitLab, Bitbucket**
 
 Source code management supports teams to collaborate on developing solutions using tools and practices to effectively manage and track code changes in a shared codebase.  
 
@@ -36,9 +36,9 @@ Teams use version control tools and define own practical code workflow, a model 
 
 [nvie - A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model "nvie")
 
-## CI / CD
+## Continuous Integration and Continuous Deployment
 
-### Jenkins CI, CircleCI, GitLab, Travis CI  
+**Jenkins CI, CircleCI, GitLab, Travis CI**
 
 Continuous integration (CI) and continuous delivery (CD) operates on set of principles and practices that enables teams to automate the process of building, testing, delivering solutions.
   

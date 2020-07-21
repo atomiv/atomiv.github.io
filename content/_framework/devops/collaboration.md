@@ -8,15 +8,18 @@ The team works in a collaborative environment with stakeholders and end users, t
 
 ## Application Lifecycle Management
 
-### Jira
+**Jira**
+
 Tool that supports teams to plan, report, manage work and track progress.
 
 ## Communication
 
-### Slack  
+**Slack**
+
 Communication tool that connects people, applications (for instance through bot services, ChatOps), data. 
 
 ## Knowledge Sharing
 
-### Confluence  
+**Confluence**
+
 Wiki, documentation tool for sharing knowledge and experience. 

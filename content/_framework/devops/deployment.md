@@ -6,7 +6,7 @@ authors: [ boban-bojkovski ]
 
 ## Configuration Management
 
-### Ansible, Chef, Puppet, Terraform 
+**Ansible, Chef, Puppet, Terraform**
 
 Infrastructure as Code (IaC) automates infrastructure, platform and application management in a descriptive way.
 
