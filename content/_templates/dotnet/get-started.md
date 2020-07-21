@@ -55,28 +55,11 @@ Build succeeded.
 ...
 ```
 
-## Create database
+## Database connections
 
 Note: If needed, you can adjust the database connection \(inside the project MyWebShop.Web.RestApi, open up the file appsettings.Development.json and ensure that DefaultConnection is appropriately set to your development database server, note that the database does not exist\) yet. 
 
 Run the command to create the database:
-
-```text
-dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
-```
-
-You should see outout like:
-
-```text
-Build started...
-Build succeeded.
-The environment is Development.
-Applying migration ...
-Applying migration ...
-Done.
-```
-
-You can verify inside SQL Server Management Studio that the database has been created.
 
 ## Run project
 
@@ -99,6 +82,12 @@ Application started. Press Ctrl+C to shut down.
 At the end, type in Ctrl+C to shut down the API.
 
 Note: If you're using Visual Studio, then you can run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/](https://localhost:44315/api/values). You can stop debugging at the end.
+
+## Run project (via Docker)
+
+In Visual Studio, click on "Docker", which should open up the REST API.
+
+<!-- TODO: VC: Command line way currently not working, pending check -->
 
 ## Manual tests
 
@@ -138,6 +127,27 @@ Note: If you're using Visual Studio, then to run the automated tests, open up th
 We recommend you familiarize yourself with the solution and then you can adapt it to your own needs. This current template uses the eCommerce sample, with Customers, Products and Orders. However, let's say you're making an application for dentists, you could have Dentists, Patients and Appointments, etc.
 
 ## Custom development - Migrations
+
+
+
+```text
+dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
+```
+
+You should see outout like:
+
+```text
+Build started...
+Build succeeded.
+The environment is Development.
+Applying migration ...
+Applying migration ...
+Done.
+```
+
+You can verify inside SQL Server Management Studio that the database has been created.
+
+
 
 To add a new migration:
 
