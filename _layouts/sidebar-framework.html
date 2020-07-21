@@ -88,13 +88,18 @@ layout: default
 						<!-- ----------------------------------------------------- -->
 						<!-- List of authors -->
 
+						{% assign content = page.authors | strip_newlines %}
+
+						<!-- if page.authors != "" and page.authors != nil -->
+						{% if content != "" %}
+
 						<hr class="author-hr">
 
-						<h5 class="author-h">Written by</h5>
+						<h5 class="author-h">Authors</h5>
 
 						<div class="author-container">
 
-						{% for author3 in page.author %}
+						{% for author3 in page.authors %}
 						{% for siteauthor in site.data.authors.docs %}
 						{% if author3 == siteauthor.url %}
 						{% for author in site.authors %}
@@ -110,13 +115,15 @@ layout: default
 
 						</div>
 
+						{% endif %}
+
 						
 						<!-- --------------------------------------------------------------------- -->
 						<!-- Previous and next links -->
 						
-						<div class="template-links">
+						<!-- <div class="template-links"> -->
 							<!-- { % if page.previous.url % } -->
-							{% if page.previous.category == page.category %}
+							<!-- {% if page.previous.category == page.category %}
 							<span>
 								<a href='{{page.previous.url}}'>
 									<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -125,10 +132,10 @@ layout: default
 									{{page.previous.title}}
 								</a>
 							</span>
-							{% endif %}
+							{% endif %} -->
 							
 							<!-- { % if page.next.url % } -->
-							{% if page.next.category == page.category %}
+							<!-- {% if page.next.category == page.category %}
 							<span class="next" style="float: right;">
 								<a href="{{page.next.url}}">
 									{{page.next.title}}
@@ -137,8 +144,8 @@ layout: default
 									  </svg>
 								</a>
 							</span>
-							{% endif %}
-						</div>
+							{% endif %} -->
+						<!-- </div> -->
 
 						<!-- --------------------------------------------------------------------------- -->
 

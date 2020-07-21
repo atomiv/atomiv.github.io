@@ -1,7 +1,7 @@
 ---
 title: Get Started
 category: android
-author: [ velibor-cakarevic ]
+authors: [ velibor-cakarevic ]
 ---
 
 

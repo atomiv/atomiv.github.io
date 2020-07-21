@@ -44,6 +44,45 @@ layout: default
 						<!-- {{ page.title }} <br /> -->
 						<!-- {{ page.url }} <br /> -->
 						<!-- {{ page.category }}... <br/> -->
+						
+
+						<!-- ----------------------------------------------------- -->
+						<!-- List of authors -->
+
+						
+						{% assign content = page.authors | strip_newlines %}
+
+						<!-- if page.authors != "" and page.authors != nil -->
+						{% if content != "" and content != nil and content !="[]" %}
+
+
+						<hr class="author-hr">
+
+						<h5 class="author-h">Authors</h5>
+
+						<div class="author-container">
+
+						{% for author3 in page.authors %}
+						{% for siteauthor in site.data.authors.docs %}
+						{% if author3 == siteauthor.url %}
+						{% for author in site.authors %}
+							{% if siteauthor.name == author.name %}
+
+								{% include author.html %}
+
+							{% endif %}
+						{% endfor %}
+						{% endif %}
+						{% endfor %}
+						{% endfor %}
+
+						</div>
+
+						{% endif %}
+
+						
+						<!-- --------------------------------------------------------------------- -->
+
 
 						<!-- <div class="template-links">
 							{% if page.previous.category == page.category %}

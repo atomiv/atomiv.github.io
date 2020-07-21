@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: system-admin
-author: [ vladimir-maljm ]
+authors: [ vladimir-maljm ]
 ---
 
 System administrators are very important for the reliable and successful functioning of the data center, IT infrastructure and network operational center.

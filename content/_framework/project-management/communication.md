@@ -1,7 +1,7 @@
 ---
 title: Communication
 category: project-management
-author: [ tamara-golubovic ]
+authors: [ tamara-golubovic ]
 ---
 
 As it is said in the overview short paragraph, communication is the essential and vital part of any successful project, company or people relationships.

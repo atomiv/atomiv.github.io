@@ -1,7 +1,7 @@
 ---
 title: Tools
 category: devops
-author: [ boban-bojkovski ]
+authors: [ boban-bojkovski ]
 ---
   
   

@@ -1,7 +1,7 @@
 ---
 title: Use Cases
 category: requirements
-author: [ valentina-cupac ]
+authors: [ valentina-cupac ]
 ---
 
 

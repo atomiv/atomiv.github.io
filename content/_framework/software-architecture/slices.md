@@ -1,7 +1,7 @@
 ---
 title: Slices
 category: software-architecture
-author: [ valentina-cupac ]
+authors: [ valentina-cupac ]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: requirements
-author: [ valentina-cupac ]
+authors: [ valentina-cupac ]
 ---
 
 Welcome to the Requirements templates.

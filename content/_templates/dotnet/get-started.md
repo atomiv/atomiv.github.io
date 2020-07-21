@@ -1,7 +1,7 @@
 ---
 title: Get Started
 category: dotnet
-author: [ valentina-cupac ]
+authors: [ valentina-cupac ]
 ---
 
 

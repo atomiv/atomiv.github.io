@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: recruitment
-author: [ fergus-obrien ]
+authors: [ fergus-obrien ]
 ---
 
 ## Overview

@@ -1,7 +1,7 @@
 ---
 title: Network
 category: system-admin
-author: [ vladimir-maljm ]
+authors: [ vladimir-maljm ]
 ---
 
 

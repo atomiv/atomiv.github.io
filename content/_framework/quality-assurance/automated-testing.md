@@ -1,6 +1,7 @@
 ---
 title: Automated Testing
 category: quality-assurance
+authors: [  ]
 ---
 
 

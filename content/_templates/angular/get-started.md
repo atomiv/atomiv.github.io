@@ -1,7 +1,7 @@
 ---
 title: Get Started
 category: angular
-author: [ jelena-cupac ]
+authors: [ jelena-cupac ]
 ---
 
 

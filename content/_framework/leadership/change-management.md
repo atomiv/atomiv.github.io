@@ -1,6 +1,7 @@
 ---
 title: Change Management
 category: leadership
+authors: [  ]
 ---
 
 ## This is a heading

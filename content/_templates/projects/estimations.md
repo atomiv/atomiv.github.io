@@ -1,7 +1,7 @@
 ---
 title: Estimations
 category: projects
-author: [ tamara-golubovic ]
+authors: [ tamara-golubovic ]
 ---
 
 ## Development Team Estimations

@@ -1,6 +1,7 @@
 ---
 title: Manual Testing
 category: quality-assurance
+authors: [  ]
 ---
 
 ## What is manual testing

@@ -1,7 +1,7 @@
 ---
 title: Maintenance
 category: system-admin
-author: [ vladimir-maljm ]
+authors: [ vladimir-maljm ]
 ---
 
 

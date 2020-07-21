@@ -1,7 +1,7 @@
 ---
 title: Walkthrough
 category: java
-author: [ valentina-cupac, jelena-mitrovic ]
+authors: [ valentina-cupac, jelena-mitrovic ]
 ---
 
 Something.

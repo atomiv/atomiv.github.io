@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: leadership
-author: [ andrew-griffing ]
+authors: [ andrew-griffing ]
 ---
 
 ## What is leadership - this is a sample heading

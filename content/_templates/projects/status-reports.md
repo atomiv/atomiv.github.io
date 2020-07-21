@@ -1,7 +1,7 @@
 ---
 title: Status Reports
 category: projects
-author: [ tamara-golubovic ]
+authors: [ tamara-golubovic ]
 ---
 
 ##  Client Status Reports

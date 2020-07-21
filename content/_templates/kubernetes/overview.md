@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: kubernetes
-author: [ boban-bojkovski, valentina-cupac ]
+authors: [ boban-bojkovski, valentina-cupac ]
 ---
 
 Welcome to the Kubernetes template.

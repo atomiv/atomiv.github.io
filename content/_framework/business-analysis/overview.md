@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: business-analysis
-author: [ divna-simeunovic ]
+authors: [ divna-simeunovic ]
 ---
 
 

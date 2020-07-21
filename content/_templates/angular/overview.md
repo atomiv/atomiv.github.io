@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: angular
-author: [ jelena-cupac ]
+authors: [ jelena-cupac ]
 ---
 
 Welcome to the Angular template.

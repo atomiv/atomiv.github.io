@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: projects
-author: [ tamara-golubovic ]
+authors: [ tamara-golubovic ]
 ---
 
 Welcome to the Project template.

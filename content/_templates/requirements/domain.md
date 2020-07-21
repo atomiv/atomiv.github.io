@@ -1,7 +1,7 @@
 ---
 title: Domain
 category: requirements
-author: [ valentina-cupac ]
+authors: [ valentina-cupac ]
 ---
 
 

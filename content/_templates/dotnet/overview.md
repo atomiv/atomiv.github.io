@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: dotnet
-author: [ valentina-cupac ]
+authors: [ valentina-cupac ]
 ---
 
 Welcome to the .NET template.

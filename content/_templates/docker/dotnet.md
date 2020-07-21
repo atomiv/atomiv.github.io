@@ -1,7 +1,7 @@
 ---
 title: .NET
 category: docker
-author: [ boban-bojkovski, valentina-cupac ]
+authors: [ boban-bojkovski, valentina-cupac ]
 ---
 
 ## Step 1 - Containerization

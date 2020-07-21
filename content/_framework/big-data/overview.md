@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: big-data
-author: [ petar-zecevic ]
+authors: [ petar-zecevic ]
 ---
 
 This is an overview of Big Data.

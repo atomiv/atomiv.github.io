@@ -1,7 +1,7 @@
 ---
 title: Processes
 category: requirements
-author: [ valentina-cupac ]
+authors: [ valentina-cupac ]
 ---
 
 

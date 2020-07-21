@@ -10,5 +10,7 @@ city: München
 country: Germany
 degree: M.Sc. Electrical Engineering
 university: Lund University
+
+short_bio: Velibor is an Embedded Development Engineer / Freelancer, with experience in development of real-time software for embedded systems and code optimization. 
 ---
 Velibor is an Embedded Development Engineer / Freelancer, with experience in development of real-time software for embedded systems and code optimization. He joined Atomiv to share his experiences in best practices for embedded development and Linux / Android OS.

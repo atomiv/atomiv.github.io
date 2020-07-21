@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: software-architecture
-author: [ milan-vidakovic ]
+authors: [ milan-vidakovic ]
 ---
 
 ## Introduction to Software Architecture

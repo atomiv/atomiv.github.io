@@ -1,7 +1,7 @@
 ---
 title: Domain Driven Design
 category: software-architecture
-author: [ miroslav-trninic ]
+authors: [ miroslav-trninic ]
 ---
 
 ## Definition
