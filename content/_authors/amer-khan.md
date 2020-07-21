@@ -11,4 +11,4 @@ country: Australia
 degree: PhD. Organizational Studies
 university: University of Sydney
 ---
-Amer is a Senior Learning Designer and was previously a Lecturer at various universities. Amer joined Atomiv to share his experiences in leadership and change management, focusing on how organizations can achieve effective transformations.
+Amer is a Senior Learning Designer and was previously a Lecturer at various universities. Amer joined Atomiv to share his experiences in leadership and change management, focusing on how organizations can achieve effective improvements and transformations.
