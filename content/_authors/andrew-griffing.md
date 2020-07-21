@@ -10,5 +10,6 @@ city: Sydney
 country: Australia
 degree: B. Commerce (Eonomics, Finance & Business Information Systems)
 university: University of Sydney
+short_bio: 
 ---
 Andrew is a pragmatic, inspirational leader. He is recognized as a top ten management consultant in Asia Pacific at Accenture Strategy. Andrew has joined Atomiv to share his experiences in leadership, working with senior executives and managing teams.
