@@ -116,8 +116,6 @@ docs:
   submenuitems:
     - page: Overview
       url: /framework/devops/overview
-    - page: Process
-      url: /framework/devops/process
     - page: Tools
       url: /framework/devops/tools
       
