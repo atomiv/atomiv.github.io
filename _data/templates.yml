@@ -51,8 +51,6 @@ docs:
       url: /templates/dotnet/get-started
     - page: Walkthrough
       url: /templates/dotnet/walkthrough
-    - page: Implementation
-      url: /templates/dotnet/implementation
 
 - title: Java
   url: java
