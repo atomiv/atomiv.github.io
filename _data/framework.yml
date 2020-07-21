@@ -118,9 +118,14 @@ docs:
   submenuitems:
     - page: Overview
       url: /framework/devops/overview
-    - page: Tools
-      url: /framework/devops/tools
-      
+    - page: Collaboration
+      url: /framework/devops/collaboration
+    - page: Build
+      url: /framework/devops/build
+    - page: Deployment
+      url: /framework/devops/deployment
+    - page: Production
+      url: /framework/devops/production
       
 - title: Recruitment
   url: recruitment
