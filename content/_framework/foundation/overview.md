@@ -1,7 +1,6 @@
 ---
 title: Overview
 category: foundation
-author: [ valentina-cupac ]
 ---
 
 Ready to accelerate your enterprise software development teams and deliver successful software projects? Welcome to Atomiv.
