@@ -1,6 +1,7 @@
 ---
 title: Overview
 category: quality-assurance
+author: [ clifford-long ]
 ---
 
 One view of "Quality" is that it is a byproduct, or outcome, of a system that reflects the suitability and effectiveness of an organization's processes and the interactions between processes. This means to increase quality, organizations need to improve processes to do it consistently and to scale. Processes include business functions, design processes (starting with requirements elicitation), manufacturing processes, service processes, customer processes, supplier processes, and anything that transforms inputs into outputs.  "Quality" as an outcome can be measured as conformance to requirements or expectations (both customer requirements regarding functionalities, but also regulatory requirements and standards). 

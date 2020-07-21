@@ -1,6 +1,7 @@
 ---
 title: Cross Functional Team Leadership 
 category: leadership
+author: [ jon-campbell ]
 ---
 
 ##	Why cross-functional teams are needed

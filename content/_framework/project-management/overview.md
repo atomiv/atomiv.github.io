@@ -1,6 +1,7 @@
 ---
 title: Overview
 category: project-management
+author: [ tamara-golubovic ]
 ---
 
 ## Introduction to Project Management

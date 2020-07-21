@@ -1,6 +1,7 @@
 ---
 title: Overview
 category: embedded-development
+author: [ velibor-cakarevic ]
 ---
 
 ## What are Embedded Systems
