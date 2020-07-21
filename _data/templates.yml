@@ -43,6 +43,10 @@ docs:
   submenuitems:
     - page: Overview
       url: /templates/dotnet/overview
+    - page: Installation
+      url: /templates/dotnet/installation
+    - page: Configuration
+      url: /templates/dotnet/configuration
     - page: Get Started
       url: /templates/dotnet/get-started
     - page: Walkthrough
