@@ -1,7 +1,7 @@
 ---
 title: Change Management
 category: leadership
-authors: [  ]
+authors: [ amer-khan ]
 ---
 
 ## Change management
