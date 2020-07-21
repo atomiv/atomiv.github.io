@@ -29,7 +29,7 @@
   - subtitle: quality-assurance
     suburl: /framework/quality-assurance/overview
   - subtitle: big-data
-    suburl: /framework/big-data/data-sources
+    suburl: /framework/big-data/overview
   - subtitle: embedded-development
     suburl: /framework/embedded-development/overview
   - subtitle: system-admin
