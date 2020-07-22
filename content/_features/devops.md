@@ -4,97 +4,17 @@ title: title
 ---
 
 
-<table>
-  {% for row in site.data.backend.architecture %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {% if pair[1] == "y" %}
-      <i class="fas fa-check"></i>
-      {% elsif pair[1] == "n" %}
-      <i class="far fa-clock"></i>
-      {% else %}
-      {{ pair[1] }}
-      {% endif %}
-
-    {% endtablerow %}
-  {% endfor %}
-</table>
+<!-- { % assign table_name = 'architecture' % }   -->
+<!-- { % include csv-table.html % } -->
 
 
+<!-- include csv-table.html some_parameter="a value" another_parameter=variable_name -->
 
-<table>
-  {% for row in site.data.backend.application %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
+{% include csv-table.html table_name='architecture' %}
 
-    {% tablerow pair in row %}
-      {% if pair[1] == "y" %}
-      <i class="fas fa-check"></i>
-      {% elsif pair[1] == "n" %}
-      <i class="far fa-clock"></i>
-      {% else %}
-      {{ pair[1] }}
-      {% endif %}
+{% include csv-table.html table_name='application' %}
 
-    {% endtablerow %}
-  {% endfor %}
-</table>
+{% include csv-table.html table_name='domain' %}
 
+{% include csv-table.html table_name='common' %}
 
-<table>
-  {% for row in site.data.backend.domain %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {% if pair[1] == "y" %}
-      <i class="fas fa-check"></i>
-      {% elsif pair[1] == "n" %}
-      <i class="far fa-clock"></i>
-      {% else %}
-      {{ pair[1] }}
-      {% endif %}
-
-    {% endtablerow %}
-  {% endfor %}
-</table>
-
-<table>
-  {% for row in site.data.backend.common %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {% if pair[1] == "y" %}
-      <i class="fas fa-check"></i>
-      {% elsif pair[1] == "n" %}
-      <i class="far fa-clock"></i>
-      {% else %}
-      {{ pair[1] }}
-      {% endif %}
-
-    {% endtablerow %}
-  {% endfor %}
-</table>
