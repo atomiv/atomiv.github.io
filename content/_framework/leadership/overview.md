@@ -18,7 +18,7 @@ The below principles are not “MECE”, but are the key things to emphasise ove
 
 ### Walk your talk
 
-This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. 
+TODO: This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. This is some paragraph. 
 
 * Do what I do
 * Assume the spotlight is on
