@@ -6,130 +6,130 @@ docs:
 - title: Foundation
   url: foundation
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/foundation/overview
-    - page: Principles
+    - title: Principles
       url: /framework/foundation/principles
-    - page: Business Case
+    - title: Business Case
       url: /framework/foundation/business-case
 
 - title: Leadership
   url: leadership
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/leadership/overview
-    - page: Cross Functional
+    - title: Cross Functional
       url: /framework/leadership/cross-functional
-    - page: Change Management
+    - title: Change Management
       url: /framework/leadership/change-management
-    - page: Teams
+    - title: Teams
       url: /framework/leadership/teams
 
 - title: Project Management
   url: project-management
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/project-management/overview
-    - page: Agile
+    - title: Agile
       url: /framework/project-management/agile
-    - page: Communication
+    - title: Communication
       url: /framework/project-management/communication
 
 - title: Business Analysis
   url: business-analysis
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/business-analysis/overview                       
 
 - title: Software Architecture
   url: software-architecture
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/software-architecture/overview
-    - page: Domain Driven Design
+    - title: Domain Driven Design
       url: /framework/software-architecture/domain-driven-design
-    - page: Microservices
+    - title: Microservices
       url: /framework/software-architecture/microservices
-    - page: Clean Architecture
+    - title: Clean Architecture
       url: /framework/software-architecture/clean-architecture
-    - page: Layers
+    - title: Layers
       url: /framework/software-architecture/layers
-    - page: Slices
+    - title: Slices
       url: /framework/software-architecture/slices
 
 - title: Software Development
   url: software-development
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/software-development/overview
 
 - title: Quality Assurance
   url: quality-assurance
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/quality-assurance/overview
-    - page: Manual Testing
+    - title: Manual Testing
       url: /framework/quality-assurance/manual-testing
-    - page: Automated Testing
+    - title: Automated Testing
       url: /framework/quality-assurance/automated-testing
 
 - title: Big Data
   url: big-data
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/big-data/overview
-    - page: Data Sources
+    - title: Data Sources
       url: /framework/big-data/data-sources
-    - page: Data Storage
+    - title: Data Storage
       url: /framework/big-data/data-storage
-    - page: Batch Processing
+    - title: Batch Processing
       url: /framework/big-data/batch-processing
-    - page: Stream Processing
+    - title: Stream Processing
       url: /framework/big-data/stream-processing
-    - page: Machine Learning
+    - title: Machine Learning
       url: /framework/big-data/machine-learning
-    - page: Analytical Data Store
+    - title: Analytical Data Store
       url: /framework/big-data/analytical-data-store
-    - page: Analytics and Reporting
+    - title: Analytics and Reporting
       url: /framework/big-data/analytics-and-reporting
 
 - title: Embedded Development
   url: embedded-development
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/embedded-development/overview
 
 - title: System Admin
   url: system-admin
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/system-admin/overview
-    - page: Configuration
+    - title: Configuration
       url: /framework/system-admin/configuration
-    - page: Maintenance
+    - title: Maintenance
       url: /framework/system-admin/maintenance
-    - page: Network
+    - title: Network
       url: /framework/system-admin/network
-    - page: Security
+    - title: Security
       url: /framework/system-admin/security
    
 - title: DevOps
   url: devops
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/devops/overview
-    - page: Collaboration
+    - title: Collaboration
       url: /framework/devops/collaboration
-    - page: Build
+    - title: Build
       url: /framework/devops/build
-    - page: Deployment
+    - title: Deployment
       url: /framework/devops/deployment
-    - page: Production
+    - title: Production
       url: /framework/devops/production
       
 - title: Recruitment
   url: recruitment
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/recruitment/overview
         
