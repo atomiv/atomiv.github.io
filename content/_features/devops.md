@@ -15,7 +15,7 @@ DevOps...
 <h3>{{item.title}}</h3>
 <ul>
 {% for entry in item.subfolderitems %}
-<li>{{entry.page}}</li>
+<li>{{entry.title}}</li>
 {% endfor %}
 </ul>
 {% endfor %}

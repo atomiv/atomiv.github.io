@@ -24,7 +24,7 @@
         {% for entry in item.submenuitems %}
             <li class="{% if entry.url == page.url %}active{% endif %}">
                 <a href="{{ entry.url }}">
-                    {{ entry.page }}
+                    {{ entry.title }}
 
                 </a>
             </li>
