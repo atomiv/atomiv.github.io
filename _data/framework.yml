@@ -18,12 +18,12 @@ docs:
   submenuitems:
     - page: Overview
       url: /framework/leadership/overview
-    - page: Teams
-      url: /framework/leadership/teams
     - page: Cross Functional
       url: /framework/leadership/cross-functional
     - page: Change Management
       url: /framework/leadership/change-management
+    - page: Teams
+      url: /framework/leadership/teams
 
 - title: Project Management
   url: project-management
