@@ -4,6 +4,7 @@ title: Backend
 
 <h2>Technical Features</h2>
 
+
 {% include csv-table.html table_name='architecture' %}
 
 {% include csv-table.html table_name='application' %}
@@ -13,6 +14,7 @@ title: Backend
 {% include csv-table.html table_name='common' %}
 
 {% include csv-table.html table_name='web_rest_api' %}
+
 
 {% include csv-table.html table_name='infrastructure_repos' %}
 
@@ -40,6 +42,6 @@ title: Backend
 
 {% include csv-table.html table_name='infrastructure_alerting' %}
 
-{% include csv-table.html table_name='test_layer' %}
 
+{% include csv-table.html table_name='test_layer' %}
 

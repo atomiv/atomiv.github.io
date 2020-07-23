@@ -14,54 +14,85 @@
   nDropdown: navbarDropdown1
   
   subcategories:    
-  - subtitle: foundation
+  - heading: Foundation
+    subtitle: foundation
     suburl: /framework/foundation/overview
-  - subtitle: leadership
+  - heading: Leadership
+    subtitle: leadership
     suburl: /framework/leadership/overview
-  - subtitle: project-management
+  - heading: Project Management
+    subtitle: project-management
     suburl: /framework/project-management/overview
-  - subtitle: business-analysis
+  - heading: Business Analysis
+    subtitle: business-analysis
     suburl: /framework/business-analysis/overview
-  - subtitle: software-achitecture
+  - heading: Software Architecture
+    subtitle: software-achitecture
     suburl: /framework/software-architecture/overview
-  - subtitle: software-development
+  - heading: Software Development
+    subtitle: software-development
     suburl: /framework/software-development/overview
-  - subtitle: quality-assurance
+  - heading: Quality Assurance
+    subtitle: quality-assurance
     suburl: /framework/quality-assurance/overview
-  - subtitle: big-data
+  - heading: Big Data
+    subtitle: big-data
     suburl: /framework/big-data/overview
-  - subtitle: embedded-development
+  - heading: Embedded Development
+    subtitle: embedded-development
     suburl: /framework/embedded-development/overview
-  - subtitle: system-admin
+  - heading: System Admin
+    subtitle: system-admin
     suburl: /framework/system-admin/overview
-  - subtitle: devops
+  - heading: DevOps
+    subtitle: devops
     suburl: /framework/devops/overview
-  - subtitle: recruitment
+  - heading: Recruitment
+    subtitle: recruitment
     suburl: /framework/recruitment/overview
 
 - title: Templates
   nDropdown: navbarDropdown2
   subcategories:
 
-  - subtitle: projects
+  - heading: Projects
+    subtitle: projects
     suburl: /templates/projects/overview
-  - subtitle: requirements
+  - heading: Requirements
+    subtitle: requirements
     suburl: /templates/requirements/overview
-  - subtitle: recruitment
+  - heading: Recruitment
+    subtitle: recruitment
     suburl: /templates/recruitment/overview
-  - subtitle: dotnet
+  - heading: .NET
+    subtitle: dotnet
     suburl: /templates/dotnet/overview
-  - subtitle: java
+  - heading: Java
+    subtitle: java
     suburl: /templates/java/overview
-  - subtitle: angular
+  - heading: PHP
+    subtitle: php
+    suburl: /templates/php/overview
+  - heading: Angular
+    subtitle: angular
     suburl: /templates/angular/overview
-  - subtitle: selenium
-    suburl: /templates/selenium/overview
-  - subtitle: android
+  - heading: React
+    subtitle: react
+    suburl: /templates/react/overview    
+  - heading: Vue
+    subtitle: vue
+    suburl: /templates/vue/overview
+  - heading: Android
+    subtitle: android
     suburl: /templates/android/overview
-  - subtitle: docker
+  - heading: Selenium
+    subtitle: selenium
+    suburl: /templates/selenium/overview
+  - heading: Docker
+    subtitle: docker
     suburl: /templates/docker/overview
-  - subtitle: kubernetes
+  - heading: Kubernetes
+    subtitle: kubernetes
     suburl: /templates/kubernetes/overview
 
   

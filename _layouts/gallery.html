@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == page.galleryid %}
+    <h1>{{ gallery.description }}</h1>
+    <ol>
+    {% for image in gallery.images %}
+      <li>
+        {{ image.text }}<br>
+        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
+          <img src="{{ gallery.imagefolder }}/{{ image.thumb }}" alt="{{ image.text }}">
+        </a>
+      </li>
+    {% endfor %}
+    </ol>
+  {% endif %}
+{% endfor %}
+
+
+<!-- For each gallery page, create a .html or .md file that just contains three lines of YAML front-matter:
+
+---
+title: the first gallery page
+layout: gallery
+galleryid: gallery1
+--- 
+ -->
+
+
+
+ <!-- For a list of available galleries, just loop through the data file:
+
+{% for gallery in site.data.galleries %}
+- [{{ gallery.description }}]({{ gallery.id }})
+{% endfor %}
+ -->
+
+
+ <!-- ---------------------------------------------------------------------------------- -->
+
+ <!-- {% for file in site.static_files %}
+  {% assign pageurl = page.url | replace: 'index.html', '' %}
+  {% if file.path contains pageurl %}
+    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}
+    <img src="{{ file.path }}" />
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% include image-gallery.html folder="/uploads/album" %} -->
+
+<!-- ----------------------------------------------------------------------------------- -->
+
+<!-- {% for image in site.static_files %}
+    {% if image.path contains 'path/to/image/folder/' %}
+        <a href="{{ site.baseurl }}{{ image.path }}" target="_blank">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="" class="img-thumbnail" />
+        </a>
+    {% endif %}
+{% endfor %} -->

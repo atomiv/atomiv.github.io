@@ -120,9 +120,12 @@
                     " href="{{ site.url }}{{ subcategory.suburl }}">
                       <!-- {{ subcategory.subtitle }} -->
 
-                      {% assign words = subcategory.subtitle | split: '-' %}
+                      <!-- assign words = subcategory.subtitle | split: '-' -->
+                      {% assign words = subcategory.heading %}
                       {% for word in words %}
-                        {{ word | capitalize | replace: 'Dotnet','.NET' | replace: 'Devops','DevOps' }}
+                      <!-- word | capitalize | replace: 'Dotnet','.NET' | replace: 'Devops','DevOps' |
+                        replace: 'Php', 'PHP' -->
+                        {{ word | camelcase }}
                       {% endfor %}
 
                     </a>
