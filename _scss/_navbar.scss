@@ -1,14 +1,14 @@
 // ---------------------------------
 .s-padding {
   margin: .5rem 1rem;
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     margin: .5rem 2.25rem;
   }
 }
 
 .s-padding2 {
   margin: .5rem 1.5rem;
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     margin: .5rem 2.75rem;
   }
 }
@@ -35,7 +35,7 @@
   }
   .navbar-brand {
     img {
-      margin-right: 0.25rem;
+      margin-right: 0;
     }
   }
   .navbar-toggler {

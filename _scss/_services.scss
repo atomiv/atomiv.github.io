@@ -1,0 +1,92 @@
+.ov-services {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    @include media-breakpoint-down(sm) {
+        // text-align: center;
+    }
+    @include media-breakpoint-up (md) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    @include media-breakpoint-up (lg) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .ov-services-row {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        @include media-breakpoint-up (md) {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        }
+        @include media-breakpoint-up (lg) {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        }
+        // photo
+        .profile-serv-img {
+            object-fit: cover;
+            border-radius: 50%;
+            max-width: 120px;
+            min-width: 120px;
+            @include media-breakpoint-down(sm) {
+                margin-bottom: 2rem;
+            }
+            @include media-breakpoint-up(md) {
+                margin-right: 2rem;
+            }
+        }
+        // fullsize logo
+        .serv-logo {
+            height: 40px;
+        }
+        // name
+        h5 {
+            margin-top: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        // position
+        h6 {
+            font-size: 1rem;
+            // font-weight: 500;
+            color: $gray-600;
+        }
+        // about
+        p {
+            font-size: 1rem;
+        }
+        // services
+        ul {
+            list-style-type: none;
+            padding-inline-start: 30px; // 40px
+        }
+        ul li:before {
+            content: "\2022";
+            // color: #388df5;
+            color: $primary;
+            font-weight: 700;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        // social media {
+        .fab, .fa {
+            font-size: 1.75rem; // 1.5rem.. logo=20px
+            margin-right: 1rem; // .75
+            color: black;
+        }
+        .logo-sm-name {
+            font-weight: 500;
+            margin-left: .25rem;
+        }
+    }
+}
+
+
+.bg-profile {
+    // background-color: pink;
+    // border: 1px solid $gray-100;
+    // box-shadow: 2px 2px 20px 2px rgba(0,0,0,.08);
+    // padding: 2rem;
+}

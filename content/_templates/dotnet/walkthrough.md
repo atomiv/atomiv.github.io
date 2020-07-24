@@ -137,11 +137,17 @@ Domain We implement repositories using the EntityFrameworkCore implementation in
 
 Inside that same project, we also add the repository SupplierRepository to the unit of work class NorthwindUnitOfWork:
 
- \#\#\# Application We implement request mapping using AutoMapper in the project Atomiv.Northwind.Infrastructure.Application.Mapping. For example, we have implemented SupplierRequestMapping:
+### Application
+ 
+We implement request mapping using AutoMapper in the project Atomiv.Northwind.Infrastructure.Application.Mapping. For example, we have implemented SupplierRequestMapping:
 
 Furthermore, inside that same project we also implement the response mapping. For example, we have implemented SupplierResponseMapping:
 
- \#\# Web \#\#\# AspNetCore Inside the project Atomiv.Northwind.Web.AspNetCore.Rest, we register the services and the mappings inside Startup. For example, we have registered SupplierService, SupplierRequestMapping and SupplierResponseMapping:
+## Web
+
+### AspNetCore
+
+Inside the project Atomiv.Northwind.Web.AspNetCore.Rest, we register the services and the mappings inside Startup. For example, we have registered SupplierService, SupplierRequestMapping and SupplierResponseMapping:
 
 Furthermore, in that project, inside the folder Controllers we also need to implement the controllers. For example, we have implemented SuppliersController:
 

@@ -5,7 +5,7 @@ photo: jelena-cupac.jpg
 linkedin: https://www.linkedin.com/in/jelenacupac/
 xing: 
 github: https://github.com/jcupac
-website: http://senovim.com/
+website: https://senovim.com/
 city: Belgrade
 country: Serbia
 degree: B. Design in Architecture
