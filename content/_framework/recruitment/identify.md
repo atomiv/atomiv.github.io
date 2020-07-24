@@ -10,6 +10,8 @@ Assuming that there is some element of active sourcing required as part of the r
 
 One of the largest professional services datasets is curated by LinkedIn, and as such, this is a common locus for many active identification campaigns. However, every online database that is publicly/privately accessible, can be queried for relevant results. Github, StackOverflow, Job Boards, Meetup, Event Databases, University Lists (and so on) can be used along similar lines.
 
+<!-- Benefits of queries - saving time, more quickly refine the results, and realy target what you're looking for, instead of wasting time on really big candidate pools -->
+
 ## Queries
 
 First order of business is to review the boolean guidelines on your platform of choice. In the case of LinkedIn, these read as follows:
