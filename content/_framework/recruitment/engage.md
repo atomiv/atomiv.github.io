@@ -3,9 +3,8 @@ title: Messaging
 category: recruitment
 authors: [ fergus-obrien ]
 ---
-### Messaging
 
-
+## Introduction
 
 <!-- How does a recruiter establish contact with potential candidates? -->
 
@@ -17,6 +16,8 @@ Assuming that this has been done, the next step is to build a messaging cadence 
 * credibility
 * context
 * clarity
+
+## Sample
 
 Thinking about these core ingredients, the following intro message might emerge as a v1:
 
