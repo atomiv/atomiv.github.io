@@ -4,11 +4,13 @@ category: recruitment
 authors: [ fergus-obrien ]
 ---
 
-### Identification
+## Introduction
 
 Assuming that there is some element of active sourcing required as part of the recruitment strategy, there will likely be need for the Recruiter to construct a set of boolean queries that surface prospective candidates with relevant skills and backgrounds. Boolean queries are a syntactically governed method of interrogating datasets so as to obtain relevant results.
 
 One of the largest professional services datasets is curated by LinkedIn, and as such, this is a common locus for many active identification campaigns. However, every online database that is publicly/privately accessible, can be queried for relevant results. Github, StackOverflow, Job Boards, Meetup, Event Databases, University Lists (and so on) can be used along similar lines.
+
+## Queries
 
 First order of business is to review the boolean guidelines on your platform of choice. In the case of LinkedIn, these read as follows:
 
