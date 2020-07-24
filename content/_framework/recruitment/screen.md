@@ -4,7 +4,12 @@ category: recruitment
 authors: [ fergus-obrien ]
 ---
 
-Once there are interested candidates ready to interview, it is time to start assessing their suitability and readiness. At a framework level, an optimized interview process for a technical hire might look something like this:
+Once there are interested candidates ready to interview, it is time to start assessing their suitability and readiness. At a framework level, an optimized interview process for a technical hire might look something as follows.
+
+<!-- Cases when all of these are separate vs grouped -->
+
+<!-- Technical interview which is conducted by a member of the development team, e.g. by senior developers / tech leads -->
+
 
 ## Stage 1 Motivation Screening
 
