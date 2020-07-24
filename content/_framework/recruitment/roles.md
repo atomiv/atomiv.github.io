@@ -1,10 +1,8 @@
 ---
-title: Essential Roles
+title: Roles
 category: recruitment
 authors: [ fergus-obrien ]
 ---
-
-## Essential Roles
 
 <!-- List of roles: Recruiter, Recruitment Project Manager, Founding team .... roles and responsibilities (what the role is and what are the responsibilities covered by role) -->
 
