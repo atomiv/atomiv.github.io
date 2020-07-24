@@ -17,6 +17,9 @@ Assuming that this has been done, the next step is to build a messaging cadence 
 * context
 * clarity
 
+<!-- Level of personalization, when do you personalize per person, vs when the message is personalized for the niche (query group) -->
+
+
 ## Sample
 
 Thinking about these core ingredients, the following intro message might emerge as a v1:
