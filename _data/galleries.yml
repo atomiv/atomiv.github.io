@@ -1,0 +1,58 @@
+- id: tech-gallery
+  description: Technologies logos
+  imagefolder: /img/tech
+  images:
+  # Backend
+  - name: .NET Core
+    thumb: dotnetcore.jpg
+  - name: Spring
+    thumb: spring.jpg
+  - name: Laravel
+    thumb: laravel.jpg
+  # Frontend
+  - name: Angular
+    thumb: angular.jpg
+  - name: React
+    thumb: react.jpg
+  - name: Vue
+    thumb: vue.jpg
+  # Mobile
+  - name: Android
+    thumb: android.jpg
+  # Databases
+  - name: SQL Server
+    thumb: mssql.jpg
+  - name: MySQL
+    thumb: mysql.jpg
+  - name: MongoDB
+    thumb: mongodb.jpg
+  - name: Redis
+    thumb: redis.jpg
+  # Testing
+  - name: Selenium
+    thumb: selenium.jpg
+  # DevOps
+  - name: Docker
+    thumb: docker.jpg
+  - name: Kubernetes
+    thumb: kubernetes.jpg
+
+
+
+
+# - id: anothergallery
+#   description: This is even another gallery!
+#   imagefolder: /img/demopage
+#   images:
+#   - name: image-4.jpg
+#     thumb: thumb-4.jpg
+#     text: Another gallery, first image
+#   - name: image-5.jpg
+#     thumb: thumb-5.jpg
+#     text: Another gallery, second image
+#   - name: image-6.jpg
+#     thumb: thumb-6.jpg
+#     text: Another gallery, third image
+
+
+

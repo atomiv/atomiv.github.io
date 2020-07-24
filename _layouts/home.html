@@ -48,7 +48,7 @@ layout: default
 			</div>
 		</header>
 
-
+		
 		<!-- Promo / Benefits -->
 		<article class="ov-benefits">
 			<div class="container">
@@ -232,28 +232,24 @@ layout: default
 		</article> -->
 
 
-		
-		<!-- link trademark to the logos, check if necessary, automapper -->
-
 		<!-- Technologies used list -->
 		<article class="ov-benefits">
 			<div class="container ov-template p-0">
-				<h2>Technologies</h2>
+				<h2 class="tech-title">Technologies</h2>
 				<div class="row ov-template-row t-logo-row">
-					<a href="https://docs.microsoft.com/en-us/dotnet/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/tech/dotnetcore.png" alt="architecture"	class="img-fluid t-logo-img">
-					</a>
-					<a href="https://angular.io/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/tech/angular.png" alt="architecture" class="img-fluid t-logo-img">
-					</a>
-					<a href="https://www.selenium.dev/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/tech/selenium.png" alt="architecture" class="img-fluid t-logo-img">
-					</a>
+					{% for gallery in site.data.galleries %}
+						<!-- {{ gallery.description }} -->
+						<!-- if gallery.id == page.galleryid -->
+						{% for image in gallery.images %}
+						<!-- <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"> -->
+							<!-- {{ site.url }}/img/tech/dotnetcore.png ... {{ gallery.imagefolder }}/{{ image.thumb }}-->
+							<img src="{{ site.url }}{{ gallery.imagefolder }}/{{ image.thumb }}" height="" width="" alt="{{ image.text }}" class="img-fluid t-logo-img">
+						{% endfor %}
+					{% endfor %}
+
 				</div>
 			</div>
 		</article>
-		
-		
 
 
 		<article class="ov-benefits">

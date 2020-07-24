@@ -125,23 +125,28 @@
                 }
             }
         }
+        .tech-title {
+            margin-bottom: -2rem; // 3rem ... 3-3=0
+            @include media-breakpoint-up(md) {
+                margin-bottom: -2rem; // 4rem... 4-3=1
+            }
+            @include media-breakpoint-up(lg) {
+                margin-bottom: -2rem; // 5rem... 5-4=1
+            }
+        }
         .t-logo-row {
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-right: 0;
+            margin-left: 0;
+            // tech stack
             .t-logo-img {
-                max-height: 30px;
-                margin-left: 1.5rem;
-                margin-right: 1.5rem;
-                @include media-breakpoint-down(xs) {
-                    margin-bottom: 2rem;
-                    margin-left: 1rem;
-                    margin-right: 1rem;
-                }
+                max-height: 1.75rem; // 30
+                margin: 3rem 1.5rem 0 1.5rem;
                 @include media-breakpoint-up(lg) {
-                    max-height: 40px;
-                    margin-left: 2rem;
-                    margin-right: 2rem;
+                    max-height: 2.25rem; // 40
+                    margin: 4rem 2rem 0 2rem;
                 }
             }
             // partners

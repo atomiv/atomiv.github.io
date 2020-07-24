@@ -62,6 +62,12 @@ docs:
     - title: Walkthrough
       url: /templates/java/walkthrough
 
+- title: PHP
+  url: php
+  submenuitems:
+    - title: Overview
+      url: /templates/php/overview
+
 - title: Angular
   url: angular
   submenuitems:
@@ -72,15 +78,17 @@ docs:
     - title: Walkthrough
       url: /templates/angular/walkthrough
 
-- title: Selenium
-  url: selenium
+- title: React
+  url: react
   submenuitems:
     - title: Overview
-      url: /templates/selenium/overview
-    - title: Get Started
-      url: /templates/selenium/get-started
+      url: /templates/react/overview
 
-
+- title: Vue
+  url: vue
+  submenuitems:
+    - title: Overview
+      url: /templates/vue/overview
 
 - title: Android
   url: android
@@ -91,6 +99,15 @@ docs:
       url: /templates/android/get-started
     - title: Walkthrough
       url: /templates/android/walkthrough
+
+- title: Selenium
+  url: selenium
+  submenuitems:
+    - title: Overview
+      url: /templates/selenium/overview
+    - title: Get Started
+      url: /templates/selenium/get-started
+
 
 - title: Docker
   url: docker
