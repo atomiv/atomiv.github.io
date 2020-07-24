@@ -1,5 +1,7 @@
 Architecture,.NET,Java
 Domain Layer,y,n
 Application Layer,y,n
+Common Layer,y,n
 Infrastructure Layer,y,n
 Web Layer,y,n
+Test Layer,y,n

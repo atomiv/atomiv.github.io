@@ -132,4 +132,17 @@ docs:
   submenuitems:
     - title: Overview
       url: /framework/recruitment/overview
-        
+    - title: Roles
+      url: /framework/recruitment/roles
+    - title: Define
+      url: /framework/recruitment/define
+    - title: Anticipate
+      url: /framework/recruitment/anticipate
+    - title: Identify
+      url: /framework/recruitment/identify
+    - title: Engage
+      url: /framework/recruitment/engage
+    - title: Screen
+      url: /framework/recruitment/screen
+    - title: Onboard
+      url: /framework/recruitment/onboard

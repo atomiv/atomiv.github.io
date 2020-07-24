@@ -1,26 +1,28 @@
 ---
-title: Engage
+title: Messaging
 category: recruitment
 authors: [ fergus-obrien ]
 ---
-### Engage
 
-
+## Introduction
 
 <!-- How does a recruiter establish contact with potential candidates? -->
 
+Once a list of suitable candidates has been generated, it is time to start making contact with these targets. In order to do so, it will be essential to get hold of their contact details. This can be done via a number of channels, ranging from sending connection requests on LinkedIn, to utilising email generation software, to running X-Ray searches on Google.
 
-
-How do we establish contact with them? What are the different options? How much are we prepared to invest in each outgoing communication? What are we expecting in terms of success metrics? Do we adopt a volume-based approach, or a quality based approach? Do we know who is going to be responsible for this vast body of work?
-
-We need to make sure that the messaging is carefully scripted, trying to optimize for the following components:
+Assuming that this has been done, the next step is to build a messaging cadence that optimizes across the following components:
+* personalization
 * tone
 * credibility
 * context
-* personalization
 * clarity
 
-We might come up with the following intro message:
+<!-- Level of personalization, when do you personalize per person, vs when the message is personalized for the niche (query group) -->
+
+
+## Sample
+
+Thinking about these core ingredients, the following intro message might emerge as a v1:
 
 > *Name,*
 
@@ -35,10 +37,6 @@ We might come up with the following intro message:
 > *Best regards,*
 > *Recruiter* 
 
+This messaging should be carefully constructed to maximize the chance of positive responses, and it must be continually improved, updated, critiqued, and optimized (A/B testing, hiring manager feedback, cross-team collaboration etc). A small improvement in the quality of the messaging can yield meaningful increases in response rates and candidate flow.
 
 <!-- TODO: VC: Move over to templates section, the template will be referenced  -->
-
-
-The messaging must be continually improved, updated, critiqued, and optimized (A/B testing, hiring manager feedback, cross-team collaboration etc). 
-
-Eventually, we will end up with a scenario where we have interested candidates ready to interview.
