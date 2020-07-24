@@ -96,9 +96,8 @@
     subtitle: kubernetes
     suburl: /templates/kubernetes/overview
 
-- title: Partners
-  url: /partners
-
+- title: Services
+  url: /services
 
 - title: About
   url: /about

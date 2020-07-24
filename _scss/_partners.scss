@@ -1,4 +1,41 @@
 .ov-services {
+    hr { margin-bottom: 1px; margin-bottom: 0; height: 0; border: 0; position: relative;
+    // margin-bottom: 3rem; padding-top: 0rem;
+    }
+    hr:after {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 50%; // Positioning
+    height: 2px;
+    width: 100vw;
+    background-color: $gray-200;
+    -webkit-transform: translateX(-50%); // Positioning
+    transform: translateX(-50%); // Positioning
+    }
+}
+
+.ov-services .container hr:last-child:after {
+    display: none;
+    // background-color: pink;
+}
+
+
+// .modal-body .row div:last-child hr {
+//     display: none;
+//   }
+
+
+
+
+
+
+
+
+
+
+.ov-services {
     padding-top: 3rem;
     padding-bottom: 3rem;
     @include media-breakpoint-down(sm) {
@@ -13,53 +50,82 @@
         padding-bottom: 5rem;
     }
     .ov-services-row {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding-top: 4rem; // 3
+        padding-bottom: 4rem; // 3
         @include media-breakpoint-up (md) {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 5rem; // 4
+        padding-bottom: 5rem; // 4
         }
         @include media-breakpoint-up (lg) {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-top: 6rem; // 5
+        padding-bottom: 6rem; // 5
         }
         // photo
-        .profile-serv-img {
-            object-fit: cover;
-            border-radius: 50%;
-            max-width: 120px;
-            min-width: 120px;
-            @include media-breakpoint-down(sm) {
-                margin-bottom: 2rem;
-            }
-            @include media-breakpoint-up(md) {
-                margin-right: 2rem;
-            }
-        }
+        // .profile-serv-img {
+        //     object-fit: cover;
+        //     border-radius: 50%;
+        //     max-width: 120px; // 120
+        //     min-width: 120px; // 120
+        //     @include media-breakpoint-down(sm) {
+        //         margin-bottom: 2rem;
+        //     }
+        //     @include media-breakpoint-up(md) {
+        //         margin-right: 2rem;
+        //     }
+        // }
         // fullsize logo
         .serv-logo {
-            height: 40px;
+            height: 45px; // 45
+            @include media-breakpoint-down(sm) {
+                margin-bottom: 2.5rem;
+            }
+            @include media-breakpoint-up(md) {
+                height: 50px;
+            }
+            @include media-breakpoint-up(lg) {
+                height: 60px;
+            }            
         }
         // name
         h5 {
-            margin-top: 1.5rem;
+            margin-top: 0rem;
             font-size: 1.5rem;
             font-weight: 400;
+            @include media-breakpoint-up(md) {
+                font-size: 2rem;
+            }
+            @include media-breakpoint-up(lg) {
+                font-size: 2.25rem;
+            }
         }
         // position
         h6 {
             font-size: 1rem;
             // font-weight: 500;
             color: $gray-600;
+            // @include media-breakpoint-up(md) {
+            //     font-size: 1.125rem;
+            // }             
+            @include media-breakpoint-up(lg) {
+                font-size: 1.25rem;
+            }            
         }
         // about
         p {
             font-size: 1rem;
+            margin-top: 2rem;
+            @include media-breakpoint-up(md) {
+                margin-top: 2.5rem;
+            }
+            @include media-breakpoint-up(lg) {
+                margin-top: 3.5rem;
+            }            
         }
         // services
         ul {
             list-style-type: none;
-            padding-inline-start: 30px; // 40px
+            padding-inline-start: 20px; // 40px
+            margin-bottom: 0;
         }
         ul li:before {
             content: "\2022";
@@ -83,10 +149,3 @@
     }
 }
 
-
-.bg-profile {
-    // background-color: pink;
-    // border: 1px solid $gray-100;
-    // box-shadow: 2px 2px 20px 2px rgba(0,0,0,.08);
-    // padding: 2rem;
-}

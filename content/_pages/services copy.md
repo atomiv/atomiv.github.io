@@ -20,11 +20,14 @@ alt: services
             <div class="row ov-services-row"> 
                 <div class="col-12">
                     <div class="d-md-flex align-items-center2">
-                        <div>
+                        <!-- <div> -->
                             <!-- TO DO VC increment version number when changing image -->
-                            <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ partner.photo }}?v=4" alt="{{partner.name}}"
-                            class="img-fluid w-100 profile-serv-img">
-                        </div>
+                            <!-- src="{{ site.url }}/img/about/team/{{ partner.photo }}?v=4" alt="{{partner.name}} -->
+                            <!-- <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ partner.photo }}?v=4" alt="{{partner.name}}"
+                            class="img-fluid w-100 profile-serv-img"> -->
+                            <!-- <img height="100" width="100" src="{{ site.url }}/img/partners/{{ partner.company_logo_thumb }}?v=4" alt="{{partner.name}}"
+                            class="img-fluid w-100 profile-serv-img"> -->
+                        <!-- </div> -->
                         <div>
                             <div class="d-flex justify-content-between">
                                 <!-- logo -->

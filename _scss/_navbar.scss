@@ -1,14 +1,14 @@
 // ---------------------------------
 .s-padding {
   margin: .5rem 1rem;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin: .5rem 2.25rem;
   }
 }
 
 .s-padding2 {
   margin: .5rem 1.5rem;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin: .5rem 2.75rem;
   }
 }
@@ -52,11 +52,11 @@
     height: 1.5rem;
   }
   #navbarResponsive {
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
       overflow-y: scroll !important;
       max-height: calc(100vh - 65px) !important;
     }
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
       text-align: left; // right
       background-color: rgb(244, 249, 255);
     }
@@ -95,7 +95,7 @@
         }
       }
     }
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       .navbar-nav {
         .nav-item {
           .nav-link {
@@ -128,7 +128,7 @@
   margin-top: 3rem;
   padding: 1rem 1.5rem;
   box-shadow: none;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin: 0;
     margin-top: 19px;
     border: none;
