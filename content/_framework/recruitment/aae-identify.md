@@ -1,10 +1,10 @@
 ---
-title: Identify
+title: Identification
 category: recruitment
 authors: [ fergus-obrien ]
 ---
 
-### Identify
+### Identification
 
 Assuming that there is some element of active sourcing required as part of the recruitment strategy, there will likely be need for the Recruiter to construct a set of boolean queries that surface prospective candidates with relevant skills and backgrounds. Boolean queries are a syntactically governed method of interrogating datasets so as to obtain relevant results.
 
