@@ -7,8 +7,6 @@
 - title: Features
   url: /features/overview
 
-- title: Services
-  url: /services
 
 # - title: Features2
 #   url: /features2
@@ -98,7 +96,10 @@
     subtitle: kubernetes
     suburl: /templates/kubernetes/overview
 
-  
+- title: Partners
+  url: /partners
+
+
 - title: About
   url: /about
 
