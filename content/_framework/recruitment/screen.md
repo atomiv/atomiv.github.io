@@ -40,7 +40,7 @@ Once there are interested candidates ready to interview, it is time to start ass
          - interviewer asks challenging questions that have been defined in advance
          - candidate asks questions
       
-Stage 5 Offer Preparation + Release
+## Stage 5 Offer Preparation + Release
 
    - 30 minute detailed discussion, conducted by recruitment program manager
       - employment details are discussed
