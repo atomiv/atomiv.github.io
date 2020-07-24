@@ -9,14 +9,17 @@ authors: [ fergus-obrien ]
    - short-term v long-term
    - static v evolving
    - top-down v bottom-up
-   - budget
-   - market conditions
-   - need to screen v need to sell
+   - large budget v small budget
+   - candidate-driven market v employer-driven market
+   - culture-driven company v outcomes-driven company
    
 * There is **no singular best solution** to this optimization challenge.
-   - all you can do is find the best model for your given organisational needs
+   - all that can be done is to find the best model for the needs of a specific organisation
    - it will require thinking about the organisation across multiple dimensions: marketing, sales, engineering, biz ops, public relations etc
    
 * Recruiting is a team game, and requires great planning, communication, collaboration and agility
    - everyone in the business can be a recruiter
    - a healthy recruiting function is a good indicator of a healthy business
+   
+* Recruitment involves people, who can be unpredictable
+   - plan for the unexpected, but pay attention to patterns
