@@ -4,7 +4,7 @@ category: recruitment
 authors: [ fergus-obrien ]
 ---
 
-## Marketing Material
+## Recruitment Marketing
 
 Once the high-level and low-level definition have been finalised, it is tempting to jump straight into the project execution phase. However, and this is especially true in organisations that are lacking in maturity, or operating at a high-velocity, it is vital to build an index of resources that will be required throughout the interview process.
 
