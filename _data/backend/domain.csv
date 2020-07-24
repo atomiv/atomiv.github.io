@@ -1,5 +1,8 @@
 Domain Layer,.NET,Java
 Entities,y,n
+Identities,y,n
 Value Objects,y,n
-Domain Services,y,n
 Repository Interfaces,y,n
+Domain Services,y,n
+Domain Events,n,n
+Factories,y,n
