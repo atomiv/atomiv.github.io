@@ -85,7 +85,9 @@ Note: If you're using Visual Studio, then you can run the application in Debug m
 
 ## Run project (via Docker)
 
-In Visual Studio, click on "Docker", which should open up the REST API.
+In Visual Studio, select to debug with "Docker" (instead of "IIS Express").
+
+When you run it, this should open up the REST API.
 
 <!-- TODO: VC: Command line way currently not working, pending check -->
 
