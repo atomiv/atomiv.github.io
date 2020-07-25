@@ -1,7 +1,7 @@
 ---
 layout: page
 # drive
-title: Partners
+title: Meet our Partners
 description: Services
 figure-class: figure-features3
 image-class: 
