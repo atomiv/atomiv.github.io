@@ -9,10 +9,14 @@ company_logo: senovim3.svg
 company_logo_thumb: senovim-thumb.jpg
 company_website: https://senovim.com/
 ---
-Do you want powerful and profitable digital solutions? As a BI Developer & UI/UX Designer, I am passionate about business acceleration, brand growth and content marketing. Let's get in touch to discuss your project.
+Jelena is a passionate Frontend Developer with a background in design, with experience in WordPress design, Bootstrap and SASS and Angular development. She designed the Atomiv website and is developing the Angular template to help provide a solid foundation for frontend developers. Get in touch at: [www.senovim.com](https://senovim.com/){:target="_blank"}
 
 *  UI/UX Design
 *  Frontend Development
 *  Web Design and Development
 *  BI Reporting and Dashboards
 *  Content Marketing
+
+
+
+<!-- Get in touch with me at, Contact, visit us at -->

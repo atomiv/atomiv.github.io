@@ -23,7 +23,7 @@ alt: services
                         <!-- logo -->
                         <div class="order-1">
                             <img height="" width="" src="{{ site.url }}/img/partners/{{ partner.company_logo }}?v=4"
-                            alt="{{partner.name}}" class="serv-logo">
+                            alt="{{partner.company_name}}" class="serv-logo">
                         </div>
                         <div class="order-0">
                             <h5>{{ partner.name }} </h5>
