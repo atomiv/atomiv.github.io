@@ -85,7 +85,7 @@ Application started. Press Ctrl+C to shut down.
 
 Type in https://localhost:5101 in your browser and run the swagger command POST /api/customers and verify that you get a success message.
 
-At the end, type in Ctrl+C to shut down the API.
+At the end, type in Ctrl+C to shut down the API (or the stop button, if you're running this inside Visual Studio Package Manager Console).
 
 Note: If you're using Visual Studio, then you can run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/](https://localhost:44315/api/values). You can stop debugging at the end.
 
