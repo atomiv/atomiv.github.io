@@ -1,7 +1,7 @@
 ---
 title: Get Started
 category: dotnet
-authors: [ valentina-cupac ]
+authors: [ valentina-cupac, milan-vidakovic ]
 ---
 
 ## Template Installation
@@ -42,7 +42,7 @@ Note: If you're using Visual Studio, then open the solution \(MyWebShop.sln\) an
 Build the solution:
 
 ```text
-dotnet build
+dotnet build .\MyWebShop.sln
 ```
 
 You should see output like:
@@ -57,9 +57,13 @@ Build succeeded.
 
 ## Database connections
 
-Note: If needed, you can adjust the database connection \(inside the project MyWebShop.Web.RestApi, open up the file appsettings.Development.json and ensure that DefaultConnection is appropriately set to your development database server, note that the database does not exist\) yet. 
+You can check the database connections, in the following:
 
-Run the command to create the database:
+* Src\Web\MyWebShop.Web.RestApi
+* Src\Tools\MyWebShop.Tools.Migrator
+* Test\Web\MyWebShop.RestApi.IntegrationTest
+
+Open up the appsettings files and check DefaultConnection.
 
 ## Run project
 
@@ -79,15 +83,21 @@ Now listening on: https://localhost:5101
 Application started. Press Ctrl+C to shut down.
 ```
 
-At the end, type in Ctrl+C to shut down the API.
+Type in https://localhost:5101 in your browser, you will see Swagger, then run the command POST /api/customers and verify that you get a success message.
+
+At the end, type in Ctrl+C to shut down the API (or the stop button, if you're running this inside Visual Studio Package Manager Console).
 
 Note: If you're using Visual Studio, then you can run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/](https://localhost:44315/api/values). You can stop debugging at the end.
 
 ## Run project (via Docker)
 
-In Visual Studio, click on "Docker", which should open up the REST API.
+In Visual Studio, select to debug with "Docker" (instead of "IIS Express").
 
-<!-- TODO: VC: Command line way currently not working, pending check -->
+When you run it, this should open up the REST API. You should see Swagger.
+
+Then run the command POST /api/customers and verify that you get a success message.
+
+<!-- TODO: VC: Command line way currently not working for Docker, pending check -->
 
 ## Manual tests
 
@@ -104,7 +114,7 @@ You can also execute API calls via swagger, e.g. [https://localhost:44315/swagge
 You can run tests via the command:
 
 ```text
-dotnet test
+dotnet test .\MyWebShop.sln
 ```
 
 You should see output like:

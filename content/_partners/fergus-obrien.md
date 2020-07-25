@@ -9,9 +9,7 @@ company_logo: khonvo.svg
 # company_logo_thumb: khonvo-thumb.jpg
 company_website: https://khonvo.com/ 
 ---
-Fergus is a Talent Acquisition consultant, with experience in FinTech recruitment and executive search. He is an advocate of further learning and de-centralized education. He joined Atomiv to share his experience in tech recruitment processes and best practices. Get in touch at: [www.khonvo.com](https://khonvo.com/){:target="_blank"}
-
-<!-- <a href="http://example.com/" target="_blank">www</a> -->
+Fergus is a Talent Acquisition consultant, with experience in FinTech recruitment and executive search. He is an advocate of further learning and de-centralized education. He provides services in tech recruitment to help companies get the best candidates. Get in touch at: [www.khonvo.com](https://khonvo.com/){:target="_blank"}
 
 
 * Full cycle recruitment process
@@ -20,12 +18,16 @@ Fergus is a Talent Acquisition consultant, with experience in FinTech recruitmen
 * Head Hunting and Selection
 * Recruitment strategy
 
-<!-- * Full cycle recruitment tasks, recruitment process
+<!-- NOTE: These are other points that came up in searches for recruitment consultants -->
+
+<!-- 
+* Full cycle recruitment tasks, recruitment process
 * Coordinating end-to-end hiring process
 * Employer branding (activities), Branding campaigns
 * Onboarding and mentoring new team members .. Employee mentoring, training and assessment
 * Recruitment
 * Head Hunting, selection and recruitment, CV screening
 * Implement recruiting strategy
-* Promoting client brands -->
+* Promoting client brands 
+-->
 

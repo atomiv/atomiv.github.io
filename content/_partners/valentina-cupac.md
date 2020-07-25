@@ -9,10 +9,10 @@ company_logo: optivem.svg
 company_logo_thumb: optivem-thumb.jpg
 company_website: https://optivem.com
 ---
-Valentina is a Software Consultant, Software Architect and Senior Developer who cares about clean code, clean architecture and test automation. She founded Atomiv to share best practices in software architecture, standardize software development, increase software quality and team productivity. Get in touch at: [www.optivem.com](https://optivem.com){:target="_blank"}
+Valentina is a Software Consultant, Software Architect and Senior Developer who cares about clean code, clean architecture and test automation. She helps IT companies standardize software architecture and development, increase software quality and team productivity. Get in touch at: [www.optivem.com](https://optivem.com){:target="_blank"}
 
-* Software Architecture
-* Product Development
-* Team Growth
-* IT Consulting
-* Innovation Lead
+* Clean Architecture
+* Standardized Development
+* Test Automation
+* Process Consulting
+* Team Coaching

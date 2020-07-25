@@ -1,7 +1,7 @@
 ---
 title: Walkthrough
 category: dotnet
-authors: [ valentina-cupac ]
+authors: [ valentina-cupac, milan-vidakovic ]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Setup
 category: dotnet
-authors: [ valentina-cupac ]
+authors: [ valentina-cupac, milan-vidakovic ]
 ---
 
 ## SQL Server Configuration
