@@ -1,7 +1,7 @@
 ---
 title: Get Started
 category: dotnet
-authors: [ valentina-cupac ]
+authors: [ valentina-cupac, milan-vidakovic ]
 ---
 
 ## Template Installation
