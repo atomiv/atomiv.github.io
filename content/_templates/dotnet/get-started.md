@@ -83,7 +83,7 @@ Now listening on: https://localhost:5101
 Application started. Press Ctrl+C to shut down.
 ```
 
-Type in https://localhost:5101 in your browser and run the swagger command POST /api/customers and verify that you get a success message.
+Type in https://localhost:5101 in your browser, you will see Swagger, then run the command POST /api/customers and verify that you get a success message.
 
 At the end, type in Ctrl+C to shut down the API (or the stop button, if you're running this inside Visual Studio Package Manager Console).
 
@@ -93,9 +93,11 @@ Note: If you're using Visual Studio, then you can run the application in Debug m
 
 In Visual Studio, select to debug with "Docker" (instead of "IIS Express").
 
-When you run it, this should open up the REST API.
+When you run it, this should open up the REST API. You should see Swagger.
 
-<!-- TODO: VC: Command line way currently not working, pending check -->
+Then run the command POST /api/customers and verify that you get a success message.
+
+<!-- TODO: VC: Command line way currently not working for Docker, pending check -->
 
 ## Manual tests
 
