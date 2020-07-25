@@ -16,7 +16,3 @@ Jelena is a passionate Frontend Developer with a background in design, with expe
 *  Web Design and Development
 *  BI Reporting and Dashboards
 *  Content Marketing
-
-
-
-<!-- Get in touch with me at, Contact, visit us at -->
