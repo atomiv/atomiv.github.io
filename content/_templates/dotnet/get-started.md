@@ -114,7 +114,7 @@ You can also execute API calls via swagger, e.g. [https://localhost:44315/swagge
 You can run tests via the command:
 
 ```text
-dotnet test
+dotnet test .\MyWebShop.sln
 ```
 
 You should see output like:
