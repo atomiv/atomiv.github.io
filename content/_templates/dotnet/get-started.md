@@ -42,7 +42,7 @@ Note: If you're using Visual Studio, then open the solution \(MyWebShop.sln\) an
 Build the solution:
 
 ```text
-dotnet build .\MyWebShop22.sln
+dotnet build .\MyWebShop.sln
 ```
 
 You should see output like:
