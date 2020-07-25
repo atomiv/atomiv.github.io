@@ -57,9 +57,13 @@ Build succeeded.
 
 ## Database connections
 
-Note: If needed, you can adjust the database connection \(inside the project MyWebShop.Web.RestApi, open up the file appsettings.Development.json and ensure that DefaultConnection is appropriately set to your development database server, note that the database does not exist\) yet. 
+You can check the database connections, in the following:
 
-Run the command to create the database:
+* Src\Web\MyWebShop.Web.RestApi
+* Src\Tools\MyWebShop.Tools.Migrator
+* Test\Web\MyWebShop.RestApi.IntegrationTest
+
+Open up the appsettings files and check DefaultConnection.
 
 ## Run project
 
