@@ -6,7 +6,7 @@ title: Backend
 
 {% include csv-table.html table_name='architecture' %}
 
-## Core
+### Core
 
 {% include csv-table.html table_name='application' %}
 
@@ -14,11 +14,11 @@ title: Backend
 
 {% include csv-table.html table_name='common' %}
 
-## Web
+### Web
 
 {% include csv-table.html table_name='web_rest_api' %}
 
-## Infrastructure
+### Infrastructure
 
 {% include csv-table.html table_name='infrastructure_repos' %}
 
@@ -46,6 +46,14 @@ title: Backend
 
 {% include csv-table.html table_name='infrastructure_alerting' %}
 
+### Test
 
 {% include csv-table.html table_name='test_layer' %}
 
+## Packages
+
+{% include csv-table.html table_name='packages_web' %}
+
+{% include csv-table.html table_name='packages_infrastructure' %}
+
+{% include csv-table.html table_name='packages_test' %}
