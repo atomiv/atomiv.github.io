@@ -1,5 +1,4 @@
-Application Layer,.NET,Java
-Commands,something,yn
-Queries,y,n
-Command Handlers,y,n
-Application Context,y,n
+Web Layer,.NET Package,Java Package,.NET,Java
+REST API,AspNetCore,-,y,n
+Swagger,Swashbuckle,-,y,n
+Hateoas,AspNetCore.Hateoas,-,y,n
