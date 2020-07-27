@@ -2,10 +2,11 @@
 title: Backend
 ---
 
-<h2>Technical Features</h2>
-
+## Architecture
 
 {% include csv-table.html table_name='architecture' %}
+
+## Core
 
 {% include csv-table.html table_name='application' %}
 
@@ -13,8 +14,11 @@ title: Backend
 
 {% include csv-table.html table_name='common' %}
 
+## Web
+
 {% include csv-table.html table_name='web_rest_api' %}
 
+## Infrastructure
 
 {% include csv-table.html table_name='infrastructure_repos' %}
 

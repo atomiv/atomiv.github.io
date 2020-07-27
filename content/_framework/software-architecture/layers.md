@@ -4,10 +4,49 @@ category: software-architecture
 authors: [ valentina-cupac ]
 ---
 
-
 ## Core
 
-At the system center, we have the Core Layer, composed of the Domain Layer and Application Layer.
+At the system center, we have the Core Layer, composed of the Application Layer and the Domain Layer.
+
+### Application Layer
+
+The Application Layer is the outer layer of the Core, it is modelled around the user interaction with the system - so this is where we apply Use Case Driven Design, we're thinking from the perspective of the user and what tasks they want to accomplish with the system. Use cases can be divided into Commands and Queries:
+
+* Commands change the observable state of the system
+* Queries do not change the observable state of the system i.e. no side effects
+
+Examples of commands are:
+* Create a new customer (CreateCustomerCommand), Edit an existing customer (EditCustomerCommand)
+* Create a new product (CreateProductCommand), Edit an existing product (EditProductCommand), Unlist a listed product (UnlistProductCommand), Relist an unlisted product (RelistProductCommand)
+* Create a new order (CreateOrderCommand), Edit an existing order (EditOrderCommand), Submit an order (SubmitOrderCommand), Cancel an order (CancelOrderCommand)
+
+Examples of queries are:
+* Browse customers based on search criteria (BrowseCustomersQuery), View details of a specific customer (ViewCustomerQuery)
+* Browse products based on search criteria (BrowseProductsQuery), View details of a specific product (ViewProductQuery), View statistics for popular products (ViewPopularProductStatisticsQuery)
+* Browse orders based on search criteria (BrowseOrdersQuery), View details of a specific order (ViewOrderQuery)
+
+Each command has a corresponding response (e.g. CreateCustomerCommand has the response CreateCustomerCommandResponse) and each query has a corresponding response (e.g ViewCustomerQuery has the response ViewCustomerQueryResponse).
+
+
+
+
+, to indicate whether they perform some action that changes the system, vs just getting data from the system.
+
+
+
+ \(and use cases delegate execution to the domain\). Inside the Core Layer, any external dependencies are interfaces \(e.g. Domain Layer contains repository interfaces for data persistence\). The Application Layer consists of application services, which in turn execute use cases, these manage the flow, for example, calling repositories to retrieve aggregate roots, executing some actions, and then persisting the aggregate roots. The Application Layer consists of the Application Layer interfaces \(application service interfaces\) and Application Layer implementation \(application service implementation, use case implementation\). The Domain Layer is self-contained, and the Application Layer depends only on the Domain Layer.
+
+Examples:
+
+* **Commands** specify "write" operations, e.g. creating, updating, performing actions, etc: CreateCustomerCommand, CreateOrderCommand, SubmitOrderCommand, EditProductCommand, etc.
+* **Queries** specify "read" operations, e.g. reading data: BrowseCustomerQuery, ViewCustomerQuery, FilterCustomersQuery, BrowseOrdersQuery, etc.
+* **Command Handlers** implement the actions associated with specific Commands, they implement application-level logic and delegate to the domain for business logic execution and also repository interfaces \(handlers should be thin, manage flow of actions\): CreateCustomerCommandHandler, CreateOrderCommandHandler, SubmitOrderCommandHandler, EditProductCommandHandler
+
+
+* **Application Context** is an application service which provides contextual information associated with some requests
+
+_Note: In the above, we are using CQRS for the Application Layer, for two reasons. One reason is that it fits in well with Use Case Driven Design, since we are thinking at the Use Case level. The other reason is that it enables us to have separation between write and read models, which enables greater control of performance. For simpler applications, Application Services could be used instead, e.g. OrderService which has methods to create order, edit order, submit order, cancel order (i.e. having these as methods instead of classes)._
+
 
 ### Domain Layer
 
@@ -21,16 +60,6 @@ Examples:
 * **Repositories** are used to retrieve entities from and persist entities to some persistence mechanism: CustomerRepository, OrderRepository, ProductRepository \(note: only the repository interfaces are in the domain layer, not the implementation\)
 * **External Services** \(interfaces\)
 
-### Application Layer
-
-The Application Layer contains thin application services, which execute use cases \(and use cases delegate execution to the domain\). Inside the Core Layer, any external dependencies are interfaces \(e.g. Domain Layer contains repository interfaces for data persistence\). The Application Layer consists of application services, which in turn execute use cases, these manage the flow, for example, calling repositories to retrieve aggregate roots, executing some actions, and then persisting the aggregate roots. The Application Layer consists of the Application Layer interfaces \(application service interfaces\) and Application Layer implementation \(application service implementation, use case implementation\). The Domain Layer is self-contained, and the Application Layer depends only on the Domain Layer.
-
-Examples:
-
-* **Commands** specify "write" operations, e.g. creating, updating, performing actions, etc: CreateCustomerCommand, CreateOrderCommand, SubmitOrderCommand, EditProductCommand, etc.
-* **Queries** specify "read" operations, e.g. reading data: BrowseCustomerQuery, ViewCustomerQuery, FilterCustomersQuery, BrowseOrdersQuery, etc.
-* **Command Handlers** implement the actions associated with specific Commands, they implement application-level logic and delegate to the domain for business logic execution and also repository interfaces \(handlers should be thin, manage flow of actions\): CreateCustomerCommandHandler, CreateOrderCommandHandler, SubmitOrderCommandHandler, EditProductCommandHandler
-* **Application Context** is an application service which provides contextual information associated with some requests
 
 ### Common Layer
 

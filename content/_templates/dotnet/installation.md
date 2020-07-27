@@ -20,3 +20,9 @@ Additionally, the following should be installed by developers:
 * [SQL Server Management Studio 17.9.1](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
 Note: Instead of Visual Studio, Visual Studio Code could also be used, depending on individual preferences.
+
+## Review Tools
+
+The following is recommended to be installed:
+
+* [https://www.codestream.com/](https://www.codestream.com/) is used for Code Review (includes Free, Business and Enterprise Plans) (this can be installed as an Extension inside Visual Studio)
