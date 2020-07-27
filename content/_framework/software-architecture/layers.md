@@ -27,23 +27,11 @@ Examples of queries are:
 
 Each command has a corresponding response (e.g. CreateCustomerCommand has the response CreateCustomerCommandResponse) and each query has a corresponding response (e.g ViewCustomerQuery has the response ViewCustomerQueryResponse).
 
+The application layer also contains implementation of command handlers, for executing the use case (e.g. CreateCustomerCommand has the CreateCustomerCommandHandler which accepts CreateCustomerCommand and returns CreateCustomerCommandResponse). The command handlers are as thin as possible, they contain only the application logic, but delegate to the domain layer for executing business logic. This means command handlers often reference factory interfaces, repository interfaces, external service interfaces, and they work with domain objects. The Application Layer depends only on the Domain Layer. For example:
+* CreateOrderHandler calls the OrderFactory interface to create a new order, then calls the OrderRepository interface to add that order
+* SubmitOrderHandler retrieves the order from the OrderRepository interface, then calls the Submit() method on the retrieved order, and then updates the order by calling the OrderRepository interface.
 
-
-
-, to indicate whether they perform some action that changes the system, vs just getting data from the system.
-
-
-
- \(and use cases delegate execution to the domain\). Inside the Core Layer, any external dependencies are interfaces \(e.g. Domain Layer contains repository interfaces for data persistence\). The Application Layer consists of application services, which in turn execute use cases, these manage the flow, for example, calling repositories to retrieve aggregate roots, executing some actions, and then persisting the aggregate roots. The Application Layer consists of the Application Layer interfaces \(application service interfaces\) and Application Layer implementation \(application service implementation, use case implementation\). The Domain Layer is self-contained, and the Application Layer depends only on the Domain Layer.
-
-Examples:
-
-* **Commands** specify "write" operations, e.g. creating, updating, performing actions, etc: CreateCustomerCommand, CreateOrderCommand, SubmitOrderCommand, EditProductCommand, etc.
-* **Queries** specify "read" operations, e.g. reading data: BrowseCustomerQuery, ViewCustomerQuery, FilterCustomersQuery, BrowseOrdersQuery, etc.
-* **Command Handlers** implement the actions associated with specific Commands, they implement application-level logic and delegate to the domain for business logic execution and also repository interfaces \(handlers should be thin, manage flow of actions\): CreateCustomerCommandHandler, CreateOrderCommandHandler, SubmitOrderCommandHandler, EditProductCommandHandler
-
-
-* **Application Context** is an application service which provides contextual information associated with some requests
+Furthermore, the application layer also contains the ApplicationContext, which provides contextual information associated with commands and queries, including for example details about the current user and their permissions.
 
 _Note I: In the above, we are using CQRS for the Application Layer, for two reasons. One reason is that it fits in well with Use Case Driven Design, since we are thinking at the Use Case level. The other reason is that it enables us to have separation between write and read models, which enables greater control of performance. For simpler applications, Application Services could be used instead, e.g. OrderService which has methods to create order, edit order, submit order, cancel order (i.e. having these as methods instead of classes)._
 
