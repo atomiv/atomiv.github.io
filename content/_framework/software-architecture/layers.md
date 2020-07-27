@@ -45,7 +45,9 @@ Examples:
 
 * **Application Context** is an application service which provides contextual information associated with some requests
 
-_Note: In the above, we are using CQRS for the Application Layer, for two reasons. One reason is that it fits in well with Use Case Driven Design, since we are thinking at the Use Case level. The other reason is that it enables us to have separation between write and read models, which enables greater control of performance. For simpler applications, Application Services could be used instead, e.g. OrderService which has methods to create order, edit order, submit order, cancel order (i.e. having these as methods instead of classes)._
+_Note I: In the above, we are using CQRS for the Application Layer, for two reasons. One reason is that it fits in well with Use Case Driven Design, since we are thinking at the Use Case level. The other reason is that it enables us to have separation between write and read models, which enables greater control of performance. For simpler applications, Application Services could be used instead, e.g. OrderService which has methods to create order, edit order, submit order, cancel order (i.e. having these as methods instead of classes)._
+
+_Note II: From theoretical standpoint, commands do not return a response. But from a practical perspective, there are debates whether or not commands should return responses, and it's related to the topic if all commands should be asynchronous, i.e. the caller won't know the result but will simply know that the command has started processing. In the Atomiv architecture, we leave this open up to you - if you're returning a response, then you fill the response object (e.g. EditProductCommandResponse w)_
 
 
 ### Domain Layer
