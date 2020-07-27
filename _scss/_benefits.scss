@@ -140,6 +140,7 @@
             justify-content: center;
             margin-right: 0;
             margin-left: 0;
+            // display: block;
             // tech stack
             .t-logo-img {
                 max-height: 1.75rem; // 30
@@ -149,19 +150,32 @@
                     margin: 4rem 2rem 0 2rem;
                 }
             }
-            // partners
-            .t-logo-img2 {
-                max-height: 30px;
-                margin-left: 1.1rem;
-                margin-right: 1.1rem;
-                margin-bottom: 3rem;
-                @include media-breakpoint-up(lg) {
-                    max-height: 40px;
-                    margin-left: 1.6rem;
-                    margin-right: 1.6rem;
-                }
-            }
         }
+    }
+  }
+
+
+  .row-partners {
+      a {
+        display: block;
+      }
+    //   padding: 0 5rem;
+      .col-partners-l {
+          padding-left: 5rem;
+      }
+      .col-partners-r {}
+  }
+  // partners
+  .t-logo-img2 {
+    max-height: 30px;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    margin-bottom: 3rem;
+    @include media-breakpoint-up(lg) {
+        max-height: 40px;
+        min-height: 40px;
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
     }
   }
   
