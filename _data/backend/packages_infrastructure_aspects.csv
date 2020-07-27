@@ -1,0 +1,4 @@
+Infrastructure Layer - Aspects,.NET Package,Java Package,.NET,Java
+Mapping,AutoMapper,-,y,n
+Validation,FluentValidation,-,y,n
+Logging,Serilog,-,n,n

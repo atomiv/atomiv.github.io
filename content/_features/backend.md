@@ -52,8 +52,30 @@ title: Backend
 
 ## Packages
 
+### Web
+
 {% include csv-table.html table_name='packages_web' %}
 
-{% include csv-table.html table_name='packages_infrastructure' %}
+### Infrastructure
+
+{% include csv-table.html table_name='packages_infrastructure_aspects' %}
+
+{% include csv-table.html table_name='packages_infrastructure_authentication' %}
+
+{% include csv-table.html table_name='packages_infrastructure_clients' %}
+
+{% include csv-table.html table_name='packages_infrastructure_files' %}
+
+{% include csv-table.html table_name='packages_infrastructure_generators' %}
+
+{% include csv-table.html table_name='packages_infrastructure_jobs' %}
+
+{% include csv-table.html table_name='packages_infrastructure_messaging' %}
+
+{% include csv-table.html table_name='packages_infrastructure_persistence' %}
+
+{% include csv-table.html table_name='packages_infrastructure_serialization' %}
+
+### Test
 
 {% include csv-table.html table_name='packages_test' %}

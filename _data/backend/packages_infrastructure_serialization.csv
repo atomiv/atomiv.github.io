@@ -1,0 +1,4 @@
+Infrastructure Layer - Serialization,.NET Package,Java Package,.NET,Java
+JSON Serialization,Newtonsoft.Json,-,y,n
+XML Serialization,-,-,n,n
+TXT Serialization,-,-,n,n
