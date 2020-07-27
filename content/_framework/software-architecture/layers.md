@@ -10,28 +10,30 @@ At the system center, we have the Core Layer, composed of the Application Layer 
 
 ### Application Layer
 
-The Application Layer is the outer layer of the Core, it is modelled around the user interaction with the system - so this is where we apply Use Case Driven Design, we're thinking from the perspective of the user and what tasks they want to accomplish with the system. Use cases can be divided into Commands and Queries:
+The Application Layer is the outer layer of the Core, it is modelled around the user interaction with the system - so this is where we apply Use Case Driven Design, we're thinking from the perspective of the user and what tasks they want to accomplish with the system. Use cases can be divided into Commands and Queries.
 
-* Commands change the observable state of the system
-* Queries do not change the observable state of the system i.e. no side effects
+**Commands** change the observable state of the system. Examples of commands are:
 
-Examples of commands are:
 * Create a new customer (CreateCustomerCommand), Edit an existing customer (EditCustomerCommand)
 * Create a new product (CreateProductCommand), Edit an existing product (EditProductCommand), Unlist a listed product (UnlistProductCommand), Relist an unlisted product (RelistProductCommand)
 * Create a new order (CreateOrderCommand), Edit an existing order (EditOrderCommand), Submit an order (SubmitOrderCommand), Cancel an order (CancelOrderCommand)
 
-Examples of queries are:
+Each command has a corresponding response (e.g. CreateCustomerCommand has the response CreateCustomerCommandResponse).
+
+**Queries** do not change the observable state of the system i.e. no side effects. Examples of queries are:
 * Browse customers based on search criteria (BrowseCustomersQuery), View details of a specific customer (ViewCustomerQuery)
 * Browse products based on search criteria (BrowseProductsQuery), View details of a specific product (ViewProductQuery), View statistics for popular products (ViewPopularProductStatisticsQuery)
 * Browse orders based on search criteria (BrowseOrdersQuery), View details of a specific order (ViewOrderQuery)
 
-Each command has a corresponding response (e.g. CreateCustomerCommand has the response CreateCustomerCommandResponse) and each query has a corresponding response (e.g ViewCustomerQuery has the response ViewCustomerQueryResponse).
+Each query has a corresponding response (e.g ViewCustomerQuery has the response ViewCustomerQueryResponse).
 
-The application layer also contains implementation of command handlers, for executing the use case (e.g. CreateCustomerCommand has the CreateCustomerCommandHandler which accepts CreateCustomerCommand and returns CreateCustomerCommandResponse). The command handlers are as thin as possible, they contain only the application logic, but delegate to the domain layer for executing business logic. This means command handlers often reference factory interfaces, repository interfaces, external service interfaces, and they work with domain objects. The Application Layer depends only on the Domain Layer. For example:
+**Application Context** provides contextual information associated with commands and queries, including for example details about the current user and their permissions. This is used within Command Handlers and Query Handlers.
+
+**Command Handlers** execute commands. For example, CreateCustomerCommand has the CreateCustomerCommandHandler which accepts CreateCustomerCommand and returns CreateCustomerCommandResponse. The command handlers are as thin as possible, they contain only the application logic, but delegate to the domain layer for executing business logic, i.e. this is the business workflow. This means command handlers often reference factory interfaces, repository interfaces, external service interfaces, and they work with domain objects. The Application Layer depends only on the Domain Layer. For example:
 * CreateOrderHandler calls the OrderFactory interface to create a new order, then calls the OrderRepository interface to add that order
 * SubmitOrderHandler retrieves the order from the OrderRepository interface, then calls the Submit() method on the retrieved order, and then updates the order by calling the OrderRepository interface.
 
-Furthermore, the application layer also contains the ApplicationContext, which provides contextual information associated with commands and queries, including for example details about the current user and their permissions.
+**Query Handlers** execute queries. It should be noted that the application layer does NOT contain query handlers, because query handlers are not dependent on the domain (i.e. they bypass the domain). So query handlers are implemented in the Infrastructure layer, where relevant performance optimizations can be done (e.g. doing joins to get the right data, or using specialized read models from a separate read database for performance reasons).
 
 _Note I: In the above, we are using CQRS for the Application Layer, for two reasons. One reason is that it fits in well with Use Case Driven Design, since we are thinking at the Use Case level. The other reason is that it enables us to have separation between write and read models, which enables greater control of performance. For simpler applications, Application Services could be used instead, e.g. OrderService which has methods to create order, edit order, submit order, cancel order (i.e. having these as methods instead of classes)._
 
@@ -42,13 +44,23 @@ _Note II: From theoretical standpoint, commands do not return a response. But fr
 
 The Domain Layer implements the business logic. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and aggregate roots, value objects and repository interfaces. There model the domain, implement the business logic, the “heart” of the system. 
 
-Examples:
+Business rules:
+
+* **Single root entity business rules**, Business rules that are applicable to an entity's state, and are not dependent on anything else, are implemented inside the Entity. For example, the rule that only draft orders can be submitted is implemented within the Order entity (i.e. when calling the Submit() method, it checks that the current status is draft and then allows the status to go into submitted). In case of violation of these business rules (in constructors and methods), the Entity throws an exception. This means that the entity is guaranteed to be valid when constructed, and that in case of any mutations in state that it continues to be valid.
+* **Multiple root entity business rules**, Business rules that affect more than one entity are implemented as domain services. For example, we want to reward loyal customers for purchasing products. So we could have a RewardCustomerService which give a customer and a product, gets the product price and depending on the threshold where its price fits in, it calculates the points that should be rewarded and then adds these points to the customer.
+* **Complex business rules**. Complex business rules are implemented using the Policy pattern (Rules Pattern), which may contain references also to other interfaces (like repository interfaces). Examples includes checking that the order date is in the past (by using the TimeService interface), and other rules may be calculating discount (for example discounts due to holidays, or loyal customers, or senior customers, or new customer).
+
+
+Elements inside the Domain layer:
 
 * **Entities** model key business objects: Customer, Order, Product
 * **Identities** are used to identity the identity of entities throughout their entire lifecycle: CustomerIdentity, OrderIdentity, ProductIdentity
 * **Factories** are used to construct domain entities: CustomerFactory, OrderFactory, ProductFactory
 * **Repositories** are used to retrieve entities from and persist entities to some persistence mechanism: CustomerRepository, OrderRepository, ProductRepository \(note: only the repository interfaces are in the domain layer, not the implementation\)
-* **External Services** \(interfaces\)
+* *Policies*, *Specifications* and *Rules* are used for specifying more complex business logic, including validation and actions
+* *Domain Services* are used to encapsulate more complex logic between root entities (in that case domain has both interface and implementation) as well as as interfaces for external services (e.g. ProductProvider interface which is used as external source for retrieving the products)
+
+_Note I: It should be noted that Domain Entities (i.e. "Entities" in the context of the "Domain") has a different meaning compared to Database Entities (i.e. "Entities" in the context of "Entity Relationship Diagram"). Domain Entities are rich objects that encapsulate business logic, whereas Database Entities are just DTOs._
 
 
 ### Common Layer
