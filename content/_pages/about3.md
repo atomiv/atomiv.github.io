@@ -22,7 +22,7 @@ alt: about
                 <div class="d-md-flex align-items-center">
                     <div>
                         <!-- TO DO VC increment version number when changing image -->
-                        <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=4" alt="{{author.name}}"
+                        <img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=5" alt="{{author.name}}"
                         class="img-fluid w-100 profile-img">
                     </div>
                     <div>

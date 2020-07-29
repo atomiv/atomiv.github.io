@@ -22,7 +22,7 @@ alt: services
                     <div class="d-md-flex justify-content-between">
                         <!-- logo -->
                         <div class="order-1">
-                            <img height="" width="" src="{{ site.url }}/img/partners/{{ partner.company_logo }}?v=4"
+                            <img height="" width="" src="{{ site.url }}/img/partners/{{ partner.company_logo }}?v=5"
                             alt="{{partner.company_name}}" class="serv-logo">
                         </div>
                         <div class="order-0">
