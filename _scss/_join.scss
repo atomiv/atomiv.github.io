@@ -1,8 +1,51 @@
 .ov-join {
     .join-row {
         margin-bottom: 3rem;
+        @media (min-width: 768px) {
+            // margin-bottom: 5rem;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
     h5 {
         margin-bottom: 2rem;
+    }
+    // bullet points
+    ul {
+        list-style-type: none;
+        padding-right: 15px;
+        padding-bottom: 1rem;
+        li:before {
+            content: "\2022";
+            color: $primary;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        li {
+            margin-bottom: .25rem;
+        }
+      }
+    .word1 {
+        // #1077d4
+        // color: #47b4cf;
+        font-weight: 500;
+    }
+    strong {
+        font-weight: 500 !important;
+        // color: #47b4cf;
+    }
+    // #1077d4
+    .contribute-col {
+        // background-color: pink;
+        padding-top: 2rem;
+        // border: 1px solid #1077d4;
+        box-shadow: 2px 2px 30px 0 rgba(16, 119, 212, .2);
+        margin-right: -2rem;
+        margin-left: -2rem;
+        padding-right: calc(2rem - 15px);
+        padding-left: calc(2rem - 15px);
     }
 }

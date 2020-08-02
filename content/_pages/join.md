@@ -9,34 +9,23 @@ image: /img/about/join2.svg
 alt: join
 ---
 
-<!-- Promo / Benefits -->
-<article class="ov-about">
-    <div class="container">
-        <!-- <div class="about-intro">
-            <p>{{ page.description }}</p>
-        </div> -->
-        
-    </div>
-</article>
 
-
-
-<article class="ov-join">
+<article class="ov-about ov-join">
     <div class="container">
         <!-- 1 -->
         <div class="row join-row">
             <div class="col-12">
                 <h5>What is Atomiv?</h5>
                 <ul>
-                    <li>Knowledgebase -> sharing best practices both in management and technical topics</li>
-                    <li>Template -> open source templates for PM, BA, Backend, Frontend, DevOps, QA, to provide a foundation for successful IT projects </li>
-                    <li>Community -> global / remote community of people who want to contribute to IT standardization and best practices</li>
+                    <li><span class="word1">Knowledgebase</span> - sharing best practices both in management and technical topics</li>
+                    <li><span class="word1">Template</span> - open source templates for PM, BA, Backend, Frontend, DevOps, QA, to provide a foundation for successful IT projects </li>
+                    <li><span class="word1">Community</span> - global / remote community of people who want to contribute to IT standardization and best practices</li>
                 </ul>
             </div>
         </div>
         <!-- 2 -->
-        <div class="row join-row">
-            <div class="col-12">
+        <div class="row join-row contribute-col">
+            <div class="col-12 ">
                 <h5>Contributing to Atomiv</h5>
                 <ul>
                     <li>Author</li>
