@@ -50,8 +50,10 @@ docs:
       url: /framework/software-architecture/design-principles
     - title: Domain Driven Design
       url: /framework/software-architecture/domain-driven-design
-    - title: Microservices
+    - title: Microservice Architecture
       url: /framework/software-architecture/microservices
+    - title: Event Driven Architecture
+      url: /framework/software-architecture/event-driven-architecture
     - title: Clean Architecture
       url: /framework/software-architecture/clean-architecture
     - title: Layers

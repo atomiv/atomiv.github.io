@@ -1,5 +1,5 @@
 ---
-title: Microservices
+title: Microservice Architecture
 category: software-architecture
 authors: [ uros-ljubenovic ]
 ---
