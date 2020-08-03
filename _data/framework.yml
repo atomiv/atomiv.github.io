@@ -48,18 +48,23 @@ docs:
       url: /framework/software-architecture/overview
     - title: Design Principles
       url: /framework/software-architecture/design-principles
+    - title: Design Patterns
+      url: /framework/software-architecture/design-patterns
     - title: Domain Driven Design
       url: /framework/software-architecture/domain-driven-design
     - title: Microservice Architecture
       url: /framework/software-architecture/microservices
     - title: Event Driven Architecture
       url: /framework/software-architecture/event-driven-architecture
+    - title: Distributed Computing
+      url: /framework/software-architecture/distributed-computing
     - title: Clean Architecture
       url: /framework/software-architecture/clean-architecture
     - title: Layers
       url: /framework/software-architecture/layers
     - title: Slices
       url: /framework/software-architecture/slices
+      
 
 - title: Software Development
   url: software-development
