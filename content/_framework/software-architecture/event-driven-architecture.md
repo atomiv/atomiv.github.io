@@ -8,9 +8,9 @@ authors: [ valentina-cupac ]
 
 Event Driven Architecture (EDA) is vased on building applications with loosely coupled components and services which communicate via events - producing and consumping events. For example, suppose we have microservices including Order Microservice, Customer Microservice and Payment Microservice. When the user makes a purchase, it sends a message to the Payment Microservice which processes the payment, and returns response if it succeeded or failed. In the case that it succeeded, it generates a PaymentSucceededMessage, and then the Order Microservice reacts by setting the status as successfully paid, and the Customer Microservice sends a confirmation email to the customer.
 
-## RabbitMQ
+## Advanced Message Queueing Protocol (AMPQ)
 
-RabbitMQ follows the AMQP protocol (Advanced Message Queueing Protocol) which defines a standardized way for systems to communicate via messages:
+Advanced Message Queueing Protocol (AMPQ) which defines a standardized way for systems to communicate via messages:
 
 * Messages contain information, including attributes (e.g. request header) and message content (i.e. payload / request body)
 * Publishers are applications which produce (generate) the message
@@ -29,9 +29,16 @@ The following are AMPQ exchange types:
 * Topic exchange - routes messages to one or many queues based on matching between routing key and a pattern used to bind a queue to exchange (used for multicast routing of messages where multiple consumers want to selectively choose which messages to receive) 
 * Headers exchange - routing on multiple attributes that are more conveniently expressed as message headers than routing key (so here the routing key is ignored, but instead use attributes for routing from headers attribute)
 
-## Kafka
+
+<!-- TODO: VC -->
+<!--
+RabbitMQ follows the 
+
+Kafka
 
 Pending description.
+
+-->
 
 ## Advantages
 
