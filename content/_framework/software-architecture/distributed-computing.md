@@ -20,6 +20,17 @@ The CAP theorem states that "Though it's desirable to have Consistency, High-Ava
 
 * Partition tolerance - A partition-tolerant service continues to operate despite failure of a part of the system.
 
+## ACID Property
+
+In traditional relational databases, ACID transactions guarantee the following properties, and these are guaranteed by a two-phase commit (which ensures this across multiple database instances when performing a transaction):
+
+* Atomicity - Either all operations in the transaction complete successfully or none, i.e. there is no possiblity for partial success and partial failure in a transaction; if one part fails then the entire transaction fails
+
+* Consistency - Database is consistent before a transaction and it is consistent at the end of the transaction, i.e. it's always in a valid state
+
+* Isolation - Transactions execute in isolation, as if it is the only operation performed upon the database
+
+* Durability - Operations are not reversed when the transaction completes.
 
 ## References
 
