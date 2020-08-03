@@ -22,6 +22,8 @@ The CAP theorem states that "Though it's desirable to have Consistency, High-Ava
 
 ## ACID Property
 
+ACID provides strong consistency (synchronous transactions). It gives up availability.
+
 In traditional relational databases, ACID transactions guarantee the following properties, and these are guaranteed by a two-phase commit (which ensures this across multiple database instances when performing a transaction):
 
 * Atomicity - Either all operations in the transaction complete successfully or none, i.e. there is no possiblity for partial success and partial failure in a transaction; if one part fails then the entire transaction fails
@@ -31,6 +33,14 @@ In traditional relational databases, ACID transactions guarantee the following p
 * Isolation - Transactions execute in isolation, as if it is the only operation performed upon the database
 
 * Durability - Operations are not reversed when the transaction completes.
+
+## BASE Property
+
+BASE provides eventual consistency (generally asynchronous transactions), i.e. weaker consistency. It gives up consistency to improve availability.
+
+* Basically Available
+* Soft State
+* Eventual Consistency
 
 ## References
 
