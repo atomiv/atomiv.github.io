@@ -14,11 +14,11 @@ There are two important aspects in distributed computing which affect implementa
 
 The CAP theorem states that "Though it's desirable to have Consistency, High-Availability and Partition-tolerance in every system, unfortunately no system can achieve all three at the same time".
 
-* Consistency - A consistent service ensures that "what you read is what you get", based on the rule of ordering updates - i.e. if Client A writes old_value and then new_value to a certain location, then another Client B will read old_value then new_value. This is also known as strong consistency.
+* Consistency - A consistent service ensures that "what you read is what you get", based on the rule of ordering updates - i.e. if Client A writes old_value and then new_value to a certain location, then another Client B will read old_value then new_value. This means that when updates occur, then any client will see the same change immediately after the change occurred. This is also known as strong consistency.
 
-* Availability - An available service is one where its guaranteed that for every request there will be a response about whether it succeeded or failed.
+* Availability - An available service is one where its guaranteed that for every request there will be a response about whether it succeeded or failed. This means the system is responsive, i.e. that the request will be dealt with. It doesn't require that a specific server be available (they can fail) but nonetheless there will be others that can fulfil the request.
 
-* Partition tolerance - A partition-tolerant service continues to operate despite failure of a part of the system.
+* Partition tolerance - A partition-tolerant service continues to operate despite failure of a part of the system. This means that some sequence of communication events might be lost between the parties.
 
 ## ACID Property
 
@@ -45,3 +45,4 @@ BASE provides eventual consistency (generally asynchronous transactions), i.e. w
 ## References
 
 * https://ivoroshilin.wordpress.com/2012/12/13/brewers-cap-theorem-explained-base-versus-acid
+* https://medium.com/@marton.waszlavik/demystifying-cap-theorem-eventual-consistency-and-exactly-once-delivery-guarantee-ed20cf7cc877

@@ -30,15 +30,11 @@ The following are AMPQ exchange types:
 * Headers exchange - routing on multiple attributes that are more conveniently expressed as message headers than routing key (so here the routing key is ignored, but instead use attributes for routing from headers attribute)
 
 
-<!-- TODO: VC -->
-<!--
-RabbitMQ follows the 
+## Implementations
 
-Kafka
+RabbitMQ is a popular implementation of a message broker, aka service bus, supporting AMPQ. Other implementations include: ActiveMQ, ZeroMQ, Azure Service Bus and Amazon Simple Queue Service (SQS). The storage layer is based on queues and exchanges. Developers define named queues, and publishers publish messages to those queues and consumers retrieve messages from those queues. Message exchanges are used to implement the publish/subscribe mechanism, ensuring that publishers and consumers are independent of each other. Message exchanges can also do filtering of messages using routing rules. RabbitMQ provides support both for temporary and durable subscriptions, and it is up to consumer to decide.
 
-Pending description.
-
--->
+Apache Kafka is a distributed streaming platform, not an implementation of a message broker. The storage layer is implemented using a partitioned transaction log. It provides Streams API (processing streams real-time) and Connectors API (easy integration with various data sources). Cloud vendors for alternatives for Kafka's storage layer are - Azure Event Hubs and AWS Kinesis Data Streams. There are also alternatives to the stream processing capabilities.
 
 ## Advantages
 
@@ -58,3 +54,4 @@ Pending description.
 * https://pradeeploganathan.com/architecture/event-driven-architecture/
 * https://blog.theodo.com/2019/08/event-driven-architectures-rabbitmq/
 * https://www.rabbitmq.com/tutorials/amqp-concepts.html
+* https://medium.com/better-programming/rabbitmq-vs-kafka-1ef22a041793
