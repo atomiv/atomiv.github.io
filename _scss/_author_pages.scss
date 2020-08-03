@@ -1,0 +1,85 @@
+.ov-about-row2 p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ov-about-row2 {
+      padding-top: 2.25rem;
+      padding-bottom: 2.25rem;
+      h5 {
+          font-size: 1.25rem;
+          font-weight: 500;
+          margin-bottom: 0;
+          span {
+              font-size: 1rem;
+              color: $gray-600;
+              font-weight: 400;
+              color: rgb(136, 152, 241);
+              color: rgb(129, 166, 235);
+              color: $gray-600;
+            //   color: white;
+          }
+      }
+      h6 {
+        font-size: 1rem;
+        color: $gray-600;
+        font-weight: 400;
+        // color: rgb(129, 166, 235);
+      }
+      @include media-breakpoint-up (md) {
+        // padding-top: 2.25rem;
+        // padding-bottom: 2.25rem;
+      }
+      @include media-breakpoint-up (lg) {
+        // padding-top: 2.25rem;
+        padding-bottom: 3.5rem;
+      }
+    }
+  
+  
+  .profile-img2 {
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 100px;
+    min-width: 100px;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 1rem;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-right: 2rem;
+    }
+  }
+
+
+  .fab, .fa {
+    font-size: 1.5rem;
+    margin-right: .75rem;
+    color: black;
+  }
+
+
+  .author-h {
+    // text-transform: uppercase;
+    color: $gray-500;
+    font-size:  1.5rem;
+    @include media-breakpoint-up(lg) {
+        font-size: 1.75rem;
+    }
+    // color: rgb(129, 166, 235);
+    //   text-align: center;
+    // margin-left: 132px;
+  }
+
+  .author-hr {
+    // margin-bottom: 1rem;
+  }
+
+
+  .author-container {
+    padding-top:2rem;
+    padding-bottom: 2.5rem;
+    @include media-breakpoint-up(lg) {
+        padding-top: 2rem;
+        padding-bottom: 3.5rem;
+    }
+  }

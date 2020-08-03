@@ -28,11 +28,12 @@ collections:
   pages:
     output: true
     permalink: /:path
-  authors:
+  partners:
     output: true
+  authors:
     order: 
-      - valentina-cupac.md
       - jelena-cupac.md
+      - valentina-cupac.md
       - petar-zecevic.md
       - boban-bojkovski.md
       - tamara-golubovic.md
@@ -48,7 +49,9 @@ collections:
       - uros-ljubenovic.md
       - vladimir-maljm.md
       - jelena-mitrovic.md
-      - brooke-steele.md
+      - amer-khan.md
+    output: true
+    permalink: /:collection/:path/
   features:
     output: true
   framework:
@@ -115,29 +118,10 @@ collections:
       - recruitment/overview.md
   templates:
     output: true
-    order:
-      - estimations/get-started.md
 
-      - requirements/get-started.md
-
-      - dotnet/get-started.md
-      - dotnet/walkthrough.md
-      - dotnet/implementation.md
-
-      - java/get-started.md
-      - java/walkthrough.md
-
-      - angular/get-started.md
-      - angular/walkthrough.md
-
-      - selenium/get-started.md
-
-      - devops/get-started.md
-
-  
 defaults:
   - scope:
-      path: ""
+      path: "_authors"
       type: "authors"
     values:
       layout: "author"
@@ -146,6 +130,11 @@ defaults:
       type: "staff_members"
     values:
       layout: "staff_member"
+  - scope:
+      path: "_partners"
+      type: "partners"
+    values:
+      layout: "partner"          
   - scope:
       path: "_features"
       type: "features"

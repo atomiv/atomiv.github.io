@@ -10,5 +10,7 @@ city: Belgrade
 country: Serbia
 degree: M.Sc. Information Systems
 university: University of Belgrade (FON)
+
+short_bio: Uroš is a Software Engineer with experience in .NET Core, C#, Azure services, SQL Server, ASP.NET MVC.
 ---
 Uroš is a Software Engineer with experience in .NET Core, C#, Azure services, SQL Server, ASP.NET MVC. He is interested in system architecture, distributed systems, writing clean and efficient code. Uroš joined Atomiv to share experiences in backed development and system design.

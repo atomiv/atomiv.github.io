@@ -1,6 +1,7 @@
 ---
 title: Implementation
 category: dotnet
+authors: [ valentina-cupac, milan-vidakovic ]
 ---
 
 

@@ -4,8 +4,3 @@ title: DevOps
 
 DevOps...
 
-
-
-
-
-

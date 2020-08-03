@@ -74,7 +74,34 @@
     @include media-breakpoint-up(xl) {
       width: 450px;
     }
-
+  }
+  .figure-features3 {
+    height: 200px;
+    width: auto;
+    overflow: hidden;
+    margin: 0;
+    // background-color: pink;
+    @include media-breakpoint-up(md) {
+      width: 350px;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 450px;
+    }
+  }
+  .figure-features3 img {
+    // margin-top: -6.5%;
+    // margin-bottom: -1%;
+    // width: 100%;
+    margin-top: 1rem;
+    height: 160px;
+    @include media-breakpoint-up(md) {
+      height: 175px;
+      margin-top: 0;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 200px;
+    } 
+    width: auto;
   }
 
 // -----------------------
@@ -97,6 +124,7 @@
     }
   }
 
+  // contact page
   .img2-contact {
     width: 120%;
     margin-bottom: -2.5%;
@@ -110,6 +138,13 @@
     @include media-breakpoint-up(xl) {
       // height: 250px;
     }
+  }
+  // services page
+  .img2-contact22 {
+    // width: 120%;
+    // margin-bottom: -2.5%;
+    // height: 200px;
+    width: 90%;
   }
 
 

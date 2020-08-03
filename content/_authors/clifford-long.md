@@ -10,5 +10,7 @@ city: Illinois
 country: United States
 degree: M.Sc. Statistics
 university: DePaul University
+
+short_bio: Clifford is a Quality Professional and Statistician with experience in implementing and improving quality management systems. He enjoys supporting companies in improving processes. 
 ---
 Clifford is a Quality Professional and Statistician with experience in implementing and improving quality management systems. He enjoys supporting companies in improving processes. He joined Atomiv to share his experience in process optimization and quality management.

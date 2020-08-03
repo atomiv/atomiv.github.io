@@ -1,21 +1,8 @@
 ---
 title: Get Started
 category: dotnet
+authors: [ valentina-cupac, milan-vidakovic ]
 ---
-
-
-This documentation is still in progress, we are finalizing it during June 2020, this message will disappear when the documentation has been finalized and ready to use.
-
-## Prerequsites
-
-Ensure you have the following installed for running the application:
-
-* [https://dotnet.microsoft.com/download/dotnet-core](https://dotnet.microsoft.com/download/dotnet-core) \(we have used .NET Core SDK 3.1\)
-* [SQL Server 2017 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-
-Additionally, the following should be installed (for developers):
-* [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/) \(we have used Visual Studio Community 2019, and installed via the Visual Studio Installer: ASP.NET and web development\)
-* [SQL Server Management Studio 17.9.1](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
 ## Template Installation
 
@@ -26,8 +13,6 @@ Run the following command:
 ```text
 dotnet new -i Atomiv.Templates
 ```
-
-
 
 ## Create project
 
@@ -57,7 +42,7 @@ Note: If you're using Visual Studio, then open the solution \(MyWebShop.sln\) an
 Build the solution:
 
 ```text
-dotnet build
+dotnet build .\MyWebShop.sln
 ```
 
 You should see output like:
@@ -70,28 +55,15 @@ Build succeeded.
 ...
 ```
 
-## Create database
+## Database connections
 
-Note: If needed, you can adjust the database connection \(inside the project MyWebShop.Web.RestApi, open up the file appsettings.Development.json and ensure that DefaultConnection is appropriately set to your development database server, note that the database does not exist\) yet. 
+You can check the database connections, in the following:
 
-Run the command to create the database:
+* Src\Web\MyWebShop.Web.RestApi
+* Src\Tools\MyWebShop.Tools.Migrator
+* Test\Web\MyWebShop.RestApi.IntegrationTest
 
-```text
-dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
-```
-
-You should see outout like:
-
-```text
-Build started...
-Build succeeded.
-The environment is Development.
-Applying migration ...
-Applying migration ...
-Done.
-```
-
-You can verify inside SQL Server Management Studio that the database has been created.
+Open up the appsettings files and check DefaultConnection.
 
 ## Run project
 
@@ -111,9 +83,21 @@ Now listening on: https://localhost:5101
 Application started. Press Ctrl+C to shut down.
 ```
 
-At the end, type in Ctrl+C to shut down the API.
+Type in https://localhost:5101 in your browser, you will see Swagger, then run the command POST /api/customers and verify that you get a success message.
+
+At the end, type in Ctrl+C to shut down the API (or the stop button, if you're running this inside Visual Studio Package Manager Console).
 
 Note: If you're using Visual Studio, then you can run the application in Debug mode. The application opens up automatically, e.g. [https://localhost:44315/](https://localhost:44315/api/values). You can stop debugging at the end.
+
+## Run project (via Docker)
+
+In Visual Studio, select to debug with "Docker" (instead of "IIS Express").
+
+When you run it, this should open up the REST API. You should see Swagger.
+
+Then run the command POST /api/customers and verify that you get a success message.
+
+<!-- TODO: VC: Command line way currently not working for Docker, pending check -->
 
 ## Manual tests
 
@@ -130,7 +114,7 @@ You can also execute API calls via swagger, e.g. [https://localhost:44315/swagge
 You can run tests via the command:
 
 ```text
-dotnet test
+dotnet test .\MyWebShop.sln
 ```
 
 You should see output like:
@@ -153,6 +137,27 @@ Note: If you're using Visual Studio, then to run the automated tests, open up th
 We recommend you familiarize yourself with the solution and then you can adapt it to your own needs. This current template uses the eCommerce sample, with Customers, Products and Orders. However, let's say you're making an application for dentists, you could have Dentists, Patients and Appointments, etc.
 
 ## Custom development - Migrations
+
+
+
+```text
+dotnet ef database update --project .\src\Tools\MyWebShop.Tools.Migrator
+```
+
+You should see outout like:
+
+```text
+Build started...
+Build succeeded.
+The environment is Development.
+Applying migration ...
+Applying migration ...
+Done.
+```
+
+You can verify inside SQL Server Management Studio that the database has been created.
+
+
 
 To add a new migration:
 

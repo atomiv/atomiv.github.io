@@ -1,6 +1,7 @@
 ---
 title: Applications
 category: requirements
+authors: [ valentina-cupac ]
 ---
 
 

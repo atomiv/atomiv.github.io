@@ -8,24 +8,23 @@
     <!-- {{item.title}}_<br /> -->
     <!-- {{page.url}}_<br /> -->
     <!-- {{item.url}}_<br /> -->
-    {% assign item_title_1 = item.title | downcase | replace:' ','-' %}
-    {% assign page_url_2 = page.url | replace:'/','-' | truncatewords: 2,"" | downcase %}
+    {% assign item_title_1 = item.url %}
+    {% assign page_url_2 = page.url | split:'/' %}
+    {% assign page_url_0 = page.url | split:'/' %}
 
-    <!-- {{item_title_1}}<br/> -->
-    <!-- {{page_url_2}}<br/> -->
     <li>
-        <a class="{% if page_url_2 contains item_title_1 %}active44{% endif %}"
+        <a class="{% if page_url_0[2] == item_title_1 %}active44{% endif %}"
         href="#{{ item.url }}" data-toggle="collapse" aria-expanded="false">
             {{ item.title }}
 
         </a>
         <ul class="collapse list-unstyled 
-        {% if page_url_2 contains item_title_1 %}show{% endif %}
+        {% if page_url_2[2] == item_title_1 %}show{% endif %}
         " id="{{ item.url }}">
         {% for entry in item.submenuitems %}
             <li class="{% if entry.url == page.url %}active{% endif %}">
                 <a href="{{ entry.url }}">
-                    {{ entry.page }}
+                    {{ entry.title }}
 
                 </a>
             </li>

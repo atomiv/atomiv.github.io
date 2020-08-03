@@ -1,6 +1,7 @@
 ---
 title: Walkthrough
 category: android
+authors: [ velibor-cakarevic ]
 ---
 
 

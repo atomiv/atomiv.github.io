@@ -48,7 +48,7 @@ layout: default
 			</div>
 		</header>
 
-
+		
 		<!-- Promo / Benefits -->
 		<article class="ov-benefits">
 			<div class="container">
@@ -232,28 +232,24 @@ layout: default
 		</article> -->
 
 
-		
-		<!-- link trademark to the logos, check if necessary, automapper -->
-
 		<!-- Technologies used list -->
 		<article class="ov-benefits">
 			<div class="container ov-template p-0">
-				<h2>Technologies</h2>
+				<h2 class="tech-title">Technologies</h2>
 				<div class="row ov-template-row t-logo-row">
-					<a href="https://docs.microsoft.com/en-us/dotnet/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/tech/dotnetcore.png" alt="architecture"	class="img-fluid t-logo-img">
-					</a>
-					<a href="https://angular.io/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/tech/angular.png" alt="architecture" class="img-fluid t-logo-img">
-					</a>
-					<a href="https://www.selenium.dev/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/tech/selenium.png" alt="architecture" class="img-fluid t-logo-img">
-					</a>
+					{% for gallery in site.data.galleries %}
+						<!-- {{ gallery.description }} -->
+						<!-- if gallery.id == page.galleryid -->
+						{% for image in gallery.images %}
+						<!-- <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"> -->
+							<!-- {{ site.url }}/img/tech/dotnetcore.png ... {{ gallery.imagefolder }}/{{ image.thumb }}-->
+							<img src="{{ site.url }}{{ gallery.imagefolder }}/{{ image.thumb }}" height="" width="" alt="{{ image.text }}" class="img-fluid t-logo-img">
+						{% endfor %}
+					{% endfor %}
+
 				</div>
 			</div>
 		</article>
-		
-		
 
 
 		<article class="ov-benefits">
@@ -270,7 +266,7 @@ layout: default
 							<div class="d-flex align-items-center justify-content-center">
 								<div class="img-c-container">
 									<!-- TO DO VC increment version number when changing image -->
-									<img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=4" alt="{{author.name}}"
+									<img height="100" width="100" src="{{ site.url }}/img/about/team/{{ author.photo }}?v=5" alt="{{author.name}}"
 									class="img-fluid w-100 profile-img-home">
 									<div class="overlay-community">
 										<div class="text-community"><h5 class="community-h5">{{ author.position }}</h5></div>
@@ -296,19 +292,52 @@ layout: default
 
 
 		<!-- Partners, Sponsors -->
-		<article class="ov-benefits">
-			<div class="container ov-template">
+		<article class="ov-benefits" style="margin-bottom: -3rem;">
+			<div class="container ov-template px-0">
 				<h2>Partners</h2>
 				<div class="row ov-template-row t-logo-row">
 					<a href="https://optivem.com/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/partners/optivem.svg" alt="architecture" class="img-fluid t-logo-img2">
+						<img height="" width="" src="{{ site.url }}/img/partners/optivem.svg" alt="architecture" class="img-fluid t-logo-img2 ml-0">
 					</a>
-					<a href="http://senovim.com/" target="_blank">
-						<img height="" width="" src="{{ site.url }}/img/partners/senovim3.svg" alt="architecture" class="img-fluid t-logo-img2">
+					<a href="https://senovim.com/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/partners/senovim3.svg" alt="architecture" class="img-fluid t-logo-img2 mr-0">
+					</a>
+				</div>
+
+				<div class="row ov-template-row t-logo-row mt-0">
+					<a href="https://khonvo.com/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/partners/khonvo2.svg" alt="architecture" class="img-fluid t-logo-img2">
+					</a>
+					<a href="https://tsakard.com/" target="_blank">
+						<img height="" width="" src="{{ site.url }}/img/partners/tsakard.jpg" alt="architecture" class="img-fluid t-logo-img2">
 					</a>
 				</div>
 			</div>
 		</article>
+		<!-- <article class="ov-benefits" style="margin-bottom: -3rem;">
+			<div class="container ov-template">
+				<h2>Partners</h2>
+				<div class="row row-partners text-center">
+					<div class="col-6 col-md-4 col-partners-l">
+						<a href="https://optivem.com/" target="_blank">
+							<img height="" width="" src="{{ site.url }}/img/partners/optivem.svg" alt="architecture" class="img-fluid t-logo-img2">
+						</a> 
+						<a href="https://khonvo.com/" target="_blank">
+							<img height="" width="" src="{{ site.url }}/img/partners/khonvo2.svg" alt="architecture" class="img-fluid t-logo-img2">
+						</a> 
+					</div>
+					<div class="col-6 col-md-4 col-partners-r">
+						<a href="https://senovim.com/" target="_blank">
+							<img height="" width="" src="{{ site.url }}/img/partners/senovim3.svg" alt="architecture" class="img-fluid t-logo-img2">
+						</a>
+						<a href="https://tsakard.com/" target="_blank">
+							<img height="" width="" src="{{ site.url }}/img/partners/tsakard.jpg" alt="architecture" class="img-fluid t-logo-img2">
+						</a>
+					</div>
+				</div>
+			</div>
+		</article> -->
+
 
 
 

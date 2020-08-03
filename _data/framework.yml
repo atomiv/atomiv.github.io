@@ -6,123 +6,152 @@ docs:
 - title: Foundation
   url: foundation
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/foundation/overview
-    - page: Principles
+    - title: Principles
       url: /framework/foundation/principles
-    - page: Business Case
+    - title: Business Case
       url: /framework/foundation/business-case
 
 - title: Leadership
   url: leadership
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/leadership/overview
-    - page: Teams
+    - title: Cross Functional
+      url: /framework/leadership/cross-functional
+    - title: Change Management
+      url: /framework/leadership/change-management
+    - title: Teams
       url: /framework/leadership/teams
-    - page: Cross Functional
-      url: /framework/leadership/cross-functional      
 
 - title: Project Management
   url: project-management
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/project-management/overview
-    - page: Agile
+    - title: Agile
       url: /framework/project-management/agile
-    - page: Communication
+    - title: Communication
       url: /framework/project-management/communication
 
 - title: Business Analysis
   url: business-analysis
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/business-analysis/overview                       
 
 - title: Software Architecture
   url: software-architecture
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/software-architecture/overview
-    - page: Domain Driven Design
+    - title: Design Principles
+      url: /framework/software-architecture/design-principles
+    - title: Design Patterns
+      url: /framework/software-architecture/design-patterns
+    - title: Domain Driven Design
       url: /framework/software-architecture/domain-driven-design
-    - page: Microservices
+    - title: Microservice Architecture
       url: /framework/software-architecture/microservices
-    - page: Clean Architecture
+    - title: Event Driven Architecture
+      url: /framework/software-architecture/event-driven-architecture
+    - title: Distributed Computing
+      url: /framework/software-architecture/distributed-computing
+    - title: Clean Architecture
       url: /framework/software-architecture/clean-architecture
-    - page: Layers
+    - title: Layers
       url: /framework/software-architecture/layers
-    - page: Slices
+    - title: Slices
       url: /framework/software-architecture/slices
+      
 
 - title: Software Development
   url: software-development
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/software-development/overview
 
 - title: Quality Assurance
   url: quality-assurance
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/quality-assurance/overview
-    - page: Manual Testing
+    - title: Manual Testing
       url: /framework/quality-assurance/manual-testing
-    - page: Automated Testing
+    - title: Automated Testing
       url: /framework/quality-assurance/automated-testing
 
 - title: Big Data
   url: big-data
   submenuitems:
-    - page: Data Sources
+    - title: Overview
+      url: /framework/big-data/overview
+    - title: Data Sources
       url: /framework/big-data/data-sources
-    - page: Data Storage
+    - title: Data Storage
       url: /framework/big-data/data-storage
-    - page: Batch Processing
+    - title: Batch Processing
       url: /framework/big-data/batch-processing
-    - page: Stream Processing
+    - title: Stream Processing
       url: /framework/big-data/stream-processing
-    - page: Machine Learning
+    - title: Machine Learning
       url: /framework/big-data/machine-learning
-    - page: Analytical Data Store
+    - title: Analytical Data Store
       url: /framework/big-data/analytical-data-store
-    - page: Analytics and Reporting
+    - title: Analytics and Reporting
       url: /framework/big-data/analytics-and-reporting
 
 - title: Embedded Development
   url: embedded-development
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/embedded-development/overview
 
 - title: System Admin
   url: system-admin
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/system-admin/overview
-    - page: Configuration
+    - title: Configuration
       url: /framework/system-admin/configuration
-    - page: Maintenance
+    - title: Maintenance
       url: /framework/system-admin/maintenance
-    - page: Network
+    - title: Network
       url: /framework/system-admin/network
-    - page: Security
+    - title: Security
       url: /framework/system-admin/security
    
 - title: DevOps
   url: devops
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/devops/overview
-    - page: Process
-      url: /framework/devops/process
-    - page: Tools
-      url: /framework/devops/tools
-      
+    - title: Collaboration
+      url: /framework/devops/collaboration
+    - title: Build
+      url: /framework/devops/build
+    - title: Deployment
+      url: /framework/devops/deployment
+    - title: Production
+      url: /framework/devops/production
       
 - title: Recruitment
   url: recruitment
   submenuitems:
-    - page: Overview
+    - title: Overview
       url: /framework/recruitment/overview
-        
+    - title: Roles
+      url: /framework/recruitment/roles
+    - title: Define
+      url: /framework/recruitment/define
+    - title: Anticipate
+      url: /framework/recruitment/anticipate
+    - title: Identify
+      url: /framework/recruitment/identify
+    - title: Engage
+      url: /framework/recruitment/engage
+    - title: Screen
+      url: /framework/recruitment/screen
+    - title: Onboard
+      url: /framework/recruitment/onboard

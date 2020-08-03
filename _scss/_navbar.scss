@@ -1,14 +1,14 @@
 // ---------------------------------
 .s-padding {
   margin: .5rem 1rem;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin: .5rem 2.25rem;
   }
 }
 
 .s-padding2 {
   margin: .5rem 1.5rem;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin: .5rem 2.75rem;
   }
 }
@@ -19,7 +19,6 @@
     align-items: flex-end;
     display: flex;
   }
-
 
   min-height: 3.75rem;
   background-color: $white;
@@ -35,12 +34,8 @@
     padding: 0;
   }
   .navbar-brand {
-    color: $primary;
-    &:hover, &:focus, &:active, &.active {
-      color: $primary;
-    }
     img {
-      margin-right: 0.25rem;
+      margin-right: 0;
     }
   }
   .navbar-toggler {
@@ -57,7 +52,11 @@
     height: 1.5rem;
   }
   #navbarResponsive {
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
+      overflow-y: scroll !important;
+      max-height: calc(100vh - 65px) !important;
+    }
+    @include media-breakpoint-down(md) {
       text-align: left; // right
       background-color: rgb(244, 249, 255);
     }
@@ -70,24 +69,33 @@
           font-weight: 400;
           font-size: 1rem;
           padding: .75rem 0; // 0.5 0
-          &:hover,
-          &:active {
+          &:hover {
             color: $primary;
           }
-          &:focus,
-          &.active {
-            color: $primary !important;
+          &:active {
+            color: $gray-900;
+            color: $primary;
+          }
+          &:focus {
+            color: $gray-900;
+            color: $primary;
+          }
+          &.active55 {
+            // color: $primary !important;
+            color: $primary;
           }
         }
+        // navbar dropdown buttons. Framework v Templates v
         button {
           border: none;
           background-color: transparent;
+          width: 100%;
           text-align: left; // right
           float: left; // right
         }
       }
     }
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       .navbar-nav {
         .nav-item {
           .nav-link {
@@ -120,7 +128,7 @@
   margin-top: 3rem;
   padding: 1rem 1.5rem;
   box-shadow: none;
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     margin: 0;
     margin-top: 19px;
     border: none;
@@ -166,5 +174,4 @@
 //   left: 200px; /* just an estimate of your sidebar's width */
 //   width: calc(100% - 200px);
 // }
-
 

@@ -1,6 +1,7 @@
 ---
 title: Business Case
 category: foundation
+authors: [ valentina-cupac ]
 ---
 
 The Atomiv template is based on using a fictional client example to illustrate usage of the template throughout all stages of the IT project.

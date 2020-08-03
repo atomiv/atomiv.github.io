@@ -189,6 +189,7 @@ a[data-toggle="collapse"] {
 // }
 // ------------
 // sidebar disappears < md
+// max-width: 768
 @media (max-width: 768px) {
     .sidebar {
         margin-left: -288px;
@@ -228,8 +229,6 @@ a[data-toggle="collapse"] {
     border-radius: .25rem;
     @include media-breakpoint-up(md) {
         margin-right: .5rem;
-    }
-    @include media-breakpoint-up(md) {
         display: none;
     }
 }
@@ -358,11 +357,11 @@ aside {
     h2 {
         font-size: 1.5rem;
         margin-bottom: .5rem;
-        padding-top: 1rem;
+        padding-top: 3rem; // 1 ---
         padding-bottom: 1rem;
     }
     h3 {
-        font-size: 1.25rem;
+        font-size: 1.25rem; // 1.25
         margin-bottom: .5rem;
         padding-bottom: .5rem;
         padding-top: .5rem;
@@ -402,7 +401,7 @@ aside {
             font-size: 2rem;
         }
         h3 {
-            font-size: 1.75rem;
+            font-size: 1.5rem; // 1.75
         }
     }
     a, a:hover, a:link {
@@ -413,6 +412,9 @@ aside {
 .template-links {
     margin-bottom: 3rem; // 3 + 1.5 <p>
     color: $primary;
+    .next {
+        margin-bottom: 3rem;
+    }
 }
 
 .next a {

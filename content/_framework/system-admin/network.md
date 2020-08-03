@@ -1,8 +1,7 @@
 ---
 title: Network
 category: system-admin
-
-description: Network basics
+authors: [ vladimir-maljm ]
 ---
 
 

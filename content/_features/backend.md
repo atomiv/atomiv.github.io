@@ -2,42 +2,80 @@
 title: Backend
 ---
 
-<h2>Technical Features</h2>
+## Architecture
 
+{% include csv-table.html table_name='architecture' %}
 
-  {% for backend_hash in site.data.backend %}
-  {% assign backend = backend_hash[1] %}
-<div clas="table-responsive">
-    <table class="table">
-    <colgroup>
-        <col width="80%" />
-        <col width="10%" />
-        <col width="10%" />
-    </colgroup>
-        {% for row in backend %}
-        {% if forloop.first %}
-        <thread>
-            <tr>
-                {% for pair in row %}
-                <th>{{ pair[0] }}</th>
-                {% endfor %}
-            </tr>
-        </thread>
-        {% endif %}
-        <tbody>
-            {% tablerow pair in row %}
-                {% if pair[1] == "y" %}
-                <i class="fas fa-check"></i>
-                {% elsif pair[1] == "p" %}
-                <i class="far fa-clock"></i>
-                {% elsif pair[1] == "n" %}
-                <i class="far fa-clock"></i>
-                {% else %}
-                {{ pair[1] }}
-                {% endif %}
-            {% endtablerow %}
-        </tbody>
-        {% endfor %}
-    </table>
-</div>
-  {% endfor %}
+### Core
+
+{% include csv-table.html table_name='application' %}
+
+{% include csv-table.html table_name='domain' %}
+
+{% include csv-table.html table_name='common' %}
+
+### Web
+
+{% include csv-table.html table_name='web_rest_api' %}
+
+### Infrastructure
+
+{% include csv-table.html table_name='infrastructure_repos' %}
+
+{% include csv-table.html table_name='infrastructure_q_handlers' %}
+
+{% include csv-table.html table_name='infrastructure_files' %}
+
+{% include csv-table.html table_name='infrastructure_d_sources' %}
+
+{% include csv-table.html table_name='infrastructure_messaging' %}
+
+{% include csv-table.html table_name='infrastructure_jobs' %}
+
+{% include csv-table.html table_name='infrastructure_logging' %}
+
+{% include csv-table.html table_name='infrastructure_authentication' %}
+
+{% include csv-table.html table_name='infrastructure_config' %}
+
+{% include csv-table.html table_name='infrastructure_auth' %}
+
+{% include csv-table.html table_name='infrastructure_valid' %}
+
+{% include csv-table.html table_name='infrastructure_mapping' %}
+
+{% include csv-table.html table_name='infrastructure_alerting' %}
+
+### Test
+
+{% include csv-table.html table_name='test_layer' %}
+
+## Packages
+
+### Web
+
+{% include csv-table.html table_name='packages_web' %}
+
+### Infrastructure
+
+{% include csv-table.html table_name='packages_infrastructure_aspects' %}
+
+{% include csv-table.html table_name='packages_infrastructure_authentication' %}
+
+{% include csv-table.html table_name='packages_infrastructure_clients' %}
+
+{% include csv-table.html table_name='packages_infrastructure_files' %}
+
+{% include csv-table.html table_name='packages_infrastructure_generators' %}
+
+{% include csv-table.html table_name='packages_infrastructure_jobs' %}
+
+{% include csv-table.html table_name='packages_infrastructure_messaging' %}
+
+{% include csv-table.html table_name='packages_infrastructure_persistence' %}
+
+{% include csv-table.html table_name='packages_infrastructure_serialization' %}
+
+### Test
+
+{% include csv-table.html table_name='packages_test' %}

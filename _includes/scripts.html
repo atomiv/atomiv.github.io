@@ -97,8 +97,31 @@ $('#sidebarCollapse').on('click', function () {
             $('#sidebar3').removeClass('active');
         });
         // -------------------------------
+        // when click on top part of nav hide overlay
+        $('#navVisibleTop').on('click', function () {
+            // if ($('#sidebar').is(':hidden')) 
+            // if ($('#sidebar').css('display') == 'block')
 
+
+            // $( "li" ).not( ":nth-child(2n)" ).css( "background-color", "red" );
+
+
+
+            if ( $('#sidebar').hasClass('active') || $('#sidebar2').hasClass('active') || $('#sidebar3').hasClass('active') ) {
+                // console.log('sidebar open-------');
+            } else {
+                // console.log('...');
+                if ($('#navbarResponsive').is(':visible')) {
+                    $('.overlay44').removeClass('active');
+                }
+            }
+        })
+        // ----------------------------------------
         $('body').on('click', function () {
+
+            // if ($('#navbarResponsive').is(':hidden')) {
+            //     console.log('1.....');
+            // }
 
             // console.log('body');
             // $('.overlay44').removeClass('active');
@@ -118,7 +141,11 @@ $('#sidebarCollapse').on('click', function () {
 
 
             // if ($('.overlay44').is(':visible')) {
-            //     console.log('--------------');
+            //     console.log('2--------------');
+            //     if ($('#navbarResponsive').is(':hidden')) {
+            //         console.log('3--------------');
+            //         // $('.overlay44').removeClass('active');
+            //     }
             // }
 
 
@@ -153,3 +180,41 @@ $('#sidebarCollapse').on('click', function () {
 </script>
 
 
+<!-- if ($('#element').css('display') == 'none') {
+    alert('element is hidden');
+ }  -->
+
+
+ <!-- object.style.visibility = "visible|hidden|collapse|initial|inherit" -->
+
+
+ <!-- function myFunction() {
+  var x = document.getElementById('myDIV');
+  if (x.style.visibility === 'hidden') {
+    x.style.visibility = 'visible';
+  } else {
+    x.style.visibility = 'hidden';
+  }
+} -->
+
+<!-- function hideElem() {
+  document.getElementById("myImg").style.visibility = "hidden";
+}
+
+function showElem() {
+  document.getElementById("myImg").style.visibility = "visible";
+}
+ -->
+
+
+
+
+
+ <!-- 
+    <input type="button" value="click me" onclick="clickedIt()" />
+    
+    
+    function clickedIt() {   
+   var canSee = $("#myNavbar").is(":visible");
+   alert(canSee);
+} -->

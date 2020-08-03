@@ -3,68 +3,127 @@
 # template_list_title: Templates
 docs:
 
-- title: .NET
-  url: dotnet
-  submenuitems:
-    - page: Get Started
-      url: /templates/dotnet/get-started
-    - page: Walkthrough
-      url: /templates/dotnet/walkthrough
-    - page: Implementation
-      url: /templates/dotnet/implementation
 
-- title: Java
-  url: java
+- title: Projects
+  url: projects
   submenuitems:
-    - page: Get Started
-      url: /templates/java/get-started
-    - page: Walkthrough
-      url: /templates/java/walkthrough
-
-- title: Angular
-  url: angular
-  submenuitems:
-    - page: Get Started
-      url: /templates/angular/get-started
-    - page: Walkthrough
-      url: /templates/angular/walkthrough
-
-- title: Selenium
-  url: selenium
-  submenuitems:
-    - page: Get Started
-      url: /templates/selenium/get-started
-
-- title: DevOps
-  url: devops
-  submenuitems:
-    - page: Get Started
-      url: /templates/devops/get-started
-
-- title: Android
-  url: android
-  submenuitems:
-    - page: Get Started
-      url: /templates/android/get-started
-    - page: Walkthrough
-      url: /templates/android/walkthrough
-
-- title: Estimations
-  url: estimations
-  submenuitems:
-    - page: Get Started
-      url: /templates/estimations/get-started
+    - title: Overview
+      url: /templates/projects/overview
+    - title: Estimations
+      url: /templates/projects/estimations
+    - title: Meetings
+      url: /templates/projects/meetings
+    - title: Status Reports
+      url: /templates/projects/status-reports
 
 - title: Requirements
   url: requirements
   submenuitems:
-    - page: Get Started
-      url: /templates/requirements/get-started
-    - page: Processes
+    - title: Overview
+      url: /templates/requirements/overview
+    - title: Processes
       url: /templates/requirements/processes
-    - page: Use Cases
+    - title: Use Cases
       url: /templates/requirements/use-cases
-    - page: Domain
+    - title: Domain
       url: /templates/requirements/domain
-    - page: Applications
+    - title: Applications
       url: /templates/requirements/applications 
+
+- title: Recruitment
+  url: recruitment
+  submenuitems:
+    - title: Overview
+      url: /templates/recruitment/overview
+    - title: Profile
+      url: /templates/recruitment/profile
+
+- title: .NET
+  url: dotnet
+  submenuitems:
+    - title: Overview
+      url: /templates/dotnet/overview
+    - title: Installation
+      url: /templates/dotnet/installation
+    - title: Configuration
+      url: /templates/dotnet/configuration
+    - title: Get Started
+      url: /templates/dotnet/get-started
+    - title: Walkthrough
+      url: /templates/dotnet/walkthrough
+
+- title: Java
+  url: java
+  submenuitems:
+    - title: Overview
+      url: /templates/java/overview
+    - title: Get Started
+      url: /templates/java/get-started
+    - title: Walkthrough
+      url: /templates/java/walkthrough
+
+- title: PHP
+  url: php
+  submenuitems:
+    - title: Overview
+      url: /templates/php/overview
+
+- title: Angular
+  url: angular
+  submenuitems:
+    - title: Overview
+      url: /templates/angular/overview
+    - title: Get Started
+      url: /templates/angular/get-started
+    - title: Walkthrough
+      url: /templates/angular/walkthrough
+
+- title: React
+  url: react
+  submenuitems:
+    - title: Overview
+      url: /templates/react/overview
+
+- title: Vue
+  url: vue
+  submenuitems:
+    - title: Overview
+      url: /templates/vue/overview
+
+- title: Android
+  url: android
+  submenuitems:
+    - title: Overview
+      url: /templates/android/overview
+    - title: Get Started
+      url: /templates/android/get-started
+    - title: Walkthrough
+      url: /templates/android/walkthrough
+
+- title: Selenium
+  url: selenium
+  submenuitems:
+    - title: Overview
+      url: /templates/selenium/overview
+    - title: Get Started
+      url: /templates/selenium/get-started
+
+
+- title: Docker
+  url: docker
+  submenuitems:
+    - title: Overview
+      url: /templates/docker/overview
+    - title: Get Started
+      url: /templates/docker/get-started
+    - title: Java
+      url: /templates/docker/java
+    - title: .NET
+      url: /templates/docker/dotnet
+      
+- title: Kubernetes
+  url: kubernetes
+  submenuitems:
+    - title: Overview
+      url: /templates/kubernetes/overview
+

@@ -7,6 +7,7 @@
 - title: Features
   url: /features/overview
 
+
 # - title: Features2
 #   url: /features2
 
@@ -14,54 +15,95 @@
   nDropdown: navbarDropdown1
   
   subcategories:    
-  - subtitle: foundation
+  - heading: Foundation
+    subtitle: foundation
     suburl: /framework/foundation/overview
-  - subtitle: leadership
+  - heading: Leadership
+    subtitle: leadership
     suburl: /framework/leadership/overview
-  - subtitle: project-management
+  - heading: Project Management
+    subtitle: project-management
     suburl: /framework/project-management/overview
-  - subtitle: business-analysis
+  - heading: Business Analysis
+    subtitle: business-analysis
     suburl: /framework/business-analysis/overview
-  - subtitle: software-achitecture
+  - heading: Software Architecture
+    subtitle: software-achitecture
     suburl: /framework/software-architecture/overview
-  - subtitle: software-development
+  - heading: Software Development
+    subtitle: software-development
     suburl: /framework/software-development/overview
-  - subtitle: quality-assurance
+  - heading: Quality Assurance
+    subtitle: quality-assurance
     suburl: /framework/quality-assurance/overview
-  - subtitle: big-data
-    suburl: /framework/big-data/data-sources
-  - subtitle: embedded-development
+  - heading: Big Data
+    subtitle: big-data
+    suburl: /framework/big-data/overview
+  - heading: Embedded Development
+    subtitle: embedded-development
     suburl: /framework/embedded-development/overview
-  - subtitle: system-admin
+  - heading: System Admin
+    subtitle: system-admin
     suburl: /framework/system-admin/overview
-  - subtitle: devops
+  - heading: DevOps
+    subtitle: devops
     suburl: /framework/devops/overview
-  - subtitle: recruitment
+  - heading: Recruitment
+    subtitle: recruitment
     suburl: /framework/recruitment/overview
 
 - title: Templates
   nDropdown: navbarDropdown2
   subcategories:
 
-  - subtitle: dotnet
-    suburl: /templates/dotnet/get-started
-  - subtitle: java
-    suburl: /templates/java/get-started
-  - subtitle: angular
-    suburl: /templates/angular/get-started
-  - subtitle: selenium
-    suburl: /templates/selenium/get-started
-  - subtitle: devops
-    suburl: /templates/devops/get-started
-  - subtitle: android
-    suburl: /templates/android/get-started
-  - subtitle: estimations
-    suburl: /templates/estimations/get-started
-  - subtitle: requirements
-    suburl: /templates/requirements/get-started
-  
+  - heading: Projects
+    subtitle: projects
+    suburl: /templates/projects/overview
+  - heading: Requirements
+    subtitle: requirements
+    suburl: /templates/requirements/overview
+  - heading: Recruitment
+    subtitle: recruitment
+    suburl: /templates/recruitment/overview
+  - heading: .NET
+    subtitle: dotnet
+    suburl: /templates/dotnet/overview
+  - heading: Java
+    subtitle: java
+    suburl: /templates/java/overview
+  - heading: PHP
+    subtitle: php
+    suburl: /templates/php/overview
+  - heading: Angular
+    subtitle: angular
+    suburl: /templates/angular/overview
+  - heading: React
+    subtitle: react
+    suburl: /templates/react/overview    
+  - heading: Vue
+    subtitle: vue
+    suburl: /templates/vue/overview
+  - heading: Android
+    subtitle: android
+    suburl: /templates/android/overview
+  - heading: Selenium
+    subtitle: selenium
+    suburl: /templates/selenium/overview
+  - heading: Docker
+    subtitle: docker
+    suburl: /templates/docker/overview
+  - heading: Kubernetes
+    subtitle: kubernetes
+    suburl: /templates/kubernetes/overview
+
+- title: Partners
+  url: /partners
+
 - title: About
   url: /about
+
+- title: Join
+  url: /join
 
 - title: Contact
   url: /contact

@@ -10,5 +10,7 @@ city: Köln
 country: Germany
 degree: M.IT. Software Engineering
 university: University of Sydney
+
+short_bio: Boban is a Senior DevOps Engineer, with experience in CI/CD and automation, using container and container-orchestration software.
 ---
 Boban is a Senior DevOps Engineer, with experience in CI/CD and automation, using container and container-orchestration software. He is interested in Cloud Architecture, CloudOps and Serverless. Boban joined Atomiv to share experiences in DevOps processes and tools.

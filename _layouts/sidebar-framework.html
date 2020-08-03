@@ -46,32 +46,90 @@ layout: default
 						<!-- {{ page.url }} <br /> -->
 						<!-- {{ page.category }}... <br/> -->
 
-						<div class="template-links">
-							<!-- { % if page.previous.url % } -->
-							{% if page.previous.category == page.category %}
-							<span>
-								<a href='{{page.previous.url}}'>
-									<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-										<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-									</svg>
-									{{page.previous.title}}
-								</a>
-							</span>
+
+
+						<!-- ----------------------------------------------------- -->
+						<!-- List of authors -->
+
+						{% assign content = page.authors | strip_newlines %}
+
+						<!-- if page.authors != "" and page.authors != nil -->
+						{% if content != "" and content != nil and content !="[]" %}
+
+
+						<hr class="author-hr">
+
+						<h5 class="author-h">Authors</h5>
+
+						<div class="author-container">
+
+						{% for author3 in page.authors %}
+						{% for siteauthor in site.data.authors.docs %}
+						{% if author3 == siteauthor.url %}
+						{% for author in site.authors %}
+							{% if siteauthor.name == author.name %}
+
+								{% include author.html %}
+
 							{% endif %}
-							
-							<!-- { % if page.next.url % } -->
-							{% if page.next.category == page.category %}
-							<span class="next" style="float: right;">
-								<a href="{{page.next.url}}">
-									{{page.next.title}}
-									<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-										<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-									  </svg>
-								</a>
-							</span>
-							{% endif %}
+						{% endfor %}
+						{% endif %}
+						{% endfor %}
+						{% endfor %}
+
 						</div>
 
+						{% endif %}
+
+						
+						<!-- --------------------------------------------------------------------- -->
+						<!-- Previous and next links -->
+
+						{% for item in site.data.framework.docs %}
+
+						{% if item.url == page.category %}
+
+						{% for entry in item.submenuitems %}
+
+						{% assign current_index = forloop.index0 %}
+						{% assign next_index = current_index | plus: 1 %}
+						{% assign prev_index = current_index | minus: 1 %}
+						{% assign index_length = forloop.length | minus: 1 %}
+
+
+							{% if index_length > 0 and entry.url == page.url %}
+							<div class="template-links">
+								{% unless forloop.first %}
+								<span>
+									<!-- href="{{ site.baseurl }}{{ prev.url }}" -->
+									<a href='{{ item.submenuitems[prev_index].url }}'>
+										<svg class="bi bi-chevron-left" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+										</svg>
+										{{ item.submenuitems[prev_index].title }}
+									</a>
+								</span>
+								{% endunless %}
+								
+								{% unless forloop.last %}
+								<span class="next" style="float: right;">
+									<a href="{{ item.submenuitems[next_index].url }}">
+										{{ item.submenuitems[next_index].title }}
+										<svg class="bi bi-chevron-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+										</svg>
+									</a>
+								</span>
+								{% endunless %}
+
+							</div>
+							{% endif %}
+
+						{% endfor %}
+						{% endif %}
+					{% endfor %}
+
+					<!-- --------------------------------------------------------------------------- -->
 
                     </div>
                     

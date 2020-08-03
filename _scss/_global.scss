@@ -22,7 +22,7 @@ html {
   position: relative;
   padding-bottom: 250px; /* height of your footer */
   @include media-breakpoint-up(md) {
-    padding-bottom: 229px;
+    padding-bottom: 250px;
   }
   padding-top: 60px; /* fixed nav */
 }

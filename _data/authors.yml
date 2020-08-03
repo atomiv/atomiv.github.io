@@ -48,35 +48,17 @@ docs:
 - name: Vladimir Maljm
   url: vladimir-maljm
 
+- name: Amer Khan
+  url: amer-khan
+  
 - name: Jelena Mitrović
   url: jelena-mitrovic
-
-- name: Brooke Steele
-  url: brooke-steele
-
-
-
-
-# - id: 1
-#   name: Valentina Cupać
   
+- name: Damnjan Matejić
+  url: damnjan-matejic
 
-# - id: 2
-#   name: Jelena Cupać
-
-
-# # new author
-
-# - id: >
-#   name:
-#   position: 
-#   about: 
-#   photo: Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending new author setup. Pending.
-#   linkedin: 
-#   xing: 
-#   github: 
-#   website: 
-
-
-
-    
+- name: Miloš Terzić
+  url: milos-terzic
+  
+- name: David Aleksić
+  url: david-aleksic

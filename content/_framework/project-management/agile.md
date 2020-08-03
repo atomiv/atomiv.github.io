@@ -1,6 +1,7 @@
 ---
 title: Agile
 category: project-management
+authors: [ tamara-golubovic ]
 ---
 
 ## What is Agile? 
