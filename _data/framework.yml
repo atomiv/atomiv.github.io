@@ -46,6 +46,8 @@ docs:
   submenuitems:
     - title: Overview
       url: /framework/software-architecture/overview
+    - title: Design Principles
+      url: /framework/software-architecture/design-principles
     - title: Domain Driven Design
       url: /framework/software-architecture/domain-driven-design
     - title: Microservices
