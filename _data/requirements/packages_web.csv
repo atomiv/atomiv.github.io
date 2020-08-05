@@ -1,0 +1,4 @@
+Web Layer,.NET Package,Java Package,.NET,Java
+REST API,AspNetCore,-,y,n
+Swagger,Swashbuckle,-,y,n
+Hateoas,AspNetCore.Hateoas,-,y,n

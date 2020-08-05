@@ -1,0 +1,6 @@
+Infrastructure Layer - Persistence,.NET Package,Java Package,.NET,Java
+ORM, EntityFrameworkCore,Hibernate,y,n
+Micro ORM,Dapper,-,n,n
+Document Database,MongoDB,MongoDB,y,n
+Memory Database,Redis,Redis,n,n
+Graph Database,Neo4j,Neo4j,n,n
