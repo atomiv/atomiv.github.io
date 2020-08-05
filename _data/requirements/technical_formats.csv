@@ -4,6 +4,8 @@ XML,n,n
 BINARY,n,n
 TXT,n,n
 CSV,n,n
+XLSX,n,n
+PDF,n,n
 Protobuf,n,n
 Thrift,n,n
 YAML,n,n
