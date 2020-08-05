@@ -1,5 +1,22 @@
-Application Layer,.NET,Java
-Commands,y,n
-Queries,y,n
-Command Handlers,y,n
-Application Context,y,n
+Functional Requirements,Backend,Frontend
+Browse Orders (Pagination; Sorting; Filtering),n,n
+Open an Order,n,n
+Edit an Order,n,n
+Delete an Order,n,n
+Perform an Order action (Submit; Approve; Reject),n,n
+Send email notifications when order changes status,n,n
+Data Validation,n,n
+Import a Product (Excel; CSV),n,n
+Export a Product (Excel; CSV; PDF),n,n
+Import Products (Excel; CSV; stop on error or continue),n,n
+Export Products (Excel; CSV; PDF),n,n
+Sync Products (External API; External DB; External FTP; stop on error or continue),n,n
+Background Job for Product Sync (scheduled),n,n
+Users; Roles; Permissions,n,n
+Login and Logout,n,n
+Visible menu based on Permissions,n,n
+Visible / enabled actions based on Permissions,n,n
+Read data from other systems (CRM; WMS; SRM; ERP - API or DB),n,n
+Update data in other systems (CRM; WMS; SRM; ERP - API or DB),n,n
+Reporting about most profitable Customers (Charts; Excel; CSV; PDF),n,n
+Reporting about order trends over time dimensions and country dimensions (Charts; Excel; CSV; PDF),n,n

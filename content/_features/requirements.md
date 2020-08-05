@@ -6,6 +6,6 @@ title: Requirements
 
 {% include csv-table.html table_name='functional' %}
 
-## Non-functional Requirements
+## Architectural Requirements
 
-{% include csv-table.html table_name='non_functional' %}
+{% include csv-table.html table_name='architectural' %}
