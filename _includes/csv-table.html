@@ -5,7 +5,8 @@
         <col width="10%" />
         <col width="10%" />
     </colgroup>
-        {% for row in site.data.backend.[{{include.table_name}}] %}
+        <!-- { % for row in site.data.backend.[{{include.table_name}}] % } -->
+        {% for row in site.data.[{{include.feature_name}}].[{{include.table_name}}] %}
         {% if forloop.first %}
         <thread>
             <tr>
