@@ -1,17 +1,5 @@
-Non Functional Requirements,Backend,Frontend
-Maintainability,n,n
-Availability,n,n
-Backup,n,n
-Data integrity,n,n
-Deployment,n,n
-Extensibility,n,n
-Internationalization and localization,n,n
-Performance,n,n
-Quality,n,n
-Readability,n,n
-Reliability,n,n
-Reusability,n,n
-Consistency,n,n
-Scalability,n,n
-Security,n,n
-Restability,n,n
+Technical Requirements,Backend,Frontend
+Clean Architecture,n,n
+Microservice Architecture,n,n
+Event Driven Architecture Architecture,n,n
+Distributed Architecture,n,n

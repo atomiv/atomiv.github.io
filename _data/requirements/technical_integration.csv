@@ -1,0 +1,14 @@
+Technical Requirements - Integration,Backend,Frontend
+Web Services - REST,n,n
+Web Services - SOAP,n,n
+Web Services - gRCP,n,n
+Web Services - GraphQL,n,n
+Web Services - Thrift,n,n
+Files - FTP,n,n
+Files - SFTP,n,n
+Files - Fileshare,n,n
+Databases - ODBC,n,n
+Databases - JDBC,n,n
+Email - SMTP,n,n
+Email - POP3,n,n
+LDAP,n,n
