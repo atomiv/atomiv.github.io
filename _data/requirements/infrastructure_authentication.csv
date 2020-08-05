@@ -1,8 +1,0 @@
-Infrastructure Layer - Authentication,.NET,Java
-OpenId Connect (authentication with an identity provider),p,n
-API Key (authentication via API key),n,n
-OAuth (authentication via OAuth),n,n
-Custom authentication (authentication via custom provider),y,n
-"Authentication with Google, Microsoft, LinkedIn, GitHub",n,n
-Authentication as part of API and separate,n,n
-User identity with custom attributes,n,n

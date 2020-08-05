@@ -1,4 +1,0 @@
-Infrastructure Layer - Generators,.NET Package,Java Package,.NET,Java
-In-memory Messaging,MediatR,-,y,n
-Messaging Broker,RabbitMQ,RabbitMQ,n,n
-Distributed Streaming,Kafka,Kafka,n,n

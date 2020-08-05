@@ -1,5 +1,0 @@
-Infrastructure Layer - Data Sources,.NET,Java
-REST client for communicating with REST services (authentication and executing REST API methods),y,n
-SOAP client for communicating with SOAP services (authentication and executing SOAP methods),n,n
-Process client for executing command line processes (executing local process amd remote procedure calls),y,n
-"FTP client for communicating with FTP services (uploading files, downloading files, authorization)",n,n
