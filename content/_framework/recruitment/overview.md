@@ -42,7 +42,7 @@ By understanding the optimization dynamics at every stage, a management team sho
    - repeatedly doing the basics well tends to deliver positive outcomes
 
 
-# Resources
+### Resources
 
 Below is a set of resources which may be useful if you want to explore any of these topics in greater detail:
 * http://booleanblackbelt.com/
