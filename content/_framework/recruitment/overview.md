@@ -35,11 +35,11 @@ By understanding the optimization dynamics at every stage, a management team sho
    
 * Recruiting is a team game, and requires great planning, communication, collaboration and agility
    - everyone in the business can be a recruiter
-   - a healthy recruiting function is a good indicator of a healthy business
+   - **a healthy recruiting function is a good indicator of a healthy business**
    
 * Recruitment involves people, who can be unpredictable
    - plan for the unexpected, but pay attention to patterns
-   - repeatedly doing the basics well tends to deliver positive outcomes
+   - **repeatedly doing the basics well tends to result in positive outcomes**
 
 
 ### Resources
