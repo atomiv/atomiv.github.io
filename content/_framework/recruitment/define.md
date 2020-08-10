@@ -4,7 +4,7 @@ category: recruitment
 authors: [ fergus-obrien ]
 ---
 
-### Introduction
+## Introduction
 
 <!-- TODO: to define the organisational needs - EXPAND, for top management audience -->
 <!-- TODO: recruitment roadmap - EXPAND, for top management audience... what's in a roadmpa, maybe some examples -->
@@ -22,7 +22,7 @@ Some of the key questions to address:
 
 These are primarily "big picture" questions which frame the recruitment needs against the broader backdrop of organisational structure and strategy. Once those relationships have been understood, it is time to turn to the specific requirements. 
 
-### Ideal Profile
+## Ideal Profile
 
 Define the ideal profile, in terms of the following:
 
@@ -36,7 +36,7 @@ Some of the factors that affect these definitions include: building for short te
 
 <!-- Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases -->
      
-### Interview Process
+## Interview Process
      
 Define the interview process, in terms of the following:
  * Who is going to be involved
@@ -48,7 +48,7 @@ Define the interview process, in terms of the following:
 
 The major optimization challenge here is to build an interview process that is sufficiently rigorous to eliminate all unsuitable candidates, without placing unnecessary procedural barriers that discourage capable applicants from applying. A seven stage process will usually generate more useful insights about candidate suitability than a three stage process, but, the length of the process itself may become an obstacle. When thinking about this dynamic, the recruitment team should aim to remove as much friction as possible, without compromising unduly on screening rigor. An interview process that is simultaneously enjoyable and challenging is a standard feature of hiring at companies who have been successful in navigating this optimization challenge.
 
-### Search Strategy
+## Search Strategy
 
 Define the search strategy, in terms of the following:
   
