@@ -337,6 +337,7 @@ aside {
 // }
 
 // -------------------
+// Framwork.. Templates 
 .template-content {
     padding-bottom: 3rem;
     h1, h2, h3, h4, h5, h6 {
@@ -356,12 +357,13 @@ aside {
     // 'Features' headings below
     h2 {
         font-size: 1.5rem;
-        margin-bottom: .5rem;
+        margin-bottom: 1.5rem;
         padding-top: 3rem; // 1 ---
-        padding-bottom: 1rem;
+        // padding-bottom: 1rem;
     }
     h3 {
         font-size: 1.25rem; // 1.25
+        margin-top: 1.5rem;
         margin-bottom: .5rem;
         padding-bottom: .5rem;
         padding-top: .5rem;
@@ -374,10 +376,6 @@ aside {
         margin-bottom: 1.5rem;
     }
     @include media-breakpoint-up(md) {
-        // h1 {
-        //     font-size: 2.25rem;
-        //     margin-bottom: 3.5rem;
-        // }
         h1 {
             font-size: 2rem;
             margin-bottom: 1.25rem;
@@ -398,7 +396,7 @@ aside {
             font-size: 2.5rem;
         }
         h2 {
-            font-size: 2rem;
+            font-size: 1.75rem; // 2
         }
         h3 {
             font-size: 1.5rem; // 1.75
