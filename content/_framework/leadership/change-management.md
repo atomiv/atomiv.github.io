@@ -1,12 +1,14 @@
 ---
-title: Kotter’s Model of Change Management
+title: Change Management
 category: leadership
 authors: [ amer-khan ]
 ---
 
 ## Introduction
 
-Organisational change often aims at solving performance problems, including internal organizational aspects such as efficiency and profitability, or it is necessitated by changes in market opportunities. Change management efforts are hence usually directed at changing or enhancing organizational assets, capabilities and resources. We often see companies engage in highly structured initiatives such as Six Sigma, TQM and process re-engineering. But change management is also seen in a different perspective that takes into account the social dynamics of leadership. The leadership perspective on change management goes to a level higher than the organizational processes and assign a more prominent role to organizational leadership as the main sponsor and initiator of change. The most renowned leadership framework of change management is Kotter’s eight steps of change management (Kotter 1996)  which include: establish a sense of urgency; create a guiding coalition; develop a vision and strategy; communicate the change vision; empower broad-based action; generate short-term wins; consolidate gains and produce more change; and anchor new approaches in the corporate culture. The following is an outline of  Kotter’s model of change management, including findings of a sampling of key literature that support the model.
+Organisational change often aims at solving performance problems, including internal organizational aspects such as efficiency and profitability, or it is necessitated by changes in market opportunities. Change management efforts are hence usually directed at changing or enhancing organizational assets, capabilities and resources. We often see companies engage in highly structured initiatives such as Six Sigma, TQM and process re-engineering. But change management is also seen in a different perspective that takes into account the social dynamics of leadership. The leadership perspective on change management goes to a level higher than the organizational processes and assign a more prominent role to organizational leadership as the main sponsor and initiator of change. 
+
+The most renowned leadership framework of change management is Kotter’s eight steps of change management (Kotter 1996)  which include: establish a sense of urgency; create a guiding coalition; develop a vision and strategy; communicate the change vision; empower broad-based action; generate short-term wins; consolidate gains and produce more change; and anchor new approaches in the corporate culture. The following is an outline of  Kotter’s model of change management, including findings of a sampling of key literature that support the model.
 
 ### 1\. Establish a sense of urgency
 
@@ -51,56 +53,17 @@ In conclusion, change implementation is a complex process, and the above steps a
 
 ## References
 
-Buchanan, D., Fitzgerald, L., Ketley, D., Gollop, R., Jones, J.L. and Saint Lamont, S. (2005), “No
-going back: a review of the literature on sustaining organizational change”, International
-Journal of Management Reviews, Vol. 7 No. 3, pp. 189-205.
-
-Cole, M.S., Harris, S.G. and Bernerth, J.B. (2006), “Exploring the implications of vision,
-appropriateness, and execution of organizational change”, Leadership & Organization
-
-Dansereau, F. and Markham, S.E. (1987), “Superior-subordinate communication: multiple levels
-of analysis”, in Jablin, F.M., Putnam, L.L., Roberts, K.H. and Porter, L.W. (Eds), Handbook
-of Organizational Communication: An Interdisciplinary Perspective, Sage, Beverly Hills,
-CA, pp. 343-88. Development Journal, Vol. 27 No. 5, pp. 352-67.
-
-Ellinger, A.E., Keller, S.B. and Bas, A.B.E. (2010), “The empowerment of frontline service staff in
-3PL Companies”, Journal of Business Logistics, Vol. 31 No. 1, pp. 79-100.
-
-Frahm, J. and Brown, K. (2007), “First steps: linking change communication to change
-receptivity”, Journal of Organizational Change, Vol. 20 No. 3, pp. 370-87.
-
-Jacobs, R.L. (2002), “Institutionalizing organizational change through cascade training”, Journal
-of European Industrial Training, Vol. 26 Nos 2-4, pp. 177-82.
-
-Kerber, K. and Buono, A.F. (2005), “Rethinking organizational change: reframing the
-challenge of change management”, Organization Development Journal, Vol. 23 No. 3,
-pp. 23-16.
-
-Kotter, J.P. (1995), “Leading change: why transformation efforts fail”, Harvard Business Review,
-March-April, pp. 59-67.
-
-Klidas, A., van den Berg, P.T. and Wilderom, C.P.M. (2007), “Managing employee empowerment
-in luxury hotels in Europe”, International Journal of Service Industry Management, Vol. 18
-No. 1, pp. 70-88.
-
-Kotter, J.P. (1996), Leading Change, Harvard Business School Press, Boston, MA.Jansen, K.J. (2004), “From persistence to pursuit: a longitudinal examination of momentum
-during the early stages of strategic change”, Organization Science, Vol. 15 No. 3,
-pp. 276-94.
-
-Lines, R. (2007), “Using power to install strategy: the relationships between expert power,
-position power, influence tactics and implementation success”, Journal of Change
-Management, Vol. 7 No. 2, pp. 143-70.
-
-Nelissen, P. and van Selm, M. (2008), “Surviving organizational change: how management
-communication helps balance mixed feelings”, Corporate Communications: An
-International Journal, Vol. 13 No. 3, pp. 306-18.
-
-Paper, D.J., Rodger, J.A. and Pendharkar, P.C. (2001), “A BPR case study at Honeywell”, Business
-Process Management Journal, Vol. 7 No. 2, pp. 85-99.
-
-Pietersen, W. (2002), “The Mark Twain dilemma: the theory and practice of change leadership”,
-The Journal of Business Strategy, Vol. 23 No. 5, pp. 32-7.
- 
-
-
-
+* Buchanan, D., Fitzgerald, L., Ketley, D., Gollop, R., Jones, J.L. and Saint Lamont, S. (2005), “No going back: a review of the literature on sustaining organizational change”, International Journal of Management Reviews, Vol. 7 No. 3, pp. 189-205.
+* Cole, M.S., Harris, S.G. and Bernerth, J.B. (2006), “Exploring the implications of vision, appropriateness, and execution of organizational change”, Leadership & Organization
+* Dansereau, F. and Markham, S.E. (1987), “Superior-subordinate communication: multiple levels of analysis”, in Jablin, F.M., Putnam, L.L., Roberts, K.H. and Porter, L.W. (Eds), Handbook of Organizational Communication: An Interdisciplinary Perspective, Sage, Beverly Hills, CA, pp. 343-88. Development Journal, Vol. 27 No. 5, pp. 352-67.
+* Ellinger, A.E., Keller, S.B. and Bas, A.B.E. (2010), “The empowerment of frontline service staff in 3PL Companies”, Journal of Business Logistics, Vol. 31 No. 1, pp. 79-100.
+* Frahm, J. and Brown, K. (2007), “First steps: linking change communication to change receptivity”, Journal of Organizational Change, Vol. 20 No. 3, pp. 370-87.
+* Jacobs, R.L. (2002), “Institutionalizing organizational change through cascade training”, Journal of European Industrial Training, Vol. 26 Nos 2-4, pp. 177-82.
+* Kerber, K. and Buono, A.F. (2005), “Rethinking organizational change: reframing the challenge of change management”, Organization Development Journal, Vol. 23 No. 3, pp. 23-16.
+* Kotter, J.P. (1995), “Leading change: why transformation efforts fail”, Harvard Business Review, March-April, pp. 59-67.
+* Klidas, A., van den Berg, P.T. and Wilderom, C.P.M. (2007), “Managing employee empowerment in luxury hotels in Europe”, International Journal of Service Industry Management, Vol. 18 No. 1, pp. 70-88.
+* Kotter, J.P. (1996), Leading Change, Harvard Business School Press, Boston, MA.Jansen, K.J. (2004), “From persistence to pursuit: a longitudinal examination of momentum during the early stages of strategic change”, Organization Science, Vol. 15 No. 3, pp. 276-94.
+* Lines, R. (2007), “Using power to install strategy: the relationships between expert power, position power, influence tactics and implementation success”, Journal of Change Management, Vol. 7 No. 2, pp. 143-70.
+* Nelissen, P. and van Selm, M. (2008), “Surviving organizational change: how management communication helps balance mixed feelings”, Corporate Communications: An International Journal, Vol. 13 No. 3, pp. 306-18.
+* Paper, D.J., Rodger, J.A. and Pendharkar, P.C. (2001), “A BPR case study at Honeywell”, Business Process Management Journal, Vol. 7 No. 2, pp. 85-99.
+* Pietersen, W. (2002), “The Mark Twain dilemma: the theory and practice of change leadership”, The Journal of Business Strategy, Vol. 23 No. 5, pp. 32-7.
