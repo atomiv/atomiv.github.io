@@ -8,8 +8,8 @@ github: https://github.com/darko96rakic
 website: 
 city: Belgrade
 country: Serbia
-degree: 
-university: 
+degree: PHP Web Development
+university: IT Academy
 
 short_bio: Darko is PHP developer with experience in developing PHP applications using Laravel and MySQL.
 ---
