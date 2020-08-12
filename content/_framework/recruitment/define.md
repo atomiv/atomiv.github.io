@@ -16,7 +16,7 @@ Some of the key questions to address:
 * What are the time constraints
 * What is the level of flexibility when it comes to budget and time
 * How does this hire fit within the broader context of a long-term hiring roadmap
-* Where is this information going to be stored, and is their need for permissioned access
+* Where is this information going to be stored, and is there a need for permissioned access
 * How frequently does the team need to meet to review progress
 * What does success look like
 
@@ -32,7 +32,7 @@ Define the ideal profile, in terms of the following:
      * Essential + Desired
 * Motivation (why this person wants to make this change)
 
-See the [template](https://atomiv.org/templates/recruitment/profile) for defining an ideal profile. Some of the factors that affect these definitions include: building for short term v building for long term, value driven business v outcomes driven business, desire to retain existing culture v desire to transform existing culture, immediate impact required v gradual ramping up.
+Some of the factors that affect these definitions include: building for short term v building for long term, value driven business v outcomes driven business, desire to retain existing culture v desire to transform existing culture, immediate impact required v gradual ramping up.
 
 <!-- Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases -->
      
