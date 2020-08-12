@@ -13,7 +13,14 @@ Ensure you have the following installed:
 
 JAVA_HOME also needs to be set within environment variables (pointing to the Java JDK installation).
 
-Current build tool used is Maven (which is the most popular build tool) but there is also Gradle (pending switch to Gradle)
+Current build tool used is Maven (which is the most popular build tool) but there is also Gradle (pending switch to Gradle).
+
+We will also be using Lombok, it can be installed in Eclipse as follows:
+1. Run cmd as an Administrator
+2. cd C:\Users\Valentina.Cupac.m2\repository\org\projectlombok\lombok\1.18.12
+3. java -jar lombok-1.18.12.jar
+4. Project Lombok Installer appears -> it scans the IDE installations.
+5. After installations are selected, click on "Install / Update"
 
 ## Running the template
 
