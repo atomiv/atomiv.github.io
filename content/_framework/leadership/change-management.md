@@ -23,7 +23,7 @@ A vision creates a coherent picture of the positive outcomes of the change agend
 Cognitive, emotional dimensions
 
 
-4. Communicate the change vision 
+4.  Communicate the change vision 
 
 A sense of urgency and a grand vision need to be communicated well. The goal is to decrease ambiguity and improve employee satisfaction with the change agenda and its implementation process. Team members need to clearly see the link between organizational performance and the change agenda (Nelissen & van Selm. 2008). Some suggestions in the literature on effective communication include:
 
