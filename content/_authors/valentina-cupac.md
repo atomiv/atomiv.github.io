@@ -11,6 +11,6 @@ country: Serbia
 degree: B.Sc. Computer Science & Advanced Mathematics
 university: University of Sydney
 
-short_bio: Valentina is a Software Architecture Consultant and Mentor who cares about Clean Architecture, Domain Driven Design and Test Automation.
+short_bio: Valentina is a Software Architecture Consultant who is focused on standardizing software architecture and software development to achieve high quality efficiently.
 ---
-Valentina is a Software Consultant, Software Architect and Senior Developer who cares about clean code, clean architecture and test automation. She founded Atomiv to share best practices in software architecture, standardize software development, increase software quality and team productivity.
+Valentina is a Software Architecture Consultant who is focused on standardizing software architecture and software development to achieve high quality efficiently. She founded Atomiv to share best practices in software architecture, standardize software development, increase software quality and team productivity.
