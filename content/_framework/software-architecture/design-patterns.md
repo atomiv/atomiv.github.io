@@ -21,7 +21,7 @@ Class scope:
 
 Object scope:
 
-* Abstract Factory - Provides an interface for contructing a family of related objects but without specifying their concrete classes
+* Abstract Factory - Provides an interface for contructing a family of related objects but without specifying their concrete classes. For example, we have an interface for a Car Part Factory which creates doors, hoods etc. Then for each diffew
 * Builder - Used to separate the construction of a complex object from the way that it is represented, so that different representations can be created via the same construction process
 * Prototype - Enables the use of a prototypical instance to specify kinds of objects to create and creates new objects via copying the prototype
 * Singleton - Enables a class to have only a single instance and provides a single global accss to
