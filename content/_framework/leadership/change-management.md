@@ -21,7 +21,7 @@ Make change a true team effort. First, create a core team of change agents who h
 ### 3\. Develop a vision and strategy
 
 A vision creates a coherent picture of the positive outcomes of the change agenda, and strategy coherently explains the rationale and features. Change should not ideally be a set of apparently incompatible and complex projects cobbled together around a vague goal. A clear vision, appealing to the long-term interests of all stakeholders, makes the painful change steps bearable for the change implementers and recipients. A clear vision means a clear understanding of the change agenda by all organizational actors.  However, some argue that the actual execution and perceptions of appropriateness of change are more important than a grand vision of the change itself (Cole et al., 2006). 
-Cognitive, emotional dimensions
+
 
 ### 4\. Communicate the change vision 
 
@@ -29,7 +29,7 @@ A sense of urgency and a grand vision need to be communicated well. The goal is 
 
 * Weekly meetings at the departmental level, encouraging dialogue and free flowing critique of actions, to reinforce the rationale of the micro level elements of change and progress in change implementation is recommended to improve change receptivity (Frahm & Brown, 2007). 
 
-* The change vision needs to be diffused and repeated through several media so that ideas sink in deeply ??(Dansereau & Markham, 1987). 
+* The change vision needs to be diffused and repeated through several media so that ideas sink in deeply (Dansereau & Markham, 1987). 
 
 * Face to face ‘corner meetings’, and small group interactions by mid-level managers to bring out concerns that are usually the elephant in the room in large meetings.
 
