@@ -62,9 +62,6 @@
   - heading: Requirements
     subtitle: requirements
     suburl: /templates/requirements/overview
-  - heading: Recruitment
-    subtitle: recruitment
-    suburl: /templates/recruitment/overview
   - heading: Architecture
     subtitle: architecture
     suburl: /templates/architecture/overview

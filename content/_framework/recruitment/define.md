@@ -35,6 +35,29 @@ Define the ideal profile, in terms of the following:
 Some of the factors that affect these definitions include: building for short term v building for long term, value driven business v outcomes driven business, desire to retain existing culture v desire to transform existing culture, immediate impact required v gradual ramping up.
 
 <!-- Ideal vs good enough, how do you know when to stop looking (maybe in another section), indicators which one is suitable in which cases -->
+
+Example is as follows.
+
+
+Hard skills:
+
+* golang and/or c++
+* distributed systems
+* has worked on projects from ideation to production
+* 5-7 years of enterprise experience
+
+Soft skills:
+
+* potential for leading a team
+* interested in mentoring + development
+* works well in an autonomous environment
+
+Motivation:
+
+* not impressed by current state of market
+* disillusioned by small contribution in big company
+* interested by specific technical challenge
+
      
 ## Interview Process
      

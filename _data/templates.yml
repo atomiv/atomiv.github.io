@@ -28,15 +28,7 @@ docs:
     - title: Domain
       url: /templates/requirements/domain
     - title: Applications
-      url: /templates/requirements/applications 
-
-- title: Recruitment
-  url: recruitment
-  submenuitems:
-    - title: Overview
-      url: /templates/recruitment/overview
-    - title: Profile
-      url: /templates/recruitment/profile
+      url: /templates/requirements/applications
 
 - title: Architecture
   url: architecture
