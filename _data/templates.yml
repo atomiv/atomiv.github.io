@@ -38,6 +38,18 @@ docs:
     - title: Profile
       url: /templates/recruitment/profile
 
+- title: Architecture
+  url: architecture
+  submenuitems:
+    - title: Overview
+      url: /templates/architecture/overview
+    - title: Domain
+      url: /templates/architecture/domain
+    - title: Application
+      url: /templates/architecture/application
+    - title: Infrastructure
+      url: /templates/architecture/infrastructure
+
 - title: .NET
   url: dotnet
   submenuitems:
