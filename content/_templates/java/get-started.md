@@ -1,7 +1,7 @@
 ---
 title: Get Started
 category: java
-authors: [ valentina-cupac, milan-vidakovic, ivan-jovanivic, miroslav-trninic, jelena-mitrovic ]
+authors: [ valentina-cupac, milan-vidakovic, ivan-jovanovic, jelena-mitrovic ]
 ---
 
 ## Prerequsites
