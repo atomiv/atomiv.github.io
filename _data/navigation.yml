@@ -65,6 +65,9 @@
   - heading: Recruitment
     subtitle: recruitment
     suburl: /templates/recruitment/overview
+  - heading: Architecture
+    subtitle: architecture
+    suburl: /templates/architecture/overview
   - heading: .NET
     subtitle: dotnet
     suburl: /templates/dotnet/overview
