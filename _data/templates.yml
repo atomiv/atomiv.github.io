@@ -47,8 +47,16 @@ docs:
       url: /templates/architecture/domain
     - title: Application
       url: /templates/architecture/application
+    - title: Common
+      url: /templates/architecture/common
     - title: Infrastructure
       url: /templates/architecture/infrastructure
+    - title: Dependency Injection
+      url: /templates/architecture/dependency-injection
+    - title: Presentation
+      url: /templates/architecture/presentation
+    - title: Test
+      url: /templates/architecture/test
 
 - title: .NET
   url: dotnet

@@ -4,4 +4,22 @@ category: architecture
 authors: [ valentina-cupac]
 ---
 
-Domain layer.
+The Domain Layer implements the business logic. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and aggregate roots, value objects and repository interfaces. There model the domain, implement the business logic, the “heart” of the system. 
+
+Business rules:
+
+* **Single root entity business rules**, Business rules that are applicable to an entity's state, and are not dependent on anything else, are implemented inside the Entity. For example, the rule that only draft orders can be submitted is implemented within the Order entity (i.e. when calling the Submit() method, it checks that the current status is draft and then allows the status to go into submitted). In case of violation of these business rules (in constructors and methods), the Entity throws an exception. This means that the entity is guaranteed to be valid when constructed, and that in case of any mutations in state that it continues to be valid.
+* **Multiple root entity business rules**, Business rules that affect more than one entity are implemented as domain services. For example, we want to reward loyal customers for purchasing products. So we could have a RewardCustomerService which give a customer and a product, gets the product price and depending on the threshold where its price fits in, it calculates the points that should be rewarded and then adds these points to the customer.
+* **Complex business rules**. Complex business rules are implemented using the Policy pattern (Rules Pattern), which may contain references also to other interfaces (like repository interfaces). Examples includes checking that the order date is in the past (by using the TimeService interface), and other rules may be calculating discount (for example discounts due to holidays, or loyal customers, or senior customers, or new customer).
+
+
+Elements inside the Domain layer:
+
+* **Entities** model key business objects: Customer, Order, Product
+* **Identities** are used to identity the identity of entities throughout their entire lifecycle: CustomerIdentity, OrderIdentity, ProductIdentity
+* **Factories** are used to construct domain entities: CustomerFactory, OrderFactory, ProductFactory
+* **Repositories** are used to retrieve entities from and persist entities to some persistence mechanism: CustomerRepository, OrderRepository, ProductRepository \(note: only the repository interfaces are in the domain layer, not the implementation\)
+* *Policies*, *Specifications* and *Rules* are used for specifying more complex business logic, including validation and actions
+* *Domain Services* are used to encapsulate more complex logic between root entities (in that case domain has both interface and implementation) as well as as interfaces for external services (e.g. ProductProvider interface which is used as external source for retrieving the products)
+
+_Note I: It should be noted that Domain Entities (i.e. "Entities" in the context of the "Domain") has a different meaning compared to Database Entities (i.e. "Entities" in the context of "Entity Relationship Diagram"). Domain Entities are rich objects that encapsulate business logic, whereas Database Entities are just DTOs._
