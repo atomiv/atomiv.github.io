@@ -32,6 +32,9 @@ docs:
 
 - name: Milan Vidaković
   url: milan-vidakovic
+  
+- name: Ivan Jovanović
+  url: ivan-jovanovic
 
 - name: Miroslav Trninić
   url: miroslav-trninic
@@ -65,6 +68,3 @@ docs:
 
 - name: Darko Rakić
   url: darko-rakic
-
-- name: Ivan Jovanović
-  url: ivan-jovanovic
