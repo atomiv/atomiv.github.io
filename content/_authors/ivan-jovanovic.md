@@ -11,6 +11,6 @@ country: Serbia
 degree: M.Sc. Software Engineering
 university: University of Belgrade (FON)
 
-short_bio: Ivan is a software engineer with extensive experience in IT development.
+short_bio: Ivan is a Technical Team Lead with extensive experience in Java backend development, developing enterprise applications using Spring and AWS Lambda.
 ---
-Ivan is a software engineer with extensive experience in IT development
+Ivan is a Technical Team Lead with extensive experience in Java backend development, developing enterprise applications using Spring and AWS Lambda. He joined Atomiv to share his experiences regarding best practices in microservice architecture and Java backend development.
