@@ -1,7 +1,7 @@
 ---
 title: Overview
 category: php
-authors: [ valentina-cupac, damnjan-matejic, milos-terzic, david-aleksic, darko-rakic]
+authors: [ valentina-cupac, damnjan-matejic, milos-terzic, darko-rakic, david-aleksic ]
 ---
 
 Welcome to the PHP template.
