@@ -7,27 +7,13 @@ linkedin: https://www.linkedin.com/in/fergusobrienfintech
 company_name: Khonvo
 company_logo: khonvo.svg
 # company_logo_thumb: khonvo-thumb.jpg
-company_website: https://khonvo.com/ 
+company_website: https://www.linkedin.com/in/fergus-ob/
 ---
-Fergus is a Talent Acquisition consultant, with experience in FinTech recruitment and executive search. He is an advocate of further learning and de-centralized education. He provides services in tech recruitment to help companies get the best candidates. Get in touch at: [www.khonvo.com](https://khonvo.com/){:target="_blank"}
+Fergus provides offsite consulting for tech companies requiring external help with Recruitment Strategy, Search Execution and Executive Search. This may mean helping internal recruiters to devise and execute a recruitment strategy for a given time period, or it may mean owning a strategically important requirement from start-to-finish, or it may mean making ad-hoc contributions to a scaling effort over a longer period of time. Every company in growth mode has a continuous flow of recruitment challenges to negotiate, and Fergus is able to parachute in quickly to assist with unblocking, empowering and assisting recruitment teams. In recent years, many of those teams have been based in California, but Fergus has worked successfully with teams in most of the world's time-zones (from Santiago to Singapore). Please contact Fergus via LinkedIn if you'd like to arrange a discovery call: [https://www.linkedin.com/in/fergus-ob](https://www.linkedin.com/in/fergus-ob/){:target="_blank"}
 
 
-* Full cycle recruitment process
-* Employer branding
-* Onboarding
-* Head Hunting and Selection
-* Recruitment strategy
-
-<!-- NOTE: These are other points that came up in searches for recruitment consultants -->
-
-<!-- 
-* Full cycle recruitment tasks, recruitment process
-* Coordinating end-to-end hiring process
-* Employer branding (activities), Branding campaigns
-* Onboarding and mentoring new team members .. Employee mentoring, training and assessment
-* Recruitment
-* Head Hunting, selection and recruitment, CV screening
-* Implement recruiting strategy
-* Promoting client brands 
--->
-
+* Recruitment Strategy
+* Search Execution
+* Executive Search
+* Empowering Recruitment Teams
+* International Experience
