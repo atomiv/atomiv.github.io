@@ -28,7 +28,7 @@ alt: join
             <div class="col-12 ">
                 <h5>Contributing to Atomiv</h5>
                 <ul>
-                    <li>Author</li>
+                    <li>Contributor</li>
                     <li>Reviewer</li>
                     <li>Developer</li>
                     <li>Mentor</li>
