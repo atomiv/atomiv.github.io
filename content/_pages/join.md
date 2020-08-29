@@ -113,7 +113,7 @@ alt: join
                     <div class="col-12 col-md-3">
                         <h6>Teams</h6>
                     </div>
-                    <div class="col-12 col-md--9">
+                    <div class="col-12 col-md-9">
                         <ul>
                             <li>Self-organizing Teams</li>
                             <li>Remote Teams</li>
@@ -183,7 +183,6 @@ alt: join
                         </div>
                         <div class="col-12 col-md-9">
                             <ul>
-                            <!-- TODO: VC check -->
                                 <li>.NET Core</li>
                                 <li>Java Spring</li>
                                 <li>PHP Laravel</li>
@@ -343,9 +342,8 @@ alt: join
                         <div class="col-12 col-md-9">
                             <ul>
                                 <li>ERP</li>
-                                <li>ERP</li>
-                                <!-- TODO: VC check -->
-                                <li>SRM, etc</li>
+                                <li>CRM</li>
+                                <li>SRM</li>
                             </ul>
                         </div>
                     </div>
@@ -365,6 +363,7 @@ alt: join
     <div class="container ov-video-padding">
         <h3>Join us</h3>
         <!-- <p>Are you motivated by standardization, best practices and high quality? Do you enjoy sharing your experience and knowledge? Do you want to be part of a global network and make an impact within the IT industry? If yes, we'd like to hear from you!</p> -->
+        <!-- TODO. VC add 'you can contribute how many hours you can' -->
         <p>We'd love for you to be part of our growing community. </p>
         <a href="/contact" class="btn btn-lg btn-ov-secondary">
             Get in touch

@@ -1,3 +1,7 @@
+// li { display: inline; }
+// li:after { content: " \00b7"; color: red }
+
+
 .ov-join {
     padding-top: 1rem; // 3
     padding-bottom: 1rem;
@@ -69,7 +73,8 @@
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
         ul li {
-            margin-right: .5rem;
+            margin-right: .25rem;
+            margin-left: .25rem;
             margin-bottom: .5rem; // 1
             padding: .25rem 1rem; // .5 1rem
             // text-transform: uppercase;
@@ -79,6 +84,7 @@
             // color: pink;
         }
         ul {
+            padding-inline-start: 0;
             @media (max-width: 768px) {
                 text-align: center;
                 margin: auto;
