@@ -18,14 +18,14 @@ docs:
 - name: Fergus O'Brien
   url: fergus-obrien
 
-- name: Clifford Long
-  url: clifford-long
-
 - name: Velibor Cakarevic
   url: velibor-cakarevic
 
 - name: Andrew Griffing
   url: andrew-griffing
+
+- name: Clifford Long
+  url: clifford-long
 
 - name: Jon Campbell
   url: jon-campbell
