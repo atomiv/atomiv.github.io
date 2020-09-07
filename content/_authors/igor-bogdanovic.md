@@ -7,9 +7,9 @@ xing:
 github: https://github.com/giga0
 city: Belgrade
 country: Serbia
-degree: Nuxt.js, PWA, Vue JS 2
-university: Maximilian Schwarzmüller on Udemy
+degree: Certificate of Completion
+university: Udemy
 
-short_bio: Igor is a JavaScript Developer, interested in JavaScript client frameworks (Vue & React) on the frontend and Node.js runtime environment on the backend.
+short_bio: Igor is a JavaScript Developer, with experience in frontend development with Vue & React and backend development with Node.js.
 ---
-Igor is a JavaScript Developer, interested in JavaScript client frameworks (Vue & React) on the frontend and Node.js runtime environment on the backend. He has joined Atomiv to share his experience in frontend development (Vuex, Redux, Nuxt.js, jQuery, PWAs, Tailwind CSS, MongoDB, Jest, Storybook, Git).
+Igor is a JavaScript Developer, with experience in frontend development with Vue & React and backend development with Node.js. He is interested in clean code and best practices for JavaScript development. He has joined Atomiv to share his experience in frontend development as well as to contribute to the Vue and React frontend templates.
