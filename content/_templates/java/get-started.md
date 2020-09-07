@@ -30,6 +30,7 @@ Creating database:
 1. Open up MySql Workbench.
 2. Create a schema called "lite" (clicking on the Icon "Create a new schema in the connected server" and then in name write "lite" and then OK).
 
+
 Since we're using Maven, it means to open up the project in Eclipse:
 1. Open up Eclipse
 2. Click on File > Import
@@ -39,6 +40,15 @@ Since we're using Maven, it means to open up the project in Eclipse:
 6. Click the folder atomiv > atomiv-java > template-lite, then click on template.lite.web.restapi (but don't open it) and click on "Select Folder" button
 7. Click on "Finish"
 8. The newly imported project template.lite.web.restapi appears in the Project Explorer on the left sidebar
+
+
+## Configuring template (Eclipse)
+
+Configuration:
+1. Open up Eclipse
+2. Expand src/main/resources
+3. Open up application.properties
+4. Check the fields for spring.datasource.username and spring.database.password
 
 ## Running template (Eclipse)
 
