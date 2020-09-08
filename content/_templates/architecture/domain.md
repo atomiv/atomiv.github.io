@@ -4,7 +4,77 @@ category: architecture
 authors: [ valentina-cupac]
 ---
 
-The Domain Layer implements the business logic. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and aggregate roots, value objects and repository interfaces. There model the domain, implement the business logic, the “heart” of the system. 
+The Domain Layer implements the business logic. The Domain Layer is based on Domain Driven Design \(DDD\) principles, containing entities and aggregate roots, value objects and repository interfaces. There model the domain, implement the business logic, the "heart" of the system. 
+
+## Entity
+
+**Theory**
+
+When we're modelling, the first step is to identify the entities, the things in a system which have a unique identity and a thread of continuity. The equivalence of entities is determined by their Id.
+
+**Practice**
+
+Entities within the template are:
+* Customer
+* Product
+* Order
+* OrderItem
+
+The Atomiv Framework includes a base Entity class, which has an identity field. This is a convenience class to reduce code.
+
+## Aggregates
+
+**Theory**
+
+An aggregate is an entity or a collection of entities which are are treated as a transactional unit.
+
+**Practice**
+
+Aggregates in the template:
+* Customer Aggregate consists of entities: Customer
+* Product Aggregate consists of entities: Product
+* Order Aggregate consists of entities: Order, OrderItem
+
+Aggregate Roots in the template:
+* Customer
+* Product
+* Order
+
+
+## Value Objects
+
+**Theory**
+
+Value objects are immutable types which are distinguishable only by properties, but not by identity.
+
+**Practice**
+Value objects within the template are:
+* Money
+* ExchangeRate
+
+
+## Identity
+
+**Theory**
+
+Each entitity has a unique identity. The identity encapsulates
+
+**Practice**
+
+Identities within the template are:
+* CustomerIdentity
+* ProductIdentity
+* OrderIdentity
+* OrderItemIdentity
+
+## Factories
+
+**Theory**
+
+Factories are used to encapsulate the creation of 
+
+
+
 
 Business rules:
 
