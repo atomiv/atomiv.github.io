@@ -1,5 +1,5 @@
 ---
-title: System
+title: Clean Architecture
 category: software-architecture
 authors: [ valentina-cupac ]
 ---
@@ -44,3 +44,13 @@ Other layers contain dependencies as follows:
 * The Test Layer depends on the layers it is testing.
 
 The core benefits is that due to the independence of the Application Core, it ensures separation of concerns and modularity, swappability of databases, UIs and any frameworks, and also enables the system to be testable. These factors increase system quality and decreasing overall total development and maintenance cost.
+
+## Diagrams
+
+![Architecture - 1]({{site.url}}/img/Architecture_01.PNG)
+
+![Architecture - 2]({{site.url}}/img/Architecture_02.PNG)
+
+![Architecture - 3]({{site.url}}/img/Architecture_03.PNG)
+
+![Architecture - 4]({{site.url}}/img/Architecture_04.PNG)
