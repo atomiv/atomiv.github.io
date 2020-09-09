@@ -6,7 +6,7 @@ authors: [ velibor-cakarevic ]
 
  
 ## Installation
-
+This is showing buiulding AOSP on the Linux distribution:
 Ubuntu Release: 20.04
 
 sudo apt update
