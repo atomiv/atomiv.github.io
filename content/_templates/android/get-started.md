@@ -9,6 +9,8 @@ authors: [ velibor-cakarevic ]
 This is showing buiulding AOSP on the Linux distribution:
 Ubuntu Release: 20.04
 
+After installing Ubuntu plese do the following steps before downloading the source code and building it.
+
 sudo apt update
 
 sudo apt install git
@@ -32,6 +34,7 @@ chmod a+x ~/bin/repo
 
 ## Source code
 
+## creating a working directory
 mkdir WORKING_DIRECTORY
 
 cd WORKING_DIRECTORY
@@ -42,7 +45,12 @@ git config --global user.email "your email adress"
 
 sudo ln -s /usr/bin/python3 /usr/bin/python
 
-//get a particular branch: https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
+### downloading code
+
+Master branch
+
+
+A particular branch: https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
 
 repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r41
 
