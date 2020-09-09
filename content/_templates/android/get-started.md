@@ -24,13 +24,12 @@ chmod a+x ~/bin/repo
 
 ## Source code
 
-Some text.
 mkdir WORKING_DIRECTORY
 cd WORKING_DIRECTORY
 git config --global user.name "your name"
 git config --global user.email "your email adress"
 sudo ln -s /usr/bin/python3 /usr/bin/python
-# get a particular branch: https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
+//get a particular branch: https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
 repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r41
 repo sync -j3
 
