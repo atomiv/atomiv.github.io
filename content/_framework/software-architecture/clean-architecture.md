@@ -47,10 +47,10 @@ The core benefits is that due to the independence of the Application Core, it en
 
 ## Diagrams
 
-![Architecture - 1]({{site.url}}/assets/Architecture_01.PNG)
+![Architecture - 1]({{site.url}}/assets/Architecture_01.png)
 
-![Architecture - 2]({{site.url}}/assets/Architecture_02.PNG)
+![Architecture - 2]({{site.url}}/assets/Architecture_02.png)
 
-![Architecture - 3]({{site.url}}/assets/Architecture_03.PNG)
+![Architecture - 3]({{site.url}}/assets/Architecture_03.png)
 
-![Architecture - 4]({{site.url}}/assets/Architecture_04.PNG)
+![Architecture - 4]({{site.url}}/assets/Architecture_04.png)
