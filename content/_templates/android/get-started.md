@@ -13,7 +13,7 @@ After installing Ubuntu please do the following steps, before downloading the so
 Update the package list from the repositores and get information on the newest packages and their dependencies.  
 **sudo apt update**
 
-Install git version 2.  
+Install git version 2 (git will be used for fetching the source code from the repository).
 **sudo apt install git**
 
 
