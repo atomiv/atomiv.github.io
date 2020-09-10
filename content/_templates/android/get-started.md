@@ -7,15 +7,15 @@ authors: [ velibor-cakarevic ]
 When mentioning Android one should take into account that there are different versions, depending on the vender. However they all (most likely) have the same codebase which is AOSP. AOSP is the acronym for Android Open Source Project and enables one to compile an own Android version. Below are how-to guide of downloading the AOSP source code, building it and starting the emulator.
  
 ## Installation
-Building AOSP in the Linux distribution: Ubuntu Release 20.04
-
+Building AOSP in the Linux distribution: Ubuntu Release 20.04  
 After installing Ubuntu please do the following steps, before downloading the source code and building it.
 
-update
-
+Update the package list from the repositores and get information on the newest packages and their dependencies.  
 **sudo apt update**
 
+Install git version 2.  
 **sudo apt install git**
+
 
 **sudo apt install m4**
 
