@@ -70,7 +70,12 @@ A particular branch: https://source.android.com/setup/start/build-numbers#source
 
 ## Execution
 
-Some text.
+When issuing the command **emulator** the default vuild will be executed.
+
+If you wish to execute it on a device the these two devices:  
+Google Pixel 2
+
+Google Pixel 2 XL
 
 This is an example of code in GitHub pages:
 
