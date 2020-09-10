@@ -12,7 +12,7 @@ At the system center, we have the Core Layer, composed of the Application Layer 
 
 ## History
 
-The historical foundations of Atomiv Architecture Standards are based on the following architectures from globally recognized experts in software architecture:
+The historical foundations of clean architecture are as follows:
 
 * [Hexagonal Architecture, aka. Ports and Adapters \(Alistair Cockburn, 2005\)](https://dzone.com/articles/hexagonal-architecture-is-powerful) 
 * [Onion Architecture \(Jeffrey Palermo, 2008\)](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
@@ -47,10 +47,18 @@ The core benefits is that due to the independence of the Application Core, it en
 
 ## Diagrams
 
+### System Architecture
+
 ![Architecture - 1]({{site.url}}/assets/Architecture_01.png)
+
+### Layer Components
 
 ![Architecture - 2]({{site.url}}/assets/Architecture_02.png)
 
+### Example Domain
+
 ![Architecture - 3]({{site.url}}/assets/Architecture_03.png)
+
+### Microservice Landscape
 
 ![Architecture - 4]({{site.url}}/assets/Architecture_04.png)
