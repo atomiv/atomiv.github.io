@@ -7,44 +7,45 @@ authors: [ velibor-cakarevic ]
 When mentioning Android one should take into account that there are different versions, depending on the vender. However they all (most likely) have the same codebase which is AOSP. AOSP is the acronym for Android Open Source Project and enables one to compile an own Android version. Below are how-to guide of downloading the AOSP source code, building it and starting the emulator.
  
 ## Installation
-This is showing buiulding AOSP on the Linux distribution:
-Ubuntu Release: 20.04
+Building AOSP in the Linux distribution: Ubuntu Release 20.04
 
-After installing Ubuntu plese do the following steps before downloading the source code and building it.
+After installing Ubuntu please do the following steps, before downloading the source code and building it.
 
-sudo apt update
+update
 
-sudo apt install git
+**sudo apt update**
 
-sudo apt install m4
+**sudo apt install git**
 
-sudo apt-get install libncurses5
+**sudo apt install m4**
 
-vi ~/.bashrc 
+**sudo apt-get install libncurses5**
 
-PATH=~/bin:$PATH
+**vi ~/.bashrc**
 
-source ~/.bashrc
+**PATH=~/bin:$PATH**
 
-sudo apt install curl
+**source ~/.bashrc**
 
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+**sudo apt install curl**
 
-chmod a+x ~/bin/repo
+**curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo**
+
+**chmod a+x ~/bin/repo**
 
 
 ## Source code
 
 ## creating a working directory
-mkdir WORKING_DIRECTORY
+**mkdir WORKING_DIRECTORY**
 
-cd WORKING_DIRECTORY
+**cd WORKING_DIRECTORY**
 
-git config --global user.name "your name"
+**git config --global user.name "your name"**
 
-git config --global user.email "your email adress"
+**git config --global user.email "your email adress"**
 
-sudo ln -s /usr/bin/python3 /usr/bin/python
+**sudo ln -s /usr/bin/python3 /usr/bin/python**
 
 ### downloading code
 
@@ -53,17 +54,17 @@ Master branch
 
 A particular branch: https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
 
-repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r41
+**repo init -u https://android.googlesource.com/platform/manifest -b android-10.0.0_r41**
 
-repo sync -j3
+**repo sync -j3**
 
 ## Compilation
 
-source build/envsetup.sh
+**source build/envsetup.sh**
 
-lunch aosp_arm-eng
+**lunch aosp_arm-eng**
 
-m
+**m**
 
 ### Generate updates
 
