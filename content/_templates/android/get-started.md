@@ -4,6 +4,7 @@ category: android
 authors: [ velibor-cakarevic ]
 ---
 
+When mentioning Android one should take into account that there are different versions, depending on the vender. However they all (most likely) have the same codebase which is AOSP. AOSP is the acronym for Android Open Source Project and enables one to compile an own Android version. Below are how-to guide of downloading the AOSP source code, building it and starting the emulator.
  
 ## Installation
 This is showing buiulding AOSP on the Linux distribution:
