@@ -56,11 +56,20 @@ Therefore, we would like to separate those two and write down what one PM should
 
 ## Building strong teams
 
-Some text.
+When it comes to strong teams, first we need to define what strong team is not. If you believe that a strong team is formed from pure professionals and people with seniority levels, you are wrong. This is something which would have an impact, but it is not the only thing that matters.
+The definition of strong teams is next: strong teams are the ones who can work under any circumstances and situation, delivering results on time while supporting each other on every step. If any company wants to have a strong teams they need to do following: 
+
+1. Teams are build from people, and if you want to build a strong team you have to have strong foundation and choose the people not just by their technical skills, rather by their mindset and ability to adopt 
+2. Strong teams have a strong leaders, meaning, you need to choose a person who will be the biggest motivator, but still be firm, objective and who is capable to make a decision under pressure, with huge understanding of people in the team
+3. Strong teams are built with trust as one of the foundations. People need to feel that trust from each team member and its leader, so they can work without fear of making a mistake or reporting the one. 
+4. Strong teams are supportive ones, they create the atmosphere where people can rely on each other and know that if they need a help they will get it
+
+All of the above brings the final result, a strong team will be able to work under pressure, under any unusual circumstances, under any situation and still deliver projects, products and good results on time and with high quality. That is why it is very important to nurture and work on this subject. It may look like there are no changes in the beginning, but for the long term, you will definitely feel it and take all the rewards which strong teams bring.
+
 
 ## Transforming processes and teams
 
-Some text
+
 
 ## Managing remote teams
 
