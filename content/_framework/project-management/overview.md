@@ -69,6 +69,19 @@ All of the above brings the final result, a strong team will be able to work und
 
 ## Transforming processes and teams
 
+Transforming processes and teams starts with realization that a certain process or the team needs that change. How will you know if any of it needs a change? Well, by results. If in a defined time, there is no improvement, higher productivity or faster and better deliverables, it is time for a change. 
+Another important question is, how will you know should you transform a process, a team or both? 
+There steps might help with that: 
+
+1. First, check the number of projects assigned to a team in the last 6 months and 1 year - if might happen that the workload is higher now, and due all fuse and focus on delivering projects on time, you didn't notice that team's workload is higher that they can handle it, which will definitely results by lower quality or missed deadlines
+2. If the project workload is just fine, check does every member understands their role and is expectations
+3. Talk with your team about their work, how they working on something, what are their processes and steps, starting from the smallest tasks to the big ones
+4. Document existing processes - by documenting existing processes you will be able to get a bigger picture and see how work is done, is there anything missing, can 3 steps become one, etc.
+5. Processes review - after the processes and way of delivering projects is documented, you need to do a review of it. Think about ways how something can be improved, accelerated, do you need to remove something, or change a few steps.
+6. Defining the change - when you realized and established your processes, you can define what change or transformation need to be done to accomplish companies goals 
+7. Implement defined steps for the transformation 
+
+Transformation of any type is not easy, and it takes time. That is why it is very important to educate people in the team, before any change, explain why the transformation is important and show them the benefits of it. Also, you can not expect full transformation over the night, you need to develop the steps which will help you with it, incrementally increase it, and ask from the team to adopt it and apply it one by one. In this way, the transformation will not look like a big change, nobody will notice it, but it will be there, just taking step by step, which will not cause overwhelm within team members.
 
 
 ## Managing remote teams
