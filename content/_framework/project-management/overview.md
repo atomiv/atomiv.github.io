@@ -86,7 +86,16 @@ Transformation of any type is not easy, and it takes time. That is why it is ver
 
 ## Managing remote teams
 
-Some text
+Managing remote teams might be challenging and definitely different than managing a team in the office. Even if the full team is working remotely or just some members, still it is a different approach and requires different actions. Many companies work completely remote and nowadays, that is becoming new normal, and more and more teams are remote ones. That is why it is very important not to apply old habits and imagining that you are still together in the office. Try to develop new strategies and realize what is really important for good and proper management for remote teams. First and the most important step is excellent communication with your team members. Since you do not have option to just walk in someone's office, you would need to establish following: 
+
+1. The way of communication, which tool you are going to use for meeting and which one for daily communication
+2. Insist on following processes and established templates, since this will keep your projects and deliveries on time and with the same quality 
+3. Define response time, this will help you and your team members by knowing when they can expect the answer or when somebody is available 
+4. Keep up with meetings and have them just as same as you did when you all were in the office
+5. Camera should be on for the team meeting because this will have positive impact on team spirit and everybody will be actually focused on the meeting itself
+6. Keep up with team buildings and if there is no option to meet in person, organize it online with chosen theme 
+7. If the transition is not expected, give the team time to adjust and be supportive  
+
 
 ## Project Management Methodologies
   
