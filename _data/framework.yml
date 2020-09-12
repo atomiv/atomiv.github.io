@@ -34,6 +34,8 @@ docs:
       url: /framework/project-management/agile
     - title: Communication
       url: /framework/project-management/communication
+    - title: PM Basics
+      url: /framework/project-management/pm-basics
 
 - title: Business Analysis
   url: business-analysis
