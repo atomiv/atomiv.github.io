@@ -31,7 +31,9 @@ The below principles are key points to emphasise over and above commonly accepte
 
 ## Principles
 
-### Be authentic (i.e. walk your talk)
+### Be authentic
+
+Walk your talk.
 
 *What you do matters more than what you say.*
 
@@ -58,7 +60,9 @@ The below principles are key points to emphasise over and above commonly accepte
     - Need time to understand context and nuances of their situation
     - Need shared experiences and time to build trust and prove capability (which in turn usually provides leaders with more situational context and support from others)
 
-### Be visionary (i.e. understand the overall purpose and connect it to any action taken)
+### Be visionary
+
+Understand the overall purpose and connect it to any action taken.
 
 *The purpose is usually there but may not easily understood or clearly visible to others.*
 
@@ -74,7 +78,9 @@ The below principles are key points to emphasise over and above commonly accepte
 
 * Sometimes you may not agree with the overall purpose or required actions. You may even perceive that the purpose or actions are unethical, immoral or even illegal. In a worst-case scenario, you may need to reject the request to complete required actions, or even remove yourself from the situation entirely. However, it would be ideal to attempt (as best as you can) to find or create a “higher” meaning that allows you to complete the required actions without violating ethical, moral or legal standards… and step away only if absolutely necessary.
 
-### Accountability (i.e. like being a shock absorber in a car)
+### Accountability
+
+Be like a shock absorber in a car.
 
 *Do not pass information or directives up and down the management hierarchy before checking for completeness, filtering for relevance, and/or reframing where appropriate*
 
@@ -90,7 +96,7 @@ The below principles are key points to emphasise over and above commonly accepte
 
 * Sometimes you may be provided with a situation which is undesirable and perceived as not being conducive to achieving your (and your team’s) desired outcomes
 
-* If this occurs, you have an opportunity to convert a “negative” into a “positive” situation (instead of continuing to perpetuate any “negativity”).
+* If this occurs, you have an opportunity to convert a “negative” into a “positive” situation (instead of continuing to perpetuate any "negativity").
 
 * This of course needs to be balanced with appropriate acknowledgement and empathy of any undesirable situations, as well as teasing out deeper root causes before moving forward constructively.
 
@@ -102,14 +108,18 @@ The below principles are key points to emphasise over and above commonly accepte
 
 ## Practices
 
-### Iterative feedback (i.e. reflecting on past performance to improve future performance)
+### Iterative feedback
+
+Reflect on past performance to improve future performance.
 
 * This should ideally be done personally daily or weekly, at a team level weekly or fortnightly, at a division level (i.e. multiple teams) monthly or quarterly, and (if possible) organisationwide quarterly or half-yearly.
 * Informal methods to facilitate reflection include journaling, asking others how they are feeling, and informal check-ins (e.g. cup of coffee or a walk)
 * Formal methods may include retrospectives (facilitated exercises to understand what went well, what did not go well, and growth opportunities for the future), post-implementation reviews (where appropriate), and surveys (both qualitative and quantitative).
 * Note: it may be challenging to create time, capacity or capability to reflect. However, it is a valuable feedback mechanism to continuously ensure that you and others are tracking effectively and efficiently towards the goal. If in doubt, it is usually better to proceed with an “imperfectly executed” reflection than not to do it at all. However, this needs to be balanced against the situation at hand (e.g. particularly contentious situations may need to be handled expertly and precisely).
 
-### Team empowerment (i.e. provide the context, capacity, capability and coordination necessary to enable distributed decision making)
+### Team empowerment
+
+Provide the context, capacity, capability and coordination necessary to enable distributed decision making.
 
 * Providing context includes ensuring sufficient information transparency. This includes cascading information appropriately up, down and across the management hierarchy, with action taken to ensure appropriate sharing of information (per Principle 'Do not pass information or directives up and down the management hierarchy before checking for completeness, filtering for relevance, and/or reframing where appropriate'). However, care and consideration is required to ensure that information is not shared inappropriately (including confidential and market sensitive information).
 
@@ -122,7 +132,9 @@ appropriately (and efficiently) to ensure clarity of direction moving forward.
 
 * Note: each of the four empowerment practices mentioned above can be onerous to execute and undertake. Conceptually, the objective should be to find the optimal mix of minimum effort necessary for the required objective to be met. Practically, a way of determining this mix may involve determining whether you (and others) feel that the **processes are working for you** (which may indicate that processes are being executed effectively and efficiently), or whether you (and others) feel like you are **working for the process** (which may indicate that the processes are not being executed effectively or efficiently – and that further tweaking is required).
 
-### Promoting bravery (i.e. encourage discussion and action in difficult areas to achieve the goal)
+### Promoting bravery
+
+Encourage discussion and action in difficult areas to achieve the goal.
 
 * Where necessary to engage in difficult conversations and actions, start by acknowledging the challenging nature of the situation at hand (e.g. challenging internal organisational politics, perception of vested interests, divergent opinions on solution options, situations where the risk of failure is significant and/or has substantial consequences if risk is realised)
 
