@@ -8,12 +8,15 @@ authors: [ valentina-cupac, milan-vidakovic, ivan-jovanovic, jelena-mitrovic ]
 
 Ensure you have the following installed:
 
-* [https://jdk.java.net](https://jdk.java.net) (We have used Java JDK 14)
-* [https://www.eclipse.org/downloads](https://www.eclipse.org/downloads) (We have used Eclipse IDE 2020-06 which is free to download, another alternative is NetBeans, but for developers who already have IntelliJ we recommend IntelliJ)
+* [https://jdk.java.net](https://jdk.java.net) (We have used Java JDK 14) and then extract it to C:\Program Files\Java\jdk-14.0.2
+* JAVA_HOME also needs to be set within environment variables (pointing to the Java JDK installation) https://confluence.atlassian.com/conf59/setting-the-java_home-variable-in-windows-792499849.html
+* The bin folder needs to be added to the PATH environment variable by adding %JAVA_HOME%\bin to the PATH https://javatutorial.net/set-java-home-windows-10
+* Restart after the above
+* [https://www.eclipse.org/downloads](https://www.eclipse.org/downloads) (We have used Eclipse IDE 2020-06 which is free to download, another alternative is NetBeans, but for developers who already have IntelliJ we recommend IntelliJ) -> option to select in the installer is "Eclipse IDE for Enterprise Java Developers"
 * MySQL (TODO: Link)
 * MySql Workbench (TODO: Link)
 
-JAVA_HOME also needs to be set within environment variables (pointing to the Java JDK installation).
+
 
 We will also be using Lombok, it can be installed in Eclipse as follows:
 1. Run cmd as an Administrator
