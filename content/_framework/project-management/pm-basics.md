@@ -215,22 +215,22 @@ Spaces, which you can create for each project, help your team structure, organiz
 
 ## References: 
 
-https://www.projectengineer.net/what-is-a-project-3/
-https://www.workfront.com/blog/it-project-management-for-beginners
-https://www.pmi.org/about/learn-about-pmi/who-are-project-managers
-https://study.com/academy/lesson/agile-vs-waterfall-project-management.html
-https://activecollab.com/blog/project-management/agile-project-management-advantages-disadvantages
-https://study.com/academy/lesson/types-of-documentation-in-project-management.html#:~:text=Ten%20of%20the%20most%20common,and%20the%20project%20management%20plan
-https://www.workfront.com/project-management/knowledge-areas/scope-management
-https://www.projectmanager.com/project-planning
-https://www.projectmanager.com/training/create-and-manage-project-budget#:~:text=A%20project%20budget%20is%20the,procurement%20costs%20and%20operating%20costs
-https://www.projectmanager.com/blog/risk-management-process-steps#:~:text=Project%20risk%20management%20is%20the,track%20and%20meet%20its%20goal.&text=For%20smaller%20projects%2C%20risk%20management,medium%20and%20low%20priority%20risks.
-http://www.agilenutshell.com/
-https://www.atlassian.com/agile
-https://www.scrum.org/resources/what-is-scrum
-https://www.digite.com/kanban/what-is-kanban/
-https://www.atlassian.com/software/jira/guides/use-cases/what-is-jira-used-for
-https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview#hosting-options
-https://docs.microsoft.com/en-us/azure/devops/learn/agile/what-is-kanban 
+* https://www.projectengineer.net/what-is-a-project-3/
+* https://www.workfront.com/blog/it-project-management-for-beginners
+* https://www.pmi.org/about/learn-about-pmi/who-are-project-managers
+* https://study.com/academy/lesson/agile-vs-waterfall-project-management.html
+* https://activecollab.com/blog/project-management/agile-project-management-advantages-disadvantages
+* https://study.com/academy/lesson/types-of-documentation-in-project-management.html#:~:text=Ten%20of%20the%20most%20common,and%20the%20project%20management%20plan
+* https://www.workfront.com/project-management/knowledge-areas/scope-management
+* https://www.projectmanager.com/project-planning
+* https://www.projectmanager.com/training/create-and-manage-project-budget#:~:text=A%20project%20budget%20is%20the,procurement%20costs%20and%20operating%20costs
+* https://www.projectmanager.com/blog/risk-management-process-steps#:~:text=Project%20risk%20management%20is%20the,track%20and%20meet%20its%20goal.&text=For%20smaller%20projects%2C%20risk%20management,medium%20and%20low%20priority%20risks.
+* http://www.agilenutshell.com/
+* https://www.atlassian.com/agile
+* https://www.scrum.org/resources/what-is-scrum
+* https://www.digite.com/kanban/what-is-kanban/
+* https://www.atlassian.com/software/jira/guides/use-cases/what-is-jira-used-for
+* https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview#hosting-options
+* https://docs.microsoft.com/en-us/azure/devops/learn/agile/what-is-kanban 
 
 
