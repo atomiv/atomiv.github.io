@@ -69,8 +69,65 @@ a, a:hover, a:focus {
     text-decoration: none;
     transition: all 0.3s;
 }
+// --------------------
+// sidebar
+.wrapper {
+   
+    /* Track */
+    // long thing
+    ::-webkit-scrollbar-track {
+        // background: #f1f1f1;
+        // border: 1px solid $gray-800;
+        background-color: #F5F5F5;
+        // background-color: #ebebeb;
+        background-color: $gray-200;
+        // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+        border: 1px solid rgba(0,0,0,.01);
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+	    background-color: #F5F5F5;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        // background: #888;
+        // outline: 1px solid slategrey;
+        background-color: rgba(16,119,212,0.2);
+        // background-color: $gray-300;
+        // default
+        // rgb(238, 245, 252)
+        // active
+        // rgba(16,119,212,0.1)
+        // hover
+        // rgba(16,119,212,0.1)
+    }
+    
+    /* Handle on hover */
+    // ::-webkit-scrollbar-thumb:hover {
+    //     background: #555;
+    // }
+    // -------
+
+    
+}
+// body::-webkit-scrollbar-track {
+//   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+// }
+//   ------------------
 
 .sidebar {
+    // -------------
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    // overflow: auto;
+    overflow-y: scroll;
+    // -------------
     min-width: 288px;
     max-width: 288px;
     // JC
@@ -213,6 +270,9 @@ a[data-toggle="collapse"] {
     @include media-breakpoint-down(sm) {
         // width: 100%;
     }
+    @include media-breakpoint-up(md) {
+        margin-left: 288px;
+    }
 }
 
 // .push, .ov-footer {   height: 60px; }
@@ -328,7 +388,8 @@ aside {
 ::-webkit-scrollbar {
     // width: 0px;
     // background: transparent; /* make scrollbar transparent */
-    display:none;
+    // hide vertical scrollbar
+    // display:none;
 
 }
 
