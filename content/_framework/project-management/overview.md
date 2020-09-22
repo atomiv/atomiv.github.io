@@ -56,15 +56,46 @@ Therefore, we would like to separate those two and write down what one PM should
 
 ## Building strong teams
 
-Some text.
+When it comes to strong teams, first we need to define what strong team is not. If you believe that a strong team is formed from pure professionals and people with seniority levels, you are wrong. This is something which would have an impact, but it is not the only thing that matters.
+The definition of strong teams is next: strong teams are the ones who can work under any circumstances and situation, delivering results on time while supporting each other on every step. If any company wants to have a strong teams they need to do following: 
+
+1. Teams are build from people, and if you want to build a strong team you have to have strong foundation and choose the people not just by their technical skills, rather by their mindset and ability to adopt 
+2. Strong teams have a strong leaders, meaning, you need to choose a person who will be the biggest motivator, but still be firm, objective and who is capable to make a decision under pressure, with huge understanding of people in the team
+3. Strong teams are built with trust as one of the foundations. People need to feel that trust from each team member and its leader, so they can work without fear of making a mistake or reporting the one. 
+4. Strong teams are supportive ones, they create the atmosphere where people can rely on each other and know that if they need a help they will get it
+
+All of the above brings the final result, a strong team will be able to work under pressure, under any unusual circumstances, under any situation and still deliver projects, products and good results on time and with high quality. That is why it is very important to nurture and work on this subject. It may look like there are no changes in the beginning, but for the long term, you will definitely feel it and take all the rewards which strong teams bring.
+
 
 ## Transforming processes and teams
 
-Some text
+Transforming processes and teams starts with realization that a certain process or the team needs that change. How will you know if any of it needs a change? Well, by results. If in a defined time, there is no improvement, higher productivity or faster and better deliverables, it is time for a change. 
+Another important question is, how will you know should you transform a process, a team or both? 
+There steps might help with that: 
+
+1. First, check the number of projects assigned to a team in the last 6 months and 1 year - if might happen that the workload is higher now, and due all fuse and focus on delivering projects on time, you didn't notice that team's workload is higher that they can handle it, which will definitely results by lower quality or missed deadlines
+2. If the project workload is just fine, check does every member understands their role and is expectations
+3. Talk with your team about their work, how they working on something, what are their processes and steps, starting from the smallest tasks to the big ones
+4. Document existing processes - by documenting existing processes you will be able to get a bigger picture and see how work is done, is there anything missing, can 3 steps become one, etc.
+5. Processes review - after the processes and way of delivering projects is documented, you need to do a review of it. Think about ways how something can be improved, accelerated, do you need to remove something, or change a few steps.
+6. Defining the change - when you realized and established your processes, you can define what change or transformation need to be done to accomplish companies goals 
+7. Implement defined steps for the transformation 
+
+Transformation of any type is not easy, and it takes time. That is why it is very important to educate people in the team, before any change, explain why the transformation is important and show them the benefits of it. Also, you can not expect full transformation over the night, you need to develop the steps which will help you with it, incrementally increase it, and ask from the team to adopt it and apply it one by one. In this way, the transformation will not look like a big change, nobody will notice it, but it will be there, just taking step by step, which will not cause overwhelm within team members.
+
 
 ## Managing remote teams
 
-Some text
+Managing remote teams might be challenging and definitely different than managing a team in the office. Even if the full team is working remotely or just some members, still it is a different approach and requires different actions. Many companies work completely remote and nowadays, that is becoming new normal, and more and more teams are remote ones. That is why it is very important not to apply old habits and imagining that you are still together in the office. Try to develop new strategies and realize what is really important for good and proper management for remote teams. First and the most important step is excellent communication with your team members. Since you do not have option to just walk in someone's office, you would need to establish following: 
+
+1. The way of communication, which tool you are going to use for meeting and which one for daily communication
+2. Insist on following processes and established templates, since this will keep your projects and deliveries on time and with the same quality 
+3. Define response time, this will help you and your team members by knowing when they can expect the answer or when somebody is available 
+4. Keep up with meetings and have them just as same as you did when you all were in the office
+5. Camera should be on for the team meeting because this will have positive impact on team spirit and everybody will be actually focused on the meeting itself
+6. Keep up with team buildings and if there is no option to meet in person, organize it online with chosen theme 
+7. If the transition is not expected, give the team time to adjust and be supportive  
+
 
 ## Project Management Methodologies
   
