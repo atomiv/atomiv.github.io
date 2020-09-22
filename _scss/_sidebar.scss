@@ -495,8 +495,11 @@ aside {
     }
 
     // max width for jekyll images
-    img[src$=".png"], img[src$=".jpg"], img[src$=".jpeg"], img[src$=".svg"] {
-        width: 100%;
+    img[src$=".png"], img[src$=".jpg"], img[src$=".jpeg"], img[src$=".svg"],
+    img[src$=".PNG"], img[src$=".JPG"], img[src$=".JPEG"], img[src$=".SVG"] {
+        // fullsize images
+        // width: 100%;
+        width: auto;
         margin-bottom: 2rem;
     }
 }
