@@ -63,8 +63,8 @@ docs:
 - name: Miloš Terzić
   url: milos-terzic
   
-- name: David Aleksić
-  url: david-aleksic
+# - name: David Aleksić
+#   url: david-aleksic
 
 - name: Darko Rakić
   url: darko-rakic
