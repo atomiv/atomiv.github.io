@@ -31,13 +31,44 @@ $('#sidebarCollapse').on('click', function () {
  -->
 
 <script>
+    $(window).resize(function () {
+        var viewportWidth = $(window).width();
+        if (viewportWidth > 768) {
+                // $(".view").removeClass("view view-portfolio").addClass("gallery-mobile");
+                $('#sidebar').removeClass('active');
+                $('#sidebar2').removeClass('active');
+                $('#sidebar3').removeClass('active');
+                // if sidebar is not active and navbar is not active
+                // $('.overlay44').removeClass('active');
+                if ($('.navbar-collapse').is(':visible')) {
+                } else {
+                    $('.overlay44').removeClass('active');
+                }
+        }
+
+        // if (viewportWidth > 992) {
+        //     $('.overlay44').removeClass('active');
+        // }
+    });
+
+
+
     $(document).ready(function () {
+
+        // if (viewportWidth > 768) {
+        //         $('#sidebar').removeClass('active');
+        //         $('#sidebar2').removeClass('active');
+        //         $('#sidebar3').removeClass('active');
+        //         // if ($('.navbar-collapse').is(':visible')) {
+        //         // } else {
+        //         //     $('.overlay44').removeClass('active');
+        //         // }
+        // }
 
 
         // $("#sidebar").mCustomScrollbar({
         //     theme: "minimal"
         // });
-
 
         // ------------------------
         $('#sidebarCollapse').on('click', function () {
