@@ -75,17 +75,29 @@
         // }
         // fullsize logo
         .serv-logo {
-            height: 45px; // 45
+            height: 2.5rem;
             @include media-breakpoint-down(sm) {
                 margin-bottom: 2.5rem;
             }
             @include media-breakpoint-up(md) {
-                height: 50px;
+                height: 3.125rem;
             }
             @include media-breakpoint-up(lg) {
-                height: 60px;
-            }            
+                height: 3.75;
+            } 
         }
+        // ---------------------------------------
+        // felix logo
+        img[src$="felix.svg?v=5"] {
+            height: 2rem;
+            @include media-breakpoint-up(md) {
+                height: 2.5rem;
+            }
+            @include media-breakpoint-up(lg) {
+                height: 2.75rem;
+            }
+        }
+        // ----------------------------------------
         // name
         h5 {
             margin-top: 0rem;

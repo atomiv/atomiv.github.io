@@ -1,5 +1,5 @@
 ---
-name: Velibor Cakarevic
+name: Velibor Cakarević
 position: CEO & Embedded Development Engineer
 photo: velibor-cakarevic.jpg
 linkedin: https://rs.linkedin.com/in/velibor-cakarevic-5487731
