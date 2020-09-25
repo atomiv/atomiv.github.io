@@ -17,40 +17,40 @@
   subcategories:    
   - heading: Foundation
     subtitle: foundation
-    suburl: /framework/foundation/overview
+    suburl: /knowledgebase/foundation/overview
   - heading: Leadership
     subtitle: leadership
-    suburl: /framework/leadership/overview
+    suburl: /knowledgebase/leadership/overview
   - heading: Project Management
     subtitle: project-management
-    suburl: /framework/project-management/overview
+    suburl: /knowledgebase/project-management/overview
   - heading: Business Analysis
     subtitle: business-analysis
-    suburl: /framework/business-analysis/overview
+    suburl: /knowledgebase/business-analysis/overview
   - heading: Software Architecture
     subtitle: software-achitecture
-    suburl: /framework/software-architecture/overview
+    suburl: /knowledgebase/software-architecture/overview
   - heading: Software Development
     subtitle: software-development
-    suburl: /framework/software-development/overview
+    suburl: /knowledgebase/software-development/overview
   - heading: Quality Assurance
     subtitle: quality-assurance
-    suburl: /framework/quality-assurance/overview
+    suburl: /knowledgebase/quality-assurance/overview
   - heading: Big Data
     subtitle: big-data
-    suburl: /framework/big-data/overview
+    suburl: /knowledgebase/big-data/overview
   - heading: Embedded Development
     subtitle: embedded-development
-    suburl: /framework/embedded-development/overview
+    suburl: /knowledgebase/embedded-development/overview
   - heading: System Admin
     subtitle: system-admin
-    suburl: /framework/system-admin/overview
+    suburl: /knowledgebase/system-admin/overview
   - heading: DevOps
     subtitle: devops
-    suburl: /framework/devops/overview
+    suburl: /knowledgebase/devops/overview
   - heading: Recruitment
     subtitle: recruitment
-    suburl: /framework/recruitment/overview
+    suburl: /knowledgebase/recruitment/overview
 
 - title: Templates
   nDropdown: navbarDropdown2

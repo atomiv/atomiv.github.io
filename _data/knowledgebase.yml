@@ -1,0 +1,155 @@
+# in _data folder
+
+# template_list_title: Templates
+docs:
+
+- title: Foundation
+  url: foundation
+  submenuitems:
+    - title: Overview
+      # url: /framework/foundation/overview
+      url: /knowledgebase/foundation/overview
+    - title: Principles
+      url: /knowledgebase/foundation/principles
+    - title: Business Case
+      url: /knowledgebase/foundation/business-case
+
+- title: Leadership
+  url: leadership
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/leadership/overview
+    - title: Cross Functional
+      url: /knowledgebase/leadership/cross-functional
+    - title: Change Management
+      url: /knowledgebase/leadership/change-management
+    - title: Teams
+      url: /knowledgebase/leadership/teams
+
+- title: Project Management
+  url: project-management
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/project-management/overview
+    - title: Agile
+      url: /knowledgebase/project-management/agile
+    - title: Communication
+      url: /knowledgebase/project-management/communication
+    - title: PM Basics
+      url: /knowledgebase/project-management/pm-basics
+
+- title: Business Analysis
+  url: business-analysis
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/business-analysis/overview                       
+
+- title: Software Architecture
+  url: software-architecture
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/software-architecture/overview
+    - title: Design Principles
+      url: /knowledgebase/software-architecture/design-principles
+    - title: Design Patterns
+      url: /knowledgebase/software-architecture/design-patterns
+    - title: Clean Architecture
+      url: /knowledgebase/software-architecture/clean-architecture
+    - title: Domain Driven Design
+      url: /knowledgebase/software-architecture/domain-driven-design
+    - title: Microservice Architecture
+      url: /knowledgebase/software-architecture/microservices
+    - title: Event Driven Architecture
+      url: /knowledgebase/software-architecture/event-driven-architecture
+    - title: Distributed Computing
+      url: /knowledgebase/software-architecture/distributed-computing
+
+- title: Software Development
+  url: software-development
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/software-development/overview
+
+- title: Quality Assurance
+  url: quality-assurance
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/quality-assurance/overview
+    - title: Manual Testing
+      url: /knowledgebase/quality-assurance/manual-testing
+    - title: Automated Testing
+      url: /knowledgebase/quality-assurance/automated-testing
+
+- title: Big Data
+  url: big-data
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/big-data/overview
+    - title: Data Sources
+      url: /knowledgebase/big-data/data-sources
+    - title: Data Storage
+      url: /knowledgebase/big-data/data-storage
+    - title: Batch Processing
+      url: /knowledgebase/big-data/batch-processing
+    - title: Stream Processing
+      url: /knowledgebase/big-data/stream-processing
+    - title: Machine Learning
+      url: /knowledgebase/big-data/machine-learning
+    - title: Analytical Data Store
+      url: /knowledgebase/big-data/analytical-data-store
+    - title: Analytics and Reporting
+      url: /knowledgebase/big-data/analytics-and-reporting
+
+- title: Embedded Development
+  url: embedded-development
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/embedded-development/overview
+
+- title: System Admin
+  url: system-admin
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/system-admin/overview
+    - title: Configuration
+      url: /knowledgebase/system-admin/configuration
+    - title: Maintenance
+      url: /knowledgebase/system-admin/maintenance
+    - title: Network
+      url: /knowledgebase/system-admin/network
+    - title: Security
+      url: /knowledgebase/system-admin/security
+   
+- title: DevOps
+  url: devops
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/devops/overview
+    - title: Collaboration
+      url: /knowledgebase/devops/collaboration
+    - title: Build
+      url: /knowledgebase/devops/build
+    - title: Deployment
+      url: /knowledgebase/devops/deployment
+    - title: Production
+      url: /knowledgebase/devops/production
+      
+- title: Recruitment
+  url: recruitment
+  submenuitems:
+    - title: Overview
+      url: /knowledgebase/recruitment/overview
+    - title: Roles
+      url: /knowledgebase/recruitment/roles
+    - title: Define
+      url: /knowledgebase/recruitment/define
+    - title: Anticipate
+      url: /knowledgebase/recruitment/anticipate
+    - title: Identify
+      url: /knowledgebase/recruitment/identify
+    - title: Engage
+      url: /knowledgebase/recruitment/engage
+    - title: Screen
+      url: /knowledgebase/recruitment/screen
+    - title: Onboard
+      url: /knowledgebase/recruitment/onboard

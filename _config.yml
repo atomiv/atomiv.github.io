@@ -54,10 +54,10 @@ collections:
     permalink: /:collection/:path/
   features:
     output: true
-  framework:
+  knowledgebase:
     output: true
     # path: /:collection/:path/
-    title: framework
+    title: knowledgebase
     order:
       - foundation/overview.md
       - foundation/principles.md
@@ -141,10 +141,10 @@ defaults:
     values:
       layout: "sidebar-feature"          
   - scope:
-      path: "_framework"
-      type: "framework"
+      path: "_knowledgebase"
+      type: "knowledgebase"
     values:
-      layout: "sidebar-framework"      
+      layout: "sidebar-knowledgebase"      
   - scope:
       path: ""
       type: "posts"

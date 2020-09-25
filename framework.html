@@ -1,18 +1,18 @@
 ---
 <!-- layout: default -->
-layout: sidebar-framework
+layout: sidebar-knowledgebase
 ---
 
 
-<h1>framework</h1>
+<h1>knowledgebase</h1>
 
 
 <ul>
-    {% for framework in site.framework %}
+    {% for knowledgebase in site.knowledgebase %}
       <li>
         
-        <h2>{{ framework.name }}</a></h2>
-        <h3>{{ framework.position }}</h3>
+        <h2>{{ knowledgebase.name }}</a></h2>
+        <h3>{{ knowledgebase.position }}</h3>
       </li>
     {% endfor %}
   </ul>
