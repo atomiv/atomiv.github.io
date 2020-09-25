@@ -4,7 +4,7 @@ name: Jelena Cupać
 position: Software Developer
 photo: jelena-cupac.jpg
 linkedin: https://www.linkedin.com/in/jelenacupac/
-xing: 
+xing: https://www.xing.com/profile/Jelena_Cupac
 github: https://github.com/jcupac
 website: https://senovim.com/
 city: Belgrade
