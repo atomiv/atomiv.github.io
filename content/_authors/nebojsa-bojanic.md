@@ -14,4 +14,4 @@ university: School of Electrical and Computer Engineering of Applied Studies
 short_bio: Nebojša is an experienced Junior Web Developer with a demonstrated history of working in the information technology and services industry.
 
 ---
-Nebojša is an experienced Junior Web Developer with a demonstrated history of working in the information technology and services industry. He is skilled in HTML, CSS, PHP, JavaScript, WordPress, and WooCommerce.
+Nebojša is an experienced Junior Web Developer with a demonstrated history of working in the information technology and services industry. He is skilled in HTML, CSS, PHP, JavaScript, WordPress, and WooCommerce. He joined Atomiv to share best practices in WordPress development.
