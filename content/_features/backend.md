@@ -78,6 +78,8 @@ title: Backend
 
 {% include csv-table.html feature_name="backend" table_name='packages_infrastructure_serialization' %}
 
+{% include csv-table.html feature_name="backend" table_name='packages_infrastructure_time' %}
+
 ### Test
 
 {% include csv-table.html feature_name="backend" table_name='packages_test' %}
