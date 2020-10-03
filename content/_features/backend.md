@@ -79,3 +79,7 @@ title: Backend
 ### Test
 
 {% include csv-table.html feature_name="backend" table_name='packages_test' %}
+
+### Other
+
+{% include csv-table.html feature_name="backend" table_name='other' %}
