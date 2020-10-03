@@ -35,6 +35,8 @@ docs:
   submenuitems:
     - title: Overview
       url: /templates/architecture/overview
+    - title: Background
+      url: /templates/architecture/background
     - title: Domain
       url: /templates/architecture/domain
     - title: Application
@@ -119,7 +121,6 @@ docs:
       url: /templates/selenium/overview
     - title: Get Started
       url: /templates/selenium/get-started
-
 
 - title: Docker
   url: docker
