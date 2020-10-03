@@ -27,7 +27,7 @@ Combining services as infrastructural elements of business logic dataflow a numb
 
 * Client-server pattern,
 * EventBus pattern,
-* Broker patter,
+* Broker pattern,
 * Pipe filter pattern,
 * Master-slave pattern,
 * Peer-to-peer pattern
