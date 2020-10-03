@@ -1,4 +1,12 @@
 Infrastructure Layer - Aspects,.NET Package,Java Package,.NET,Java
+Authentication,-,-,n,n
+Authorization,-,-,n,n
+Validation,-,-,n,n
 Mapping,AutoMapper,-,y,n
 Validation,FluentValidation,-,y,n
+Mapping,-,-,n,n
+Transactions,-,-,n,n
 Logging,Serilog / Ben.Demystifier,-,n,n
+Exception Handling,-,-,y,n
+Performance Profiling,-,-,n,n
+Localization and Internationalization,-,-,n,n
