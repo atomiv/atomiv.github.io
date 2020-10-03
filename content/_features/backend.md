@@ -50,6 +50,8 @@ title: Backend
 
 {% include csv-table.html feature_name="backend" table_name='infrastructure_networking' %}
 
+{% include csv-table.html feature_name="backend" table_name='infrastructure_reactivity' %}
+
 ### Test
 
 {% include csv-table.html feature_name="backend" table_name='test_layer' %}
