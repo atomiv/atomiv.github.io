@@ -26,6 +26,8 @@ title: Backend
 
 {% include csv-table.html feature_name="backend" table_name='infrastructure_files' %}
 
+{% include csv-table.html feature_name="backend" table_name='infrastructure_file_system' %}
+
 {% include csv-table.html feature_name="backend" table_name='infrastructure_d_sources' %}
 
 {% include csv-table.html feature_name="backend" table_name='infrastructure_messaging' %}
