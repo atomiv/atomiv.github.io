@@ -1,1 +1,4 @@
 Title,Technologies
+REST API Integration Testing,REST Assured
+End to End Testing,Selenium / cypress
+Screen Diffing,-
