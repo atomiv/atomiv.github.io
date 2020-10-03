@@ -6,10 +6,32 @@ authors: [ valentina-cupac ]
 
 Welcome to the Architecture Template. In this section, you will find out more about the Atomiv Architecture Template, based on implementation of Clean Architecture, Domain Driven Design, and Test Driven Development.
 
-* [Installation](https://atomiv.org/templates/dotnet/installation) provides you with information regarding environment setup and the tools and frameworks that you need to install.
+* [Background](https://atomiv.org/templates/architecture/background) provides you conceptual foundations regarding key architectural decisions regarding the Atomiv Architecture Template.
 
-* [Configuration](https://atomiv.org/templates/dotnet/configuration) provides you with instructions about how to configure your environment.
+* [Domain](https://atomiv.org/templates/architecture/domain) provides you with .
 
-* [Get Started](https://atomiv.org/templates/dotnet/get-started) provides you with instructions how to install the Atomiv template, create a new project using the template, run the project (using Docker) as well as run the automated tests.
+* [Application](https://atomiv.org/templates/architecture/application) provides you with .
 
-* [Walkthrough](https://atomiv.org/templates/dotnet/walkthrough) provides you with an understanding of the project structure and serves as a basis for applying the template to your day-to-day work.
+* [Common](https://atomiv.org/templates/architecture/common) provides you with .
+
+* [Infrastructure](https://atomiv.org/templates/architecture/infrastructure) provides you with .
+
+* [Dependency Injection](https://atomiv.org/templates/architecture/dependency-injection) provides you with .
+
+* [Presentation](https://atomiv.org/templates/architecture/presentation) provides you with .
+
+* [Test](https://atomiv.org/templates/architecture/test) provides you with .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
