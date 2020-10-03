@@ -6,3 +6,5 @@ Custom authentication (authentication via custom provider),y,n
 "Authentication with Google, Microsoft, LinkedIn, GitHub",n,n
 Authentication as part of API and separate,n,n
 User identity with custom attributes,n,n
+LDAP,n,n
+Azure,n,n
