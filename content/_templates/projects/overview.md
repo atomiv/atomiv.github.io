@@ -8,54 +8,52 @@ Every project has its own phases, which should be determined and followed during
 
 Here are the main phases in one software development: 
 
-1. Preparation phase: 
+* Preparation phase: 
 
-* Requirement gather up
-* Making the team based on project requirements and time frame
-* Project plan created based on milestones
-* SWOT analysis
-* Meeting with the team and presenting the project
-* Going over plan with the team and assigning tasks
+1. Requirement gather up
+2. Making the team based on project requirements and time frame
+3. Project plan created based on milestones
+4. SWOT analysis
+5. Meeting with the team and presenting the project
+6. Going over plan with the team and assigning tasks
 
-2.  Research phase
+* Research phase
 
-* Research based on picked subjects
-* Document research findings 
-* Present it to the team and mark the favourites (if applicable) 
+1. Research based on picked subjects
+2. Document research findings 
+3. Present it to the team and mark the favourites (if applicable) 
 
-3. Design phase 
+* Design phase 
 
-* Make the plan what to design based on time frame or requirements 
-* Create a workflow (wireframe)
-* Check the wireframe with developers and the team
-* Show it to the client (after that make necessary changes if needed)
-* Create responsive design first based on previous requirements
-* Create design for desktop based on responsive design
-* Check it with developers and the team
-* Show it to the client
-* Prepare XD file for developers, including material
+1. Make the plan what to design based on time frame or requirements 
+2. Create a workflow (wireframe)
+3. Check the wireframe with developers and the team
+4. Show it to the client (after that make necessary changes if needed)
+5. Create responsive design first based on previous requirements
+6. Create design for desktop based on responsive design
+7. Check it with developers and the team
+8. Show it to the client
+9. Prepare XD file for developers, including material
 
-4.  Development phase
+* Development phase
 
-* Prepare environment for development 
-* Determine which methodology to use (BEM methodology – REQUIRED)
-* Make the plan for the team 
+1. Prepare environment for development 
+2. Determine which methodology to use (BEM methodology – REQUIRED)
+3. Make the plan for the team 
 
-5. Testing phase 
+* Testing phase 
 
-* Testing on all devices (mobile, laptop, desktop, tablet)
-* Testing on all browsers (Edge, Mozilla, Chrome, Safari)
-* Functionality testing
-* Design check
+1. Testing on all devices (mobile, laptop, desktop, tablet)
+2. Testing on all browsers (Edge, Mozilla, Chrome, Safari)
+3. Functionality testing
+4. Design check
 
-6. Implementation phase
+* Implementation phase (the phase is done when all requirements are fulfilled and the results correspondent to the design)
 
-* the phase is done when all requirements are fulfilled and the results correspondent to the design
+* Maintenance phase
 
-7. Maintenance phase
-
-* Monitor the performance of the software
-* Software update
-* Software fixes and repairs if it is necessary 
+1. Monitor the performance of the software
+2. Software update
+3. Software fixes and repairs if it is necessary 
 
 
