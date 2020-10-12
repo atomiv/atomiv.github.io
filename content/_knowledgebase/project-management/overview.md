@@ -34,7 +34,7 @@ Are project going to be successful or not, in a lot depends on people who are wo
 Communication during project or team management is the vital part of a successful project. How the project scope and requirements will be presented, explained and handled will reflect the final outcome and team satisfaction. There must be an atmosphere where the team members are comfortable to ask questions, make inquiries and mistakes as well. 
 Project manager is directly responsible for the atmosphere and the communication in the projects so everything starts from him or her and reflects to the team, so try to stay open minded which will help you to realize and understand all needs, the team and stakeholders as well. 
 
-## Soft Skills and Hard Skills
+## Soft and Technical Skills
 
 Therefore, we would like to separate those two and write down what one PM should have from technical side and one from human side, so if you are hiring someone you will know what to look for:  
   
