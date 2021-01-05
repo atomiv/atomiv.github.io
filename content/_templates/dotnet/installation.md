@@ -8,7 +8,7 @@ authors: [ valentina-cupac, milan-vidakovic ]
 
 The following are needed to be installed to run .NET applications:
 
-* [https://dotnet.microsoft.com/download/dotnet-core](https://dotnet.microsoft.com/download/dotnet-core) \(we have used .NET Core SDK 3.1\)
+* [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download) \(we have used .NET 5.0 SDK\)
 * [SQL Server 2017 Developer](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 * [Docker](https://docs.docker.com/get-docker/)
 
