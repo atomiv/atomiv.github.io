@@ -44,16 +44,85 @@ layout: default
 						<!-- {{ page.title }} <br /> -->
 						<!-- {{ page.url }} <br /> -->
 						<!-- {{ page.category }}... <br/> -->
-						
+						<!-- {{ category | first }} -->
+
+						<!-- List of blog posts by category -->
+						<!-- <ul>
+						{% for category in site.categories %}
+							<li><a name="{{ category | first }}">{{ category | first }}</a>
+							<ul>
+							{% for post in category.last %}
+								<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+							{% endfor %}
+							</ul>
+							</li>
+						{% endfor %}
+						</ul> -->
+
+						<!-- list of categories - buttons -->
+						<!-- {% assign categories = site.categories | sort %}
+						{% for category in categories %}
+						{% assign cat = category | first %}
+						<button id="{{ cat }}" onclick="filterUsingCategory(this.id)">
+							{{ cat }}
+						</button>
+						{% endfor %} -->
+
+
+
+<!-- {% for item in site.data.templates.docs %}
+{% if item.title == 'Angular' %}
+    <li>
+        <a>
+            {{ item.title }}
+        </a>
+        <ul>
+        {% for entry in item.submenuitems limit:1 %}
+            <li>
+                <a>
+                    {{ entry.title }}
+                </a>
+            </li>
+        {% endfor %}
+		</ul>
+    </li>
+{% endif %}    
+{% endfor %}
+
+
+<p style="background-color: pink">hello</p>
+
+{{page.category}}
+
+{% if page.category == 'angular' %}
+test
+	{% for entry in item.submenuitems %}
+		<li class="{% if entry.url == page.url %}active{% endif %}">
+			<a href="{{ entry.url }}">
+				{{ entry.title }}
+
+			</a>
+		</li>
+	{% endfor %}
+{% endif %} -->
+
+
+<!-- {% assign category_name == 'angular'} -->
+
+
+
 
 						<!-- ----------------------------------------------------- -->
 						<!-- List of authors -->
+						<!-- only show authors on the first in category -->
+
+
 
 						
 						{% assign content = page.authors | strip_newlines %}
 
 						<!-- if page.authors != "" and page.authors != nil -->
-						{% if content != "" and content != nil and content !="[]" %}
+						{% if content != "" and content != nil and content !="[]" and page.title == 'Overview' %}
 
 
 						<hr class="author-hr">
@@ -127,6 +196,7 @@ layout: default
 							{% endfor %}
 							{% endif %}
 						{% endfor %}
+
 
 						<!-- --------------------------------------------------------------------------- -->
 
