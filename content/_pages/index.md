@@ -1,10 +1,10 @@
 ---
 layout: home
-vversion2: 1
+vversion2: 2
 title: Enterprise Software Framework 
 title1: Enterprise Software 
 title2: Framework
-headerLink: https://atomiv.org/foundation/overview
+headerLink: https://atomiv.org/knowledgebase/foundation/overview
 linkButton: Get Started
 permalink: /
 ---
